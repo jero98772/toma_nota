@@ -1,0 +1,27 @@
+* Vectores (Matematicos)
+** Caracteristicas de un vector y que es (resumido)
+*** es un segemento 
+*** Direccion esto es
+**** la inclinacion en la recta
+*** sentido esto es
+**** hacia donde apunta la flecha (donde que da A y B)
+*** modulo esto es
+**** la longitud
+**** y para hallarlo
+**** H=sqrt((i**2)+(j**2)+(k**2)...R**n)
+** cosas que e aprendido de los vectores 
+*** que los vectores tienen n dimeciones 
+*** que los vectores de 3 dimenciones forman un cubo 
+[[formas_de_represesntar_un_vector]]
+*** tienen un inicio A y un extremo  B ya sea finito o infinito
+*** tienen hipotenusa los vectores por que tienen forma de  "triangulos" en 2 dimenciones  
+*** todos los vectores tienen un origen
+*** R**n n son la cantiad de dimenciones y R es el vector  
+** los vectores opuestos tienen igual 
+*** direccion  
+*** modulo
+** la suma de vectores
+*** para sumar vectores graficamente se unen la cabeza  con  la cola 
+*** y para sumar vectores analiticamente se suman componentes a componentes (x) con (x) y (y) con (y) 
+*** se les puede llamar po i,j ,k
+*** 

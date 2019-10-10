@@ -1,0 +1,13 @@
+* machine lerning 
+** matrices filas y columnas
+*** M =feutures o caracteristsicas
+*** N= mustras o ejemplos
+*** una matriz es M*N
+*** matrices con letras mayusculas y vectores  con letras minusculas 
+*** vector es una matriz de una sola columnna filas no son vectores
+*** un vector tarspuesto es  el vector en filas
+**** u=(1,
+****    2,
+****    3)
+**** u**T=(1,2,3)
+*** lo traspuesto es como un espejito lo voltea 90 grados

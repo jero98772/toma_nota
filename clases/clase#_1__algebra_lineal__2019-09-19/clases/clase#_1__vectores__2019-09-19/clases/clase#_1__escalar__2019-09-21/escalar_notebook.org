@@ -1,0 +1,5 @@
+* escalar 
+** lo que se de un escalara 
+*** un escalar es un numero real R
+*** a larga o disminuye el vector
+*** 
