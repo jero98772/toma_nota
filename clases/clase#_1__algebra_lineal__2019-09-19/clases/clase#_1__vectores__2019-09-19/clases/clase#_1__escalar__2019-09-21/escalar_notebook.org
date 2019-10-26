@@ -1,5 +1,9 @@
 * escalar 
 ** lo que se de un escalara 
-*** un escalar es un numero real R
+*** un escalar puede ser hasta un numero complrejo 
 *** a larga o disminuye el vector
-*** 
+*** operaciones con escalares  
+**** producto punto,escalar ,interno
+***** perite a 2 vectores producir un numero escalar no puede ser negativa 
+**** 
+*** los vectores tienen n dimenciones depende de la cantidad de escalares

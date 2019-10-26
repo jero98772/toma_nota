@@ -17,6 +17,7 @@
 *** tienen hipotenusa los vectores por que tienen forma de  "triangulos" en 2 dimenciones  
 *** todos los vectores tienen un origen
 *** R**n n son la cantiad de dimenciones y R es el vector  
+*** los vectores se pueden sumar ,restar y multiplicar 
 ** los vectores opuestos tienen igual 
 *** direccion  
 *** modulo
