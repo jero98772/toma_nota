@@ -1,0 +1,22 @@
+* i am going to make a summary of a proyect o reading comprehension
+* proyect NOC (natural of code https://natureofcode.com)
+* i lean from https://www.englishgrammar101.com/
+* part of preface
+** exercieses
+*** 5 nouns
+**** Nature of Code
+**** Making things see (name of book)
+**** Learn Processing (name of book)*2
+**** Greg Borenteins (autor of making things see)
+*** 
+** what is about
+** preface (a little part)
+*** paragraph 1 all is posble if you like and lerning it and going for this way if you interestng that
+*** paragraph 2 simulate with this boook
+*** paragraph 3 what is about this book specific software
+*** paragraph 4 waht going to do with knolage of this book
+*** paragraph 5 waht knowlage need for this book
+* conclusions
+** noun not are a pronoun
+** noun is a "sutantivo" in spanish
+** noun start with a capital letter 

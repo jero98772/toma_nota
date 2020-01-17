@@ -35,12 +35,11 @@ class vectors():
 			print(self.X,"X")
 			print(self.Y,"Y")	
 			return self.product_scalar
-	def (self):
-		pass
-V=vectors(4,8)
+V=vectors(4,-13)
 V.in_one_vector()
-print(V.module(10,11))
-print(V.direccion())
-print(V.sum(1,1))
-print(V.inner_product(60))
-print(np.eye(8**6,8**6))
+print(V.module(2,-1))
+#print(V.direccion())
+#print(V.sum(1,1))
+#print(V.inner_product(0))
+#print(np.eye(8**6,8**6))
+print()
