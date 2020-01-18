@@ -1,5 +1,4 @@
 import numpy as np
-import time
 import os
 import datetime
 import time
@@ -27,7 +26,7 @@ class si_el_archivo_existe:
 			"""el for convierte los archivos en elementos de una lista que se puden contar individualmente""" 
 			numero_de_carpetas=len(os.listdir(directorio))
 
-			numero_de_carpetas+=0
+			numero_de_carpetas+=1
 			print(numero_de_carpetas)
 			if not  os.walk(the_file) in os.listdir(directorio) :
 

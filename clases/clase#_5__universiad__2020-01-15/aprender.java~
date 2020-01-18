@@ -1,9 +1,0 @@
-class caharro{
-public static void main(String[] args){
-    System.out.println("hola soy",8370);
-}
-}
-//estado basico para un hello word
-//System.out.print() imprime en terinal
-//neseita ;
-// en System.out.print(); se pueden  enteros
