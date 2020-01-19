@@ -1,9 +1,9 @@
 * 18-1-2020
-** darse cuanta de que manera se expresa para ir mejornado
+** darse cuanta de que manera se esta expresa para ir mejornado
 *** entendible o enrredado
 *** claro o no claro
 *** puntual o no puntual
-*** aquien le hablo entendio que quiso decir usted
+*** a quien le hablo entendio lo que usted quiso decir 
 ** ayuda a 
 *** cominacarse
 *** expresarse 
@@ -16,4 +16,15 @@
 **** a uno mismo
 ** de de donde viene "expresarse"
 *** la palabara expresion viene palabra viene  de la palabra "expressio" que significa "la exprecion de una informacion en particular que se desea dar a entender" puede tratarse de  
-**** 
+* 19-1-2020
+** expresion escrita consite en exponer mediante signos y de forma ordenada ,cualquier pesmainto o idea.
+** esta dentro de las habilidades linguisticas
+*** comprension
+**** auditiva 
+**** lectora
+*** expresion
+**** oral
+**** escrita
+***** el objetivo : lo que se intenta decir
+***** el publico : aquien va dirigido
+
