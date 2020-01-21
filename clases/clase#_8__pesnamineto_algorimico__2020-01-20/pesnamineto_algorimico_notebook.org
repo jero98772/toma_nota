@@ -1,0 +1,25 @@
+* 20-1-2020
+** info del area
+*** jehincapie@udem.edu.co
+*** jaecheverri@udem.edu.co
+** pertenece a la uoc
+** que van a evaluar
+*** 2 segumientos con
+**** quiz 8%
+**** trabajo  10%
+**** participacion 7%
+***** hacer ejercios
+*** parcial y fina
+**** 25%/2 
+***** practica:una semana antes de los examamenes
+***** teoria
+** modulos
+*** 1 coceptos basicos 
+*** 2 herramientas ->data types y operadores
+*** 3 estructuras -> estructuras de control if else elif , for while
+*** 4 codigo modular -> no Poo (progrmacion oreintada a objetos en segundo semestre)
+*** 5 arrays
+** enseñansas 
+*** cuando uno reconose que no sabe aprende mas 
+** clase del juves en el centro docente de computo
+** entregar trbajos sin terminar es mejor que entrgarlos terminados

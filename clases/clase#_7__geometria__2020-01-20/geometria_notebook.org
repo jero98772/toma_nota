@@ -1,4 +1,4 @@
-* 20-1-2020
+* clase del dia 20-1-2020
 * docente juan mauricio muñoz zapata enviar corroe
 * jumunos@udem.edu.co
 * analis geometrico
@@ -44,6 +44,17 @@
 * todos los puntos letras mayusculas
 * AD ≝  FE
 * diseñar una estrategia para demostar
-* lenguje verbal -> siblolico -> grafica
+* lenguje verbal <-> siblolico <-> grafica
 * https://math.typeit.org/ (los simbolos)
-
+* texto guia 
+** que significa geometria
+*** geo = tierra;
+*** mertia = medida;
+*** geo9+metraria= medida+tierra o medida de la tierra;
+** primer libro con la teoria axiomatica -> los elementos de euclides
+*** los 5 postulados de euclides
+**** postulados -> afirmacion sin demostracion
+**** ¿postulados son conjeturas? 
+*** y los 5 axiomas de euclides
+**** axioma verdad abosluta
+***** '"una teroria axiomatica es conformada por un conjunto de terminos no definidos ,terminos definidos postulados y axiomas por medio de reglas logicas se logra generar teoremas y colorarios que amplian la teoria"' tomado de un acercamiento al pensamiento geometrico
