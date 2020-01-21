@@ -1,4 +1,4 @@
-* 20-1-2020
+*  20-1-2020
 ** info del area
 *** jehincapie@udem.edu.co
 *** jaecheverri@udem.edu.co
@@ -26,4 +26,15 @@
 * 21-1-2020 
 ** modulo 2 herramientas lo que yo estudie y entiendo sobre esas "herramientas" son data types y operadores
 *** datatypes
+**** boleano mejor conosido como verdadero o faslo o True o False 
 **** entero mejor conosido como int o numeros negativos y positivos
+**** float o flotante mejor conosido como float o las divicones no enteras o los numeros con punto
+**** otras bases :0b<numero> binaro ,0x<numero>  hexadecimal  y 0o<numero> octal
+**** imaginaros y complejos o mejor conosido como los raiz cuadrada de -1 o -1**(1/2) o sqrt(-1)  o error de calculo en algunas calculadoras
+**** cadena de texto o mejor conosido string o los que van entre "<tu cadena de texto :) >"  
+**** para conevrtir datos a enteros se puede utilisar int(<numero>)
+**** para convertir datos a boleanos se puede utilisar bool(<valor boleano (1,0 o True,False)>)
+**** para convertir datos a float se puede utilisar float(<numero>) 
+**** para convertir datos a otras bases bin(<numero>) a binario, hex(<numero>) a hexadecimal ,oct(<numero>) a octal  
+**** para convertir datos a datos complejos complex(<numero>) 
+**** para convertir datos a cadenas de texto str(<cualquier dato>)

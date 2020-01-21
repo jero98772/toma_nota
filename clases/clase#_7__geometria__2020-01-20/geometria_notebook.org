@@ -75,3 +75,12 @@
 **** si una linea recta incidente sobre 2 lineas rectas hace anagulos internos por un mismo lado ,menores que 2 angulos rectos las 2 lineas rectas prolongadas indefinidamente se encuantra por el lado de los angulos menores que dos angulos rectos
 *** en el primer postulado se garantisa la existencia de al menos 2 puntos
 *** el quinto garantisa la existencia de las rectas paralelas
+** LOS AXIOMAS DE EUCLIDES del libro un acercamiento al pensamiento geometrico
+*** primer(1) axioma
+**** cosas iguales a una misma cosa son iguales entre si
+*** segundo(2) axioma
+**** si iguales se adiccionan a iguales ,los totales son igules
+*** tercer(3) axioma
+**** si igulales se subtraen los restos son iguales
+*** cuarto(4) axioma
+* preguntas si iguales se adiccionan a iguales ,los totales son iguales ¿ entoces los totales son las partes?
