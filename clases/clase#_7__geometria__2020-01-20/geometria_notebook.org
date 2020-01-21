@@ -50,7 +50,7 @@
 ** que significa geometria
 *** geo = tierra;
 *** mertia = medida;
-*** geo9+metraria= medida+tierra o medida de la tierra;
+*** geo + metraria= medida+tierra o medida de la tierra;
 ** primer libro con la teoria axiomatica -> los elementos de euclides
 *** los 5 postulados de euclides
 **** postulados -> afirmacion sin demostracion
@@ -58,3 +58,20 @@
 *** y los 5 axiomas de euclides
 **** axioma verdad abosluta
 ***** '"una teroria axiomatica es conformada por un conjunto de terminos no definidos ,terminos definidos postulados y axiomas por medio de reglas logicas se logra generar teoremas y colorarios que amplian la teoria"' tomado de un acercamiento al pensamiento geometrico
+*** el libro los elementos genero una comunidad matematica
+*** el quinto(5) postulado da la posibilidad de que fuera un teorema dieron lugar al nacimiento de otras geometrias como la euclididana y la no euclidiana 
+****  la geometria euclidiana que se basa ene los 5 postulados de euclides
+**** la geometria euclidiana es en la que no se cumple el 5 postulado
+** LOS POSTULADOS DE EUCLIDES del libro un acercamiento al pensamiento geometrico
+*** primer(1) postulado
+**** trasar una linea cualquiera de un punto A a un punto B (osea un punto cualquiera)
+*** segundo(2) postulado 
+**** prolongar una linea recta limitada en linea recta
+*** tercer(3) postulado
+**** trazar un circulo con un centro y distancia cualesquiera
+*** cuarto(4) postulado
+**** todos los angulos rectos son iguales entre si
+*** quinto(5) postulado
+**** si una linea recta incidente sobre 2 lineas rectas hace anagulos internos por un mismo lado ,menores que 2 angulos rectos las 2 lineas rectas prolongadas indefinidamente se encuantra por el lado de los angulos menores que dos angulos rectos
+*** en el primer postulado se garantisa la existencia de al menos 2 puntos
+*** el quinto garantisa la existencia de las rectas paralelas
