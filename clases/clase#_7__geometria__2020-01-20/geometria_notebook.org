@@ -4,6 +4,7 @@
 * analis geometrico
 * los elementos de euclides
 * un acercamiento al pensamiento geometrico
+** https://books.google.com.co/books?id=SEifJVG7PJwC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
 * compocion geometria euclidiana -geometria vectorial- 
 * se puede ayudar  con asesorias y tecnicas de estudio
 ** en espacion de aseorias
@@ -41,6 +42,8 @@
 * elementos sufinetes e insuficientes
 * geogera mas maleable
 * todos los puntos letras mayusculas
-* AD =~= FE
+* AD ≝  FE
 * diseñar una estrategia para demostar
 * lenguje verbal -> siblolico -> grafica
+* https://math.typeit.org/ (los simbolos)
+
