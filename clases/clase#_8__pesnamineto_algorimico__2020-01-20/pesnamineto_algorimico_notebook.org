@@ -23,3 +23,7 @@
 *** cuando uno reconose que no sabe aprende mas 
 ** clase del juves en el centro docente de computo
 ** entregar trbajos sin terminar es mejor que entrgarlos terminados
+* 21-1-2020 
+** modulo 2 herramientas lo que yo estudie y entiendo sobre esas "herramientas" son data types y operadores
+*** datatypes
+**** entero mejor conosido como int o numeros negativos y positivos
