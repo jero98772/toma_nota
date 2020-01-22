@@ -1,0 +1,4 @@
+* clase del dia 21-1-2020
+** libro un acercamiento al pensamiento geometrico
+*** muchas veces se importa otras teorias para comletar otra
+

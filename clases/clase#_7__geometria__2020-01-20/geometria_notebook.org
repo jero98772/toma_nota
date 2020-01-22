@@ -83,4 +83,11 @@
 *** tercer(3) axioma
 **** si igulales se subtraen los restos son iguales
 *** cuarto(4) axioma
-* preguntas si iguales se adiccionan a iguales ,los totales son iguales ¿ entoces los totales son las partes?
+**** cosas que conciden entre si, son iguales entre si
+*** quinto(5) axioma
+**** el todo es mayor de las sumas de sus partes
+* preguntas 
+*** ¿si iguales se adiccionan a iguales ,los totales son iguales ¿ entoces los totales son las partes?
+*** ¿que grafica y como se identifica o conque se come el quinto(5) postulado?
+*** ¿el quinto(5) postulado es aplicable a una esfera?
+  
