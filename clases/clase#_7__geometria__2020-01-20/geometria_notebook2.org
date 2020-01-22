@@ -1,4 +1,16 @@
 * clase del dia 21-1-2020
 ** libro un acercamiento al pensamiento geometrico
+** https://books.google.com.co/books?id=SEifJVG7PJwC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=true
 *** muchas veces se importa otras teorias para comletar otra
-
+*** una teoria en costruccion require una serie de terminos a construir sin esto careceria de sentido
+**** primero es encontrar la respesuta ¿que es definir?
+**** cuando la definicion esta bien echa da hearramientas para el estudiante para reslver dudas a sus preguntas
+***** es importante dar caracteristicas  coherentes y suficintes que sea capas de definir de forma particular 
+****** el pez dorado como ejemplo :pertense a los cyprinidae (pertenese al genero de las carpas) con cuerpo alargado y aleta dorsal mayor a la otras carpas largas 
+***** una estrategia es buscar los contra ejemplo
+**** definir es : enuciar las caracteristicas de un termino o concepto dado
+**** una definicion es precisa cuando: cuando las caracteristicas dadas son las suficientes y nesesarias
+***** apartir de esto se ve cuando una carcteristica es suficiente  y nesesaria
+**** la implicacion si es algo entoces <algo> a <algo>
+***** ejemplo si es pez dorado entonces es una carpa
+**** una defincion presisa es una equivalencia entre e termino que se define y sus caracteristicas
