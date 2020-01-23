@@ -9,7 +9,7 @@
 **** trabajo  10%
 **** participacion 7%
 ***** hacer ejercios
-*** parcial y fina
+*** parcial y final
 **** 25%/2 
 ***** practica:una semana antes de los examamenes
 ***** teoria
@@ -22,7 +22,7 @@
 ** enseñansas 
 *** cuando uno reconose que no sabe aprende mas 
 ** clase del juves en el centro docente de computo
-** entregar trbajos sin terminar es mejor que entrgarlos terminados
+** entregar trabajos sin terminar es mejor que entrgarlos terminados
 * 21-1-2020 
 ** modulo 2 herramientas lo que yo estudie y entiendo sobre esas "herramientas" son data types y operadores
 *** datatypes
@@ -38,3 +38,73 @@
 **** para convertir datos a otras bases bin(<numero>) a binario, hex(<numero>) a hexadecimal ,oct(<numero>) a octal  
 **** para convertir datos a datos complejos complex(<numero>) 
 **** para convertir datos a cadenas de texto str(<cualquier dato>)
+* calse 23-1-2020
+** hacer un dibujo y hacer las instrucciones de como se hace
+** un algorimo no puede ser anmbigio que se presta para varias intruccuiones
+** UN COMPUTADOR NO TIENE IDEAS PRECONSEDIDAS
+** lengujae de programacion es un sub conjunto de un lenguje natural
+** conceptos basicos
+* "primero resuleve el problema luego escribe codigo" john johnson
+** serie finita y logica de pasos
+** sirve para resolver un problema
+** caracteristicas 
+*** presiso
+*** claro
+*** no prestarse para anbiguedades
+*** definido 
+**** debe ser el mismo  resultado
+*** finito
+*** 3 pasos 
+**** entrada
+**** salida
+**** proseso
+*** eficiente
+**** se puede ver en los metodos de ordenamientos 
+**** caractersitica deseabele
+*** legible
+**** en el codigo debe ser legible para subir a internet es una buena practica 
+*** difernecia de algorimo de metodos ordenamineto burbuja merch sort
+*** las  partes de un algoritmo
+**** entrada 
+**** proseso el algoritmo
+**** salida
+*** como se puede representar
+**** lengueje natural 
+**** pseudocodigo
+*****  nombre algorimo 
+***** variables 
+***** proseso
+**** diagramas de flujo
+*****  no se usa
+***** tambien se puede represntar en python en e cruso
+**** algorimo que no ea nesario aplicarlo a un computadoe
+**** programa
+***** es un conjunto de algoritmo
+***** escrito en un lenguje
+***** para una platarma determinada donde se va ejecutar
+*** primero algoritmo luego programa
+***  compilacion
+****  maneja codigo maquina
+**** compilado crea otros archivos
+*** interpretado
+**** que va corriendo en caliente mientras ustedd va escribiendo
+**** python  es interpretado
+*** programar es trasversal
+*** se aplican los diferentes lenguajes de programacion el curso
+*** para usuario
+**** la usuabiliad tarta de disminuir la fustracion del usuario
+*** para programador
+**** clariad en las variables legible 
+**** abierto
+**** solucion para el programador
+**** documentacion
+*** hacerlo mas adecuada para que funcione
+*** ciclo de vida de un programdor y los que se van a tranbajar con *
+**** analisis *
+**** diesño del algoritmo *
+**** implementacion *
+**** verificacion y validacion *
+**** doocumentacion
+***** para el usuario y programador
+**** despliege(poner en marcha)
+**** mantenimeinto
