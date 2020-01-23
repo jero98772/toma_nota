@@ -1,0 +1,30 @@
+* cuando uno llega a la U uno llega sabiendo nada
+* armando mesa
+** conos = conicas 
+** cunado uno corta un con genera otra figura
+** puntos de examen
+*** 1 seleccion multiple
+*** 2 simplificar y factorisar
+*** 3 ecuaciones y inecuaciones 
+*** 4 problema de aplicacion para lo utimo porque lo ponen a pensar 
+*** 5 conicas
+** hay muchos metodos
+** para sacar la ecuacion hay que pensar mucho
+** metodos
+*** de igualacion 
+*** se puede graficar
+*** se igula a 0
+*** sirve el tringulo de pitagoras para saber coseno y seno
+*** algebra de baldor
+*** sumados den b y multiplicado ac
+*** a**2x**3+b(ax)+ac
+*** se van hacer en los reales
+*** no compar matematicas basicas
+*** en un deniminador no puede haber raiz cudrada
+*** 4 quises 
+*** 2 talleres
+*** quiz en cominidad
+*** asesoria
+** la idea es factorisar
+** conceptos
+*** discriminate
