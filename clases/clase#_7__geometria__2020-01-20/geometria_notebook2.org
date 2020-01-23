@@ -1,4 +1,4 @@
-* clase del dia 21-1-2020
+* dia 22-1-2020
 ** libro un acercamiento al pensamiento geometrico
 ** https://books.google.com.co/books?id=SEifJVG7PJwC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=true
 *** muchas veces se importa otras teorias para comletar otra
@@ -14,3 +14,33 @@
 **** la implicacion si es algo entoces <algo> a <algo>
 ***** ejemplo si es pez dorado entonces es una carpa
 **** una defincion presisa es una equivalencia entre e termino que se define y sus caracteristicas
+* clase del dia 22-1-2020
+** si se maneja geometria se entiende mejor las demostraciones 
+** los elementos de euclides se fundamentaron en la logica
+** existen axiomas-postulados-teoremas-Corolario
+** las demostarciones permiten desarrollar habilidades en el pensamiento
+** simbolos 
+*** ∈ pertensee y ∉ no pertenese 
+*** ∀ para todo,  ∃ existe al menos y ∃! existe un unico
+*** ∧ conyucion (y) y ∨ disyucion(o) ¬ negacion  
+*** ⇒ condicional (si ... entonces) y ⇔ equivale (si y solo si)
+*** p⇒q
+**** p antecedente y en geometria hipotesis
+**** q consecunete y en geometria teisis 
+*** ⊂ conetenido y  ⊄ sub conjunto de
+*** conjuntos en mayusculas
+*** elementos en minusculas
+*** ∪ union  y ∩ intercesion / tal que
+*** = igual ≠digferente y de tres rayas identidad 
+** terminos primitivos
+*** punto : en mayuscula
+*** recta :en minuscula
+*** plano : grieogo
+** la demostraccion tiene multiples caminos
+** demostracion de los postulados de euclides
+*** 1 ) 2 puntos determinan una y solo una recta a la cual pertencen
+**** ∀A≠B ⇒∃! l/A,B∈l
+*** 2) a toda recta pertenese almenos 2 puntos distintos
+**** ∀l ⇒ l∃ A,B/A,B∈l
+*** si dada una recta existe al menos un punto del espacio que no esta en la recta
+**** ∀l ⇒ l∃ A/A∉l
