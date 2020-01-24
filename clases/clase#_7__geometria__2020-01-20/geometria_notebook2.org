@@ -38,9 +38,9 @@
 *** plano : grieogo
 ** la demostraccion tiene multiples caminos
 ** demostracion de los postulados de euclides
-*** 1 ) 2 puntos determinan una y solo una recta a la cual pertencen
+*** 1) 2 puntos determinan una y solo una recta a la cual pertencen
 **** ∀A≠B ⇒∃! l/A,B∈l
-*** 2) a toda recta pertenese almenos 2 puntos distintos
+*** 2) a toda recta pertenese al menos 2 puntos distintos
 **** ∀l ⇒ l∃ A,B/A,B∈l
-*** si dada una recta existe al menos un punto del espacio que no esta en la recta
+*** 3)si dada una recta existe al menos un punto del espacio que no esta en la recta
 **** ∀l ⇒ l∃ A/A∉l
