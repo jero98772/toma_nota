@@ -51,6 +51,7 @@
 ***** suma de los numeros ya portenciados 128  64   32   16   8    4    2    1   
 ***** exponetes                           2**7 2**6 2**5 2**4 2**3 2**2 2**1 2**0
 ***** ese numero es 255
+***** si es 0 no se coge el numero
 ** como funciona una imagen 
 *** es un conjunto de numeros  de  valor de 0  a  255 R: un valor G: otro valor B:otro valor que colecciona el valores y los pociona en el pixel de la imagen
 ** se va ver en el semstre y va haber quiz de 
