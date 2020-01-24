@@ -1,5 +1,64 @@
 * introduccion que es un sitema
-* sitemas conjunto de cosas con una funcion especifica
-* uoc ->unidad de organisaion curricular
-* no darse por vencido y aprovechar la U
-* se van haber las diferntes tecnologias 
+** sitemas conjunto de cosas con una funcion especifica
+** uoc ->unidad de organisaion curricular
+** no darse por vencido y aprovechar la U
+** se van haber las diferntes tecnologias 
+* clase de 24-1-2020
+* binario
+** off-0
+** on-1
+* mo dem
+** mo: moderador 
+** dem: de modederador
+** como se envia un mensaje de un modem a otro
+*** mo envia un mesaje se trasforma a codigo binario osea pulsaciones de señales y otro mo -->dem lo desifra osea que un modem actua como reseptor y emisor
+*** se puede con fribra optica con sus diferentes modalides de color y es muy eficiente por que vija a la velociadad de la luz lo que trasporta ... luz
+** el codigo ascii permite
+*** presionar alt + un numero que depende de la tecla del teclado
+** pasa  a binario y decodifica unos caracteres
+* partes del PC o computador
+** cpu :
+*** central processal unit
+** bios:
+*** basic input output system
+** gpu:
+***  grafic processal unit
+** motherboard
+** ram
+*** random acces memory
+** rom--> disco duro
+*** read only memory
+*** que funciona a partir de particulas magenticas
+** fuente
+** perifericos
+** entradas y salidas i/o
+** etc..
+* que permite que en una memoria USB  no se pierda los datos
+** USB :universal serial bus
+** genraciones encuanto que permite que no se pierda la informacion
+** se nesesita enrgia para que tener informacion ya se va ver
+*** en la primera generacion 
+**** " (las primeras USB utilizaban baterías)" dice "https://es.wikipedia.org/wiki/Memoria_USB" 
+**** mas adelante https://es.wikipedia.org/wiki/Memoria_flash se empesaron haber como una ram pero de manera que entre compuertas logicas pudiera quedar almacenada la enrgia pero al leer lo que hay en el bit se descarga la energia 
+***** https://www.monografias.com/trabajos104/organizacion-del-computador-memorias/organizacion-del-computador-memorias.shtml
+****** pero un ssd tiene ademas  capacitores que gurdan mayor cantiad de enrgia
+* para manjear numeros binarios es manejar base 2
+** para conertir a binario
+*** se divide el numero que se valla convertir en 2 = numero/2 y asi ahsta llegar a uno si es inpar se  cuenta como 1 y si es par como cero
+** para convertir de binario
+*** en orden del numero se emparjan los numeros con las potecias 
+***** numero en binario                   1    1     1   1    1    1    1    1   
+***** suma de los numeros ya portenciados 128  64   32   16   8    4    2    1   
+***** exponetes                           2**7 2**6 2**5 2**4 2**3 2**2 2**1 2**0
+***** ese numero es 255
+** como funciona una imagen 
+*** es un conjunto de numeros  de  valor de 0  a  255 R: un valor G: otro valor B:otro valor que colecciona el valores y los pociona en el pixel de la imagen
+** se va ver en el semstre y va haber quiz de 
+*** binario
+*** octal
+*** hexadecimal
+** y mas adelante en matematicas con su nombre comercial se va ver 
+*** redes neuronales
+*** logica difusa
+*** algoritmos geneticos
+*** vision computacional
