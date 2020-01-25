@@ -37,10 +37,43 @@
 *** recta :en minuscula
 *** plano : grieogo
 ** la demostraccion tiene multiples caminos
-** demostracion de los postulados de euclides
+** demostracion de los postulados 
 *** 1) 2 puntos determinan una y solo una recta a la cual pertencen
 **** ∀A≠B ⇒∃! l/A,B∈l
 *** 2) a toda recta pertenese al menos 2 puntos distintos
 **** ∀l ⇒ l∃ A,B/A,B∈l
 *** 3)si dada una recta existe al menos un punto del espacio que no esta en la recta
 **** ∀l ⇒ l∃ A/A∉l
+* clase 24-1-2020
+** un plano es infinito
+** un poligono es finito
+* como se puede represntar un cuadrado
+** ABCD ∧ A̅B̅ ≝B̅C̅≝C̅D̅≝D̅A̅ ∧m(AB̂C)=m(BĈD)=m(CD̂A)=90°
+** congruente (≝)
+***  A̅B̅ ≝B̅C̅≝C̅D̅≝D̅A̅ hace que forme la forma de un rectangulo dicentdo que estan pegados una del otro
+** se dice 
+*** recta
+*** semirecta 
+*** segemnto
+** una propocion es verdera
+**  puntos colineales
+*** se simbolisan 
+**** A,B,C ∈ l NO SON COLINEALES
+****  el - indica el orden de los puntos 
+***** A-B-C 
+** demostraciones
+*** 4) 3 puntos distintos que no pertenecen  y determian un unico plano
+**** ∀ A,B,C  ∧ A≠B≠C ∧ A∉l ,B∉l,C∉l ⇒∃! π /A,B,C ∈ π
+*** 5) si 2 puntos de una recta estan en un plano la recta esta contenida en un plano
+**** ∀ A,B,∈l ∧ A,B ∈ π⇒l∈π
+*** 6) si 2 planos se cortan simbolisan  una recta
+**** ∀π1 ∩ π2 ≠∅⇒ ∃ l /π1 ∩ π2=l 
+**** y con un punto seria
+**** l1 ∩ l2 =A⇔ A ∈ l1 ∧ A ∈ l2 
+*** 7) si en un plano  exite al menos un punto 
+**** ∀π ⇒∃!A/A∈π
+*** 8)
+*** teormema 1
+*** l1 ≠ l2 ∧ l1 ∩ l2 ⇒∃! A/l1 ∩ l2=a
+*** l1 ∩ l2≠∅ 
+**** no son paralelas
