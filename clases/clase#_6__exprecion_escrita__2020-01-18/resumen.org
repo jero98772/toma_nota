@@ -1,4 +1,4 @@
-* leer y escribir en la universidad
+* libro: leer y escribir en la universidad
 ** unidad 1
 *** pag 11
 **** leer y escribir son condiciones neseasiras pero no suficientes
@@ -131,4 +131,36 @@
 ***** para memorizar formulas o prncipios cientificos
 ***** nuevos aportes al conosimiento
 **** en la universidad se escribe para organisar y conservar informacion
-***** 
+**** trasmicion del lenguaje
+***** del lenguaje escrito
+***** discurso oral
+*****  diferencias 
+****** el discurso
+****** recetor y emisor
+**** receptor y emisor 
+**** la relacion es  diferente
+***** esta mediada por espacio y tiempo
+**** la escritura 
+***** require minimisar las ambiguedades (que se puede entender de muchas maneras)
+***** utilisar el lenguaje de modo particullar para reducir las ambiguedades
+***** el lector con su conosimiento llenara los vacios del texto
+***** la escritura es un mensaje anticipado
+***** la espontaniedad es un riesgo 
+*** pag  21
+**** los problemas 
+***** retorico 
+****** relativo a la comunicacion del lector
+****** la escritura modifica la compresion del ausnto que se redacte 
+***** semantico 
+****** relativo al contenido
+****** la mejor manera de de apredner ye escribir  es escribeindo
+**** se debe adecuar el tema
+*****  a lo que conviene al lector
+***** y al proposito de escritura
+**** solucionar problemas de la lectura y escritura
+***** si hay incorencias ,subsanarlas
+***** si falta informacion ,buscarla es la solucion
+***** si hay ideas confusas, aclaralas
+***** si es poco claro  orden el texto ,explicitarlo (hacer explicito una cosa(que esta dicho de forma clara y detallada))
+***** si es aburrido ,agilizelo
+***** si es muy largo, resumalo
