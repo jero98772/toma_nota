@@ -108,3 +108,25 @@
 ***** para el usuario y programador
 **** despliege(poner en marcha)
 **** mantenimeinto
+* Penamiento algoritmico:
+* clase del 27-1-2020
+* herramientas
+** un computador tiene entradas y salidas i/o y una memoria
+*** se almacena en la memoria como registros y pueden  ocupar
+**** enteros
+***** byte 8
+***** short 16
+***** int 32
+***** Long 64
+**** flotantes
+***** float
+***** double
+**** logicos
+***** True verdadero 1
+***** False falso 0
+** python es un lenguaje tipado que dice que tipo de dato es
+** data types
+** identificadores
+** operadores
+** expresiones
+
