@@ -158,6 +158,55 @@
 ****** logico
 ****** multiples valores
 ***** centinela (es una variable que sirve como señal)
-** operadores
+** operadores escritos desde python  pseudo codigo
+*** arimeticos
+**** python y pseudo codigo: significado
+**** + suma o conquatenacion
+**** - resta 
+**** * multiplicacion o sirve para repetir un string varias veces
+**** / division
+**** // o DIV division entera 
+**** ** o ^ potenciacion
+**** % o MOD resto o modulo
+*** relacionales
+**** < menor que
+**** <= menor o igual que
+**** > mayor que  
+**** >= operador de asigancion
+**** != o <> diferente 
+**** == comparacion
+*** logicos
+**** AND y
+**** OR o
+**** XOR o exclusivo (no se ve casi)
+**** NOT no
+*** asigancion
+**** = asigancion
+*** incremento y decremento
+**** ++ incremento no hay en python pero se puede x=x+1
+**** -- decremento no hay en python pero se puede x=x-1
 ** expresiones
+*** expresiones de operadores y operandos se usan para expresar aspectos del problema a solucionar
+*** tipos de expresiones
+**** arimeticas
+**** logicas 
+**** relacionales
+*** se puede 
+**** utilisar parenetesis a para mayor claridad ()
+**** puede incluir funciones
+*** preferencia de operadores del computador se usa 
+**** primero
+***** ()
+**** segundo
+***** ** 
+*****  ^
+**** tercero
+***** * / MOD DIV NOT 
+***** * / % // NOT
+**** cuarto 
+***** + - AND
+**** quinto
+***** < > <= >=
+**** sexto 
+***** != == OR
 

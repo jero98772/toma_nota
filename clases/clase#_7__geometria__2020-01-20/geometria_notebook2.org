@@ -77,3 +77,11 @@
 *** l1 ≠ l2 ∧ l1 ∩ l2 ⇒∃! A/l1 ∩ l2=a
 *** l1 ∩ l2≠∅ 
 **** no son paralelas
+* calse 27-1-2020
+** proposion pude ser verdera o falsa
+** cosas para tener en cuenta para demostart
+*** afirmacion <--> razon
+*** enumerar los renglones cuando demuestre algo
+*** apartir de 3 puntos puedo haber colienanidad
+*** hay que hacer un plan para demostrar
+*** 
