@@ -113,6 +113,7 @@
 * herramientas
 ** un computador tiene entradas y salidas i/o y una memoria
 *** se almacena en la memoria como registros y pueden  ocupar
+*** data type
 **** enteros
 ***** byte 8
 ***** short 16
@@ -124,9 +125,39 @@
 **** logicos
 ***** True verdadero 1
 ***** False falso 0
+**** alfanumericos
+***** string 
+*****  char
+**** se van atrabajar con arrays
+***** vectores 
+***** matrises
+**** objetos
+***** elememto completo
 ** python es un lenguaje tipado que dice que tipo de dato es
-** data types
 ** identificadores
+*** es la forma de nombrar una variable  e identificar los datos en un programa 
+*** mejor conosido como el nombre de una varible o consatante
+*** secuencias de caracteres que identifican una posion en memoria
+*** debe tener 
+**** nombre que empiese por una letra  
+**** no tener espacios
+*** tipos de identificador
+**** variable
+***** varia el valor el contenido
+**** constante
+***** que no cambia el contenido
+*** clases de variables
+**** contenido
+***** numerica 
+***** logica
+***** caracter
+**** uso
+***** contadoras (cuanta de uno en un 1)
+***** acumuladora (es como la contadora)
+***** interruptor
+****** logico
+****** multiples valores
+***** centinela (es una variable que sirve como señal)
 ** operadores
 ** expresiones
 
