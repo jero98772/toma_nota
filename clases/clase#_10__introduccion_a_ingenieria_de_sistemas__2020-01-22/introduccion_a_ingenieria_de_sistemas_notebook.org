@@ -63,3 +63,6 @@
 *** logica difusa
 *** algoritmos geneticos
 *** vision computacional
+* craecion de sitemas en cualquier base
+* sumar sistemas de cualquier base con sistemas de la misma base
+** base 2,5,7,8,10,14
