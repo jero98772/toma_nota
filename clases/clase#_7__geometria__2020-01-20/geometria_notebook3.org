@@ -1,0 +1,37 @@
+* clase del 31-1-2020
+** bisectirs es un angulo congruente en entre l1 y l2 formado por l3 y se pone  la congruencia en  los angulosxs
+** ejercio graficar
+*** A̅B̅
+*** M punto medio A̅B̅
+*** C ∉ A⃗B⃗ 
+*** AC⃗
+*** N punto medio de A̅C̅
+*** P punto medio M̅N̅
+*** AD⃗ bisectris de B
+** cogrunete entre es que es parecido  
+** y sirve para crear mitades y ambas partes son congruentes
+** las congrucias se difernecian entre la catidad de simbolos 
+**  a todo segmento corresponde un unico punto medio
+*** ∀A̅B̅⇒ ∃! C/A-C-B
+** puntos medios de segmentos congruentes generan segmentos congruentes
+** adicion o subtarcion ..
+*** ∀A-B-C , X-Y-Z, A̅B̅≝X̅Y̅ ∧ B̅C̅ ≝ Y̅Z̅ ⇒A̅C̅≝X̅Z̅
+** congruento es diferente a medida
+*** AÔB ≝CM̂D ⇔m(AÔB)=m(CM̂D)
+*** : igual significado
+*** saddicion y subtraccion
+*** AC=AB+AC
+*** m(AÔB) ⇔m(AÔC)+m(CÔB)
+*** AB=AC-BC
+*** m(AÔB) ⇔m(AÔC)-m(CÔB)
+*** angulos
+**** ayacente que tienen un lado en comun (compartir un lado)
+**** complemetarioss es  que sumado da noveta
+***** α+β=90°
+**** suplementarios si son iguales α+β =180°
+*** par lineal
+**** parlienal⇔son ayacentes y suplementarios
+**** AÔC ∧ CÔB par lienal
+*** angulos opuestos  se generan cuando unas 2 rectas se  cortan
+**** si 2 angulos son angulos opuestos alvetices
+* tarea
