@@ -209,4 +209,15 @@
 ***** < > <= >=
 **** sexto 
 ***** != == OR
-
+* python es intepretado
+** python en python.org
+** 2 y 3
+** python viene con un ide
+** en un consola
+** gurdar con .py
+** las palabras reservadas son de otro color
+** spyder anaconda no es excusa
+*** se puede usar el segumineto de variables de spider llamdo "explorador de varibles"
+*** si no tiene  internet  puede utilisar  https://www.onlinegdb.com/online_python_interpreter
+*** pseudo codigo es  un subconjunto de lengaje natural
+*** si hay algo como un no invirte todo lo que hay dentro del parete 
