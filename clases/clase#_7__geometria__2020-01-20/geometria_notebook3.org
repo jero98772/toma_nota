@@ -37,3 +37,5 @@
 * tarea
 ** si D esta entre A y C ,X esta entre D y C ,entocnces  X esta entre A y C
 *** ∀ A-D-C ∧D-X-C ⇒X/ A-X-C 
+** complementos de angulos de angulos congruentes son congruentes
+*** α+β = 90° ∧α≝β ∧α≝ξ ∧ α +ξ = 90° ⇒∃ α+β=ξ+α/β≝ξ
