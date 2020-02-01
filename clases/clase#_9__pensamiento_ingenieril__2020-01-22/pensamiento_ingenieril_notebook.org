@@ -12,4 +12,12 @@
 **** hay asesorias de 9-10am en sala profes
 *** se va utilisar la plataforma virtual de la U
 *** en la plataforma hay aceso al curso
-***  hay tares en las que se nesesita la plataforma
+*** hay tares en las que se nesesita la plataforma
+* CLASE  DEL 30-1-2020
+** es para desarrollar una manera de pensar
+*** como hacer que quepan 8.1 litros en vasijas de 
+**** 8.1 llena 
+**** 5.1 vacia
+**** 3.1 vacia
+*** que se puede hacer con una correa ademas de vestirla
+*** dibuje algo que tenga circulos

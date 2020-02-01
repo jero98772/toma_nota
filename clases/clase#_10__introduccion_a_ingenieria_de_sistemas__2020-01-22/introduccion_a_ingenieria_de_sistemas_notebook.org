@@ -63,6 +63,13 @@
 *** logica difusa
 *** algoritmos geneticos
 *** vision computacional
-* craecion de sitemas en cualquier base
+* craecion de sitemas en cualquier base 
+** el numero de la base se le resta -1 y hasata el numero de la base -1 es el maximo numero que se encuentra en esa base
+** si la base es mayor a la decimal se ponen letras
 * sumar sistemas de cualquier base con sistemas de la misma base
-** base 2,5,7,8,10,14
+** base 2,5,7,8,10,14,16
+** si llega al maximo numero de la base se le adiciona una al siguente numero lo que quedo en el aire  y luego al sigiente hasta que termine
+** para convertir una base en otra se pasa a  los de base 10 o base 2 y se pasa al la base que quiera
+* se ve tambien los operadores MOD modulo y DIV division entera 
+** para sumar diferentes bases se deve apasar a una base en "comun"
+** 
