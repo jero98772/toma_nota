@@ -19,7 +19,7 @@
 ** congruento es diferente a medida
 *** AÔB ≝CM̂D ⇔m(AÔB)=m(CM̂D)
 *** : igual significado
-*** saddicion y subtraccion
+*** addicion y subtraccion
 *** AC=AB+AC
 *** m(AÔB) ⇔m(AÔC)+m(CÔB)
 *** AB=AC-BC
@@ -35,3 +35,5 @@
 *** angulos opuestos  se generan cuando unas 2 rectas se  cortan
 **** si 2 angulos son angulos opuestos alvetices
 * tarea
+** si D esta entre A y C ,X esta entre D y C ,entocnces  X esta entre A y C
+*** ∀ A-D-C ∧D-X-C ⇒X/ A-X-C 

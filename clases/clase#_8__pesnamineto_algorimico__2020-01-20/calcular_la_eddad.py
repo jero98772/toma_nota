@@ -18,5 +18,3 @@ def eddad(dia,mes,años):
     eddad=eddad_dias/ (D*M)
     print ("eddad en dias",eddad_dias,"usted tiene ", eddad ,"años")# ,añosdias,"la cantiad del siglo")
 eddad(dia,mes,años)
-
-
