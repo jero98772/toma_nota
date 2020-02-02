@@ -39,3 +39,5 @@
 *** ∀ A-D-C ∧D-X-C ⇒X/ A-X-C 
 ** complementos de angulos de angulos congruentes son congruentes
 *** α+β = 90° ∧α≝β ∧α≝ξ ∧ α +ξ = 90° ⇒∃ α+β=ξ+α/β≝ξ
+** tipos de angulos
+*** https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.diferenciador.com%2Ftipos-de-angulos%2F&psig=AOvVaw0AGi380PI6wQjPCRYh5Yb2&ust=1580697469065000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIDDqLHssecCFQAAAAAdAAAAABAD

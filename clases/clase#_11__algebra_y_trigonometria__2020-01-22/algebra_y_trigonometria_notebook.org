@@ -28,3 +28,10 @@
 ** la idea es factorisar
 ** conceptos
 *** discriminate
+** ecuaciones
+*** ∛x =x
+*** x=x**3
+** temas a ver
+*** numeros igmagianrios
+*** factorisacion
+*** 
