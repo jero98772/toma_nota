@@ -97,7 +97,7 @@
 *** el texto es un total protador de sentido con intecion  de
 **** comunicar 
 *** hay difernetes clases de textos
-* calse del 31-1-2020
+* clase del 31-1-2020
 ** competecias
 *** textual
 **** puede tener 
