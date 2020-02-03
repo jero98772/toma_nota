@@ -137,3 +137,8 @@
 *** pero si cuando  que peisna sobre el texto
 *** un error frecuente es mesclar que se dice y se piensa
 ** el escritor no sabe a que espanto le sale
+* clase del 03-02-2020
+** lectura y escritura 
+** es un proseso de cosntruccion
+*** cosntruccuion y reconsucion de significados
+*** 

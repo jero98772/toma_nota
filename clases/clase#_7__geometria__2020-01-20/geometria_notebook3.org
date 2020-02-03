@@ -41,3 +41,37 @@
 *** α+β = 90° ∧α≝β ∧α≝ξ ∧ α +ξ = 90° ⇒∃ α+β=ξ+α/β≝ξ
 ** tipos de angulos
 *** https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.diferenciador.com%2Ftipos-de-angulos%2F&psig=AOvVaw0AGi380PI6wQjPCRYh5Yb2&ust=1580697469065000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIDDqLHssecCFQAAAAAdAAAAABAD
+* se inviertio 2 semanas en herramientas del lenguaje
+** punto 1 A-M-B ∧ A̅M̅ ≝ M̅B̅
+** punto 2 
+*** A-D-C Λ D-X-C⇒ A-X-C
+** punto 4 lo mismo pasa por complementarios
+* miercoles * QUIZ
+** los angulos opuestos por el vertice son congriuntes  
+** α̂ se puede decir que es la medida del angulo 
+** para que un angulo se  es opuesto por el veritice tiene que ser A-Ô-B Λ  C-Ô-D son A-Ô-B ≝ C-Ô-D
+** opuestos por el vertisies es que son congruentes 
+*** AÔB ∧ CÔD son opuestos por el vertice 
+*** A-O-D ∧  B-O-C  la definicion opuestos por el vertice
+*** AÔB ∧ BÔC par lienal 
+*** BÔD ∧  DÔC 
+*** m(AÔB) +  m(BÔD) = 180°
+*** m(BÔD) +  m(DÔC) = 180°definicion suplementarioa
+*** m(AÔB) +  m(BÔD) = m(BÔD) +  m(DÔC) propiead tarnsitoria
+*** m(AÔB) = m(DÔC) prpiedad uniforme
+*** m(AÔB)  ≝ m(DÔC)
+*** ejercios  del  documento
+*** un numero antes de una letra es laveces que se repite
+** se puede sumar cuando son colineales
+*** la idea es usar todas las cosas que se usan
+*** no se remplasa se sutitulle
+*** se debe decir donde se hace
+*** en la propiedad unifirme
+**** que se hiso y a donde se hiso
+*** propedades en demostracion
+*** suma de segmentos
+*** propiedad uniforme 
+*** sutitucion
+*** resta de segmentos
+*** operacion en los reales
+*** 
