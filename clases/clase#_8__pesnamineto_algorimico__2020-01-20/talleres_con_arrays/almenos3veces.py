@@ -7,8 +7,8 @@ rnd=pserand.random(veces = cantidad, incrementador = 1, mod = cantidad)
 for i in range(cantidad): 
     unaleatorio=rnd.digito()//3*unaleatorio
     rnd=pserand.random(veces = cantidad, incrementador = unaleatorio, mod = cantidad)
-    
-array=rnd.vector()
+    randvect = rnd.vector()
+
 medida=len(array) #deberia ser igual al tamaño de cantiadad con el mismo numero de elementos
 if medida == cantidad:
     print("si es es de mismo tamaño  de ",medida, "elementos")
@@ -20,12 +20,13 @@ size= medida
 rng=np.random.default_rng()
 vector=rng.choice(size,size=size,replace=False)
 elemenetosigules = []
-randvect=vector
+#randvect=vector
 for j in randvect:#contar hatsta el  numero del input
     for i in range(medida):
-        if randvect.index(i) > 3:
-             print("se supone que esta ssadsafdwfeabgvpfpmflnnwlfvnmvl")
-
+        veces =  randvect.index(i)
+        while veces > 3:
+             print("se supone que esta ")
+             print(veces)
         #if  i == j:
             #print(randvect)
         """
