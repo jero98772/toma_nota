@@ -5,6 +5,6 @@ def reves (num ):
 
     alreves = ultimo + mitad+ primero
     return alreves
-num = int(input("numero para voltearlo"))
+num = int(input("numero para voltearlo:  "))
 alreves=reves(num)
-print("el numero alreves es?",alreves)
+print("el numero alreves es?:  ",alreves)
