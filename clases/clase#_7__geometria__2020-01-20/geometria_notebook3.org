@@ -74,4 +74,4 @@
 *** sutitucion
 *** resta de segmentos
 *** operacion en los reales
-*** 
+*** se pueden poner medidas
