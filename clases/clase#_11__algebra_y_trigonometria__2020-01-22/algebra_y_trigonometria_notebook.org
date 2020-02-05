@@ -34,4 +34,4 @@
 ** temas a ver
 *** numeros igmagianrios
 *** factorisacion
-*** 
+* solo se esta paracticando  a reslver ejercios

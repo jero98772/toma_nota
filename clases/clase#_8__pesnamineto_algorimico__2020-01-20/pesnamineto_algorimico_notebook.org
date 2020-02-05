@@ -221,3 +221,36 @@
 *** si no tiene  internet  puede utilisar  https://www.onlinegdb.com/online_python_interpreter
 *** pseudo codigo es  un subconjunto de lengaje natural
 *** si hay algo como un no invirte todo lo que hay dentro del parete 
+* las estructuras de progrmacion son
+** secuancial
+*** serie de acciones consecutivas que esttablecen el flujo del progrma
+**** declarracion de varibles
+**** inisialisacion de variables
+**** lectura de de datos
+**** salida de datos
+*** partes de un algoritmo
+**** entrada 
+**** proseso o calculo
+**** salida
+*** forma de un codigo
+**** varibales
+***** inisialisacion de variables
+***** declarracion de varibles
+***** lectura de de datos(tipo de datos)
+***** cunado se ingresa un dato es mejor decirele que dato debe ingresar
+**** inicio
+***** operaciones y prosesos
+**** salida de datos
+***** mostar que se hiso con los datos en pantalla
+*** se lee de abajo hacia arriba la serie de intruciones 
+** condicionales
+*** condicion logica 
+**** esta formada por una dsion logica llamada condicion la cual 2 retorna 2 posbles valores
+***** verdera  o falso
+**** si , if{
+**** se ejecuta si la condicion es verdera
+**** finsi, }
+**** si no se ejecuta la condicion es retorno valor falso
+**** sino , esle{
+**** si se ejcuyta si o if cumple lo contrario}
+** repetitivas
