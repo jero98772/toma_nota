@@ -1,6 +1,6 @@
 radio = int(input("radio: "))
-X = int(input("cordenda del punto X: "))
-Y = int(input("cordenda del punto Y: "))
+cordenadaX = int(input("cordenda del punto en X: "))
+cordenadaY = int(input("cordenda del punto en Y: "))
 DistanciaPunto = (((X**2)+(Y**2))**(1/2))
 print("distancia del punto es",DistanciaPunto)
 if radio >= DistanciaPunto and X>0 and Y>0:
