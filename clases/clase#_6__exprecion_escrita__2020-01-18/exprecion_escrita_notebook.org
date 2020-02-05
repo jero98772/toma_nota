@@ -141,4 +141,18 @@
 ** lectura y escritura 
 ** es un proseso de cosntruccion
 *** cosntruccuion y reconsucion de significados
+*** cuando se  escribe se construye significado
+*** la lectura reconstruye significado
+*** tipos de lectura 
+*** literal --> simple
+**** lectura superficial
+**** entrada --> exproratoria
+**** diccionario --> lo que lee se le queda significdo y no  mas
+*** inferencial --> comprensible
+**** anticipar 
+*** critica --> intertextual 
+*** parafrasis
+**** decir con palabras propias lo que dice el texto
+*** anfibio de la lectura
+**** que no sale con nada del texto
 *** 
