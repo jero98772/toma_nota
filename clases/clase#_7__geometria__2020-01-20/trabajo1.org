@@ -1,2 +1,20 @@
 * si (AÔB) es un angulo no nulo ni  llano y D ∈ int(AÔB) llamaremos a OD bicectris del angulo (AÔB) si solo si AÔD =~ DÔB
-** ∀ AÔB ∧ D ∈ int(AÔB)
+** ∀ AÔB ∧ D ∈ int(AÔB) ∧ OD⃗  es la bisectriz ⇔ AÔD ≝ DÔB
+*** trabajo1punto1.jpg
+* si 2 puntos de una recta estan en el mismo plano ,la recta  esta contenida en el plano
+** antecedentes
+*** A⃗B⃗ ∧ A ∈ π ∧ B ∈ π 
+** consecuentes
+*** A⃗B⃗ ⊂ π
+** garfica 
+*** trabajo1punto2.jpg
+* 2 amgulos que sean adyacentes y suplementarios forman un par lineal
+** sibolca
+*** α̂ + β̂ = 180°
+** grafica 
+*** trabajo1punto3.jpg
+* la recta que corta una perpendicularmente por el punto medio a un segmento es llamado mediatriz
+** simbolico 
+*** T⃗A⃗ ∩ U⃗B⃗ = V ∧ U⃗V⃗ ≝ V⃗B⃗ U-V-B ⇒ T⃗A⃗ ⊥ U⃗B⃗ 
+** grafico
+*** trabajo1punto4.jpg
