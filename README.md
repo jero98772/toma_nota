@@ -5,3 +5,9 @@ prinsipalmente es un codigo para organisar temas por ramas de conosmiento o asig
 es un repositorio donde cualquiera puede añadir contenido de lo que se toma de nota en clase en la UdeM es un proseso colaboarativo 
 
 la toma de nota es personal de quien la haga usted decidira si tomar esa inforacion o no
+
+# la idea de la licencia
+es que el estudiante aporte con la cominidad de estudiantes no sea parasito y de cuenta de la de los estidiantes  y asi presentando los trbajos sin cambiar o sin  proponer una mejora a los tabajos ni ayudar a solucionar problemas  o involucrarse con la comunidad, si la propone la pone , la idea es aydar pero nuncq dar. las formas de involucrarse no es solo digital , entre otros sentarse a trabajar en un problema , invertirle  tiempo a algo etc..
+
+# el proposito no es solo usar,despresiar o admirar esto es
+# CONTRIBUIR CON EL PROYECTO

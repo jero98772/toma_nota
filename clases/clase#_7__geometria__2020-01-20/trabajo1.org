@@ -1,0 +1,2 @@
+* si (AÔB) es un angulo no nulo ni  llano y D ∈ int(AÔB) llamaremos a OD bicectris del angulo (AÔB) si solo si AÔD =~ DÔB
+** ∀ AÔB ∧ D ∈ int(AÔB)
