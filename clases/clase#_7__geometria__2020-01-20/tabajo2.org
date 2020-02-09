@@ -1,0 +1,45 @@
+* trabajo geometria 
+** 2) Se dan .A-M-B-C-N-D ,M y N  son los puntos medios de AB  y CD   respectivamente. Demuestre que MN  es la semisuma de . AC y BD
+*** proseso
+*** hipotetesis
+**** A-M-B-C-N-D
+**** M y N  son los puntos medios de AB  y CD
+*** suma y resta de segmentos
+**** MN = MB + CN
+**** AC = AD - ND
+**** BD = AD - AM
+*** sustitucion 
+**** MB + CN = ((AD - ND) + (AD - AM))
+*** operacion enlos reales
+**** MB + CN = (2AD + A**2MD - NAD**2 + AMND)
+*** enteder lo que hago
+**** MN = MB + CN
+**** 
+*** tesis 
+**** MN =(AC + BD)/2
+*** 2) es el mismo que se dijo que no se hiciera
+** Del texto guía numeral 20, los literales a) y f) no estan en
+*** https://books.google.com.co/books?id=SEifJVG7PJwC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
+*** no aprcecen
+**  A,B,C yD son colineales en ese orden. Si 2BC = CD , demuestre que :  AC= (2AB +AD)/3
+*** procedimeinto
+*** hipótestesis
+**** 1 A-B-C-D
+**** 2 2BC = CD
+*** suma de segmnetos de 1
+**** 3 AC = AB+ BC
+*** propiedad uniforme
+**** 4 BC = CD/2
+*** sustiticon de 4 en 3
+**** 5 AC = AB + CD/2
+*** operacion en los ℝ
+**** 6 AC = (2AB + CD)/2
+*** resta segemntos
+**** 7 CD = AD - AC
+*** sutitucion de 7 en 6
+**** 8 AC = (2AB + AD - AC)/2
+*** propiedad uniforme
+**** 9 3AC = 2AB + AD 
+**** 10 AC = (2AB + AD) /3
+*** tesis
+****  AC = (2AB + AD) /3
