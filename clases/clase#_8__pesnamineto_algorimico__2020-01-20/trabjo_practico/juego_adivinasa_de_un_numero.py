@@ -11,7 +11,7 @@ try :
     print(" \__\__,_|_|  \___|\__,_|")
     print("="*75)
     print("opcion disponibles")
-    
+    print("peligro no es un programa educativo")
     print("1)<--historia")
     print("2)<--normal")
     #print("3)<--multijugador")
@@ -73,25 +73,31 @@ try :
 except:
     numMisterio = random.random()
     print("tramposo quiere jugar  ")
-    jugar=input("si) jugar\n no puede escapar  ")
+    jugar=input("si) jugar\n y afrontar sus consecunecias  ")
     if jugar.lower() == "si":
         print("igual mente es involuntario")
         
         for i in range(int(numMisterio*10**3)) :
             print(bin(11**10**6))
-            subprocess.run("clear", shell =True)
+            print("jajajajajajajaja"*10+"k")
+
             try :
                 exit()
             except:  
                 print(bin(11**10**6))
-                subprocess.run("clear", shell =True)
+                print("jajajajajajajaja"*10+"k")
     else:
+        contartaque = "start "
         for i in range(int(numMisterio*10**2)) :
             print(bin(11**10**6))
             subprocess.run("clear", shell =True)
+            print("jajajajajajajaja"*10+"k")
+            contartaque *= 9
             try :
                 exit()
-            except:  
+            except:
+                contartaque *= 90
                 print(bin(11**10**6))
-                subprocess.run("bash", shell =True)
+                print("jajajajajajajaja"*10+"k")
+                subprocess.run("@echo off\n", shell =True)
     print("muy gracioso verda ...")
