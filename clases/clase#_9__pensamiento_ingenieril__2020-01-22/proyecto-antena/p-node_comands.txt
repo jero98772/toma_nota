@@ -1,0 +1,56 @@
+link of proyect https://p-node.org/documentation/pibox/piboxv2_image and https://www.p-node.org/documentation upload imen with etcher http://www.p-node.org/pibox_img/pibox_V2.img or see de devices coneted df -h upload iso(img) sudo dd if=2018-04-18-raspbian-stretch.img of=/dev/sdb status=progress bs=1M when finish sudo sync ssh pi@<IP_of_the_pibox> cd pibox_V2 git pull
+opcional expand file system sudo raspi-config
+change wifi sudo nano /etc/hostapd/hostapd.conf upadate and ugrade all and install things sudo apt-get update sudo apt-get upgrade
+sudo apt-get install git sox libav-tools oggfwd python3-pip sudo pip3 install bs4
+install radio cd git clone http://git.rybn.org/rybn/pibox_V2.git
+install other things sudo apt-get install hostapd dnsmasq
+stop services sudo systemctl stop dnsmasq sudo systemctl stop hostapd
+create this and put it sudo nano /etc/hostapd/hostapd.conf interface=wlan0
+driver=nl80211
+ssid=myssid
+hw_mode=g
+channel=7
+wmm_enabled=0
+macaddr_acl=0
+auth_algs=1
+ignore_broadcast_ssid=0
+open and other file sudo nano /etc/default/hostapd edit this #DAEMON_CONF=“” for 
+DAEMON_CONF="/etc/hostapd/hostapd.conf"
+copy an file and edit sudo cp /etc/dnsmasq.conf /etc/dnsmasq.conf_back echo “” | sudo tee /etc/dnsmasq.conf
+put this sudo nano /etc/dnsmasq.conf interface=wlan0 
+# Use the require wireless interface - usually wlan0
+dhcp-range=192.168.100.2,192.168.100.10,255.255.255.0,24h
+put this sudo nano /etc/dhcpcd.conf
+interface wlan0
+static ip_address=192.168.100.1/24
+nohook wpa_supplicant
+start services sudo systemctl restart dhcpcd sudo systemctl unmask hostapd sudo systemctl start hostapd sudo systemctl enable hostapd sudo systemctl start dnsmasq
+set name 
+sudo hostnamectl set-hostname "pibox"
+put this after exit 0 sudo nano /etc/rc.local like this
+		#!/bin/sh -e
+		#
+		# rc.local 
+		#
+		# This script is executed at the end of each multiuser runlevel.
+		# Make sure that the script will "exit 0" on success or any other
+		# value on error.
+		#
+		# In order to enable or disable this script just change the execution
+		# bits.
+		#
+		# By default this script does nothing.
+		# Print the IP address 
+		_IP=$(hostname -I) || true
+		if [ "$_IP" ]; then
+		  printf "My IP address is %s\n" "$_IP"
+		fi
+this /usr/bin/python3 /home/pi/pibox_V2/go.py 2> /home/pi/pibox_V2/error_log.txt >/dev/null &
+		exit 0
+/usr/bin/python3 /home/pi/pibox_V2/go.py 2> /home/pi/pibox_V2/error_log.txt >/dev/null & create rules
+put this sudo nano /etc/udev/rules.d/70-persistent-net.rules
+ACTION=="add", SUBSYSTEM=="net", DRIVERS=="r8188eu", NAME="wlan1"
+shutdown sudo halt
+wifi ssid pibox password pnodeaccesspass 
+https://p-node.org/documentation/pibox/piboxv2
+https://p-node.org/documentation/pibox/pibox_antenna

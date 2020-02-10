@@ -1,0 +1,43 @@
+antena-direcional-pringler
+la Idea es sacada de la antena de Kalashnikov 
+introducción a la antena
+una antena tiene infinidades de aplicaciones como robarle el wifi al vecino hasta decodificar señales de satélites noaa (meteorológicos) 
+en este caso la antena se tratara de implementar como piesa calve un emisora de radio (P-node) repetidor wifi (con esp8266) y decodificar señales noaa (grqx) y pineapple wifi en esp8266(deauther)... la idea es hasta donde se pueda
+requerimientos
+materiales que cumple electrónico y reciclado y la idea del platico es que se la base y cumple con que son biodegradable
+se sigue los lineamentos estíticos 
+necesidad : la que se encuentre como las aplicaciones que tiene
+es tanto en utilisacion personal , domestico -- arquitectónico en ves de antena tipo platillo pueden ser remplazados por antena-direcional-pringler como para ver televison o internet libre como medellin wireless conocido hoy en dia como medellin digital y artistico y cultural por que se usa para exprearse como en libros como orbitando satélites http://wiki.unloquer.org/_media/personas/jero98772/orbitando-satelites.pdf donde se usa la poetica para hablar de las antenas y cosas que lo orbitan como satélites tecnología ciencia por una parte y cultural por antena-direcional-pringler que asido signo de resistencia atraves de la neutralidad de la red y el software libre como era en medellin wireless enfoques Kalashnikov fue un guia y un amigo y desdes 0 si es reciclado no se puede hacer nada respondiendo al primer enfoque y ultimo enfoque paso de ser un envase de comida a una antena
+procedimeinto para las aplicaciones
+P-node es para crear una emisora de radio fm propia link de descarga es https://p-node.org/documentation/pibox/piboxv2_image la documentación es https://www.p-node.org/documentation si en caso dado le toca hacerlo manual compilarlo en la documentación le puede servir http://wiki.unloquer.org/personas/jero98772/antena-direcional-pringler/p-node-comandos o la del colectivo es siguiendo la idea de Félix Guattari y del colectivo RBYN con el cual hubo un taller que se asisto y se concluyo que http://wiki.unloquer.org/personas/jero98772/antena-direcional-pringler/p-node-comandos
+repeditor wifi (con esp8266) el proyecto de https://github.com/martin-ger https://github.com/martin-ger/esp_wifi_repeater y ya esta en binario para subirlo al esp8266 con esptool.py el comando sera
+esptool.py --port /dev/ttyUSB0 write_flash -fs 4MB -ff 80m -fm dio 0x00000 firmware/0x00000.bin 0x02000 firmware/0x02000.bin
+gqrx http://gqrx.dk/ en manjaro linux para insatlarlo
+
+ sudo pacman -S gqrx
+y debe mandar un log como 
+
+:: Proceed with installation? [Y/n] y
+(1/1) checking keys in keyring                                                             [#####################################################] 100%
+(1/1) checking package integrity                                                           [#####################################################] 100%
+(1/1) loading package files                                                                [#####################################################] 100%
+(1/1) checking for file conflicts                                                          [#####################################################] 100%
+(1/1) checking available disk space                                                        [#####################################################] 100%
+:: Processing package changes...
+(1/1) upgrading gqrx                                                                       [#####################################################] 100%
+:: Running post-transaction hooks...
+(1/2) Arming ConditionNeedsUpdate...
+(2/2) Updating the desktop file MIME type cache...
+
+
+puede que tenga problemas con pulse audio si le pasa esto instale dependiendo del problema
+otra versión de pusle audio o alsa o algo con sonido para los drivers o instalar pusle audio o alsa 
+pineapple wifi en esp8266(deauther) https://github.com/spacehuhn/esp8266_deauther
+no dejo subir el binario le toca compilarlo 
+que se tienen materiales
+y una radio que no salio en la foto
+procedimiento general
+se va usar el la antena-direcional-pringler para contarlo al p-node y ver el posible resultado resultado la hipótesis “que es que llegue con mas ganas la señal fm un punto en especifico” lo mismo con deauther generar señales y repetirla con https://github.com/martin-ger/esp_wifi_repeater y con la antena hasta donde llega comparada con otra señal que van hacer del mismo emisor que va generar deauther y gqrx es para monitoriar las señal y ver que señales de radio llegan y si se logra coger y decodificar la señal 
+grabarlo en audio
+audio mix sample en 115200 bd 
+pasarla a imagen con https://github.com/ThatcherC/APT3000 en http://jthatch.com/APT3000/APT3000.html
