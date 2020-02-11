@@ -41,3 +41,64 @@ se va usar el la antena-direcional-pringler para contarlo al p-node y ver el pos
 grabarlo en audio
 audio mix sample en 115200 bd 
 pasarla a imagen con https://github.com/ThatcherC/APT3000 en http://jthatch.com/APT3000/APT3000.html
+
+Queda pendiente 
+
+- reunion con materiales 
+- diseño en computador  "Si, para diseñar el modelo, mirar ño que falte " y Con freecad me parece que sale más fácil---> propuesto por simon
+- La base de las antenas --->  simon 
+- materiales (prestados) ---> daniel
+- confirmar que funcione ---> daniel y mateo
+- investigar por que sirve como antena y por que es una antena ---> nadie no se sabe si sera También puedo hablar de aspectos técnicos de la antena 
+- "También puedo hablar de aspectos técnicos de la antena" ---> simon
+- "Yo puedo documentar lo que cada.uno haga en una pagina para que todo el mundo sepa pero cada uno tendria que decir que se hace" ---> daniel 
+- " Una pregunta yo puedo modificar algunas partes de ese texto? Porqué así le ayudó " --->Jeyssón 
+- Para reunirnos --> no se a pudido reunirnos 
+- documentado la informacomion que se para que quedemos en iguales condiciones --> daniel 
+- presto todos o la mayoria de materiales --> daniel
+	hecho cosas adicionalmente obligatorias
+-  corregir la ortografia para mayor entendimiento de la documentacion ---> daniel 
+-   tener el conosmiento de por que es antena y por que sirve y documentarlo en http://wiki.unloquer.org/personas/jero98772/antena-direcional-pringler o https://github.com/jero98772/creador_y_administrador_de_carpetas_y_archivos_para_tomar_nota/tree/master/clases/clase%23_9__pensamiento_ingenieril__2020-01-22/proyecto-antena  
+- Probarla la antena minetras se presenta --->todo
+- Presentarla ---> todos 
+
+obsercaiones del equipo
+- no se trata de quien mas haga si no de hacer algo
+- el que la propone la pone  eso en un grupo y mas... depende del proposito  del grupo
+
+grupo academico o donde se esta destinado a que el trabajo cada uno  haga algo y la cantiad de personsas influye en la dificultad de trabajo en cierto tiempo : el que la propone pone al menos (100/cantiad_integrantes) porciento
+en este caso es 20 % cada uno 
+
+
+grupo de trbajo o colaborativo que la dificultad del trabajo no dependa de  la cantiad de integrantes  y no exista fecha limite : : el que la propone pone al menos 80 %
+no es este caso 
+
+prueba 1
+
+Asistentes
+
+    daniel arango sohm
+    mateo rendon
+
+frecuancias probadas / resultado con antena
+
+frecuancias probadas / resultado sin antena 87.5 regular -mala opcion- 92 mal -no se probaron - 108 ocupada
+
+Esto es para ir probando que señales se pueden ocupar
+
+Nose logro instalar gqrx
+
+con wifi a red pruebas señales Y de pruebas señales emitir 2 redes wifi llamdas
+
+*Con antena (la que tiene antena)
+
+*Sin antena (la que no tiene antena)
+
+Son emitidas de un esp8266 que emite 3 redes
+
+*Con antena (la que tiene antena)
+
+*Sin antena (la que no tiene antena)
+
+*Pruebas señal que es donde es la sala de control en la direcion ip 192.168.4.1 Hipòtesis :con antena deberia tener un alcanse mayor hacia cierta direccion que sin antena
+
