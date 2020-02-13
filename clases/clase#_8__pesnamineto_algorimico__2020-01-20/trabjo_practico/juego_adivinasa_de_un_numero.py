@@ -18,7 +18,7 @@ try :
     opcion  = input("opcion:   ")
     print("="*75)
     print("predice el numero aleatorio")
-    dificultad = int(input("grado dificultad de 1-99:  "))
+    dificultad = int(input("grado dificultad varia segun la cantiad de caracteres nivles de 1-99:  "))
     vidas = int(input("vidas:   "))
     
     print("="*75,"\n"*5)
@@ -28,9 +28,10 @@ try :
         numMisterio = str(int(numMisterio*10**dificultad))
         if str(numero) == numMisterio:
             numero_total += numero
-            print("acertartese ",numero_total)
+            print("te acertartese ",numero_total)
             return False
         else :
+            print("trate con otro numero ")
             return True
         for num_desglosado ,i in itertools.product(numero ,range(len(numero))):
             if num_desglosado in numMisterio :
@@ -48,7 +49,7 @@ try :
                 aciertos = adivinar(numero,dificultad,numMisterio)
                 count += aciertos
             else:
-                numero = str(input("Ingrese de nuevo su numero:  "))
+                numero = str(input("Ingrese de nuevo un numero:  "))
                 aciertos = adivinar(numero,dificultad,numMisterio)
                 print("intentos = ",count)
                 count += aciertos
