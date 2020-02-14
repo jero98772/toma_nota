@@ -1,0 +1,19 @@
+* angulos suplemetarios  3 veces que otro medida de un angulo ¿meida angulo?
+** angulo1 = X
+** angulos2 =angulo1/3
+** 3angulo 2 =angulo1
+** 3angulo1 +angulo 2 =90
+** angulo1= 22.5
+**  22.5+67.5=90
+* un angulo 4 veces = 5 veces el suplemento ¿mediada angulo?
+** 90/5 el =suplemento1 =18
+** 90-18=sumplento2=72
+** 72/4=18
+** 18+72=90
+* medida complementaria de un algulo es 1/3 del suplemto ¿medida angulo?
+** angulo1=22.5
+** 3angulo1=67.5
+** angulo2=3angulo1
+** angulo1 + angulo2=90
+** 22.5+67.5=90
+** 
