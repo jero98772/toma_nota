@@ -10,13 +10,13 @@ print("| || (_| | | |  __/ (_| |")
 print(" \__\__,_|_|  \___|\__,_|")
 print("="*75)
 print("opcion disponibles")
-
+#main menu
 dificultad = 0
 vidas = 0
 opcion = 0 
 print("1)<--historia")
 print("2)<--normal")
-#print("3)<--multijugador")
+#game modes
 opcion  = input("opcion:   ")
 if not opcion :
     opcion  = "2"
@@ -43,6 +43,7 @@ except:
     vidas = 7
 print("="*75,"\n"*5)
 numMisterio = random.random()
+#variables and inputs lifeguards
 def adivinar(numero,dificultad,numMisterio):
     numero_total = "" 
     numMisterio = str(int(numMisterio*10**dificultad))
@@ -50,31 +51,47 @@ def adivinar(numero,dificultad,numMisterio):
         if num_desglosado in numMisterio :
             print(numero_total)
             print("acertartese ",num_desglosado,"esta en esta en el numero de " ,len(numMisterio),"cifras")
-        return True 
-    if str(numero) == numMisterio:
-        numero_total += numero
-        print("te acertartese ",numero_total)
-        return False
-    else :
-        print("trate con otro numero ")
-        return True
+            if int(numMisterio) > int(numero):
+                print("el numero ingresado es menor que el numero que nesesita encontrar")
+            elif int(numMisterio) < int(numero):
+                print("el numero ingresado es mayor que el numero que nesesita encontrar")
+            return True
+        elif str(numero) == numMisterio:
+            numero_total += numero
+            print("te acertartese ",numero_total)
+            return False
+        else :
+            print("trate con otro numero ")
+            print("pista")
+            if int(numMisterio) > int(numero):
+                print("el numero ingresado es menor que el numero que nesesita encontrar")
+            elif int(numMisterio) < int(numero):
+                print("el numero ingresado es mayor que el numero que nesesita encontrar")
+            return True
 
 def templatejuego(vidas,dificultad,numMisterio):
     count = 0
     numero = input("Ingrese su numero de un digito para completar el numero \nIngrese su numero :  ")
     vidas+=1
-    while count <  vidas or  vidas  == 1j:
+    while count <  vidas :
                  
         if count == 0 :            
             print("intentos = ",count)
             aciertos = adivinar(numero,dificultad,numMisterio)
             count += aciertos
+
         else:
+            num = numero
+            print(num)
             numero = str(input("Ingrese de nuevo un numero:  "))
-            aciertos = adivinar(numero,dificultad,numMisterio)
             print("intentos = ",count)
-            count += aciertos
-           
+            if numero == num :
+                aciertos = adivinar(numero,dificultad,numMisterio)
+                count += 0
+            else:
+                aciertos = adivinar(numero,dificultad,numMisterio)
+                count += aciertos
+        
             
     else :
         print("el numero era" , str(int(numMisterio*10**dificultad)))

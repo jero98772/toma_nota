@@ -73,3 +73,28 @@
 * se ve tambien los operadores MOD modulo y DIV division entera 
 ** para sumar diferentes bases se deve apasar a una base en "comun"
 ** 
+* ejercios para practicar
+** 2984 base 10  pasar a estas bases
+*** 2
+**** 2984 /2 =mod 0 =div 
+***** 1
+***** 9/2
+***** div 4 mod 1
+***** (8+1)/2
+***** div 4 mod 1
+***** (4+1)/2
+***** div 2 mod 1
+**** 
+*** 4
+*** 8
+*** 16
+*** 5
+*** 7
+** 1325 bases
+*** 2
+*** 4
+*** 8
+*** 16
+*** 5
+*** 7
+
