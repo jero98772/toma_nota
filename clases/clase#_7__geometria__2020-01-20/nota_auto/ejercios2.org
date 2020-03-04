@@ -1,0 +1,14 @@
+* ejercios 
+** definir segmento
+*** una linea con un punto de partida y llegada definido constituido de dos puntos
+** definir recta (faltan detalles ,ver mas cosas)
+*** una linea con un punto de inicio y otro de fin
+** def google 
+*** Línea formada por una serie continua de puntos en una misma dirección que no tiene curvas ni ángulos y cubre la menor distancia posible entre dos puntos.
+** def wikipedia
+*** https://es.wikipedia.org/wiki/Recta
+** definir angulo(me fui por otra definicion parecida a la de los grados)
+*** unidad de medida de una circuncferencia 
+** google def
+*** Porción indefinida de plano limitada por dos líneas que parten de un mismo punto o por dos planos que parten de una misma línea y cuya abertura puede medirse en grados.
+
