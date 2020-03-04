@@ -20,7 +20,7 @@ class random():
                 while self.valor < self.mod and self.veces > self.contador:
 	                self.valor = (self.multiplicador * self.valor + self.incrementador) % self.mod
 	                self.contador += 1
-	                self.array.append(self.valor)    
+	                self.array.append(int(self.valor))    
                 return self.array
         def digito(self):
             self.digito = (self.multiplicador * self.valor + self.incrementador) % self.mod
