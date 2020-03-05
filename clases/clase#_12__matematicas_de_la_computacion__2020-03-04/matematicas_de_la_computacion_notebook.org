@@ -1,0 +1,18 @@
+* diferencias entre las matematicas comunes y las matematicas computacionales
+** matematicas que requieren mayor cantidad de calculo , dificultad , abstraccion desde cierto punto de vista para uno o varios propositos , a cosas que no se podria llegar a papel y lapiz
+*  conosimiento de 
+** https://www.tutorialspoint.com/computer_concepts/index.htm
+** https://www.tutorialspoint.com/basics_of_computers/index.htm
+** https://www.tutorialspoint.com/computer_fundamentals/index.htm
+* matematicas de bases
+** https://www.tutorialspoint.com/basics_of_computers/basics_of_computers_number_system.htm
+** https://www.tutorialspoint.com/basics_of_computers/basics_of_computers_number_system_conversion.htm
+** notas de desconosimiento
+** lsb lest significant bit
+** msb most significant bit
+** la cantidad de bits de un computador es la que puede tener acceso a una memoria RAM random acces memori
+*** 3 caracteristicas de los microprocesadores
+*** clock speed => lo que llamamos la velocidad de reloj
+*** word size => cuando le preguntan de cuantos bits es su computador
+*** instruction set => la esencia de la maquina que la hace "unica" en su modelo y diseño
+** https://www.tutorialspoint.com/basics_of_computers/basics_of_computers_microprocessor_concepts.htm
