@@ -1,0 +1,12 @@
+* inicio
+** int entrada
+* variables 
+** muestre("nesesita saber si un numero par?")
+** leea(entrada)
+** si entrada%2 == 0 
+*** muestre("su numero es par")
+** finsi
+** sino
+*** muestre("su numero no es par , es impar")
+** finsion 
+* fin
