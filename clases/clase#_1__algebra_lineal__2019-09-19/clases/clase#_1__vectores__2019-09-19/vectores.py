@@ -1,5 +1,4 @@
 import math
-import numpy as np
 class vectors():
 	def __init__(self,x,y):
 		self.x=x
@@ -35,11 +34,16 @@ class vectors():
 			print(self.X,"X")
 			print(self.Y,"Y")	
 			return self.product_scalar
-V=vectors(4,-13)
+	def transposed(self,matriz):
+		self.matriz=matriz
+		if type(matriz):
+			self.reverse=[i for i in reversed(self.matriz)]
+			print(self.reverse,len(matriz))
+
+V=vectors(4,8)
 V.in_one_vector()
-print(V.module(2,-1))
-#print(V.direccion())
-#print(V.sum(1,1))
-#print(V.inner_product(0))
-#print(np.eye(8**6,8**6))
-print()
+print(V.module(10,11))
+print(V.direccion())
+print(V.sum(1,1))
+print(V.inner_product(60))
+V.transposed([[[4],[5],[6]],[[4],[5],[6]]])

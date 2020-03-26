@@ -1,0 +1,14 @@
+tiene un delay  para una animacion
+tine la posibilidad de pasar en de pantallas donde hay 2 juegos diferentes
+la perdida o la ganacia implica un cambio en el monto a ganar o perder 
+hace mucho participe de numeros aletorios 
+hay 2 condicion  para   jugar
+
+2do juego
+para  ir a la primera pantalla o primer juego y vice sersa
+hay un contador de aciertos y contador de fallos
+cada 10 veces muestra el resultado
+tome las entradas de textbox pongalas en unas variables  
+
+cada vez que asierte suma 1 a un contador y si no acierta suma 1 a otro contador diferente que es
+y lo muestra con el ultimo if
