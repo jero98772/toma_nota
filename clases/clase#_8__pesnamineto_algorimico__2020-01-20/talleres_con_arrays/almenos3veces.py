@@ -8,7 +8,7 @@ for i in range(cantidad):
     unaleatorio=rnd.digito()//3*unaleatorio
     rnd=pserand.random(veces = cantidad, incrementador = unaleatorio, mod = cantidad)
     randvect = rnd.vector()
-
+medida=len(array)
 medida=len(array) #deberia ser igual al tamaño de cantiadad con el mismo numero de elementos
 if medida == cantidad:
     print("si es es de mismo tamaño  de ",medida, "elementos")
