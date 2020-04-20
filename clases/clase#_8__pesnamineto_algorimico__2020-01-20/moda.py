@@ -6,6 +6,7 @@ X0 valor inicial
 X valor
 xn+1 = (axn + c) mod m
 """
+from datetime import datetime
 class random():
         def __init__(self,valorInicial = 3, mod = 600 ,incrementador = 10,multiplicador = 7 ,veces=1):    
             self.valorInicial = valorInicial #valor  inicial para ir aumentandolo y disminuyendo
@@ -29,6 +30,10 @@ class random():
                 print("PSEUDORANDOM \n formula \n m modulo \n a multiplicador \n c incremento \n X0 valor inicial \n X valor \n xn+1 = (axn + c) mod m")
                 print("\n \n m>0 \n m>a>0 \n m>c>0")
                 print("random(valorInicial = 3, mod = 600 ,incrementador = 10,multiplicador = 7 ,veces=1)")
-r=random(veces= 50)
+
+now = int(datetime.now().strftime('%S'))
+for i in range(now):
+    r = random(valorInicial = now,incrementador=now+now,multiplicador =now*now,veces = 10)
 nums=r.vector()
+print(nums)
 print(max(set(nums) ,key=nums.count))

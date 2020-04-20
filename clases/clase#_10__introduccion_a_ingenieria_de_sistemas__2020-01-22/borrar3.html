@@ -1,0 +1,34 @@
+<html>
+  <script>
+    sum = 0
+    mayor = 0
+    num=5
+    nombres = []
+    menor = 0 
+    menoresedad = []
+    edades = []
+    for(i=0;i<num;i++){
+
+	nombre = prompt("nombre")
+	inp = prompt("numero"+i)
+	inp =parseInt(inp)
+	nombres.push(nombre)
+	edades.push(inp)	
+	if (inp>menor  || i == 0){
+	    menor = inp
+	}
+	if (inp<mayor || i == 0){
+	    mayor = inp 
+	}
+	if (inp < 18){
+	menores = nombre+"  es menor de edad"	
+	 menoresedad.push(menores)	
+	} 
+    }
+    data = "nombres "+nombres+"<br> edades "+edades+"<br> menores de edad  "+menoresedad
+    document.write("<br>"+data)
+    console.log("<br>"+data)
+    
+  </script>
+</html>
+
