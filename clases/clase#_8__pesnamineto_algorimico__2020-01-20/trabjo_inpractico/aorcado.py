@@ -15,7 +15,7 @@ def palabra_aleatoria():
         data = f.readlines()
 
     n = random.randint(0, len(data)-1)
-    return data[n].replace("\n","")
+    return data[n].replace("\n","").lower()
 
 
 def dibujar_ahorcado(partes):
@@ -106,11 +106,13 @@ def adorno():
 	print("                    __/ |                      ")
 	print("                   |___/                       ")
 	opciones = input("""
+selecione un modo de juego
 (A)todo o Nada ,te sacrificas por adivinar la palabra completa
 (1) letra ,poner solo 1 letra 
 (C)rear palabra ,sirve para juegos multijugador
 (E)salir
 ======================================================================
+select a game mode
 (A) all or nothing, you sacrifice yourself for guessing the whole word
 (1) letter, put only 1 letter
 (C)reate word, good for multiplayer games
@@ -128,7 +130,8 @@ def adivinar(rndpalabra):
 def continuacion(opciones):
 	continuacion = input("play again?[Y/N] or play (O)ther:  ").lower()
 	if continuacion == "y":
-		return opciones, palabra_aleatoria() 
+		return opciones, palabra_aleatoria()
+		adorno()
 	elif continuacion == "n":
 
 		exit()
@@ -173,7 +176,7 @@ def templatejuego():
 	arr = np.chararray(len(rndpalabra ))
 	acumulado = np.chararray(len(rndpalabra ),unicode=True)
 	arr[:] = " "
-	letrasfallos = ""
+	letrasfallos = "fallos "
 	letras = [letras for letras  in  rndpalabra]
 	acumulado[:] =  "-"
 	opciones = adorno()
@@ -197,6 +200,7 @@ def templatejuego():
 			acumulado[:] =  "-"
 			opciones = adorno()
 		while opciones == "a" :
+			print("tiene ",len(rndpalabra)," letras")
 			adivinar(rndpalabra)
 			opciones , rndpalabra = continuacion(opciones)
 		while opciones == "1" and count<vidas :
@@ -227,20 +231,32 @@ def templatejuego():
 						letrasfallos +="-"+str(letra)
 			
 			if  "-" not in acumulado:
+				print(letrasfallos)
+				print(acumulado)	
+				dibujar_ahorcado(count)	
 				win(acumulado,rndpalabra,count)
 				opciones , rndpalabra = continuacion(opciones)			
-			
-			
+				count = 0
+				logro = ""
+				arr = np.chararray(len(rndpalabra ))
+				acumulado = np.chararray(len(rndpalabra ),unicode=True)
+				arr[:] = " "
+				letrasfallos = "fallos "
+				acumulado[:] =  "-"
+				letras = [letras for letras  in  rndpalabra]
 
-		while not ( count<vidas) :	
+		while not ( count<vidas) :
+			print(letrasfallos)
+			print(acumulado)	
+			dibujar_ahorcado(count)		
 			print("game over")	
 			count = 0
 			logro = ""
+			opciones , rndpalabra = continuacion(opciones)	
 			arr = np.chararray(len(rndpalabra ))
 			acumulado = np.chararray(len(rndpalabra ),unicode=True)
 			arr[:] = " "
-			letrasfallos = ""
-			letras = [letras for letras  in  rndpalabra]
+			letrasfallos = "fallos "
 			acumulado[:] =  "-"
-			opciones , rndpalabra = continuacion(opciones)	
+			letras = [letras for letras  in  rndpalabra]
 templatejuego()
