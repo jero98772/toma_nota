@@ -1,2 +1,2 @@
-algunos funcionan para algunos casos otros para otros  pero realmente no hay uno general o  uno que funcione como replace() exactamente
-pero dejo una un enlace con los intentos que hecho https://github.com/jero98772/creador_y_administrador_de_carpetas_y_archivos_para_tomar_nota/tree/master/clases/clase%23_8__pesnamineto_algorimico__2020-01-20 
+algunos funcionan para algunos casos otros para otros  pero realmente no hay uno general o  uno que funcione como replace() exactamente pero dejo una un enlace con los intentos que hecho 
+https://github.com/jero98772/creador_y_administrador_de_carpetas_y_archivos_para_tomar_nota/tree/master/clases/clase%23_8__pesnamineto_algorimico__2020-01-20/remplasos
