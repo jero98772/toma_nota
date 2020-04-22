@@ -2,7 +2,7 @@
 import numpy as np
 count = 0
 #mod = cantidad**2//13
-cantidad = int(input("parar poc ctrl + c un cantiadad de veces a contar :  ")) #elemntos
+cantidad = int(input("parar pon ctrl + c un cantiadad de veces a contar :  ")) #elemntos
 #array = pserand.random(mod = mod,veces=cantidad)
 #array = array.vector()
 array = np.random.default_rng()

@@ -7,31 +7,26 @@ def reemplazar(base, objetivo, nuevo):
 """
 def reemplazar(base,reemplazar,replaso):#en la que se va a palabra a reemplazar, palabra a reemplazar,  replaso
 	reemplazar = list(reemplazar+" ")
-	replaso = list(replaso)
+	replaso = list(replaso+" ")	
 	palabra = ""
-	frase = ""
-	pos = []
 	if len(reemplazar)<len(replaso):
 		length = len(base)-len(reemplazar)+len(replaso)
 		#extraspaces = len(reemplazar)+len(replaso)//2 era una idea para que quedaran mas espacios y poder meter las palabras
 		#extra = extraspaces*" "+base+" "*extraspaces
 		#print("extra",len(extra))
 		base = list(base)
-		for i in range(length):
-			base.append("")
+
 		print("<",length)
-		counter = 0
-		for count in range(length):
+		for count in range(length*10):
 			for i,j,k in zip(base,reemplazar,replaso):
-				counter +=1
-				if i == j and len(reemplazar) > counter  :
-					pos.append(1)
-					print(j)
+
+				print(i,j,k)
+				if i == j :
+
 					base[count] = k
-					#print(i,j,k,"se cumple")
-				else:
-					pos.append(0)
-		print(pos)
+					
+					print(i,j,k,"se cumple")
+
 	else:
 		#funciona
 		length = len(base)+(len(replaso)-len(reemplazar))
@@ -49,7 +44,6 @@ def reemplazar(base,reemplazar,replaso):#en la que se va a palabra a reemplazar,
 	print(base[:length])
 	for string in base[:length]:
 		palabra += string
-
 	return palabra
 # hacer una funcion como replace
 #base= "oma y opa"
@@ -93,4 +87,3 @@ funciona mas o menos con
 				base[count] = k
 
 """
-
