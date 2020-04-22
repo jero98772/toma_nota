@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>un vec</title>
+	<script type="text/javascript">
+	var vec = [1341,1441,141,1,5,51,5151,15,51,15,5,15]	
+	//document.write()
+	function imprimaunvector(...vec) {
+		astrid = ""
+		for (var i = 0; i < vec.length; i++) {
+		
+			if (vec.constructor == Array){
+				vector = vec[i]
+			}
+			else {
+				vector = [vec[i]]
+			}
+			if (i == 0 ){
+				astrid = vector
+			}
+			else{
+				astrid = astrid +","+vector
+			}
+		}
+			console.log(astrid)
+			document.write(String(astrid))
+	}
+	imprimaunvector(vec,"fdf",424,3.14159265359,3,22)
+	</script>
+</head>
+<body>
+
+</body>
+</html>
