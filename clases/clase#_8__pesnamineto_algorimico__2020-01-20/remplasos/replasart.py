@@ -8,10 +8,8 @@ def reemplazar(base,reemplazar,replaso):#en la que se va a palabra a reemplazar,
 	capusla.append(replaso)
 	uni = u"0x0000000"
 	for count,i,j,k in zip(range(length),base,reemplazar,replaso):
-
 		counter += 1
 		ultima = base.find(j)
-
 		if i == j :#and len(reemplazar) > counter   :
 			lbase[count] = str(uni.encode('ascii','ignore'))
 

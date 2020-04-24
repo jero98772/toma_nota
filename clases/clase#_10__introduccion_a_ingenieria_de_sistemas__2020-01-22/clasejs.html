@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+	/*function par(numero) {
+		if (numero % 2== 0) {
+		 console.log("es par")  
+		}
+		else{
+		console.log("es impar")
+		}
+		
+	}
+	function mayor3num(n1,n2,n3){
+		if (n1>n2 && n1>n3) {
+			console.log("n1 es mayor")
+		}
+		if else (n2>n1 && n2>n3) {
+			console.log("n2 es mayor")
+		}
+		else  {
+			console.log("n3 es mayor")
+		}
+
+	}*/
+	function terminaen3o7(vec) {
+		astrid = ""
+		for (var i = 0; i < vec.length; i++) {
+		
+			if (vec.constructor == Array){
+				vector = vec[i]
+			}
+			else {
+				vector = [vec[i]]
+			}
+			if (i ==0 ) {
+				if (vec[i] % 10  ==3  ){
+					console.log(vec[i],"es tiene 3 al final")
+					astrid = astrid +vector
+				}
+
+				if (vec[i] % 10  ==7  ){
+					console.log(vec[i],"es tiene 7 al final")
+					astrid = astrid +vector
+				}
+			}
+			else{
+				if (vec[i] % 10  ==3  ){
+				console.log(vec[i],"es tiene 3 al final")
+				astrid = astrid +","+vector
+				}
+
+				if (vec[i] % 10  ==7  ){
+					console.log(vec[i],"es tiene 7 al final")
+					astrid = astrid +","+vector
+				}
+			}
+
+		}
+			
+		return astrid
+	}
+	arre = terminaen3o7([7,3,41,41,5,73,15,17,51,66,13,6,1414151,1455,55647,242352,7,453345453])
+	console.log(arre)
+	
+
+
+	</script>
+	<title></title>
+</head>
+<body>
+
+</body>
+</html>
