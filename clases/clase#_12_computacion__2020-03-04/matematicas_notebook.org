@@ -16,3 +16,6 @@
 *** word size => cuando le preguntan de cuantos bits es su computador
 *** instruction set => la esencia de la maquina que la hace "unica" en su modelo y diseño
 ** https://www.tutorialspoint.com/basics_of_computers/basics_of_computers_microprocessor_concepts.htm
+** http://www.jfsowa.com/logic/math.htm
+*** se puede representar esto {x | vertebrate(x) and warmBlooded(x) and hasHair(x) and lactiferous(x)}  en python  ?
+****  si los dos son sets
