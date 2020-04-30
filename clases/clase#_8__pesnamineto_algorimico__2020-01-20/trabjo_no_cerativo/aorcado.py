@@ -205,7 +205,7 @@ def templatejuego():
 			adivinar(rndpalabra,palabracompleta)
 			opciones , rndpalabra = continuacion(opciones)
 		while opciones == "1" and count<vidas :
-			print("vidas:",vidas-count,"\t",letrasfallos)
+			print("lifes:",vidas-count,"\t",letrasfallos)
 			print(acumulado)	
 
 			dibujar_ahorcado(count)	
@@ -237,7 +237,7 @@ def templatejuego():
 							count += 1
 							letrasfallos +="-"+str(letra)
 				elif len(letra) > 1:
-					decion = input("try all or nothing, you sacrifice yourself for guessing the complete word [Y], you can't take back:  ").lower()
+					decion = input("try all or nothing, you sacrifice yourself for guessing the complete word [Y/N], you can't take back:  ").lower()
 					if decion == "y":
 							adivinar(rndpalabra,letra)
 							opciones , rndpalabra = continuacion(opciones)
@@ -249,6 +249,7 @@ def templatejuego():
 							letrasfallos = "fails "
 							acumulado[:] =  "-"
 							letras = [letras for letras  in  rndpalabra]
+					elif decion == "n":pass
 					else: count += 1		
 			if  "-" not in acumulado:
 				print(letrasfallos)
@@ -269,7 +270,7 @@ def templatejuego():
 			print(letrasfallos)
 			print(acumulado)	
 			dibujar_ahorcado(count)		
-			print("game over")	
+			print("game over ,the word is",rndpalabra)	
 			count = 0
 			logro = ""
 			opciones , rndpalabra = continuacion(opciones)	
