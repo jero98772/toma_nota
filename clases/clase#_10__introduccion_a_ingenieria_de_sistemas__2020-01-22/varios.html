@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<meta charset="utf-8">
+
+<script type="text/javascript">
+	function w(args){
+		document.write(args);
+	}
+	function clear() {
+		document.getElementById("fromobjet").reset(); 
+	}
+	function main() {
+
+	mayor = 0;
+	w('<input type="button" onclick ="main()" value="calcular">');
+	w('<p id="out"> </p>');
+	document.getElementById('out').innerHTML = out
+	for (var i =0;i<5; i++) {
+		 
+		 w('<input type="text" id="num'+String(eval(i))+'" value="'+String(eval(i))+'">')
+		 variables = document.getElementById('num'+String(eval(i))+'').value		
+		 eval('num'+String(eval(i))+'= variables')
+		 console.log(eval('num'+String(eval(i))+'= variables'))
+		 'num'+String(eval(i))
+		 eval('num'+String(eval(i))+'.value;')	 
+		 if  (eval('num'+String(eval(i))) > mayor) {
+
+		 	mayor = eval('num'+String(eval(i))) 
+		 }
+	}
+	clear()
+	w(mayor)
+	out.innerHTML = mayor
+	}
+	w('<form id="fromobjet">')
+
+	main()
+	w("</form>")
+	</script>
+
+	
+
+</html>

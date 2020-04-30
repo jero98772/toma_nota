@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<script type="text/javascript">
+	function divisores(num) {
+		larry = []
+		for (var i= 0;i< num;i++){
+			if (num % i == 0){
+				larry.push(i)
+			}
+
+		}
+		return larry
+	}
+	function nums() {
+	num1 = document.getElementById('num1')
+	num2 = document.getElementById('num2')
+
+	num2=num2.value;
+	num1=num1.value;
+	out = document.getElementById('out')
+	if (parseInt(num2) > parseInt(num1)){
+
+		divs = divisores(parseInt(num2) )
+		parafo = " del numero "+num2+"(es el mayor)"+ divs 
+}
+	else{
+		
+		divs = divisores(parseInt(num1))
+		parafo = " del numero "+num1+"(es el mayor)"+ divs
+	out.innerHTML = parafo 
+	}
+	}
+	</script>
+	<title></title>
+</head>
+<body>
+	<form>
+		
+	<input type="text" id="num1" value="2">
+	<input type="text" id="num2" value="1">
+	<p id="out"> </p>
+	<input type="button" onclick ="nums()" value="calcular">
+	</form>
+</body>
+</html>

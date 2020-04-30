@@ -1,9 +1,9 @@
-#!/usr/bin/env python 
 # -*- coding: UTF-8 -*-
 import random
 import numpy as np
 import time
 import subprocess
+
 
 def palabra_aleatoria():
     """
@@ -113,15 +113,15 @@ selecione un modo de juego
 (E)salir
 ======================================================================
 select a game mode
-(A) all or nothing, you sacrifice yourself for guessing the complete word
+(A) all or nothing, you sacrifice yourself for guessing the whole word
 (1) letter, put only 1 letter
 (C)reate word, good for multiplayer games
 (E)xit
 """).lower()
 	return opciones
-def adivinar(rndpalabra, palabracompleta):
-	#print(rndpalabra)#shhhhhhh
-	#palabracompleta = input("enter the word:  ").lower()
+def adivinar(rndpalabra):
+		#print(rndpalabra)#shhhhhhh
+	palabracompleta = input("enter the word:  ").lower()
 	if str(rndpalabra) == str(palabracompleta):# las palabras traen un salto de linea por defecto
 		print("correct, the word was",rndpalabra)
 	else :
@@ -201,55 +201,35 @@ def templatejuego():
 			opciones = adorno()
 		while opciones == "a" :
 			print("have ",len(rndpalabra)," leters")
-			palabracompleta = input("enter the word:  ").lower()
-			adivinar(rndpalabra,palabracompleta)
+			adivinar(rndpalabra)
 			opciones , rndpalabra = continuacion(opciones)
 		while opciones == "1" and count<vidas :
-			print("vidas:",vidas-count,"\t",letrasfallos)
+			print(letrasfallos)
 			print(acumulado)	
-
 			dibujar_ahorcado(count)	
 			if count == 0:
 				letra = input("what letter are you going to try ")
-				if len(letra) == 1:
-					for i in range(len(letras)):
-						if  str(letra) == str(letras[i]):
-							acumulado[i] = letras[i]
-					else:		
-						#if   (str(letra)  in acumulado[i]):
-						if not( letra in letras):
-							count += 1
-							letrasfallos +=str(letra)
+				for i in range(len(letras)):
+					if  str(letra) == str(letras[i]):
+						acumulado[i] = letras[i]
+				else:		
+					#if   (str(letra)  in acumulado[i]):
+					if not( letra in letras):
+						count += 1
+						letrasfallos +=str(letra)
 
-#en un juego normal no se adivina la palabra de 1 un intento por eso esta la opacion a que es otro tipo de juego
-
-				else: count += 1; print("cheat for that is modality a or try it after the first turn")	
 
 			elif 0<count<vidas :
 				letra = input("what letter are you going to try ")
-				if len(letra) == 1:
-					for i in range(len(letras)):
-						if  str(letra) == str(letras[i]):
-							acumulado[i] = letras[i]
-					else:		
-						#if   (str(letra)  in acumulado[i]):
-						if not( letra in letras):
-							count += 1
-							letrasfallos +="-"+str(letra)
-				elif len(letra) > 1:
-					decion = input("try all or nothing, you sacrifice yourself for guessing the complete word [Y], you can't take back:  ").lower()
-					if decion == "y":
-							adivinar(rndpalabra,letra)
-							opciones , rndpalabra = continuacion(opciones)
-							count = 0
-							logro = ""
-							arr = np.chararray(len(rndpalabra ))
-							acumulado = np.chararray(len(rndpalabra ),unicode=True)
-							arr[:] = " "
-							letrasfallos = "fails "
-							acumulado[:] =  "-"
-							letras = [letras for letras  in  rndpalabra]
-					else: count += 1		
+				for i in range(len(letras)):
+					if  str(letra) == str(letras[i]):
+						acumulado[i] = letras[i]
+				else:		
+					#if   (str(letra)  in acumulado[i]):
+					if not( letra in letras):
+						count += 1
+						letrasfallos +="-"+str(letra)
+			
 			if  "-" not in acumulado:
 				print(letrasfallos)
 				print(acumulado)	
