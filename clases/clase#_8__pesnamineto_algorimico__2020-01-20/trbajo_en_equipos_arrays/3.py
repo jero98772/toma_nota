@@ -4,7 +4,6 @@ import numpy as np
 def par_o_impar(entrada): 
 	impar = []
 	par = []
-	size = 10
 	for i in entrada:
 		if i % 2 == 0:
 		    par.append(i)
@@ -14,7 +13,10 @@ def par_o_impar(entrada):
 def randomvecint(size):
 	vec = np.zeros(size)
 	for i in range(len(vec)):
-		vec[i] =random.randint(0, 10)
+		#i = int(input("input para array"))
+		rnd=random.randint(0, size)
+		print(rnd)
+		vec[i] =rnd#random.randint(0, size)
 	return vec	
-size = 10
+size = 20
 print(par_o_impar(randomvecint(size)))
