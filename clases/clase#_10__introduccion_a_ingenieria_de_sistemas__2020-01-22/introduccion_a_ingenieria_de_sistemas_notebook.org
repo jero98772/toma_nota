@@ -97,4 +97,8 @@
 *** 16
 *** 5
 *** 7
-
+* bases de datos
+** 1 que aplicaciones tienen multiples tablas 
+** 2 como se alcena una imagen
+** 3 que es PHPMYADMIN R/:una serie de programas para administracion web
+** 4

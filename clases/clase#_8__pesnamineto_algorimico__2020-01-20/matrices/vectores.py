@@ -50,7 +50,7 @@ class vectors():
 		
 		for k in range(len(self.m2)):
 			self.m3=np.zeros((len(self.m2),len(self.m2[k])))
-		if len(self.m1[0]) == len(self.m2) and  len(self.m2[0]) == len(self.m1):
+		if len(self.m1[0]) == len(self.m2):
 			for i in range(len(self.m1)):
 				for j in range(len(self.m1[i])):
 					for k in range(len(self.m2[i])):
@@ -127,7 +127,7 @@ larry2 = [[21,4,4],[14,53,24],[21,1,21]]
 larry = [[21,1,4],[1,53,1],[21,1,21]]
 print("multi larry\n",V.matrixmult(larry,larry))
 print("")
-print("3 larrys sumados\n",V.matrixsum(larry,V.matrixsum(larry,larry)))#,[[1,1,4],[21,3,41]]))
+print("3 larrys sumados\n",V.matrixsum(larry, [[21,4,4],[14,53,24],[21,1,21]]))#,[[1,1,4],[21,3,41]]))
 print("")
 print("\n  larry asarray \n",np.asarray(larry))
 print("")
