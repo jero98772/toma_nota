@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ejecio 3</title>
+	<script type="text/javascript">
+		function alreves(s){
+    		return s.split("").reverse().join("");
+		}
+		function primos (numero){
+			r = true
+			for(var i = 2; i<=numero-1; i++) {
+		        if((numero % i == 0)) {
+		            r = false
+		        }
+		    }
+
+		    return r
+		}
+		function perfecto(numero){
+			suma = 0
+			for(var i = 1; i < numero; i++) {
+		        if(numero % i == 0) {
+		            suma += i 
+		            if (suma == numero){
+		            	return true
+		            }
+		            else{
+		            	return false
+		            }
+		        }
+		    }
+		} 
+		function divisoresmayor(numero,mayor){
+			suma = 0
+			for(var i = 0; i < numero; i++) {
+		        if(numero % i == 0) {
+		            suma += i 
+            	}
+            }
+            if (suma > mayor){
+            	return true
+            }
+            else{
+            	return false
+            
+		        
+		    }
+		} 
+		function cifras_igual_a(numero,igual){
+			suma = 0
+			numerostr = String(numero)
+			for(var i = 0; i < numerostr.length; i++) {
+		        suma += parseInt(numerostr[i])
+
+            }
+            if (suma == igual){
+            	return true
+            }
+            else{
+            	return false
+            
+		        
+		    }
+		} 
+		function main(intentos) {	
+			parrafo = document.getElementById('arreglo')
+			elemntalreves = document.getElementById('alreves')
+			elemntprimo = document.getElementById('primo')
+			elemntperfecto = document.getElementById('perfecto')
+			divisoressumados = document.getElementById('divisoressumados')
+			digitos = document.getElementById('cifras_igual_a')
+			laryyalreves =[]
+			laryyalreves.push(' los capicua son:     ')
+			larryprimo = []
+			larryprimo.push('los numeros primos son:     ')
+			larryperfecto = []
+			larryperfecto.push('los numeros perfectos son:     ')
+			divisoresmayoresa = []
+			divisoresmayoresa.push('suma divisores mayores a 150:     ')
+			digitos_igualados = []
+			digitos_igualados.push('digitos que sumen 15:     ')
+			count = 0
+			larry = []
+			while (count < intentos){
+				rndnum3 = parseInt(Math.random()*1000)
+				for(var i = 0;i<=rndnum3;++i){
+					primo = primos(rndnum3) 
+					esperfecto = perfecto(rndnum3)
+					digitos_iguales = cifras_igual_a(rndnum3,15)
+					sumadivisores = divisoresmayor(rndnum3,150)
+					if  (primo  || (alreves(String(rndnum3)) == String(rndnum3)) ||esperfecto || sumadivisores || digitos_iguales){
+
+
+
+						console.log(rndnum3)
+						console.log("alreves",alreves(String(rndnum3)) == String(rndnum3))
+						console.log("primo",primo)
+						console.log("perfecto",esperfecto)
+						console.log("suma divisores mayores a 150",sumadivisores)
+						console.log("cifras igual a",sumadivisores)
+						larry.push(rndnum3)
+						count += 1
+					
+						}
+					if (alreves(String(rndnum3)) == String(rndnum3))laryyalreves.push(rndnum3)
+
+					if (primos(rndnum3))larryprimo.push(rndnum3)
+
+					if (perfecto(rndnum3))larryperfecto.push(rndnum3)	
+
+					if (primos(rndnum3))larryprimo.push(rndnum3)
+
+					if (divisoresmayor(rndnum3,150))divisoresmayoresa.push(rndnum3)
+						
+					if (cifras_igual_a(rndnum3,15))digitos_igualados.push(rndnum3)
+						break
+
+					}
+				}
+
+			elemntalreves.innerHTML=laryyalreves
+			elemntprimo.innerHTML = larryprimo
+			elemntprimo.perfecto = larryperfecto
+			divisoressumados.innerHTML=divisoresmayoresa
+			digitos.innerHTML= digitos_igualados
+			
+			parrafo.innerHTML = String(larry)
+			}
+		
+	</script>
+</head>
+<body>
+		<p id="alreves"></p>
+		<p id="primo"></p>
+		<p id="perfecto"></p>
+		<p id="divisoressumados"></p>
+		<p id="cifras_igual_a"></p>
+		<p id="arreglo"></p>
+		
+		<input type="submit" id="btn" onclick="main(10)" value="otra vez">
+</body>
+</html>

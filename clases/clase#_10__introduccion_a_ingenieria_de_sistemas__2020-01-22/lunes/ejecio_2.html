@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>ejecio 2</title>
+	<script type="text/javascript">
+		clicks = 0
+		function divisores(intentos){
+			parrafo = document.getElementById('arreglo')
+			divisores = document.getElementById("divisores")
+			larrys_numeros = []
+			Flarrys_divisores = []// familia larry y sus divisores
+			for(var i =0;i<intentos;++i){
+				rndnum3 = parseInt(Math.random()*1000)
+				larrys_numeros.push(rndnum3)
+				larrys_divisores = [] 
+				for (var j= 0 ;j<rndnum3;++j ){
+					if (rndnum3%j==0)larrys_divisores.push(j)
+				}
+			Flarrys_divisores.push(larrys_divisores) 
+			Flarrys_divisores.push(["del numero "+String(rndnum3)+" y tiene "+String(larrys_divisores.length)+"  divisores <br>"])
+			}
+ 			
+			parrafo.innerHTML = larrys_numeros
+			divisores.innerHTML = Flarrys_divisores
+			}
+
+
+	</script>
+</head>
+<body>
+	
+		
+		<br>
+		<p id="arreglo"></p>
+		<p id="divisores"></p>
+		<input type="submit" id="btn" onclick="divisores(10)" value="otra vez">
+</body>
+</html>

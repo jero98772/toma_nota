@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+	function ingrese6num(cantidad){
+	mayor = 20
+	suma = 0
+	promedio  = 0
+	for(var i=0;i<parseInt(cantidad);++i){
+	
+		num = parseInt(prompt("cantidad de numeros ingresados "+String(i+1)+"(se toman en cuanta los que son menor que "+String(mayor)+")" ));
+		if (num < mayor){
+			suma = suma +num
+
+		}
+
+	}
+	promedio = suma/parseInt(cantidad)
+	return promedio 
+	}
+	function elnumeral6(){
+		cantidad = 20
+		larry = []
+		for(var i= 0;i<cantidad;++i){
+			numero = parseInt(Math.random()*100)
+
+			if (numero % 10 == 7 || parseInt(numero/10)+parseInt(numero%10)>16 || !(numero%i==0)){
+				/*if ( !(numero%i==0)){
+					console.log(numero,"el de 16",parseInt(numero/10)+parseInt(numero%10))
+					if (parseInt(numero/10)+parseInt(numero%10)>16){
+			}}*/
+			console.log(numero,"primo",!(numero%i==0))
+			console.log(numero,"el de 16",parseInt(numero/10)+parseInt(numero%10)<16)
+			console.log(numero,"termina en 7",numero % 10 == 7)
+		}
+	}
+	larry.push("array",numero)
+	}
+	elnumeral6()
+	document.write("el ejercio numero 3  el promedio es  ",ingrese6num(6),"<br>")
+	document.write("porfavor mire la consola donde se esta ejecutando el ejercio numero 6")
+	</script>
+
+		
+	<title>actividad</title>
+</head>
+<body>
+
+</body>
+</html>

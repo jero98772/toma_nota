@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>ejecio 1</title>
+	<script type="text/javascript">
+		clicks = 0
+		function intentar(intentos){
+			parrafo = document.getElementById('parrafo')
+			number = document.getElementById("inpt")
+			numero =  parseInt(number.value)
+			clicks += 1
+			document.getElementById('clicks').innerHTML = clicks;
+			j=clicks
+			for(var i =1;i<intentos+1;++i){
+				intento = "<br>intentos "+String(i)
+				if (-100>numero || numero< 100){//para que este entre esas 2 cifras
+					rndnum2 = parseInt(Math.random()*100)
+					if (rndnum2 == numero ){
+						parrafo.innerHTML ="ganastes correcto era  "+ String(rndnum2)+intento 
+						}
+
+					else{
+					parrafo.innerHTML = "a que pena perdistes ,los numeros eran <br> numero aleatorio  "+String(rndnum2)	+"<br> numero ingresado  "+String(numero )+intento 
+						}
+
+				}
+				else{
+				parrafo.innerHTML = "no estas ingresado un numero de 2 digitos"+intento 
+				}
+
+			}
+		if (clicks+1>intentos+1){
+				parrafo.innerHTML = "reiniciando juego"+intento 
+			}
+			}
+
+
+
+	</script>
+</head>
+<body>
+	
+		
+		<input type="" id="inpt"> un numero de 2 digitos
+		<br>
+		<p id="parrafo"></p>
+		<input type="submit" id="btn" onclick="intentar(5)" value="confirmar intento">
+		<a id="clicks">0</a>
+</body>
+</html>
