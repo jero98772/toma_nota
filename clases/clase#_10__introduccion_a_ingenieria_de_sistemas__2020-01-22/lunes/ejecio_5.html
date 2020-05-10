@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
 	<title>ejecio 5</title>
 	<script type="text/javascript">
 	function promedio(larry){
@@ -20,12 +21,30 @@
 			larry[i]
 			if (i == 0){
 				nummayor = larry[i]
+				pos = i
 			}
 			while (nummayor<larry[i]){
 				nummayor = larry[i]
+				pos = i
 			}
 		}
-		return nummayor 
+		retorno =[ nummayor, pos]
+		return retorno
+	}
+	function menor(larry){
+		for(var i= 0;i<larry.length;++i){
+			larry[i]
+			if (i == 0){
+				nummenor = larry[i]
+				pos = i
+			}
+			while (nummenor<larry[i]){
+				nummenor = larry[i]
+				pos = i
+			}
+		}
+		retorno =[ nummenor, pos]
+		return retorno
 	}
 	function eliminar(larry,eliminar){
 			numeliminar = larry.indexOf(eliminar);
@@ -36,33 +55,147 @@
 	}
 	function diascalor(larry,veces){
 		temperaturas = []
+		dias = []
 		for(var i= 0;i<veces;++i){
-			nummayor = mayor(larry)
+			numeromayor= mayor(larry)
+			nummayo= numeromayor[0]
+			dia = numeromayor[1]
 			temperaturas.push(nummayor)
+			dias.push(dia)
 			larray = eliminar(larry,nummayor)
 		}
-		return temperaturas
+		retorno =  [temperaturas, dias]
+		return retorno 
 	}
 	function cercanasprom(larry,veces){
 		temperaturas = []
-		diferencias_abs = []
-		for(var i= 0;i<veces;++i){
+		valorescercanos = []
+		paraallardif = []
+		dias = []
+		/*for (var j= 0;j<larry.length;++j){
 			prom = promedio(larry)
-			temperaturas.push(prom)
-			larry = eliminar(larry,temperaturas[i] )
+			resta = prom - larry[j]
+			abs = (((resta )**2)**(1/2)) 
+			paraallardif.push(abs)
 		}
-		return temperaturas
+		for(var i= 0;i<veces;++i){
+			unvalorcercano = menor(paraallardif)
+			nummenor = unvalorcercano[0]
+			dia = unvalorcercano[1]
+			dias.push(dia)
+			valorescercanos.push(nummenor)
+			paraallardif = eliminar(paraallardif,nummenor )
+
+		}
+		*/
+		for (var j= 0;j<larry.length;++j){
+			prom = promedio(larry)
+			deformacion =  larry[j]+prom/larry[j]-prom 
+			abs = (((deformacion )**2)**(1/2)) 
+			paraallardif.push(deformacion)
+		}
+			for(var i= 0;i<veces;++i){
+			unvalorcercano = menor(paraallardif)
+			nummenor = unvalorcercano[0]
+			dia = unvalorcercano[1]
+			dias.push(dia)
+			valorescercanos.push(nummenor)
+			paraallardif = eliminar(paraallardif,nummenor )
+
+		}
+		return dias
+	}
+	function quincenamasfria(larry){
+		quincena1 = larry.slice(0,larry.length/2)
+		quincena2 = larry.slice(larry.length/2,larry.length)
+
+		prom1 = promedio(quincena1)
+		prom2 = promedio(quincena2)
+		if (prom2 > prom1){
+			return "la primera quincena fue mas fria"
+		}
+		else if (prom2 < prom1){
+			return "la segunda quincena fue mas fria"
+		}
+	}
+	function los10diasmascalidos(larry){
+		parte1 = larry.slice(0,larry.length/3)
+		parte2 = larry.slice(larry.length/3,-larry.length/3)
+		parte3 = larry.slice(-larry.length/3,larry.length)
+		prom1 = promedio(parte1)
+		prom2 = promedio(parte2)
+		prom3 = promedio(parte3)
+		console.log("parte2",parte3)
+		if (prom1> prom2  && prom1> prom3 ){
+			return "los primeros 10 dias fueron mas calurosos"
+		}
+		else if(prom2> prom1  && prom2> prom3 ){
+			return "los segundos 10 dias fueron mas calurosos"
+		}
+		else if(prom3 > prom1  && prom3> prom2 ){
+			return "los terceros(ultimos) 10 dias fueron mas calurosos"
+		}
+	}
+	function mediana(larry){
+		median = larry.slice(larry.length/2,(larry.length/2)+1)
+		return median
 	}
 	function main() {
-		temp = [32.781512605042,30.0442510646177,28.7551633496057,28.0938812785388,27.9387265590929,28.3262952448545,28.8950738040192,29.0157020266569,29.7682746998104,28.0744037023852,27.3535281539558,27.5033892258295,27.0153270361789,27.7420423183073,27.9370078740157,27.5308728354032,28.4735555943446,29.929996499825,29.679020979021,29.9958085923856,29.8216102438169,29.1800840042002,28.786463798531,30.0020982689281,30.0867516145924,30.803723681921,30.915331010453,30.6010462074978,30.7427624694803,30.7099582172702,31.1616288832914]//sacado de http://daquina.io/aqaviz/
-		console.log(diascalor(temp,3))
-		console.log(cercanasprom(temp,3))
+		dias3calor = document.getElementById('diascalor')
+		cerca3nasprom = document.getElementById('cercanasprom')
+		quincenamasfria15 = document.getElementById('quincenamasfria')
+		losdiasmascalidos = document.getElementById('los10diasmascalidos')
+		medna = document.getElementById('mediana')
+		temperatura = document.getElementById('temperatura')
+		temp = [32.781512605042,30.0442510646177,28.7551633496057,28.0938812785388,27.9387265590929,28.3262952448545,28.8950738040192,29.0157020266569,29.7682746998104,28.0744037023852,27.3535281539558,27.5033892258295,27.0153270361789,27.7420423183073,27.9370078740157,27.5308728354032,28.4735555943446,29.929996499825,29.679020979021,29.9958085923856,29.8216102438169,29.1800840042002,28.786463798531,30.0020982689281,30.0867516145924,30.803723681921,30.915331010453,30.6010462074978,30.7427624694803,31.781512605042]//sacado de http://daquina.io/aqaviz/
+		console.log(temp[5])
+		prome = promedio(temp)
+		diascalor= diascalor(temp,3)
+		enlosdias = diascalor[1]
+		diasmascalor= diascalor[0]
+		cercanaspromedio = cercanasprom(temp,3)
+		quincenamasfria = quincenamasfria(temp)
+		diascalidos = los10diasmascalidos(temp)
+		median = mediana(temp)
+
+		console.log("Los tres días más calurosos "+String(diasmascalor),+" en los dias "+String(enlosdias))
+		console.log(" Los tres días con la temperatura más cernas al promedio "+String(cercanaspromedio),"con un promedio de ",prome)
+		console.log(" Cuál de las dos quincenas fue más fría"+String(quincenamasfria))
+		console.log("Cuál de las tres periodos de diez días  (10 días)  fue la más cálida"+String(diascalidos))
+		console.log(" Determine la mediana de las temperaturas (la más cercana al promedio, en que di del mes ocurrió?)"+String(median))
+
+
+		dias3calor.innerHTML= " Los tres días más calurosos "+String(diasmascalor)+" en los dias "+String(enlosdias)
+		cerca3nasprom.innerHTML= " Los tres días con la temperatura más cernas al promedio "+String(cercanaspromedio)+"con un promedio de "+String(prome)
+		quincenamasfria15.innerHTML= " Cuál de las dos quincenas fue más fría"+String(quincenamasfria)
+		losdiasmascalidos.innerHTML= "Cuál de las tres periodos de diez días  (10 días)  fue la más cálida"+String(diascalidos)
+		medna.innerHTML= " Determine la mediana de las temperaturas (la más cercana al promedio, en que di del mes ocurrió?)"+String(median)
+		temperaturas = ""
+		for(var i= 0;i<temp.length;++i){
+			if (i==1){
+				temperaturas += "<br> tempertutas <br>"+temp[i]
+			}
+			else if (i%5==0) {
+				temperaturas += ","+temp[i]+"<br>"
+			}
+			else{
+
+			temperaturas += ","+temp[i]
+			}
+		}
+		temperatura.innerHTML = temperaturas
 	}
 </script>
 </head>
 <body>
 
-	
+		<p id="diascalor"></p>
+		<p id="cercanasprom"></p>
+		<p id="quincenamasfria"></p>
+		<p id="los10diasmascalidos"></p>
+		<p id="mediana"></p>
+		<p id="2diasparecidos"></p>
+		<p id="temperatura"></p>
 	<input type="submit" id="btn" onclick="main()" value="calcular">
 </body>
 </html>
