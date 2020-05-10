@@ -3,10 +3,66 @@
 <head>
 	<title>ejecio 5</title>
 	<script type="text/javascript">
-		
-	</script>
+	function promedio(larry){
+		suma = 0
+		cantidad = larry.length
+		for(var i= 0;i<cantidad ;++i){
+			suma += larry[i]
+		}
+		prome = suma/cantidad 
+	
+		return prome
+
+
+	}
+	function mayor(larry){
+		for(var i= 0;i<larry.length;++i){
+			larry[i]
+			if (i == 0){
+				nummayor = larry[i]
+			}
+			while (nummayor<larry[i]){
+				nummayor = larry[i]
+			}
+		}
+		return nummayor 
+	}
+	function eliminar(larry,eliminar){
+			numeliminar = larry.indexOf(eliminar);
+			if (numeliminar > -1) {
+			  larry.splice(numeliminar, 1);
+			}
+			return larry
+	}
+	function diascalor(larry,veces){
+		temperaturas = []
+		for(var i= 0;i<veces;++i){
+			nummayor = mayor(larry)
+			temperaturas.push(nummayor)
+			larray = eliminar(larry,nummayor)
+		}
+		return temperaturas
+	}
+	function cercanasprom(larry,veces){
+		temperaturas = []
+		diferencias_abs = []
+		for(var i= 0;i<veces;++i){
+			prom = promedio(larry)
+			temperaturas.push(prom)
+			larry = eliminar(larry,temperaturas[i] )
+		}
+		return temperaturas
+	}
+	function main() {
+		temp = [32.781512605042,30.0442510646177,28.7551633496057,28.0938812785388,27.9387265590929,28.3262952448545,28.8950738040192,29.0157020266569,29.7682746998104,28.0744037023852,27.3535281539558,27.5033892258295,27.0153270361789,27.7420423183073,27.9370078740157,27.5308728354032,28.4735555943446,29.929996499825,29.679020979021,29.9958085923856,29.8216102438169,29.1800840042002,28.786463798531,30.0020982689281,30.0867516145924,30.803723681921,30.915331010453,30.6010462074978,30.7427624694803,30.7099582172702,31.1616288832914]//sacado de http://daquina.io/aqaviz/
+		console.log(diascalor(temp,3))
+		console.log(cercanasprom(temp,3))
+	}
+</script>
 </head>
 <body>
 
+	
+	<input type="submit" id="btn" onclick="main()" value="calcular">
 </body>
 </html>

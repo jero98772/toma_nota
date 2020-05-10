@@ -3,10 +3,41 @@
 <head>
 	<title>ejecio 4</title>
 	<script type="text/javascript">
-		
+	puntaje1 = []
+	puntaje2 = []
+	puntaje3 = []
+	puntaje4 = []
+	function main() {
+
+		resultado1 = parseInt(document.getElementById('resultado1').value)
+		resultado2 = parseInt(document.getElementById('resultado2').value)
+		resultado3 = parseInt(document.getElementById('resultado3').value)
+		resultado4 = parseInt(document.getElementById('resultado4').value)
+		puntaje1.push(resultado1)
+		puntaje2.push(resultado2)
+		puntaje3.push(resultado3)
+		puntaje4.push(resultado4)
+		console.log(puntaje1)
+		}
+
 	</script>
 </head>
 <body>
+		<input type="submit" id="btn1" onclick="document.getElementById('resultado1').innerHTML = parseInt(Math.random()*100)%7" value="tirar dado jugador 1 para generar nuevo numero ">
+		<p id="resultado1"></p>
 
+		<input type="submit" id="btn2" onclick="document.getElementById('resultado2').innerHTML = parseInt(Math.random()*100)%7
+	" value="tirar dado jugador 2 para generar nuevo numero ">
+		<p id="resultado2"></p>
+
+		<input type="submit" id="btn3" onclick="document.getElementById('resultado3').innerHTML = parseInt(Math.random()*100)%7
+	" value="tirar dado jugador 3 para generar nuevo numero ">
+		<p id="resultado3"></p>
+
+		<input type="submit" id="btn4" onclick="document.getElementById('resultado4').innerHTML = parseInt(Math.random()*100)%7
+	" value="tirar dado jugador 4 para generar nuevo numero ">
+		<p id="resultado4"></p>
+
+		<input type="submit" id="btn" onclick="main()" value="jugar">
 </body>
 </html>

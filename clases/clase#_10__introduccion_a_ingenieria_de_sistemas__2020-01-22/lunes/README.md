@@ -22,9 +22,14 @@ e) La suma de las cifras del número es igual a 15.
 
 5. En un arreglo de 30 posiciones se almacenan las temperaturas de los 30 días de un mes, determine.
 a) Los tres días más calurosos
+
 b) Los tres días con la temperatura más cernas al promedio
+
 c) Cuál de las dos quincenas fue más fría
+
 d) Cuál de las tres periodos de diez días  (10 días)  fue la más cálida
+
 e) Determine la mediana de las temperaturas (la más cercana al promedio, en que di del mes ocurrió?)
+
 f) Que (dos) días del mes tuvieron la temperatura más parecida.
 
