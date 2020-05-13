@@ -1,7 +1,8 @@
 import cv2
+import matplotlib.image as mpi
 import matplotlib.pyplot as plt
 import numpy as np
-
+"""
 img = "b.jpeg"
 img = cv2.imread(img,cv2.IMREAD_GRAYSCALE)
 #cv2.imshow('ventana1',img)
@@ -41,4 +42,19 @@ for im,count in zip(img,range(len(img))) :
 print(img)
 #plt.plot(img)
 #plt.show()
+"""
 
+file = "data/b.jpeg"
+def prosear_img(file):
+    datos = mpi.imread(file)
+    
+    return datos
+def mostrar(datos):
+    f = plt.figure()
+    f.add_subplot(1,2,1)
+    plt.imshow(datos)
+    plt.show()
+    
+datos = prosear_img(file)
+print(datos)
+mostrar(datos)

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ejecio 4</title>
+	<script type="text/javascript">
+	puntaje1 = []
+	puntaje2 = []
+	puntaje3 = []
+	puntaje4 = []
+	function mayor(larry){
+		for(var i= 0;i<larry.length;++i){
+			larry[i]
+			if (i == 0){
+				nummayor = larry[i]
+				pos = i
+			}
+			while (nummayor<larry[i]){
+				nummayor = larry[i]
+				pos = i
+			}
+		}
+		retorno =[ nummayor, pos]
+		return retorno
+	}
+	function main() {
+		random1 = parseInt(Math.random()*100)%7
+		random2 = parseInt(Math.random()*100)%7
+		random3 = parseInt(Math.random()*100)%7		
+		random4 = parseInt(Math.random()*100)%7
+		document.getElementById('resultado1').innerHTML = "juagdor1  "+String(random1)
+		document.getElementById('resultado2').innerHTML = "juagdor2  "+String(random2)
+		document.getElementById('resultado3').innerHTML = "juagdor3  "+String(random3)
+		document.getElementById('resultado4').innerHTML = "juagdor4  "+String(random4)
+		juego = document.getElementById('gano')
+
+/*		resultado1 = parseInt(document.getElementById('resultado1').value)
+		resultado2 = parseInt(document.getElementById('resultado2').value)
+		resultado3 = parseInt(document.getElementById('resultado3').value)
+		resultado4 = parseInt(document.getElementById('resultado4').value)*/
+		Tpuntaje =[random1,random2,random3,random4]
+		Tpuntajes =[puntaje1,puntaje2,puntaje3,puntaje4]
+
+		desepate = false
+		mensaje  = ""
+		juadores = 4
+		//for(var i = 0;i<juadores;i++){
+			//for(var j = 0;j<juadores;j++){
+				//console.log(Tpuntaje[i],Tpuntaje[j])
+
+				if (Tpuntaje[1] == Tpuntaje[2] || Tpuntaje[1] == Tpuntaje[3] || Tpuntaje[1] == Tpuntaje[4]) {
+
+					mensaje +=  "desempate con el jugador 1 "
+				}
+				if (Tpuntaje[2] == Tpuntaje[1] || Tpuntaje[2] == Tpuntaje[3] ||Tpuntaje[2] == Tpuntaje[4]) {
+
+					mensaje +=  "desempate  con el jugador 2 "
+				}
+				if (Tpuntaje[3] == Tpuntaje[1] || Tpuntaje[3] == Tpuntaje[2] || Tpuntaje[3] == Tpuntaje[4]) {
+
+					mensaje +=  "desempate  con el jugador 3 "
+				}
+				if (Tpuntaje[4] == Tpuntaje[1] || Tpuntaje[4] == Tpuntaje[2] || Tpuntaje[4] == Tpuntaje[3]) {
+
+					mensaje +=  "desempate  con el jugador 4 "
+				}
+				if (!(Tpuntaje[1] == Tpuntaje[2] || Tpuntaje[1] == Tpuntaje[3] || Tpuntaje[1] == Tpuntaje[4])){
+					numayor= mayor(Tpuntaje)
+					mensaje =  "gano el  "+numayor[0] +"  con el jugador "+parseInt(numayor[1]+1)
+	
+			//console.log(Tpuntajes)
+		}
+		juego.innerHTML  = mensaje
+		
+
+		puntaje1.push(random1)
+		puntaje2.push(random2)
+		puntaje3.push(random3)
+		puntaje4.push(random4)
+		}
+
+	</script>
+</head>
+<body>
+		<p>jugador-/- resutado dado </p>
+		<p id="resultado1"></p>
+
+
+		<p id="resultado2"></p>
+
+
+		<p id="resultado3"></p>
+
+
+		<p id="resultado4"></p>
+
+		<input type="submit" id="btn" onclick="main()" value="jugar">
+		<p id="gano"></p>
+
+</body>
+</html>
