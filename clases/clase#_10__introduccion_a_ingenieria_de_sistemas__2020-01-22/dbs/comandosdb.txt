@@ -1,0 +1,14 @@
+CREATE TABLE jugadores (cc TEXT PRIMARY KEY,
+						nombre TEXT NOT NULL,
+						fecha_nacimiento TEXT NOT NULL,
+						estatura REAL,
+						pocison TEXT  NOT NULL)
+INSERT INTO jugadores VALUES ("112121","agapito","lucimi","arqeuro","1.45")
+INSERT INTO jugadores VALUES ("112120","anamia","riqota","defensa","1.40")
+SELECT * FROM jugadores 
+SELECT * FROM jugadores WHERE nombre like '%a%' <para ver donde tiene a o la letra que hay en '%a%'  >
+SELECT * FROM  jugadores WHERE estatura <(SELECT  avg(estatura) FROM jugadores)
+suma de las estauras mas bajos --> SELECT sum(pocison) FROM  ( SELECT * FROM  jugadores WHERE pocison <(SELECT  avg(pocison) FROM jugadores))
+el promedio la estaura de los que nos juegan --> se intento -->SELECT avg(pocison) FROM juegadores WHERE estatura = "arqeuro"
+los nombres que tienen la letra i -->SELECT * FROM jugadores WHERE nombre like '%i%' 
+
