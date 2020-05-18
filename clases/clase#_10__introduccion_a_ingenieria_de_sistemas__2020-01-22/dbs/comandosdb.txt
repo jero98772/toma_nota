@@ -12,3 +12,22 @@ suma de las estauras mas bajos --> SELECT sum(pocison) FROM  ( SELECT * FROM  ju
 el promedio la estaura de los que nos juegan --> se intento -->SELECT avg(pocison) FROM juegadores WHERE estatura = "arqeuro"
 los nombres que tienen la letra i -->SELECT * FROM jugadores WHERE nombre like '%i%' 
 
+insert into <tables> values (valor 1,valor 2.....)
+
+CREATE TABLE paciente (dni TEXT PRIMARY KEY,nombre TEXT NOT NULL ,apellido TEXT NOT NULL , email TEXT, estatura REAL,tiposangre TEXT NOT NULL);
+
+CREATE table ventas (cod INTEGER PRIMARY KEY AUTOINCREMENT, descripcion TEXT NOT NULL, valor float, cantidad INTEGER NOT NULL, dni_cliente TEXT REFERENCES clientes(dni))
+
+CREATE TABLE clientes(dni TEXT PRIMARY KEY,nombre TEXT NOT NULL ,apellido TEXT NOT NULL , email TEXT, estatura REAL)
+
+INSERT INTO clientes VALUES ("1312t92", "sapo","apo","no8a",141)
+
+SELECT * from clientes
+
+CREATE table ventas (cod INTEGER PRIMARY KEY AUTOINCREMENT, descripcion TEXT NOT NULL, valor float, cantidad INTEGER NOT NULL, dni_cliente TEXT REFERENCES clientes(dni))
+INSERT INTO ventas VALUES ("1313", "perro",2,5,"13124142")
+SELECT * from ventas
+
+
+drop sirve para crear la tabla
+
