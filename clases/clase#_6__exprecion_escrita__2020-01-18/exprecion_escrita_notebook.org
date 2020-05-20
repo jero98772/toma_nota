@@ -174,10 +174,61 @@
 * para el libro de mario mendosa es el 20 de mayo
 ** borrador tesis -argumento-conlcusion
 ** parrafo introductorio
-*** por que escribir escibir es trasmitir arte  
+*** por que escribir escibir es trasmitir arte este texto va hablar de esto   
 ** tesis
 *** que cuando uno escibe  es trasmite conisimineto y dejar lo volando ideas y pensamientos
 ** argumnto
 *** escribir hace parte de plasmar algo en una entidad como en papel , en pergaminos. que quedan por un tiempo  ,en esa entidad mientras que esa entidad exista el conosimiento seguira ahi  mientras uno quiera escribir y trasmitir conosimineto.
 ** conclucion resumen de lo que se descubrio y lo que no sabia
 *** trasmitira conosiminetos y sensaciones 
+* clase 18-05-2020
+* conectores de fernado vasques rodriges
+** que es un conector
+** cuales son los
+** conectores causa efecto
+*** la idea de los conetores causa-efecto es presentar tanto las causas como las consecuencias de hechos específicos.
+** conectores adicion
+*** son usados para añadir información o reforzar esta
+** conectores tiempo
+*** indican el momento en que sucede una acción.
+** conectores apliacion
+*** ayudan a estructurar un disurso con la finalidad de ampliarlo
+** conectores comparacion
+*** son frases o palabras que introducen a una comparacion
+** conectores enfafis
+***  permite dar a captar la atención sobre una idea.
+** conectores orden
+*** los conectores que indican un orend
+** conectors cambio perspectiva
+*** palntean otra vison de algo
+** conectores finalisacion o resumen
+** que hacer con ellos
+*** escribir conector al inicio de cada parrafo
+** cybergarfia
+*** https://educacion.elpensante.com/conectores-de-causa-efecto/
+*** https://www.lifeder.com/conectores-de-adicion/
+*** https://www.gramaticas.net/2016/11/ejemplos-de-conectores-de-tiempo.html
+*** https://www.gramaticas.net/2016/11/ejemplos-de-conectores-de-ampliacion.html
+*** https://www.gramaticas.net/2016/11/ejemplos-de-conectores-de-comparacion.html
+*** https://www.gramaticas.net/2016/11/ejemplos-de-conectores-de-enfasis.html
+*** https://www.gramaticas.net/2013/03/ejemplos-de-conectores-de-orden.html
+*** https://educacion.elpensante.com/cambio-de-perspectiva-conectores/
+* para cuando el borrador 
+** para la proxima clase (clase del 25)
+* borrador por partes el final
+* borrador final   parrafo introductorio-tesis -argumento-conlcusion quedraia
+** parrafo introductorio
+*** este texto va hablar de por que escribir escibir es trasmitir arte
+** tesis
+*** cuando uno escibe   trasmite conisimineto y dejar lo volando ideas y pensamientos
+** argumento
+*** cuando escribimos  plasmamos algo en una entidad como en papel , en pergaminos, personas. que quedan por un tiempo ese algo  , mientras que esa entidad exista el conosimiento seguira ahi 
+**** [#C] y  mientras uno quiera escribir y trasmitir conosimineto.
+** conclucion resumen de lo que se descubrio y lo que no sabia
+***  al momneto  escibir no solo escibimos texto tambien  conosiminetos y sensaciones que seran trasmitidas
+
+* borrador final   parrafo introductorio-tesis -argumento-conlcusion quedraia
+*** este texto va hablar de por que escribir escibir es trasmitir arte     
+*** cuando uno escibe   trasmite conisimineto y dejar lo volando ideas y pensamientos
+*** cunado escribimos  plasmamos algo en una entidad como en papel , en pergaminos, personas. que quedan por un tiempo ese algo  , mientras que esa entidad exista el conosimiento seguira ahi hasta que alguien quiera  difundirlo
+*** al momneto  escibir no solo escibimos texto tambien  conosiminetos y sensaciones que seran trasmitidas hasta el final
