@@ -1,0 +1,16 @@
+* algebra
+** algebra always use arimethic but it is not arimethic
+** algebra is coneciction between mathematics branchs
+* operators
+** operation is a function which takes zero or more input values
+*** can operate a single number or a two numbers not more not less
+**** operators who operate 1 number is called unary operators ,not, trigonometric fuctions, |x| etc..
+**** operators who operate 2 numbers is called  binary operatos like a + - and  or * / ** , sqrt,etc..
+*** opearete not only numbers also vectors, intersections, unions, functions
+* 
+* elementary algebra
+** there is something more incomprehensible than those who handle numbers(reals , comlpex)
+* taken from
+*** https://en.wikipedia.org/wiki/Algebra#Abstract_algebra
+*** https://en.wikipedia.org/wiki/Operation_(mathematics)
+*** https://en.wikipedia.org/wiki/Equation
