@@ -1,0 +1,41 @@
+* ¿como se clasifican los operadores logicos ?
+**  primarios o basicos (no,y,o)
+** secundarios o derivados (si ,entonces,si y solo si)
+* ¿cuales son los operadores lógicos?
+** conyuccion ∧
+** disyuncion ∨
+** negacion ¬
+** si ←
+** entonces si →
+** si y solo si ⇔
+* construya las tablas de verdad de cada operador
+* operadores primarios
+** |p|q|(∨:disyuncion:o)|(∧:conjucion:y)|~ p|
+** |-+-+----------------+---------------+---|
+** |V|V|     V          |       V       | F |
+** |-+-+----------------+---------------+---|
+** |V|F|     V          |       F       | F |
+** |-+-+----------------+---------------+---|
+** |F|V|     V          |       F       | V |
+** |-+-+----------------+---------------+---|
+** |F|F|     F          |       F       | V |
+** |-+-+----------------+---------------+---|
+* operadores secundarios
+** |p|q|(→:entonces si) |(⇔:si y solo si)|(←:si)|
+** |-+-+----------------+-----------------+------|
+** |V|V|     V          |       V         | V    |
+** |-+-+----------------+-----------------+------|
+** |V|F|     F          |       F         | V    |
+** |-+-+----------------+-----------------+------|
+** |F|V|     V          |       F         |  F   |
+** |-+-+----------------+-----------------+------|
+** |F|F|     F          |       V         | F    |
+** |-+-+----------------+-----------------+------|
+* consultar 
+** anticonyuccion , antidisyuncion  , disyuccuion exclusiba
+*** disyunccion exclusiba ⊕
+*** solo 1 pero no puede ser verdero
+** anticonyuccion
+*** ̅∧ niega la conyuncion
+** antidisyuncion
+*** ̅∨ niega la disyuncion

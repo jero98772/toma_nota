@@ -1,0 +1,3 @@
+* primera tarea
+** Calcular el área y perímetro de un triángulo. Calcular el costo real de un paquete turístico, el total pagado por IVA y el descuento obtenido que es el 5% después de IVA. Calcular el costo de un predial que equivale a la milésima parte del valor de la propiedad y tiene un descuento del 12% si se paga antes de una fecha estipulada. Calcular el salario neto y descuento préstamo de un empleado que gana un salario base y un porcentaje de las ventas y se le descuenta la seguridad social y un 7% para un préstamo que tiene con la empresa. 
+

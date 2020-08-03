@@ -1,0 +1,24 @@
+* detalles de la clase
+** gildardo antonio orrego villa
+** matematicas discretas
+** apenas exista un problema de comprencion pida asesorias
+** asesorias: viernes 4 pm
+** monitor edinson mosquera y otro
+* valor de examenes y contenidos
+** 1   logica de propociones y logica predicados
+*** trabajo de propociones y predicados
+*** foros de pr (como se va a trabajar con foros:)?
+*** repo de github:https://github.com/OrregoGildardo/MatematicasDiscretas
+** vamos atrabajar criptografias
+** el fuerte esta en la unidad 1
+** se ve conjunto con programacion
+* consulta como se clasifican los operadores logicos
+* notas
+** declarativa
+***  explica una cosa que originalmente no estaba clara.
+** descriptiva
+*** 
+** interrogativa
+*** pregunta
+** tautlogia
+*** si algo puede ser posible lo puede ser
