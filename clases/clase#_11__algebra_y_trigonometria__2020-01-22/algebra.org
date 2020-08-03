@@ -7,10 +7,18 @@
 **** operators who operate 1 number is called unary operators ,not, trigonometric fuctions, |x| etc..
 **** operators who operate 2 numbers is called  binary operatos like a + - and  or * / ** , sqrt,etc..
 *** opearete not only numbers also vectors, intersections, unions, functions
-* 
+* equation
+** 
+* Equality 
+** is the realition  beteewn two quantities or, more generally two mathematical expressions
+*** math expresions  is a finite combination of symbols if it were not finite it would be something else
+** write with expresion1 = expresion2
+** in equality it can be a comparison of two values is an equality (true) or there is no equality (false)
 * elementary algebra
 ** there is something more incomprehensible than those who handle numbers(reals , comlpex)
 * taken from
 *** https://en.wikipedia.org/wiki/Algebra#Abstract_algebra
 *** https://en.wikipedia.org/wiki/Operation_(mathematics)
 *** https://en.wikipedia.org/wiki/Equation
+*** https://en.wikipedia.org/wiki/Elementary_algebra
+*** https://en.wikipedia.org/wiki/Equality_(mathematics)

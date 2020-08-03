@@ -2,3 +2,5 @@ Function composition
 https://en.wikipedia.org/wiki/Function_composition
 Convolution
 https://en.wikipedia.org/wiki/Convolution
+mathematical expressions
+https://en.wikipedia.org/wiki/Mathematical_expression
