@@ -1,0 +1,4 @@
+* que es una propocion
+** propocion simple  
+***  una afirmación con el resultado implícito
+*** ejemplo :pepe es verde

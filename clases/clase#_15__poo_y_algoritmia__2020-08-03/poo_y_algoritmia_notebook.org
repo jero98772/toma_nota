@@ -1,3 +1,16 @@
 * primera tarea
 ** Calcular el área y perímetro de un triángulo. Calcular el costo real de un paquete turístico, el total pagado por IVA y el descuento obtenido que es el 5% después de IVA. Calcular el costo de un predial que equivale a la milésima parte del valor de la propiedad y tiene un descuento del 12% si se paga antes de una fecha estipulada. Calcular el salario neto y descuento préstamo de un empleado que gana un salario base y un porcentaje de las ventas y se le descuenta la seguridad social y un 7% para un préstamo que tiene con la empresa. 
-
+* 1 plantarse el problema
+** primero dividir el problema en partes
+*** area y perimetro
+*** costo de un paquete turistico
+*** 
+** input
+*** (int para evaluarlos en la unidad de medida mas pequeña ya sea milimetros , centavos ... en este caso que son cosas que se pueden contar)
+*** unsigned short int alturatriangulo = input() # altura base triangulo
+*** unsigned short int basetriangulo = input() # base del triangulo
+*** unsigned short int costo = input()  #costo del paquete turistico
+*** unsigned char	descuento = int(input() /100)+1
+** constantes 
+*** iva de ese año
+* 2- 5/08/2020

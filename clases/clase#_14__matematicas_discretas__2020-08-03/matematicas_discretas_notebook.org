@@ -22,3 +22,18 @@
 *** pregunta
 ** tautlogia
 *** si algo puede ser posible lo puede ser
+* 5/08/2020
+** conyuccion y disyuncion y un poco mas
+*** la conyuccion(y) es verdadero cuando todas son verderas y es falso cuando alguna es falsa
+*** la disyuncion(o) es verdadero cuando alguna es verdad
+*** uds no puede llegar a una verdad si no es verdad
+*** la implicacion (->) de falso puedo llegar a cualquier cosa
+*** en la XOR o discluncion esclusiva es falsa cuando hay impar de falsas y verdad si es par las falsas
+*** en el bicondicional si hay par de falsos es falso  y si hay impar falsas es verda
+** jerarquia de operaciones
+*** 0 parentesis
+*** 1 negacion
+*** 2 conyuccion
+*** 3 disyunccion
+** siempre que se habla de leyes de habla de equivalencias
+*** https://editorialpatria.com.mx/mobile/pdffiles/9786074387384.pdf 

@@ -75,3 +75,5 @@
 *** resta de segmentos
 *** operacion en los reales
 *** se pueden poner medidas
+* presentacion del nuevo curso
+* https://www.goconqr.com/es-ES/mindmap/24602765/An-lisis-Geom-trico-2020-2 

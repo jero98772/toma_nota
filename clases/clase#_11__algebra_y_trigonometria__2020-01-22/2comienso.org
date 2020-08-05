@@ -1,0 +1,43 @@
+* nombre del profe
+** Fredyy Alberto Betancourt Uribe
+* temas algebra y trigonometria
+** conceptos basicos del algebra
+*** conjuntos numericos
+*** factorizacion
+** ecuaciones => balance --> igualdad
+** inecuaciones
+** relaciones de interes matematico
+** funciones
+* tareas 
+** mapa conceptual con todos los conjuntos numericos para el siguiente miercoles
+*** ejemplo del conjunto ,ejemplo del numero que pertenece al conjunto, y simbolo y nombre
+* herramientas
+** draw.io --> https://app.diagrams.net/
+** cmapstools -->
+** pagina del profesor --> https://fbetancourt3.wixsite.com/aytudem/matematicos
+* turco "magia"
+** numero 9
+** multipliquelo por un numero de 1 al 9
+** restele 5
+** escoja un pais dominica
+** un animal oscar
+** una fruta (calabasa: no estoy seguro que )
+* 5/08/2020
+** un conjunto es una agrupacion de elementos
+** ()partentecis
+** [] corchetes
+** {} llaves
+** tres astericos *** signiifica que vamos a ver en los examenes y son muy importantes
+** lemiscata es el nombre del simbolo del infinito
+** no se incluyen los numeros que limitan un rango de numeros --> esto se llama discretos 
+*** ejemplo los numeros del 0 al 5 estan los numeros 1,2,3,4
+** los pares se escriben de la forma 2n
+** los impares se escriben de la forma 2n-1
+** racionales tienen la forma de p/q  p y q pertencen a los enteros y no puede ser 0
+** hay decimales 
+*** los exactos son los que tienen los decimales contados
+*** perdiodicos cuando se repite infinitamente los decimales
+*** mixtos son numeros que tienen la parte exacta y periodica
+** los numeros irracionales no se pueden escribir p/q
+* consulta como encontrar la geratris
+** 

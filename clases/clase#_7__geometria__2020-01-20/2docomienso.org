@@ -1,0 +1,11 @@
+* analisis geometrico 5/08/2020
+** empesamos con un lenguaje simbolico y logico
+*** interpretacion
+**** verbal
+**** simbolica
+**** grafica
+*** argumentacion
+**** para llegar a una demostracion
+*** propocion
+**** demostracion
+** ∀ para todo
