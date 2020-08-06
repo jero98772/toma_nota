@@ -1,0 +1,35 @@
+* porceso de tecnologias de la informacion 
+** introduccion a la teoria general de sistemas 
+** biologo ludwing von bertalanffy
+*** no esta deuacuerdon con cosas como "divide y venceras" esta decuardo on que las partes en funcion del todo
+** tgs (teoria general de los sistemas)
+** el todo es mas que la suma de sus partes
+** el todo determina la naturaleza de las partes
+** lo importante no que es lo importante es que funcion sirbe
+* atividad 1
+** con jose carlos gaviria tapia
+**  el sistema de los peces del rio amazonas
+** 1).es uno alimentico (en forma de ciclo) que se fundamente en " Las partes están dinámicamentente interrelacionadas o son interdependientes"
+** particapan las partes como humanos , arapaimas y pirañas
+*** las pirañas comen humanos --> por la piel delgadad del humana --> tambien puede comerse otras cosas 
+*** los humanos casan arapaimas --> por su gran peso y carne --> tambien puede casar 
+*** los arapimas comen pirañas --> por que les cabe en la boca --> hay muchas cosas que le caben en la boca como humanos
+*** un complemento : lo importante no es lo que es , lo imporatante es que funcion sirve
+** 2). el ejemplo escogido es organisar una fiesta
+** en una fietsa cada cosa y ser cumple una funcion
+** se nesesita tener encuanta
+*** como el payaso hase reir a la gente
+*** la torta alimenta a la gente y el payaso 
+*** los alimentos ayuda a mantener mas tiempo a las personas 
+*** la gente  da regalos y alegra  con regalos
+*** los vasos mantener liquido
+*** el liquido para hidratar o para generar diversion como bombas de agua
+*** los equipos de  sonido sirven para ayudar a hacer la calmada 
+*** elegir un lugar 
+*** y por esto consideramos que pertence  Las partes están dinámicamentente interrelacionadas o son interdependientes
+* actividad 2
+** Buscar un ejemplo concreto de la aplicación de la TGS a esa disciplina (ing sistemas)
+** minimo 2 principios
+** minimo 4 caracteristicas de la tgs
+** bitcoin "don´t trust  , verifye"
+*** dinero p2p()
