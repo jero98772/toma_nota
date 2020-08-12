@@ -14,3 +14,16 @@
 ** constantes 
 *** iva de ese año
 * 2- 5/08/2020
+* 4- 12/08/2020
+** miercoles 6-7pm
+** viernes 6am
+** al parecer serian las asesorias por google meets
+** correo del docente mlopez@udem.edu.co
+** temas de programacion orientada a objetos
+*** abstractos
+*** encapsulamineto
+*** herencia
+*** polimorfismo
+* actvidad "hacer cuenta huevos"
+** ... mi cuenta guevos
+

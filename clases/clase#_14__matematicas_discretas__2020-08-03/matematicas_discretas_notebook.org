@@ -4,6 +4,7 @@
 ** apenas exista un problema de comprencion pida asesorias
 ** asesorias: viernes 4 pm
 ** monitor edinson mosquera y otro
+** monitor es ayo
 * valor de examenes y contenidos
 ** 1   logica de propociones y logica predicados
 *** trabajo de propociones y predicados
@@ -37,3 +38,6 @@
 *** 3 disyunccion
 ** siempre que se habla de leyes de habla de equivalencias
 *** https://editorialpatria.com.mx/mobile/pdffiles/9786074387384.pdf 
+* clase 12/08/2020
+** si hay menos verdades se trabajan con la forma normal diyuntiva
+** si hay menos falsedades se trabajan con la forma normal conyuctiva

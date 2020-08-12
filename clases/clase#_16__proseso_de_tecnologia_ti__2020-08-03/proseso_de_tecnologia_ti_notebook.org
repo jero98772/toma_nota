@@ -6,6 +6,9 @@
 ** el todo es mas que la suma de sus partes
 ** el todo determina la naturaleza de las partes
 ** lo importante no que es lo importante es que funcion sirbe
+* actividad semanal buscar noticias para la clase
+** clase 3 
+*** https://github.blog/2020-07-16-github-archive-program-the-journey-of-the-worlds-open-source-code-to-the-arctic/ 
 * atividad 1
 ** con jose carlos gaviria tapia
 **  el sistema de los peces del rio amazonas
@@ -31,5 +34,16 @@
 ** Buscar un ejemplo concreto de la aplicación de la TGS a esa disciplina (ing sistemas)
 ** minimo 2 principios
 ** minimo 4 caracteristicas de la tgs
+** que hay que hacer
+*** presesntacion de 5 diapositibas
+*** preferible mente un programa
+*** exponer en 2 minutos
+*** dar a conocer los 2 principios
+*** dar a conocer  las 4 caracrteristicas
+*** investigar
 ** bitcoin "don´t trust  , verifye"
 *** dinero p2p()
+*** se esta haciendo la documentacion de lo investigado en http://wiki.unloquer.org/personas/jero98772/bitcoin
+*** se va explicar el codigo de siraj raval --> https://www.youtube.com/watch?v=MViBvQXQ3mM&t=219s
+**** https://github.com/llSourcell/Simple_Blockchain_in_5_Minutes
+** ¿es la construccion social una concecuencia de los sietmas tecnologicos ? ¿o son los sistemas tecnologicos una construccion social?

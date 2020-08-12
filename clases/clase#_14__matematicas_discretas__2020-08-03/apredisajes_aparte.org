@@ -2,3 +2,5 @@
 ** propocion simple  
 ***  una afirmación con el resultado implícito
 *** ejemplo :pepe es verde
+* leyes del algebra de las propociones
+** ley idepotencia  p =  ? p⇔p  
