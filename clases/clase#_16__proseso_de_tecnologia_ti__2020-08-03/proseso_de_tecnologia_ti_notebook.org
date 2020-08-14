@@ -9,6 +9,8 @@
 * actividad semanal buscar noticias para la clase
 ** clase 3 
 *** https://github.blog/2020-07-16-github-archive-program-the-journey-of-the-worlds-open-source-code-to-the-arctic/ 
+** clase 4
+*** https://www.genbeta.com/desarrollo/lenguaje-prolog-ejemplo-paradigma-programacion-logica
 * atividad 1
 ** con jose carlos gaviria tapia
 **  el sistema de los peces del rio amazonas
@@ -47,3 +49,89 @@
 *** se va explicar el codigo de siraj raval --> https://www.youtube.com/watch?v=MViBvQXQ3mM&t=219s
 **** https://github.com/llSourcell/Simple_Blockchain_in_5_Minutes
 ** ¿es la construccion social una concecuencia de los sietmas tecnologicos ? ¿o son los sistemas tecnologicos una construccion social?
+* 13/08/2020
+** asesoria jueves 2-4 pm
+** otra clasificacion de los sistemas 
+** relacion con el medio
+*** concretos 
+*** abstarctos
+** naturaleza 
+*** cerrados 
+*** abiertos
+** origen
+*** natural
+*** artificial
+** relaciones
+*** simples
+*** complejos
+** cambio en el tiempo
+***  estaticos
+*** dinamicos
+** actividad analizar para clasificar
+*** emalse el peñol
+*** corte suprema de justicia
+*** curso de pn y ti
+*** obras parques de rio
+** embalse del peñol
+*** naturalesa  -> cocncreto
+*** relacion con el medio-> abierto
+*** origen -> artificial
+*** relaciones -> compleja
+*** cambio en el tiempo -> dianmico -> el caso de pueblo que se undio en ella de un momento a otro
+** corte de "justicia"
+*** naturalesa -> coccreta
+*** relacion con el medio -> abierta
+*** origen -> artificial
+*** relaciones -> complejas
+*** cambio en el tiempo -> dinamico 
+** el curso
+*** naturalesa-> abstarcto -> por el conocimeimto que se majeja en el
+*** relacion con el medio -> abierto 
+*** relaciones -> complejas -> (somos mas de 15)
+*** cambio en el tiempo -> dinamico ->cada dia hay que investigar algo nuevo ... noticia
+*** origen -> artificial
+** parques del rio
+*** relacion con el medio -> cocncreta
+*** naturalesa -> abierta
+*** relaciones -> complejas
+*** cambio en el tiempo -> dinamico
+*** origen -> artificial
+** sinergia trabajo en conjunto
+** ?
+*** un colectivo que cada uno de los intengrates trabaja algo para el colectivo eso podria 
+*** si es
+** el caos tiende al desorden y la entropia
+** la negaentropia toma energia del sistema para reavasteserse
+** retroalimentacion
+*** la salida del sistema vuelve a ser entrada (no neseariamente tiene que pasar por un proceso)
+** tipos de retroalientacion
+*** retro alimentacion  negativa 
+**** se desvia a un valor no deseado
+*** retro alimentacion positiva 
+**** se desvia a un valor mejor del valor deseado y se repiesa o corrige la variable para una mejor
+** elementos de los susbsistemas de control
+*** variable 
+*** medio motores
+*** mecanismos sensores
+** actividad
+** selsecionar un subsitema de control
+*** identificar los elementos del subsistema
+*** variables
+*** mecanismos sensores
+*** medio motores
+** calidad del aire como mecanismo
+*** variables (que se quiere controlar)
+**** calidad de aire (polucion (pm25)) 
+**** salud 
+*** mecanismos sensores (lo que permite  medir )
+**** sensores 
+**** plantas
+**** problemas en la salud
+*** medios motores (las acciones correctivas)
+**** las personas 
+**** las reglas
+* no hay clase el lunes
+** escojer una catasrofe de software es algo que genere perdidas
+*** se probara con
+*** https://colab.research.google.com/drive/1bx0K8Y0LtaGpQwPg9dcXfkkNzURp2JTS?usp=sharing#scrollTo=JdC8nvnLY_Lj
+** mcgomez@udem.edu.co

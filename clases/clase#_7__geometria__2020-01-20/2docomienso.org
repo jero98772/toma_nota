@@ -9,3 +9,12 @@
 *** propocion
 **** demostracion
 ** ∀ para todo
+* 12/08/2020
+** para repasar los videos se ve en el archivo llamado vista del archivo por el orador
+* 13/08/2020
+** a todo segmento corresponde un unico punto medio demuestre :
+** ∀A̅B̅→∃! C/A-C-B ∧ A̅C̅ ≝C̅B̅
+** {A} es el punto de la interceccion de 2 rectas
+** || paralelas
+** NOTA
+*** la tilde encima de las letras es una flecha señalando a los 2 lados

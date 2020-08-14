@@ -39,5 +39,17 @@
 *** perdiodicos cuando se repite infinitamente los decimales
 *** mixtos son numeros que tienen la parte exacta y periodica
 ** los numeros irracionales no se pueden escribir p/q
-* consulta como encontrar la geratris
-** 
+* consulta como encontrar la generatris
+* 12/08/2020
+** para factorisar se busca el menor exponente y un numero que pueda dividir los numeros
+** actividad escojer 10 ejercios del texto guia pag 97 
+*** 1) a**2-4b**2 = (a+2b)(a-2b)
+*** 2) 49x**2-64y**2 = (7x+8y)(7x-8y)
+*** 3) 36x**2 - 25 = (6x+5)(6x-5)
+*** 4) 4x**2 y**2 -1 = (2xy+1)(2xy-1)
+*** 5) a**3 - 64b**3 = (a**2+16b**2)((a-4b)(a-4b)) 
+*** 6) 8x**3 y**3 -27 = (4x**2 y**2+9)((2xy+3)(2xy-3))
+*** 7) y**3+125 = (y+5)(y**2 - 5y +25)
+*** 8) 1- x**3 = (1 + x**2)((1-x)(1-x))
+*** 9) x**2 -3 = (x+3**(1/2))(x+3**(1/2))
+*** 10) 24-x**2 = (24**(1/2)+x)(24**(1/2)+x)
