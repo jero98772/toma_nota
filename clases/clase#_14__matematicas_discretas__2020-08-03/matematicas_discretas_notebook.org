@@ -41,3 +41,35 @@
 * clase 12/08/2020
 ** si hay menos verdades se trabajan con la forma normal diyuntiva
 ** si hay menos falsedades se trabajan con la forma normal conyuctiva
+* asesoria 14/08/2020
+** si la funcion propocional dada es muy compleja
+** Leyes del álgebra de proposiciones
+*** idempotencia es que (y /o) si pasan por el mismo valor 2 veces va ser el mismo valor al resultado ¿solo con 2 o puede ser con mas (idem significaa lo mismo) si tienes la misma ley 2 veces respodne con ella 1 vez
+**** p v p <=> p
+**** p ^ p <=> p
+*** identidad ¿ como se podria explicar para entenderlo mejor si se cumple se pone la propocion ?¿como seria con mas de 2 elementos?
+**** p v F <=> p
+**** p ^ V <=> p
+*** dominacion ¿ como se podria explicar para entenderlo mejor -> si no se cumple se pone V o F ?¿como seria con mas de 2 elementos -> no sirve? 
+**** p ^ F <=> F
+**** p v V <=> V
+*** conmutativa la misma entrada es la misma salida pero en inverso orden ¿como seria con mas de 2 elementos-> igual? 
+**** p ^ q <=> q ^ p
+**** p v q <=> q v p
+*** asociativa no importa el orden que se haga si tienen el mismo signo 
+**** p ^ q ^ r <=> (p ^ q) ^ r <=> p ^ ( q ^ r )
+**** p v q v r <=> (p v q) v r <=> p v ( q v r)
+*** distributiva se aplica la porpocion fuera del parentecis  con operador contrario   
+**** p ^ (q v r) <=> (p ^ q)v(p ^ r)
+**** p v (q ^ r) <=> (p v q)^(p v r)
+*** complementacion 
+**** contardiccion
+**** p ^ -q <=> F
+**** tercero excluido
+**** p v -q <=> V
+*** involucion si la catinadad de  negaciones son pares el resultado es el que se ingreso y si la cantiad de negaciones es inpares es opuesto al valor
+**** -(-p) <=> p
+**** -(-(-p)) <=> -p
+*** Dmorgan
+**** -(p^q) <=> -p v -q
+**** -(pvq) <=> -p ^ -q
