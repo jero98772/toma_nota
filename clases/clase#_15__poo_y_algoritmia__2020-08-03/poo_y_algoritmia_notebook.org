@@ -26,4 +26,42 @@
 *** polimorfismo
 * actvidad "hacer cuenta huevos"
 ** ... mi cuenta guevos
-
+* 19/08/2020
+** diagrama de clases 
+*** descripcion
+*** es un cuadro con 1 columna y 3 filas 
+**** fila 1: nombre de la clase
+**** fila 2: variables o atributos(atributos en este caso por ser progrmacion orientada a objetos)
+***** los atributos se puenden declaran identificar de atributo:tipo de dato
+**** fila 3: funciones o metodos (metodos en este caso por ser progrmacion orintada a obejos)
+***** no se nesita siempre el metodo init
+***** los metodos se pueden declaran metodo(si hay paremteros ,si existen mas parametros):si retorna algo poner el tipo de dato que retorna 
+** diferenciar para esta clase entre  progrmacion  orientada a objetos y orientada a procedimientos  
+** star uml herramienta libre para hacer el mapa de clases
+** ejercio : 1) Se solicita calcular la edad mayor y menor, entre las edades de Hugo, paco y Luis; sus edades son diferentes. Se requiere calcular el valor del pago para un empleado que tiene un salario base y bonificación por ventas del 2%, se debe retener el 8% para seguridad social y si el devengado excede 3 millones el 1% como retención y finalmente mostrar los datos calculados.3) Se tiene una planta con los atributos color, altura y florece, se requiere modelarla en Python, de forma que se pueda averiguar si florece y mostrar sus atributos color y altura. 
+** ejercio 1)
+*** nombre clase
+**** diferenciaEdad
+*** atributos
+**** edadhugo:int
+**** edadpaco:int
+**** edadluis:int
+*** metodos
+**** init(int,int,int)
+**** mayor():str,int
+**** menor():str,int
+** ejercio 2)
+*** nombre clase
+**** relacionadoAlEmpleo
+*** se acabo la clase
+** ejercio 3)
+*** nombre clase
+**** AveriguarLeCosasAlgunaPlanta
+*** atributos 
+**** color:int
+**** florese:bool
+**** altura:int
+*** metodos
+**** init(bool,int,int)
+**** siFlorese()
+**** descripcion():array

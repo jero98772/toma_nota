@@ -150,17 +150,39 @@ _____
   v   es diferente a nosotros puede ser mejor
 """	
 	return warnig
-
+def opciones():
+	texto = banner()+"""
+=================================================
+opciones modos de juego y cosas a tener en cuenta
+[0] - manual de juego
+[1] - advertecias 
+[2] - ver banner
+[3] - jugar
+[opcion predeterminada ]= 3
+	"""
+	return texto
+def manual():
+	texto = """
+nadie escribio nada ni hiso nada ni leyo lo que esta escrito si quiere usted puede hacer algo en el repo
+https://github.com/jero98772/creador_y_administrador_de_carpetas_y_archivos_para_tomar_nota/tree/master/clases/clase%23_16__proseso_de_tecnologia_ti__2020-08-03/canuco
+	"""
+	return texto
+def graciasA():
+	texto = """
+nadie hiso nada si usted quiere saber quien trabajo y dejo registro
+puede ir a ver a https://github.com/jero98772/creador_y_administrador_de_carpetas_y_archivos_para_tomar_nota/tree/master/clases/clase%23_16__proseso_de_tecnologia_ti__2020-08-03/canuco
+a ver si alguien realmente hiso algo
+	"""
+	return texto		
 def nucleo():
 	# quitar o restar la cantidad de cartas a imprimir (poner nuevos indices para las cartas o saltarlos) y evitar que la gente llege y vuelva a colocar esos indices y cambiar la cantidad  de numeros aleatorios puede ser con rnd - 
 	fichasExcluidas = []
 	print(banner())
-	print(advertencias())
 	#valoresFichas = 3
 	segundosEnUnMinuto = 60
 	puntosJugador1 = 0
 	puntosJugador2 = 0 
-	cantidadFichas = input("introsca la cantidad de fichas para jugar preferible mente par el valor que va  tener por default es 20\n")
+	cantidadFichas = input("introduzca la cantidad de fichas para jugar preferible mente par el valor que va  tener por default es 20\n")
 	try:
 		if int(cantidadFichas) % 2== 0: #ok pasa y se puede jugar
 			cantidadFichas = int(cantidadFichas)
@@ -176,8 +198,6 @@ def nucleo():
 	larry2 = np.arange(cantidadFichas/2)
 	valoresfichasnp1 = np.concatenate((larry1 , larry2), axis=None)
 	np.random.shuffle(valoresfichasnp1)
-	print(valoresfichasnp1)
-	print(larry1)
 	valorfichas = valoresfichasnp1.tolist()
 
 	dibujofichas ="""
@@ -208,4 +228,23 @@ def nucleo():
 			puntosJugador1 , valorfichas , fichasNoRestantes , fichasExcluidas= turnos(valorfichas,turnosxjugaor,cantidadFichas, puntosJugador1 ,fichasNoRestantes, fichasExcluidas)
 
 		turno += 1
-nucleo()
+def main():
+	print(opciones())
+	selecion = input("\n")
+	try:
+		selecion = str(selecion)
+	except:
+		selecion = "3"
+	if not selecion:
+		selecion = "3"
+	if selecion == "0":
+		print(manual())
+	elif selecion == "1":
+		print(advertencias())
+	elif selecion == "2":
+		print(banner())
+	elif selecion == "3":
+		nucleo()
+
+if __name__=='__main__':
+	main()

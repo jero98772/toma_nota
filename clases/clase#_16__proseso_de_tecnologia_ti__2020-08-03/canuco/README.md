@@ -78,3 +78,13 @@ si ,si para que existan diferentes oportunidades de vulver a encontrar las ficha
 
 #### no se puede comparar  la primera ficha con la segunda que estan en la misma pocion
 puede funcionar elecion1 != elecion2 y/ and valorfichas[eleccion2] == valorfichas[eleccion2]
+# correcciones y mejoras
+#### cambiar y mejorar los idices de las cartas
+se puede lograr sin alterar el bucle y poniendole un condicional
+para que excluya el print(i el indice)
+#### exluir el false si es el valor de la ficha que lo diga algo diferente
+#### si saca parejas que repita
+#### dar un fedback si saca parejas
+#### dar puntaje para cada jugador
+#### poner diferentes filas y columnas
+#### poner para que salga el dibujo del ascii art de las cartas siendo diferente a 20

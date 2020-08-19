@@ -73,3 +73,37 @@
 *** Dmorgan
 **** -(p^q) <=> -p v -q
 **** -(pvq) <=> -p ^ -q
+* actividad de la 4 o 5 semana en equipo tema 
+* 19/08/2020
+** ley uniforme 
+** lo que hago de un lado de la igualdad se ve que ocurrio al otro lado
+*** x**2-y**2 = (x-y)(x+y)
+** se habla de biequivalencia cuando el condicional es verdadero
+*** cuando es verdadero el bicondicional <-> se usa <=>
+*** preferiblemente usar <=>
+** las reglas de equivalencia sirven para remplasar o sustituir
+** reglas de inferencias¿
+** modus ponendo pones - MPP
+*** (p->q) ^ p=>q
+** modus tollendo tollens - MTT 
+*** (p->q) ^ -q => -p
+** modus tollendo pones - MTP
+*** (pvq)^ -p => q o (pvq) ^ -q =>q
+** regla de simplificacion - RS
+***  p^q => p 
+***  p^q => q
+*** nota no es valido con v
+** regla de adicion - RA
+*** p => pvq 
+*** q => pvq
+** regla de silogismo hipotetico - RSH
+*** (p->q) ^ (q->r) => (p->r)
+** regla del dilema constructivo - RDC
+*** (pvq)^(p->r)^(q->s)=>(rvs)**2
+** regla de simplificacion disyuctiva - RSD
+*** pvp => p
+** regla de union o adjuncion - RU
+*** p ^ (p->q) ^ (p->r) => (q^r)
+** cada premisa termina con un punto
+** las premisas deben ser verderas
+** no se recomienda ponerle a la premisa verbos en infinitivo

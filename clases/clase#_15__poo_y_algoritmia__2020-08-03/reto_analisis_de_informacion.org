@@ -1,0 +1,15 @@
+* reto analisis informacion
+** describir 2 requerimentos funcionalidades
+*** nombre:sistema pago
+**** resumen 
+**** esta parte cumple la funcion de recibir dinero para dejar ingresar un determinado tiempo al gym
+**** entradas 
+**** - dinero
+**** - persona
+**** - de donde se saca el dinero
+**** salidas 
+**** - tiempo permitido para ingresar
+**** - algo que garantise la entrada a ese gym 
+*** nombre:sistema registro
+**** resumen 
+**** 
