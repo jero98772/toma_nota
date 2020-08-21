@@ -12,4 +12,110 @@
 **** - algo que garantise la entrada a ese gym 
 *** nombre:sistema registro
 **** resumen 
-**** 
+**** registrarse sirve para crear una diferencia entre los cibernautas y recivir difrentes tratos cosas o tener diferentes beneficios y teniendo en cuenta es la forma que un gym con una paguina web puede ganar algo mas de dinero
+**** entadas
+**** - tipo de plan  para empesar
+**** - tipo de plan preferido
+**** - cuanto esta dispuesto a pagar
+**** - cuanto piensa que puede aumentarle cada x tiempo
+**** - el x tiempo / mes /año /dia/ semas / horas / segundo/ milisegundos
+**** - usuario
+**** - password
+**** - password para confirmar
+**** - palabra de seguridad 1 para recuperar la contraseña
+**** - palabra de seguridad 2 para recuperar la contraseña
+**** - palabra de seguridad 3 para recuperar la contraseña
+**** - palabra de seguridad 4 para recuperar la contraseña
+**** - palabra de seguridad 5 para recuperar la contraseña
+**** - respuesta a  acepatcion de terminos y politica de privacidad
+**** - respuesta a recibir publicidad
+**** - cuenta de los servicion
+**** - examen icfes 
+**** - carton de bachiller
+**** - carton de pregrado
+**** - carton posgrado
+**** - carton de maestria
+**** - carton doctorado
+**** - carton de phd
+**** - diagnostico medico
+**** - dieta 
+**** - lista de medicamentos (si toma alguno)
+**** - primer nombre
+**** - segundo nombre 
+**** - tercer nombre (si tiene)
+**** - primer apellido 
+**** - segundo apellido
+**** - tercer apellido
+**** - cuarto apellido
+**** - primer nombre del la madre
+**** - segundo nombre del la madre
+**** - tercer nombre (si tiene) del la madre
+**** - primer apellido del la madre
+**** - segundo apellido del la madre
+**** - tercer apellido del la madre
+**** - cuarto apellido del la madre
+**** - primer nombre del padre
+**** - segundo nombre del padre
+**** - tercer nombre (si tiene) del padre
+**** - primer apellido del padre
+**** - segundo apellido del padre
+**** - tercer apellido del padre
+**** - cuarto apellido del padre
+**** - email 1
+**** - email 2
+**** - email para las notificaciones
+**** - email de recuperacion
+**** - cuenta de facebook
+**** - contaseña facebook
+**** - cuenta de twitter
+**** - contraseña twitter
+**** - cuenta instagram
+**** - contraseña de instagram
+**** - telefono
+**** - direcion domiciliaria
+**** - direcion domiciliaria del padre
+**** - direcion domiciliaria de la madre
+**** - direcion domiciliaria de un 3ero
+**** - continente 
+**** - pais 
+**** - departamento
+**** - ciudad 
+**** - comuna 
+**** - barrio
+**** - punto de referencia  cercano
+**** - codigo postal
+**** - latitud
+**** - logitud
+**** - 1 nombre para la facturacion
+**** - 2 nombre  para la facturacion
+**** - 1 apellido para la facturacion
+**** - 2 apellido para la facturacion
+**** - direcion  para la facturacion
+**** - codigo postal para la facturacion
+**** - pais en que se va a facturar
+**** - estado/providencia/departamento donde se va a facturar
+**** - ciudad en la quese va a facturar
+**** - por que se quiso unir
+**** - acepatr para publicar y vender sus datos
+**** - aceptar que no le importe que los archivos no se cifren  
+**** - aceptar no poner problemas con una condicion
+**** - la condicion la pone el programador
+**** - la direcion a la cual enviarle los datos a NSA -> es el unico dato que parecese que debe ingresar el programador
+**** salidas
+**** - acceso a al personaje que lleno los datos
+**** - un archivo adjunto enviandose a la NSA
+** identificar 2 clases y dar 3 de sus caracteristicas
+*** clase registro
+**** evitar que nadie que no entrege sus datos no pueda usar la plataforma
+**** guradar y producir  datos de acuerdo al usuario 
+**** relciona los datos  decuerdo al usuario y sus datos
+*** clase proceso pago
+**** recivir el pago del usuario
+**** trasferir el pago del usuario la empresa
+**** proceso de verificacion
+** identificar 3 requerimintos no funcionales
+*** que la gente conosca sobre de la pagina del gym y el gym
+*** que sea intuitiva y no genere desconfiansa 
+*** si se va hacer una pagina para registrarse a un gym no se nesita poner mucho texto para poder registrarse o para documentar algo , publicar las cuentas del gym (ser MUY presiso y no atosigar con la paguina)
+*** soporte para la pag
+*** sporte para el usuario

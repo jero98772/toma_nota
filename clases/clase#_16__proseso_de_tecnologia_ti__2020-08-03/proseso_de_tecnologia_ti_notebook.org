@@ -11,6 +11,8 @@
 *** https://github.blog/2020-07-16-github-archive-program-the-journey-of-the-worlds-open-source-code-to-the-arctic/ 
 ** clase 4
 *** https://www.genbeta.com/desarrollo/lenguaje-prolog-ejemplo-paradigma-programacion-logica
+** clase ni idea ya perdi la cuenta 20/08/2020
+*** https://www.xataka.com/robotica-e-ia/amazon-ha-dejado-trabajo-sexista-a-inteligencia-artificial-que-le-revisaba-curriculums-reuters
 * atividad 1
 ** con jose carlos gaviria tapia
 **  el sistema de los peces del rio amazonas
@@ -135,3 +137,12 @@
 *** se probara con
 *** https://colab.research.google.com/drive/1bx0K8Y0LtaGpQwPg9dcXfkkNzURp2JTS?usp=sharing#scrollTo=JdC8nvnLY_Lj
 ** mcgomez@udem.edu.co
+* 20/08/2020
+** informacion
+*** inteligencia artificial
+*** no piensa
+*** ... perdi la cuenta
+** coltan
+*** cerebro
+*** olgasan
+*** ... no dio 
