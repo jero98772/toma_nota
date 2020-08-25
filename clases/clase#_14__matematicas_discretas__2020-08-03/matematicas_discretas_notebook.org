@@ -107,3 +107,38 @@
 ** cada premisa termina con un punto
 ** las premisas deben ser verderas
 ** no se recomienda ponerle a la premisa verbos en infinitivo
+* 24/08/2020
+** problema => no conoce la respuesta o solucion
+** demostracion => se conoce la solucion o respuesta
+** leyes
+*** ley clausurativa
+**** a + b es un  entero
+**** a * b es un entero
+*** ley modulativa
+**** a + 0 = a (modulo suma 0)
+**** a * 1 = a (modulo del producto es 1)
+*** ley invertida
+**** a+(-a) = 0 (el inverso aditivo de a es -a)
+**** a*(a**(-1)) = 1 (el inverso multiplicativo de a es (a**(-1)))
+*** ley cancelativa 
+**** a *b / b = a, b != 0
+*** ley conmutativa 
+**** no importa en el orden
+**** a+b = b + a
+**** a*b = b * a
+*** ley distributiva 
+**** a * (b+c) = a*b +a*c
+*** ley asociativa 
+**** a+b+c = (a+b)+c = a+(b+c)
+**** a*b*c = (a*b)*c = a*(b*c)
+*** ley uniforme 
+**** se respalda en las igualdades
+**** a = b <=> a + c = b + c
+**** a = b <=> a * c = b * c
+*** ley monotonia
+**** a < b <=> a+c < b + c
+**** a > b <=> a+c > b + c
+**** a < b <=> a*c < b * c , c > 0
+**** a > b <=> a*c > b * c , c > 0
+** un numero impar tiene potencia impar y una potencia impar tiene raiz impar
+** un numero par tiene  potencia par y una potencia par tiene raiz par

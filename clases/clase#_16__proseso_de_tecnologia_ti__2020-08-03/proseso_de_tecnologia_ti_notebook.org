@@ -13,6 +13,8 @@
 *** https://www.genbeta.com/desarrollo/lenguaje-prolog-ejemplo-paradigma-programacion-logica
 ** clase ni idea ya perdi la cuenta 20/08/2020
 *** https://www.xataka.com/robotica-e-ia/amazon-ha-dejado-trabajo-sexista-a-inteligencia-artificial-que-le-revisaba-curriculums-reuters
+** clase del 24/08/2020
+*** https://analisisurbano.org/sabe-daniel-quintero-que-la-alcaldia-nos-espia-y-ademas-perfila/90869/
 * atividad 1
 ** con jose carlos gaviria tapia
 **  el sistema de los peces del rio amazonas
@@ -146,3 +148,17 @@
 *** cerebro
 *** olgasan
 *** ... no dio 
+* 24/08/2020
+** presentaciones
+*** boing 7 algo
+*** el de el trasportador
+*** wanacry
+*** misil patriot
+*** chalenger
+*** gusano morris del viejo arpanet
+* siestemas de informacion en negocios globales  actuales
+** fin tech es la aplicacion de la tecnologia a los servios de bitcoin
+** rutinas y procesos
+** cultura o falsacultura
+** las empresas no les importa que algo les sirva , les sirve algo que les de mas dinero $
+** las personas desarrollan para personas

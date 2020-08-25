@@ -18,3 +18,13 @@
 ** || paralelas
 ** NOTA
 *** la tilde encima de las letras es una flecha señalando a los 2 lados
+* 24/08/2020
+** tareas no muy requeriadas
+*** hacer un segmento que se pueda mover  con otro segemento
+** tareas requeridas
+*** ver video del pdf 
+*** hacer el ejercio del pdf 2 y 9 en geogebra (los rayos AB y AC ) intente de atras hacia delante
+*** para la proxima clase
+*** todo el seguimineto tiene valor
+** si no entiende o se preocupa o no hace pida otro ejercio en vez de copiar y pegar o decirle al otro , no preocuparse si esta bueno o malo 
+* 26/08/2020

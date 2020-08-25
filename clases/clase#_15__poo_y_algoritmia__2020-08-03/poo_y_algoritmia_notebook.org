@@ -65,3 +65,5 @@
 **** init(bool,int,int)
 **** siFlorese()
 **** descripcion():array
+* 24/08/2020
+** no hubo clase debido a que zoom no funcionava se intento en teams y no era muy amigable , honesta con linux ,teams y zoom por lo que visto funcionan mejor optimisadas y hay mas soluciones para los errores y la coneccion/interacion en windows  
