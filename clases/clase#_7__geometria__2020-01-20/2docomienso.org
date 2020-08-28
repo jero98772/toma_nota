@@ -26,5 +26,20 @@
 *** hacer el ejercio del pdf 2 y 9 en geogebra (los rayos AB y AC ) intente de atras hacia delante
 *** para la proxima clase
 *** todo el seguimineto tiene valor
-** si no entiende o se preocupa o no hace pida otro ejercio en vez de copiar y pegar o decirle al otro , no preocuparse si esta bueno o malo , intente 
+** si no entiende o se preocupa o no hace pida otro ejercio en vez de copiar y pegar o decirle al otro , no preocuparse si esta bueno o malo , intente
 * 26/08/2020
+* 27/08/2020
+** es muy importante verificar el significado de los terminos
+*** bicetriz es una semirecta que esta entre otras semirectas
+*** int(extremo , punto medio, extremo) es intercecion 
+*** no interesa  las dimenciones graficas , si los simbolos que representan las dimenciones
+** grafico parecido a : A (un grafico de clase)  
+*** tesis 
+**** AB̂C ≝ AĈB
+*** hipotesis  
+**** notas
+***** cb se repite y creo que hay una manera de descomponerlo para llegar a , falta informacion
+***** cuando dice AB̂C ≝ AĈB se nesita llegar a A por que CB y BC son congruentes pero en difernte orden
+**** CB̂D ≝ BĈE
+**** BD ≝ CE  
+** se quiere demostrar angulos no segmentos

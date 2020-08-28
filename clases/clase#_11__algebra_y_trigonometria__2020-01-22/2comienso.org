@@ -70,6 +70,9 @@
 ** ((4x**2)+11x-3 ) =(4x-1)(x+3)
 ** (2-5x-(12x**2)) = -(4x-1)(3x+2)
 ** ((4x-1)(x+3))/-(4x-1)(3x+2) = (x+3)/(3x+2)
-
-
-
+* 26/08/2020
+** ecuacion lineal
+** formula
+*** ax+b 
+** para allar la incognita se hace
+*** x =-b/a

@@ -66,4 +66,8 @@
 **** siFlorese()
 **** descripcion():array
 * 24/08/2020
-** no hubo clase debido a que zoom no funcionava se intento en teams y no era muy amigable , honesta con linux ,teams y zoom por lo que visto funcionan mejor optimisadas y hay mas soluciones para los errores y la coneccion/interacion en windows  
+** no hubo clase debido a que zoom no funcionava se intento en teams y no era muy amigable , honesta con linux ,teams y zoom por lo que visto funcionan mejor optimisadas y hay mas soluciones para los errores y la coneccion/interacion en windows
+* 26/08/2020
+** ejercio
+*** Se requiere calcular el valor del pago y cada uno de los descuentos realizados a un empleado, que gana un salario base y porcentaje de ventas así: • Propiedad raíz 1% • Vehículos 2% • Mercancías 5% También se requiere conocer el valor devengado por tipo de venta. El empleado tiene los siguientes descuento variables • Seguridad social • Prestamos • Fondo de empleados Tenga en cuenta que al empleado se le hace una retención sobre el devengado según la siguiente tabla. • Inferior a 3 millones 0% • De 3 a 5 mil 1% • De 5 a 8 mil 3% • De 8 a 12 mil 5% • Superiores a 12 mil 8% Nota: todos los descuentos se hacen sobre el devengado. Se requiere crear un programa que permita matricular un usuario en una página web, pudiendo darse de alta, inhabilitarse, habilitarse, cambiar contraseña y retirarse. Se requiere gestionar el servicio que se le presta en un centro de lubricación los vehículos para generarles la factura; se manejan los siguientes datos Placa tipo de vehículo y capacidad de aceite, fecha del servicio 
+*** hacer el primero
