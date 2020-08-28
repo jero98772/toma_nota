@@ -1,14 +1,23 @@
 * caracateristicas del tgs del concentrese 
-** interelacion 
+** interelacion
+*** cada cosa cumple su funcion
 *** toda variable tiene una utilidad  y ayuda a una funcion y evita que la  funcion falle
 ** entropia  
+*** las cosas tienden al desorden
 *** por falla algo donde el   
 ** busqueda de objetivos
+*** cual es el fin del sistema
 *** tiene la finalidad de cada cosa es hacer funcionar el progrma bien y poder entregar un progrma /app bien hecho
 ** insumos y productos 
+*** que recive y lo trasnforma a algo
 *** el producto es poder jugar y los insumos es lo que se nesesita/un humano  para jugar
 ** diferenciacion
+*** componentes del sistema cumplen su propia funcion
 *** desde cada boton tiene su funcion y si no tubiera cada boton su funcion no funcionaria como esta diseñado 
 ** trasformacion
+*** trasforma las entradas en salidas
 *** cuando tocas la pantalla  reaciona difernete dependiendo de donde toque
 * https://sites.google.com/site/ingsistemasdanielfernandez/assignments
+** carlos caracteristicas
+** santiago y yo exponer el programa
+** yo preguntas
