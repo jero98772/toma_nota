@@ -1,0 +1,46 @@
+PROBLEMA 3:
+Primero (valor 40 puntos)
+Resuelva el siguiente problema:
+Un estudiante de Matemáticas Discretas construyó la función lógica f para un dispositivo con 5 botones llamados p, q, r, s, t con el que se realizará una prueba para evaluar a una persona, la cual deberá pulsar o dejar de pulsar dichos botones para darle respuesta a la prueba; de tal manera Acierta o Fracasa. Efectivamente, pulsar un botón significaría que la proposición es V y dejar de pulsarlo indicaría que la proposición es F.
+El estudiante hallo los valores de la función lógica f, comenzando con falsas: 
+	f⟺VVFFVVVVFFVVVVVVVVFFVVVVFFVVVVVV
+Las proposiciones deben comenzar siempre con falsas. Se pide que:
+(valor 20 puntos) Simplifique hasta obtener la proposición irreductible
+(valor 20 puntos) Exprese la proposición irreductible mediante anti-conjunciones. 
+
+Segundo (20 puntos):
+Seleccione la opción correcta luego de negar el enunciado, según las siguientes situaciones:
+(1) p ⟶ s		(2) p ⟶ ¬t		(3) ¬t ⟶ r		(4) p  
+A.  ┐q ʌs
+B.  ┐rʌ t  
+C.  ┐u ʌ q
+D.  r ʌsʌ¬t
+ANSWER: ______
+
+Tercero (20 puntos):
+Seleccione la opción correcta luego de negar el enunciado, según las siguientes situaciones:
+A.  Si 1 y 2 son correctas
+B.  Si 2 y 3 son correctas
+C.  Si 3 y 4 son correctas
+D.  Si 2 y 4 son correctas
+E.  Si 1 y 3 son correctas
+Enunciado: “algunos estudiantes inteligentes e irresponsables, si son buenos profesionales, no desempeñarán buenos cargos”, donde los predicados serian: E:’’Ser inteligente, pero irresponsable”; B:”Ser buen profesional”; C:”Ocupar buenos cargos”, es equivalente a:
+1. Ningún estudiante irresponsable e inteligente, si es buen profesional, no ocupará buenos cargos 
+2. Cualquier estudiante irresponsable e inteligente, es buen profesional y ocupará buenos cargos 
+3. Cualquier estudiante irresponsable e inteligente, ocupará buenos cargos, pero no será buen profesional
+4. Ningún estudiante irresponsable e inteligente, si no es buen profesional, no ocupará buenos cargos
+ANSWER: _____
+
+Cuarto (20 puntos):
+Refute los enunciados Falsos (F); demuestre los enunciados verdaderos (V); a los enunciados Inciertos (I) dé un contraejemplo a la parte falsa y compruebe con un ejemplo la parte verdadera; según las siguientes situaciones:
+1)  (   ) (ⱯxꞓZ-{0})(ⱯyꞓZ-{0})((x/y)^(m-n)=(x/y)^m*(y/x)^n
+2)  (   ) (ⱯxꞓQ)(ⱯyꞓQ)(x*y=1)
+
+Observaciones: 
+• Se puede realizar individual o por parejas, únicamente.
+• Presente impreso un informe en Documento Word en letra Arial 12 puntos (pero nunca a mano) con mínimamente el enunciado del problema y respectivas justificaciones a sus respuestas. 
+• La entrega del documento del informe se realizará en la misma hora de clase, en el día convenido, mas no en otro día u hora. 
+• En caso de entrega extemporánea –no convenida – se calificará con 0.0 por no entrega y si lo entrega en la clase siguiente, se promediará la última calificación con la primera.
+• De comprobarse copia en uno cualquiera de los anteriores literales, se calificará con 0.0 la nota definitiva de la práctica, con las correspondientes consecuencias disciplinarias definidas en el Reglamento Estudiantil.
+
+

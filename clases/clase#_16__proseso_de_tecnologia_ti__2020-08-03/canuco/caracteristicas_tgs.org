@@ -1,0 +1,14 @@
+* caracateristicas del tgs del concentrese 
+** interelacion 
+*** toda variable tiene una utilidad  y ayuda a una funcion y evita que la  funcion falle
+** entropia  
+*** por falla algo donde el   
+** busqueda de objetivos
+*** tiene la finalidad de cada cosa es hacer funcionar el progrma bien y poder entregar un progrma /app bien hecho
+** insumos y productos 
+*** el producto es poder jugar y los insumos es lo que se nesesita/un humano  para jugar
+** diferenciacion
+*** desde cada boton tiene su funcion y si no tubiera cada boton su funcion no funcionaria como esta diseñado 
+** trasformacion
+*** cuando tocas la pantalla  reaciona difernete dependiendo de donde toque
+* https://sites.google.com/site/ingsistemasdanielfernandez/assignments
