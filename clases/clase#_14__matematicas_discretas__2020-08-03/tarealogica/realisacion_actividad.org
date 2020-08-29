@@ -33,6 +33,7 @@
 *** E:Ser inteligente, pero irresponsable”es supone que es F (uno dice lo contario a lo otro) 
 *** B:”Ser buen profesional” se supone que es F (uno dice lo contario a lo otro) 
 *** C:”Ocupar buenos cargos” se supone que es F (uno dice lo contario a lo otro) 
+** con este analisis es la A
 * Cuarto (20 puntos):
 ** Refute los enunciados Falsos (F); demuestre los enunciados verdaderos (V); a los enunciados Inciertos (I) dé un contraejemplo a la parte falsa y compruebe con un ejemplo la parte verdadera; según las siguientes situaciones:
 *** 1) (   ) (ⱯxꞓZ-{0})(ⱯyꞓZ-{0})((x/y)^(m-n)=(x/y)^m*(y/x)^n
