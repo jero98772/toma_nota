@@ -143,3 +143,5 @@
 ** un numero impar tiene potencia impar y una potencia impar tiene raiz impar
 ** un numero par tiene  potencia par y una potencia par tiene raiz par
 * 26/08/2020 curso inexistente no aparece en la plataforma de la universidad a muchas personas matriculadas
+** si el otro no trabaja no lo apuente y diga que uds no hico nada y el que lo dice tambien
+** 

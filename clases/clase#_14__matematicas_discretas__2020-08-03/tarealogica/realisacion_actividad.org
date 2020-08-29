@@ -1,0 +1,35 @@
+* Tercero (20 puntos):
+** Seleccione la opción correcta luego de negar el enunciado, según las siguientes situaciones:
+*** A.  Si 1 y 2 son correctas
+*** B.  Si 2 y 3 son correctas
+*** C.  Si 3 y 4 son correctas
+*** D.  Si 2 y 4 son correctas
+*** E.  Si 1 y 3 son correctas
+** Enunciado: “algunos estudiantes inteligentes e irresponsables, si son buenos profesionales, no desempeñarán buenos cargos”, donde los predicados serian: E:’’Ser inteligente, pero irresponsable”; B:”Ser buen profesional”; C:”Ocupar buenos cargos”, es equivalente a:
+*** 1. Ningún estudiante irresponsable e inteligente, si es buen profesional, no ocupará buenos cargos 
+*** 2. Cualquier estudiante irresponsable e inteligente, es buen profesional y ocupará buenos cargos 
+*** 3. Cualquier estudiante irresponsable e inteligente, ocupará buenos cargos, pero no será buen profesional
+*** 4. Ningún estudiante irresponsable e inteligente, si no es buen profesional, no ocupará buenos cargos
+**  ANSWER: _____ (segun la mente de alguna otra persona (algo parecida pero no excta): razon mia sin esteriotipos :es mejor con la mia )
+*** 1. Ningún estudiante irresponsable e inteligente(F : si ha estudiantes asi : V), si es buen profesional(F : es probable mas no definitivo : V), no ocupará buenos cargos ,(F : eso depende buenos cargos para quien : V) 
+*** 2. Cualquier estudiante irresponsable e inteligente(V : cualquiera puede ser irresponsable y inteligente si quiere y otros no : V), es buen profesional y ocupará buenos cargos (V:puede ser por suerte , Esto depende de la rosca (preferencia), pero si le gusta conseguir buenos "cargos " puede ser V, : F)
+*** 3. Cualquier estudiante irresponsable e inteligente(V: cualquiera puede ser irresponsable y inteligente si quiere y otros no : V), ocupará buenos cargos, pero no será buen profesional(F : si puede que sea un mal profecional y le guste ocupar buenos puestos y puede llegar a eso ,Esto depende de la rosca (preferencia)  : V) 
+*** 4. Ningún estudiante irresponsable e inteligente(F : si ha estudiantes asi : V), si no es buen profesional, no ocupará buenos cargos(V : eso depende que llamen buen profecional y buenos cargos un buen cargo para alguien puede ser carpintero por que le gusta y no le gusta ser gerente de una multinacional ejecutvo con ph y postdoctorado en una epmresa de carpiteria  : F )
+** lo que yo considero si fuera otra persona :yo condiero 
+*** 1
+**** (F:V),(F:V),(F:V) = (F:V)
+*** 2
+**** (V),(F:V/F) = (F:V/F) 
+*** 3
+**** (V:F),(F:V) = (F:F)
+*** 4
+**** (F:V),(V:F)=(F:F)
+** si algunos cumplen y encaja con los predicados tomare que la respuesta es desde ese punto que se mire y cupla lo que se diga con una conyucion  
+*** E:Ser inteligente, pero irresponsable” se supone que es F desde la mirada de otra persona  
+*** B:”Ser buen profesional”  se supone que es F desde la mirada de otra persona
+*** C:”Ocupar buenos cargos” se supone que F  desde la mirada de otra persona
+**  si algunos conciden pondre V y si algunos se contradicen pondre F
+*** donde los predicados serian: 
+*** E:Ser inteligente, pero irresponsable”es supone que es F (uno dice lo contario a lo otro) 
+*** B:”Ser buen profesional” se supone que es F (uno dice lo contario a lo otro) 
+*** C:”Ocupar buenos cargos” se supone que es F (uno dice lo contario a lo otro) 
