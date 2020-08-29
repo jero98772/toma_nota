@@ -33,3 +33,29 @@
 *** E:Ser inteligente, pero irresponsable”es supone que es F (uno dice lo contario a lo otro) 
 *** B:”Ser buen profesional” se supone que es F (uno dice lo contario a lo otro) 
 *** C:”Ocupar buenos cargos” se supone que es F (uno dice lo contario a lo otro) 
+* Cuarto (20 puntos):
+** Refute los enunciados Falsos (F); demuestre los enunciados verdaderos (V); a los enunciados Inciertos (I) dé un contraejemplo a la parte falsa y compruebe con un ejemplo la parte verdadera; según las siguientes situaciones:
+*** 1) (   ) (ⱯxꞓZ-{0})(ⱯyꞓZ-{0})((x/y)^(m-n)=(x/y)^m*(y/x)^n
+**** propociones 
+**** x, y , m , n
+*** (ⱯxꞓZ-{0}) --> V (no se sabe que numero es x pero si que esta en los enteros)
+*** (ⱯyꞓZ-{0}) --> V (no se sabe que numero es x pero si que esta en los enteros)
+*** ((x/y)^(m-n)=(x/y)^m*(y/x)^n --> F (no se cumple la equivalencia)
+*** 2) (   ) (ⱯxꞓQ)(ⱯyꞓQ)(x*y=1)
+**** propociones 
+**** x, y
+*** (ⱯxꞓQ) --> V (no se sabe que numero es x pero si que esta en los racionales)
+*** (ⱯyꞓQ) --> V (no se sabe que numero es x pero si que esta en los racionales)
+*** (x*y=1) --> F( por que son racionales) 
+* Primero (valor 40 puntos)
+** Resuelva el siguiente problema:
+** Un estudiante de Matemáticas Discretas construyó la función lógica f para un dispositivo con 5 botones llamados p, q, r, s, t con el que se realizará una prueba para evaluar a una persona, la cual deberá pulsar o dejar de pulsar dichos botones para darle respuesta a la prueba; de tal manera Acierta o Fracasa. Efectivamente, pulsar un botón significaría que la proposición es V y dejar de pulsarlo indicaría que la proposición es F.
+** El estudiante hallo los valores de la función lógica f, comenzando con falsas: 
+** f⟺VVFFVVVVFFVVVVVVVVFFVVVVFFVVVVVV
+** Las proposiciones deben comenzar siempre con falsas. Se pide que:
+*** (valor 20 puntos) Simplifique hasta obtener la proposición irreductible
+**** vfvvffvvvvfvvfvvv
+*** (valor 20 puntos) Exprese la proposición irreductible mediante anti-conjunciones. 
+**** V
+*** y el proceso se hiso con el codigo tecnica_resolucion.py 
+*** el proceso fue este log:https://pastebin.com/tEjZ57Q6
