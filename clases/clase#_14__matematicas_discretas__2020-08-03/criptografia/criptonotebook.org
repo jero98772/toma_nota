@@ -1,0 +1,13 @@
+* criptonotebook
+* 29/08/2020
+** algunas definicones 
+*** Advanced Encryption Standard - AES es un tipo de cifrado simetrico
+*** Rivest–Shamir–Adleman - RSA es un tipo de cifrado asimetrico basada en numeros primos 
+*** Data Encryption Standard - DES es un estandar  de ecriptacion de  simetrica
+*** pretty good Privacy -  PGP asimetrico muy usado en el correo electronico
+*** hash-based message authentication code - HMAC es un tipo de message authentication code (MAC) involucrando un algoritmo de hash mediante la MAC
+*** 
+*** claves 
+**** simetrica : un para cifrar y decifrar
+**** asimetrica : una para cifrar otra para decifrar
+***** se deriba en claves publicas y privadas

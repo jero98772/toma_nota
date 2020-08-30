@@ -50,6 +50,6 @@ for i in sentimeintos:
 		pass
 	else :
 		sentimiento += i
-print(larrySentimental)
+print(larrySentimental , len(larrySentimental ))
 #un log como ['estres', 'Tristeza', 'depresión ', 'ansiedad', 'miedo', 'Fobia', 'Llanto frecuente', 'Sentimientos de inferioridad ', 'ira', 'agresividad', 'ideación suicida', 'Alegria ', 'felicidad', 'emoción', 'Amor', 'odio', 'paz interior', 'armonia', 'intranquilidad', 'Amargado', 'engreido', 'desconocimiento', 'conocimiento', 'incomprension', 'compresnion', 'extraño', 'timidez', 'aislarse', 'preocupado', 'aislado', 'soledad', 'intmidado']
 
