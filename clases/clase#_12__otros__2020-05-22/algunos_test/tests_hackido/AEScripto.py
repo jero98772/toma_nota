@@ -4,7 +4,7 @@ from hashlib import sha256
 import base64
 import hashlib
 def enPassowrd(password):
-	hashPassowrd = str(sha256(password.encode('utf-8')).hexdigest())
+	hashPassowrd = sha256(password.encode("utf-8")).digest()
 	return hashPassowrd
 def encriptar(mensaje,key):
 	print(key,"logitud",len(key))
@@ -38,22 +38,6 @@ def encrypt(raw, password):
     iv = Random.new().read(AES.block_size)
     cipher = AES.new(private_key, AES.MODE_CBC, iv)
     return base64.b64encode(iv + cipher.encrypt(raw))
-def mienc(mensaje,key):
-	key = enPassowrd(key)
-	iv = Random.new().read(AES.block_size)
-	cif = AES.new(key, AES.MODE_CBC,iv)
-	mensaje = iv + cif.encrypt(mensaje)
-	mensaje = base64.b64encode(mensaje)
-	return mensaje
-def midec(mensaje,key):
-	key = enPassowrd(key)
-	enc = base64.b64decode(enc)
-	iv = enc[:16]
-	mensaje = iv + cif.encrypt(mensaje)
-	tipocifrado = AES.new(key, AES.MODE_CBC, iv)
-	decifrado = tipocifrado.decrypt(enc[16:])
-	return decifrado
-
 def decrypt(enc, password):
     private_key = hashlib.sha256(password.encode("utf-8")).digest()
     enc = base64.b64decode(enc)
@@ -70,15 +54,29 @@ def decrypt(enc, password):
 #decrypted = decrypt(encrypted, password)
 #print(bytes.decode(decrypted))
 key = "d0095d2938111626"
-nuevomensaje = encriptar("hola",key)
-print(nuevomensaje)
-print()
-#d1 = decrypt(nuevomensaje,key)
-d2 = decrypt(nuevomensaje,key)
-#print(d1)
-print(d2)
-print()
-#d1 = bytes.decode(d1)
-d2 = bytes.decode(d2)
-#print(d1)
-print(d2)
+msg = "mundo bello hola "
+#nuevo sin complicarme 
+def encryptE(raw, password):
+    private_key = hashlib.sha256(password.encode("utf-8")).digest()
+    raw = pad(raw)
+    iv = Random.new().read(AES.block_size)
+    cipher = AES.new(private_key, AES.MODE_CBC, iv)
+    return base64.b64encode(iv + cipher.encrypt(raw))
+def decryptE(enc, password):
+    private_key = hashlib.sha256(password.encode("utf-8")).digest()
+    enc = base64.b64decode(enc)
+    iv = enc[:16]
+    cipher = AES.new(private_key, AES.MODE_CBC, iv)
+    mensaje =  unpad(cipher.decrypt(enc[16:]))
+    return mensaje
+enc = encryptE(msg, key)
+print(str(decryptE(enc, key).decode()))
+"""
+un = pad(msg)
+print(un)
+algo = unpad(un)
+print(algo)
+print(len(msg))
+print(len(un))#diferente tamaño 32 vs 17 
+print(len(algo))
+"""
