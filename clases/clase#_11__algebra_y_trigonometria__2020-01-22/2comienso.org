@@ -76,3 +76,48 @@
 *** ax+b 
 ** para allar la incognita se hace
 *** x =-b/a
+* 31/08/2020
+** hacer un ensayo de 2 pagunas 1 hoja y explicar lo que vio y que pelicula de la paguina web del profe 
+** como la cultura a metido conceptos matematicos a las peliculas 
+***  https://fbetancourt3.wixsite.com/aytudem/matematicos
+** algunos proyectos de aula luego
+** se manda al correo
+** ideas
+** personajes
+*** los hackers acerca de los hackers
+*** jhon conway --> no encuentro pelicula
+*** steven wozniak o woz
+*** jhon draper 
+*** kevin mitic 
+*** epsylon
+*** richard stallman 
+*** linus torvals 
+*** Aaron Swartz --> http://www.aaronsw.com/
+*** Tim Berners-Lee --> https://www.w3.org/People/Berners-Lee/
+** peliculas  / documentales
+*** "Psy"
+*** https://www.youtube.com/watch?v=e8nUg0wS_II&list=LL02jIZJNlys308ZiOUha6_g&index=26&t=1s
+*** hackers
+*** https://www.youtube.com/watch?v=AZCwMVgYGMI&t=1501s
+*** linux
+*** https://www.youtube.com/watch?v=J1bBG1NtL18
+***  Aaron Swartz
+*** https://www.youtube.com/watch?v=mT8FJcIx3HI
+** clase 
+*** las ecuaciones cuadratidcas se resuelven igulandolos a 0
+*** para que siren las matematicas para las aplicaciones que se les da
+*** puede ser un traductor de lenguaje natural a matematicas
+*** reslver el problema no hacer otro
+*** hacer un bosquejo/diagrama 
+*** y un trabajo en equipos 
+*** dos nuemros que sumados o multiplicados den 85 y 1764 = 49 36 puede ser por formula general o descomponer pero mejor con formula general
+** ejercio
+*** en un parque 2 aceras forman un agulo recto con el patio P el puesto de refrijerios R y el estacionamiento E , la longitud total de la cera es 700m al caminar diagonal mente del estacionamiento al patio los niños a cortan una distacia de 200 M cual es la longitud de cada acera
+** resolucion
+*** P,R,E
+*** estacionamiento al patio
+*** P a E = 500
+*** R a P = 400
+*** R a E = 300
+*** hipotenusa
+*** X**2 + 

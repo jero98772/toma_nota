@@ -17,7 +17,7 @@
 *** https://analisisurbano.org/sabe-daniel-quintero-que-la-alcaldia-nos-espia-y-ademas-perfila/90869/
 ** clase del 27/08/2020
 *** https://blogs.elespectador.com/actualidad/el-rio/la-app-la-los-pescadores-ayudaran-cuidar-la-cuenca-del-rio-magdalena
-** para la clase del 01/09/2020 colombianos trabajando para marte mediante la nasa
+** para la clase del 31/08/2020 colombianos trabajando para marte mediante la nasa
 *** https://www.colombia.com/colombianos/noticias/sdi/138682/colombianos-diana-trujillo-dirige-mision-de-la-nasa
 *** https://www.youtube.com/watch?v=xwX0SaRlr8I
 *** https://www.youtube.com/watch?v=Nk6x-UjT5_E
@@ -28,6 +28,9 @@
 *** hatu es invitado para trabajar en el manejo del drone
 *** diana es la lider del grupo del brazo robotico de un robot parecido a curiosity  llamado perseveranse
 *** me da esperansa para conseguir un trabajo divertido
+** clase 03/09/2020
+*** cedula y voto electrinico (ya la dijeron)
+*** https://www.eltiempo.com/politica/gobierno/cedula-electronica-en-colombia-registrador-nacional-explica-como-sera-el-voto-electronico-534853
 * atividad 1
 ** con jose carlos gaviria tapia
 **  el sistema de los peces del rio amazonas
@@ -177,4 +180,20 @@
 ** las personas desarrollan para personas
 * 27/08/2020
 ** una organicacion es una estructura social
-** 
+* 31/08/2020
+** hay monitoria 
+** calificaciones
+*** el concentrese
+**** sustentacion a las 4:40 hacer sustentacion
+*** un caso de una empresa en un problema de negosio de TI en el mismo equipo del concentrese
+**** paltar otra solucion
+**** presentacion del caso usando recursos creativos juego simulacion quiz etc ... video programa o boceto
+**** que caso nose sabe es algo con tecnologia vestible https://www.youtube.com/watch?v=8ZFxrDkVOFk
+** clase
+*** hay un midlewhere para comunicar cosas o difernetes tecnologias o formas etc...
+*** sistemas aplicaciones empresariales
+*** ERP sitema empresarial centralisa la informacion y hay modulos para otras areas como SAP ...
+*** SCM
+*** CRM
+** KMS tema asigando
+** buscar un ejemplo KMS

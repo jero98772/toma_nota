@@ -43,3 +43,6 @@
 **** CB̂D ≝ BĈE
 **** BD ≝ CE  
 ** se quiere demostrar angulos no segmentos
+* 31/08/2020
+* lo imporatnte es sobrevivir 
+** si PQ =- RS y P-Q-R-S entonces PR =- QS
