@@ -15,7 +15,11 @@ class algunAcceso:
 		self.pwd = str(pwd)
 		self.usr = str(usr)
 		if self.password == self.pwd and self.username == self.usr:
-			self.login = True 
+			self.login = True
+	def cerrar(self):
+		self.pwd = ""
+		self.usr = ""
+		self.login = False
 	def acceder(self):
 		if self.login :
 			print("accedistes")
@@ -25,7 +29,10 @@ registroT = algunAcceso()
 registroT.registro("hola",enPassowrd("mundo"))
 registroT.login("hola",enPassowrd("mundo"))
 registroT.acceder()
+print("registro correcto")
 registroF = algunAcceso()
 registroF.registro("hola",enPassowrd("mundo"))
 registroF.login("hola","mundo")
+registroF.acceder()
+registroF.cerrar()
 registroF.acceder()

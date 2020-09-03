@@ -74,3 +74,5 @@
 * 31/08/2020
 ** uml define el funcionamiento y componentes de un sistema
 ** ejercio Se requiere gestionar el servicio que se le presta en un centro de lubricación los vehículos para generarles la factura; se manejan los siguientes datos Placa tipo de vehículo y capacidad de aceite, fecha del servicio, precio del litro de aceite y un indicativo si el vehículo llega por primera vez o repite servicio; si repite servicio recibe un descuento del 5% sobre el costo del aceite. Al final debe imprimir los datos del vehículo, fecha, costo de servicio, cantidad de aceite gastado y que descuento recibió. 
+* 02/09/2020
+** hacer un pagina parecida a cuevana para ver peliculas

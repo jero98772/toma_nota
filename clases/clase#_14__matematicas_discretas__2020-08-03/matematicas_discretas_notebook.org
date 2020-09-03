@@ -144,4 +144,15 @@
 ** un numero par tiene  potencia par y una potencia par tiene raiz par
 * 26/08/2020 curso inexistente no aparece en la plataforma de la universidad a muchas personas matriculadas
 ** si el otro no trabaja no lo apuente y diga que uds no hico nada y el que lo dice tambien
-** 
+* 02/09/2020
+** algunos progrmas ponen cuando se divide el mismo numero pero con diferente simbolo
+** 13 // 5 = 2
+** -13 // 5 = -3
+** el mod se saca de lo que sale del resuduo se resta su forma negativa con su forma postiva y se multiplica con el denominador como
+*** 13246/79
+*** =167.6708
+*** 167.6708-167
+*** =0.6708
+*** 79*0.6708
+*** =53
+** consultar si python maneja numeros gigantes

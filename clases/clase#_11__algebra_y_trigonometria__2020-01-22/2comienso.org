@@ -121,3 +121,6 @@
 *** R a E = 300
 *** hipotenusa
 *** X**2 + 
+* 02/09/2020
+** el 28 de septiembre proxima prueba evaluativa
+** en los grupos buscar  una aplicacion de sietas de ecuaciones pueden ser IA ... criptografia

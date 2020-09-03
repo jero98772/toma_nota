@@ -4,10 +4,15 @@ class caculadora:
 	def __init__(self,expresion):
 		self.expresion = expresion
 	def calcular(self):
-		entrada=eval(self.expresion)
-		return entrada
+		self.entrada=eval(self.expresion)
+		return self.entrada
+	def contar(self):
+		catidad = len(str(self.entrada))
+		return catidad 
 calculadora = caculadora(sys.argv[1])#input("entre algo para calcular\n"))
-r = calculadora.calcular()
-print(r)
+q = calculadora
+r = q.calcular()
+print()
+print(q.contar())
 
 

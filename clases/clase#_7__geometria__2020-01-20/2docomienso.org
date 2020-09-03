@@ -46,3 +46,8 @@
 * 31/08/2020
 * lo imporatnte es sobrevivir 
 ** si PQ =- RS y P-Q-R-S entonces PR =- QS
+* 02/09/2020
+** no puede se puede decir que un triangulo ΔABC es diferente a ΔCBA (para calificar) 
+** hacer un triangulo con sus bicectrises (una linea que atraviese el triangulo)
+** incentro centro es el punto que intercepata el triangulo
+** inquietud el incentro es el centro de la circunferencia incrita en el triangulo
