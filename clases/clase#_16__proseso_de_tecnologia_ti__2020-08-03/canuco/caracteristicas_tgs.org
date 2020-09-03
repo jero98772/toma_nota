@@ -4,7 +4,7 @@
 *** toda variable tiene una utilidad  y ayuda a una funcion y evita que la  funcion falle
 ** entropia  
 *** las cosas tienden al desorden
-*** por falla algo donde el   
+*** tiende a la entropia por que el juego nesesita del  humano para programarlo , jugar, mejorarlo y solucionarle problemas
 ** busqueda de objetivos
 *** cual es el fin del sistema
 *** tiene la finalidad de cada cosa es hacer funcionar el progrma bien y poder entregar un progrma /app bien hecho
@@ -20,4 +20,7 @@
 * https://sites.google.com/site/ingsistemasdanielfernandez/assignments
 ** carlos caracteristicas
 ** santiago y yo exponer el programa
-** yo preguntas
+** yo preguntas generales (no las preguntas a un miembro selecionado) 
+** yo comparto pantalla presentacion y proseso y codigo
+** snati comparte la pantalla de la app en el celular
+** cindy habla sobre el juego
