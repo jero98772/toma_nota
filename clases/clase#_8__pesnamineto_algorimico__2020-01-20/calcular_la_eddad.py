@@ -10,9 +10,7 @@ def eddad(dia,mes,años):
     print ("fecha es ",dia,"dia \t",mes,"mes \t",años,"año")
     #dias de 2020
     añosdias=(A*M*D)
-    #dias de años//22
     AÑOSdias=(años*M*D)
-    #dias de meses//9
     MESESdias=(mes*D)
     eddad_dias=añosdias-AÑOSdias-MESESdias-dia
     eddad=eddad_dias/ (D*M)

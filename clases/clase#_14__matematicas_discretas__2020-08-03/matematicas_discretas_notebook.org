@@ -156,3 +156,16 @@
 *** 79*0.6708
 *** =53
 ** consultar si python maneja numeros gigantes
+* asesoria 04/09/2020
+** la calculadora se nesesita calcular numeros modulares (numeros grnads)
+** suma modular
+** producto
+** division
+** invertible
+** potencia
+** raiz cuadrada
+** cuadrados perfectos en los enteros
+** bigInteger
+** el usuario debe integrar
+*** un positib
+*** negativo

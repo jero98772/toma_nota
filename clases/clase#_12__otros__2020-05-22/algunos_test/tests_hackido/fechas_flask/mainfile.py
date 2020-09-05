@@ -8,8 +8,7 @@ intentar comparar el formato de salida de fecha  html concidiera con el de la li
 import datetime
 from flask import Flask, render_template, request, flash, redirect ,session
 app = Flask(__name__)
-@app.route("/",methods=['GET','POST'])
-def main():
+def tiemetest():
 	if request.method == 'POST':
 		cal = str(request.form["cal"])
 		print("html day",cal,type(cal))
@@ -18,5 +17,8 @@ def main():
 		if hoy == cal:
 			print("se puede operar")
 	return render_template("testdate.html")
+@app.route("/",methods=['GET','POST'])
+def main():
+	return  tiemetest()
 if __name__=='__main__':
 	app.run(debug=True,host="0.0.0.0")

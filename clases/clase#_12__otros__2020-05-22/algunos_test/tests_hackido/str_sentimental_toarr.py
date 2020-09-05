@@ -31,10 +31,15 @@ sentimeintos = """*** estres
 *** compresnion
 *** extraño
 *** timidez
+*** impulsivo
 *** aislarse
 *** preocupado
 *** aislado
 *** soledad
+*** respeto ¿a quien y porque?
+*** responsabilidad ¿con que y por que?
+*** disgusto
+*** sueño
 *** intmidado
 *** agresion
 """
@@ -42,6 +47,7 @@ larrySentimental = []
 sentimiento = ""
 sentimeintos = sentimeintos.replace("*** ","-")
 sentimeintos = sentimeintos.replace("\n","")
+
 for i in sentimeintos:
 	if i == "-":
 		larrySentimental.append(sentimiento)
