@@ -43,10 +43,27 @@ es una calculadora fuera de ley y sin probar no va a funcionar ...
 * numero imaginaroj
 ### covesor a numeraciones
 * bin(numero) a binario
-* hex(numero>) a hexadecimal
-* oct(numero>) a octal
+* hex(numero) a hexadecimal
+* oct(numero) a octal
 * float(numero) a un decimal
 * complex(numero en  los reales,su parte imaginaria  ) a un numero complejo
 * degrees(numero) a un grado 
 * radians(numero) a un radian 
 * int(nuemro) a numeros enteros 
+### ejemplos calculados 
+ecuacion1
+		13+14-15/16*17**(1/2)**5//6%2 = 27.0
+ecuacion2
+		13+14-15/16*17**(1/2)**5//6%2+pow(10,10)+exp(9)-pi-e+log(64,8) = 10000008126.224052
+ecuacion3
+		hypot(fabs(13+14-15/16*17**(1/2)**5//6%2+pow(10,10)+exp(9)-pi-e+log(64,8)-log10(13241)-log2(55)),cos(13)+sin(54)) = 10000008116.32077
+ecuacion4
+		radians(hypot(fabs(13+14-15/16*17**(1/2)**5//6%2+pow(10,10)+exp(9)-pi-e+log(64,8)-log10(13241)-	log2(55)),cos(13)+sin(54))*10008116.32077)*0b1101010101010101-0o7213131312125*(-0x12)+0j = (9.539511573530755e+19+0j)
+ecuacion5
+		radians(hypot(fabs(13+14-15/16*17**(1/2)**5//6%2+pow(10,10)+exp(9)-pi-e+log(64,8)-log10(13241)-	log2(55)),cos(13)+sin(54))*10008116.32077)*0b1101010101010101-0o7213131312125*(-0x12)+0j - (9.539511573530755e+19+0j)
+ecuacion6
+		hex(int(radians(hypot(fabs(13+14-15/16*17**(1/2)**5//6%2+pow(10,10)+exp(9)-pi-e+log(64,8)-log10(13241)-	log2(55)),cos(13)+sin(54))*10008116.32077)*0b1101010101010101-0o7213131312125*(-0x12)**9+19) = 0x1502a84008230a000000
+ecuacion7
+		hex(int(radians(hypot(fabs(13+14-15/16*17**(1/2)**5//6%2+pow(10,10)+exp(9)-pi-e+log(64,8)-log10(13241)-	log2(55)),cos(13)+sin(54))*10008116.32077)*0b1101010101010101-0o7213131312125*(-0x12)**9+19)+0x1502a84008230a000000*int(hypot(int(pi-e+log(64,8))-log10(13241),1+(0))))*1000 = 0x3f07f8c018691e0000000x3f07f8c018691e0000000x3f07f8c018691e0000000x3f07f8c018691e0000000x3f07f8c018691e0000000x3f07f8c018691e0000000x3f07f8c018691e0000000x3f07f8c018691e0000000x3f07f8c018691e0000000x3f07f8c018691e000000
+
+
