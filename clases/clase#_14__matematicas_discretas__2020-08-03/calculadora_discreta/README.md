@@ -6,7 +6,8 @@ es una calculadora fuera de ley y sin probar no va a funcionar ...
 ### arimeticos
 * suma con: +
 * resta con: -
-* multiplicacion con: **
+* multiplicacion con: *
+* potenciacion con: **
 * modulo o residuo con: %
 * division entera con: //
 * division decimal : /
@@ -48,3 +49,4 @@ es una calculadora fuera de ley y sin probar no va a funcionar ...
 * complex(numero en  los reales,su parte imaginaria  ) a un numero complejo
 * degrees(numero) a un grado 
 * radians(numero) a un radian 
+* int(nuemro) a numeros enteros 
