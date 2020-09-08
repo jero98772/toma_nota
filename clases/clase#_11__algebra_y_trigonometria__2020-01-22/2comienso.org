@@ -129,16 +129,22 @@
 ** Se tiene un rectángulo cuya altura mide 2cm más que su base y cuyo perímetro es igual a 24cm. Calcular las dimensiones del rectángulo.
 *** x - y = 2
 *** 2x + 2y = 24
+*** x base 
+*** y altura
 ** procediminto 
-*** y=x+2
-*** 2x+2y=24
+*** y = x + 2
+*** 2x + 2y = 24
 *** sustitucion
-*** 2x+2(x+2)=24
-*** 2x+2x+4=24
-*** 4x+4=24
-*** 4x=24-4
-*** 4x=20
-*** x=20/4
-*** x=5
-*** y=5+2
-*** y=7
+*** 2 x + 2( x + 2) = 24
+*** 2 x + 2x + 4 = 24
+*** 4x + 4 = 24
+*** 4x = 24 - 4
+*** 4x = 20
+*** x = 20 / 4
+*** x = 5
+*** y = 5 + 2
+*** y = 7
+* 07/09/2020
+** ecuacion de ingreso
+*** ingreso = precio * cantidad
+** un bote navega 15km en 1.5h a favor de la corriente y 2 horas en contra corrinte

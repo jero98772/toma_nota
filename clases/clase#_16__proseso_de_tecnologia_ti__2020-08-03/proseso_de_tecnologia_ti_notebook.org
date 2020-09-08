@@ -27,7 +27,9 @@
 *** conclucion 
 *** hatu es invitado para trabajar en el manejo del drone
 *** diana es la lider del grupo del brazo robotico de un robot parecido a curiosity  llamado perseveranse
-*** me da esperansa para conseguir un trabajo divertido
+*** me da esperansa para conseguir un trabajo divertido 
+** otra clase 
+*** https://www.sandiegouniontribune.com/en-espanol/noticias/story/2020-09-07/assange-rechaza-solicitud-de-eeuu-para-ser-extraditado
 ** clase 03/09/2020
 *** cedula y voto electrinico (ya la dijeron)
 *** https://www.eltiempo.com/politica/gobierno/cedula-electronica-en-colombia-registrador-nacional-explica-como-sera-el-voto-electronico-534853
@@ -199,3 +201,8 @@
 ** buscar un ejemplo KMS
 * 03/09/2020
 ** sustentacion
+* 03/09/2020
+** individualmente ejemplos de gobierno en linea
+*** agendar para sacar el documento identidad
+**** https://www.registraduria.gov.co/
+**** https://agenda.registraduria.gov.co/agenda/index.php

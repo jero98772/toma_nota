@@ -169,3 +169,17 @@
 ** el usuario debe integrar
 *** un positib
 *** negativo
+* 07/09/2020
+** cryptografia
+*** nos manda la clave publica y una frase
+*** devuelve un mensjae encriptado
+*** el profe va enviar la nota encriptada
+** la calculadora 
+*** el profe envia unos numeros por el chat y se caclulan
+** operaciones modulares
+** formula gaus ax+by
+** con diferentes bases
+*** suma modular es (a+b)%n
+*** multiplicacion modular es (a*b)%n
+*** divison modular es la multiplicacion modular pero b **-1
+*** se entrega el miecoles de la proccima semana en 10 dias
