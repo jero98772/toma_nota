@@ -183,3 +183,69 @@
 *** multiplicacion modular es (a*b)%n
 *** divison modular es la multiplicacion modular pero b **-1
 *** se entrega el miecoles de la proccima semana en 10 dias
+* 09/09/2020
+** repaso calcular el invertible
+*** calcule : 18**-1 en Z72 y y en Z35
+*** paso 1
+**** 72 y se le aplica el argoritmo de euclides
+*** paso 2
+**** cuantas veces se debe multiplicar el 18 para que de 72  = 4 , 4*18 = 72 y un residuo de 0
+*** paso 3
+**** mcd(72,18) =4 != 1 NO son primos relativos
+*** paso 4
+**** 18**-1 no existe en Z72
+*** 1ero buscar si existe el invertible
+*** 2)18**-1 en Z35
+*** paso 1
+**** 35 = 1*18 + 17
+*** paso 2
+**** 18 = 1*17+1
+**** 18**-1 existe en Z35
+*** paso 3
+**** en el paso 1 se despeja el 17 quedaria 18*1
+*** paso 4
+**** en el paso 2 se despeja el 1 quedaria 1*17
+*** debe quedar nx + ay = 1 
+*** a**-1 = y la expresion  de gauss
+*** se replasan las cosas de abajo para arriba
+**** 18 -1*(35-1*18)
+**** 18-1*35+1*18
+**** 1*35+2*18
+*** paso 5 
+**** trasformar la expresion
+**** n = 35 tendria que tomar el valor de 35**-1
+**** a = 18
+**** 35*-1+18*2 = 1
+*** paso 6
+**** 18-1 = 2(mod 35)
+**** 18*2 (mod 35) = 1 = 18 ** -1 = 2
+** como funciona el RSA
+*** pasos 
+**** dar 2 numeros primos
+**** p = 3
+**** q = 3
+**** base Zn = n=p*q= 7*3 = 21
+**** fi(n)=p*q-p-q+1
+**** (p-1)*(q-1)
+*** clave publica llamda e
+**** saque le el maximo comun divisor mcd
+**** mcd(1,12) = 1
+**** mcd(2,12) = 2
+**** mcd(3,12) = 3 
+**** mcd(4,12) = 4
+**** mcd(5,12) = 1
+**** mcd(6,12) = 6 
+**** mcd(7,12) = 1
+**** mcd(8,12) = 4
+**** mcd(9,12) = 3
+**** mcd(10,12) = 2
+**** mcd(11,12) = 1
+**** seleciona donde e = mcd(1..fi,fi) == 1
+**** => e = 11
+*** clave privada d
+**** d = e *(1 hasta fi ) mod fi
+**** se ve cual el es el invetible
+**** ...
+**** 11*11 mod 12 == 1
+**** ...
+*** rsa sacar tiempo hoy

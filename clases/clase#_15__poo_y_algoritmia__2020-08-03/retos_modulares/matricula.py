@@ -18,9 +18,19 @@ class matricula():
 		self.nuevoCurso = nuevoCurso
 		return self.nuevoCurso
 	def cancelarCurso(self):
-		return False
+		self.nuevoCurso = ""
+		return self.nuevoCurso 
 	def cambiarHorario(self,nuevoHorario):
 		self.nuevoHorario = nuevoHorario		
 		return self.nuevoHorario
 	def cacelarTodo(self):
+		self.actividadReciente = False
 		return self.actividadReciente 
+cursos = ["magia","pocimas","hechisos","matematicas","quimica","fisica"]
+m = matricula("algun estudiante",cursos)
+print(m.estaActivo(True),"estaActivo")
+print(m.cambiarCurso("magia"),"cambiarCurso")
+print(m.cambiarHorario(cursos[1]),"cambiarHorario")
+print(m.cancelarCurso(),"cancelarCurso")
+print(m.cacelarTodo(),"cacelarTodo")
+print(m.cambiarCurso("magia"),"cambiarCurso")

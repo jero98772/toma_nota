@@ -148,3 +148,11 @@
 ** ecuacion de ingreso
 *** ingreso = precio * cantidad
 ** un bote navega 15km en 1.5h a favor de la corriente y 2 horas en contra corrinte
+* 09/09/2020
+** recta nuemrica
+** tipos desigusigauldades
+*** < menor que
+*** > mayor que
+*** >= menor o igual que
+*** >= mayor o igual que
+** taller

@@ -1,4 +1,4 @@
-#gano o perdio
+#gano o perdio compruebe aqui https://pastebin.com/ZR5TqqvU
 import hashlib
 def enPassowrdHash(password):
 	hashPassowrd = hashlib.sha256(password.encode("utf-8")).digest()
@@ -33,7 +33,10 @@ def main():
 	while num2 < 5:
 		sha256(str(num2))
 		num2 += 1
-def cuentaEnSha():
+def cuentaEnSha(hashencontrar):
 	for i in range(10001):
-		print(enPassowrdStrHex(str(i)), str(i))
-cuentaEnSha()
+		algo = enPassowrdStrHex(str(i))
+		if hashencontrar == algo: 
+			print(str(i))
+cuentaEnSha("ca0cec7f60085f0289aaea5cbfbdd84ad2ba05148de121075dab1c636682a566")
+
