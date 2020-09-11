@@ -13,6 +13,7 @@ es una calculadora fuera de ley y sin probar no va a funcionar ...
 * division decimal : /
 ### funciones
 * sqrt(num) : raiz cuadrada --> num^(1/2) 
+* root(x,e,root) : raiz de un numero x --> x^(p/root)
 * exp(num) : exponeciacion de e --> e^num
 * pow(num,potencia) :potenciacion --> num^potencia 
 * log(numero,base)
@@ -22,6 +23,15 @@ es una calculadora fuera de ley y sin probar no va a funcionar ...
 * fabs(num) : saca valor absoluto --> ((num^2)^(1/2)) 
 * hypot: aplica el teorema de pitagoras ((a^2)+(b^2))^(1/2)
 * fucniones hypervolicas como cosh(),sinh(),tanh(),acosh(),asinh(),atanh()
+* gcd(a, b):aplica el maximo comun divisor
+* sumaM(a,b,mod) : suma modular --> (a+b)%mod
+* productoM(a,b,mod) : producto modular  --> (a*b)%mod 
+* poteciaM(base,a,mod): potencia modular --> (base**a)%mod
+* inv(num): numero inverso --> 1/num
+* invM(a,mod) : inverso modular 
+* divisionM(a,b,mod) : division modular
+* raizCuadradaM(a,mod) : Raiz Cuadrada Modular
+* cuadradosPerfectoM(a,mod) : cuadrados Perfectos Modular
 ### logicos 
 #### devuleve valores falsos o verdaderos
 * menor o igual que con: <=

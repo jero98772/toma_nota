@@ -51,3 +51,19 @@
 ** hacer un triangulo con sus bicectrises (una linea que atraviese el triangulo)
 ** incentro centro es el punto que intercepata el triangulo
 ** inquietud el incentro es el centro de la circunferencia incrita en el triangulo
+* 10/09/2020
+** adicion de segmentos
+** adicion angulos
+** en todo segmento tiene un punto medio 
+** angulos complemnetarios de angulos congruentes son congruentes
+** puntos medios de segmentos congrentes genera 4 segementos congruentes
+** si 2 rectas diferentes se intercsectan existe un unico plano que las contiene
+** una recta y un punto exterior  a ella determina un unico plano
+** a todo angulo corresponde una bisectris
+** teoremoas de la bisagra 
+** angulo lado angulo
+** lado angulo lado
+** lado lado lado
+** teroema angulo isoseles (pons asinorum)
+** desigualdad triangular
+** hipotetnusa - cateto

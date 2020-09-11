@@ -34,9 +34,10 @@ def main():
 		sha256(str(num2))
 		num2 += 1
 def cuentaEnSha(hashencontrar):
-	for i in range(10001):
+	for i in range(10):
 		algo = enPassowrdStrHex(str(i))
+		print(algo, i)
 		if hashencontrar == algo: 
 			print(str(i))
-cuentaEnSha("ca0cec7f60085f0289aaea5cbfbdd84ad2ba05148de121075dab1c636682a566")
+cuentaEnSha("d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35")
 

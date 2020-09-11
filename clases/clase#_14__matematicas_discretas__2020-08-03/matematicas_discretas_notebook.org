@@ -249,3 +249,13 @@
 **** 11*11 mod 12 == 1
 **** ...
 *** rsa sacar tiempo hoy
+* asesoria 09/09/2020
+** criptografia rsa
+*** la clave es el numero  que de a*b MOD  = 0
+*** palabara curiosa
+*** diez malcugros
+** para encriptarlo
+*** e = 11
+*** posicion en la lista ^ e mod n
+*** nota
+*** c[i]**11%12

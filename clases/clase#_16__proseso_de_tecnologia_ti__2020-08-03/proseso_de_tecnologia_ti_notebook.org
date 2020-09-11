@@ -33,6 +33,8 @@
 ** clase 03/09/2020
 *** cedula y voto electrinico (ya la dijeron)
 *** https://www.eltiempo.com/politica/gobierno/cedula-electronica-en-colombia-registrador-nacional-explica-como-sera-el-voto-electronico-534853
+** clase 
+*** https://www.masslive.com/opinion/2020/09/julian-assanges-extradition-hearings-worthy-of-coverage-letters.html
 * atividad 1
 ** con jose carlos gaviria tapia
 **  el sistema de los peces del rio amazonas
@@ -206,3 +208,23 @@
 *** agendar para sacar el documento identidad
 **** https://www.registraduria.gov.co/
 **** https://agenda.registraduria.gov.co/agenda/index.php
+* 10/03/2020
+** estrategias para que 
+** optimisar y planear
+* 13 octubre agendarse a un seminario del CS
+** bucar empresas cercanas
+** semana del 22 que problema o oportunida se puede desarrollar mediante al software
+*** posibles intentos 
+*** pizzeria una pagina web , hay muy buen contacto ,puede ser una web para pedir pizzas o poner el menu 
+*** el colegio ya tiene una pagina web pueden ser elementos y herramientas de educacion virtual  https://www.colegioeuskadi.edu.co/ hay buena cominicacion pero lenta
+*** en la casa museo puede ser una herramienta referente a los residentes https://www.casatrespatios.org/, podemos recivir muy buena ayuda por partes de uno de los colectivos
+*** acuario http://www.acuariocalypso.com/ , http://aquariusonline.co/tienda/index.php hay buen contacto y una buena asesoria por parte de las personas ,se puede hacer cosas o herramientas para ver enfermedades para peces , sensore , MUCHAS tengo una lista, yo llevo avansado una parte en https://github.com/jero98772/wwwofish
+*** unloquer https://github.com/unloquer ,https://unloquer.org/ , https://comunidad.unloquer.org/, http://wiki.unloquer.org/, hay muy buen contacto y ayuda , hay muchas fomas de colaborar( ayudar con los codigos , pero seria mejor ayudar el contacto con el usuario , ayudar a gente que no programa de hay pero los que porgraman son unas vestias ) , muchos problemas y muchas oportunidades , creo que no hay porblema si se cansan de esta opcio y nos podemos quitar facil 
+*** identificar 1 o 2 empresas , aque se dedica que problema , reto tiene,y cercania
+*** es para definir cuales define la profe y para hablar entre el equipo
+** dofa
+*** fortalesa
+*** oportunidad
+*** debilidades
+*** amenazas del exterior
+
