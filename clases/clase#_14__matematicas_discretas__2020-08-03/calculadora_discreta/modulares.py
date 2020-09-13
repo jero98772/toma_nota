@@ -16,25 +16,29 @@ def inv(num):
 	return respuesta
 def invM(a,mod):
 	if gcd(a,mod) != 1:
-		return -1
+		return "no se pudo encontrar el inverso"
 	else:
 		return a**(mod-2)
 def divisionM(a,b,mod):
 	a = a % mod
 	inver = invM(b,mod) 
-	if(inver == -1): 
-		return False
+	if inver == "no se pudo encontrar el inverso": 
+		return "no se pudo encontrar el inverso"
 	else: 
-		return (inver*a) % m
+		return (inver*a) % mod
 def raizCuadradaM(a,mod):
-	for i in range(a,mod):
-		if i**2 % a == mod:
-			return i % a
-		else :
-			return False
+	e = 2
+	respuesta = (a**e) % (mod**e)
+	return respuesta
+def raizM(a,e,mod):
+	respuesta = (a**e) % (mod**e)
+	return respuesta
 def cuadradosPerfectoM(a,mod):
-	for i in range(a):
-		if i**2 == a%mod:
-			return a%mod
-		else : 
-			return False
+	e = 2
+	for i in range(13):
+		if  ((i**2) % mod) == a:
+			msg = str(a)+"tiene cuadrado perfecto en mod "+str(mod)+" por que "+str(i)+"² mod "+str(mod)+" = "+str(a)
+			break
+		else:
+			msg = "no se pudo encontrar"
+	return msg
