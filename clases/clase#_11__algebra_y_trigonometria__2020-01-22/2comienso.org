@@ -156,3 +156,6 @@
 *** >= menor o igual que
 *** >= mayor o igual que
 ** taller
+* 14/09/2020
+** nota nunca pasar a x o y a dividir o multiplicar en inecuaciones
+** proccimo prueba evakuativa 23/09/2020 ecuaciones o inecuacion

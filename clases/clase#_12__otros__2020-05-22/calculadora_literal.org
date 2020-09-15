@@ -1,0 +1,38 @@
+* se nesesitan calculadoras en python que calculen el infierno
+** tomado todo de 
+*** https://github.com/jero98772/calculadora
+*** https://github.com/jero98772/DsoonMath 
+**  con origen en 2015
+**  evolcuion con 
+*** https://github.com/jero98772/acua/blob/master/hw.py 
+** luego evoluciono mas
+***  https://github.com/jero98772/curapeces 
+** hasta convertirse en 
+*** https://github.com/jero98772/wwwofish 
+** y de hay implementarlo a 
+*** https://github.com/jero98772/webpage 
+** en su continua evolucion
+* version hello word con calculadoras
+#+begin_src python
+def suma(a,b):
+    return a+b
+def resta(a,b):
+    return a-b
+def mult(a,b):
+    return a*b
+def divR(a,b):
+    return a/b
+def divN(a,b):
+    return a//b
+return suma(1,1)
+return resta(1,2)
+return mult(2,2)
+return divR(2,3)
+return divN(3,3)
+#+end_src
+
+#+RESULTS:
+: 2
+* version no complejarse la vida  pero poner en peligro al mundo
+
+
