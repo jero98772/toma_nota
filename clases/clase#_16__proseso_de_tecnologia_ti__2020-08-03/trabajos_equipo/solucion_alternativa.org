@@ -1,0 +1,11 @@
+* solucion alternativa para nike (como lo unico que importa es el dinero , no es relevante que ponga empresas y industrias textiles)
+* que es nike
+** una empresa dedicada al diseño, desarrollo, fabricación y comercialización de equipamiento deportivo: balones, calzado, ropa, equipo, accesorios y otros artículos deportivos.
+* que se puede hacer difernte a unos sensores en la ropa que lean  y envien unos datos a un dispositivo movil o  que se pueden ver mediante una pantalla led
+**  unos sensores en la ropa que lean  y envien unos datos a un dispositivo movil  pero sin una pantalla led
+*** seria muy parecido pero daria una nocion desde mas lejos ¿nocion de que? 
+**** podria  configurarse para para que muestre en los leds segun una escala de colores sugun unos niveles (parecida a la de calidad de aire ejemplo relevante https://www.researchgate.net/profile/James_Repace/publication/338762256/figure/fig1/AS:850320708087808@1579743663397/The-US-EPA-Air-Quality-Index-for-PM25-showing-the-range-of-fine-particles-that.png )
+*** como funcionaria
+**** asi como hay un indice de calidad de aire general que se complementa de otros indices de calidad de aire pm2.5 ,o3 ,pm10,pm1, etc...
+**** DONE los puntos nikefuel se podrian tartar como el indiece general complemntandose de :los pasos ,algunas medidas relevantes del gps ,altitud,velocidad etc..., y con los datos hacer una escala de coleres y asiganrla algunos intervalos unos valores y dejar que los leds o una matris led (leds RGB) ilumnen segun esos puntos en el intervalo color al que pertenesca ese valor 
+** otras ideas podria ir aqui pero para que?
