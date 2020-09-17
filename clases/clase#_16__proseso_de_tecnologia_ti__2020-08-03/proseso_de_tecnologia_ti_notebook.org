@@ -277,3 +277,37 @@
 ** no se puede hacer solo ()
 ** se intenta profundisar en el trabajo en equipo y no solitario
 * visto que el trabajo en equipo no solo lo tiene que aprender un miebro del equipo, lo tiene que aprender todo el equipo una reflexion 
+* 17/09/2020
+** lo de las empresas para el lunes
+** una semana despues o en la del 27 de septiembre se hara un concurso
+** el lado oculto del big data
+*** justifica perder nuestra privacidad para usar un servico?(o regalarar la informacion)
+*** a demas de compañias tecnologiacas que otras organisaciones compran nuestros datos? 
+*** por que wikipedia no almacena los datos ? por que fue creada con fin de ser software libre por la fsf
+*** los software que  almacenan los datos personales son considerados spyware 
+**** si la respuesta es NO cual es la diferencia entre los software de google y microsoft (windows) con un spyware
+** no hay espacio para estas preguntas :)  
+* esta no  es educacion es adoctrinamiento (⚠ peligro esto puede afectar el futuro no es solo a los bobos es a todos)
+** eso no les impora
+** lista de expociones
+** el lado oscuro del big data
+** ahri
+** orbitz
+** tecnologia vestible
+** ciudades inteligente o smart city es lo mismo que spy-city
+*** mencionan que una ciudad inteligente es mas comoda ¿comoda para quien?
+*** iot es la forma mas sencilla para recolectar datos vacios
+*** barcelona es una ciudad  inteligente por que da wifi a todos los barrios (por iokese y el wifi de lavapies wireless)  
+** errores del grupo
+*** (1): organisar la presentacion al final
+*** (2): alguien se ofrese para compartir pantalla 
+*** (3): no prendier camara  = mala nota (se supone que es obligatoria)
+*** (4): la tarea era nike no la solucion que dio (lo unico que se hiso fue propaganda)
+*** (5): no se habla con claridad ni  nada relevante 
+*** (6): se repite lo que se habla muchas veces y se queda hablando de lo mismo (supongo que es para ganar tiempo)
+*** (7): los que hacen fueron los unicos enprender camara
+*** (8): no le funciono la peresa de hacer que le profe compartiera el video 
+*** (9): no fue muy eficiente ni muy util  reproducir el video 
+*** (10): se ve muchas partes del documento que se leyeron (ejemplo : en el video)
+*** (11): hablando con el micfono en mute =  no hablar
+** el grupo es el 62

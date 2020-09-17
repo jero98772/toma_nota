@@ -67,3 +67,10 @@
 ** teroema angulo isoseles (pons asinorum)
 ** desigualdad triangular
 ** hipotetnusa - cateto
+* 16/09/2020
+* 17/09/2020
+** prolongacion se a larga 
+** linea con flechas significa paralelismo -<<- y -<<- 
+** tarea del 3er capitulo
+** el lunes entrega algunas notas 
+** perpendicular bajada
