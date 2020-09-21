@@ -279,3 +279,14 @@
 *** si no hay colaboracion  , no le colaboare 
 *** si le mande  https://sindominio.net/ayuda/preguntas-inteligentes.html#AEN217 o http://wiki.unloquer.org/personas/jero98772/formular-preguntas/start y no lo aplico demostro , demostare mi desinteres a usted
 * 16/09/2020
+* 21/09/2020
+** definicion del trabajo "mixto" del docente
+*** no a dicho
+** python para diagramacion de conjuntos
+*** https://relopezbriega.github.io/blog/2015/10/11/conjuntos-con-python/
+** con
+*** from matplotlib_venn import venn2, venn2_circles
+*** import matplotlib.pyplot as plt
+** hay mas trabajos en equipos o para arrastrar al otro
+** aprender a hacer los elementos fuera del conjunto (el prfesor no sabe)
+*** pude ser poniendo un label por fuera el conjunto

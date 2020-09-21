@@ -37,8 +37,11 @@
 *** https://www.masslive.com/opinion/2020/09/julian-assanges-extradition-hearings-worthy-of-coverage-letters.html
 ** clase 14/09/2020
 *** https://www.elcolombiano.com/tecnologia/tiktok-seguira-en-ee-uu-de-la-mano-de-oracle-y-no-de-microsoft-DG13623909
+** clase 21/09/2020
+*** https://www.redeszone.net/noticias/seguridad/maze-ransomware-encripta-maquinas-virtuales-evadir-seguridad/
+*** https://m.europapress.es/portaltic/ciberseguridad/noticia-muere-mujer-ataque-ransomware-hospital-dusseldorf-alemania-20200918100804.html
 * atividad 1
-** con jose carlos gaviria tapia
+** con alguien
 **  el sistema de los peces del rio amazonas
 ** 1).es uno alimentico (en forma de ciclo) que se fundamente en " Las partes están dinámicamentente interrelacionadas o son interdependientes"
 ** particapan las partes como humanos , arapaimas y pirañas
@@ -311,3 +314,36 @@
 *** (10): se ve muchas partes del documento que se leyeron (ejemplo : en el video)
 *** (11): hablando con el micfono en mute =  no hablar
 ** el grupo es el 62
+* 21/09/2020
+** 1era opcion es acuario calypso http://www.acuariocalypso.com/somos.html
+** responder a que se dedica que problema , reto tiene y cercania
+*** a que se dedica la empresa : acuarismo en resumidas cuentas
+*** problema , oportunidad , reto : algun proyecto de wwwof
+*** cercania : ... no se
+** 2da opcion es casa museo 3 patios 
+** responder a que se dedica que problema , reto tiene y cercania
+*** se dedica a talleres , subastas  
+*** problema , oportunidad , reto :una matris que coleccione datos de los residente
+*** lugar donde se ospeda un hackerspace
+** conferencias de la semana
+*** la proccima clase es una conferencia
+** nuevo tema :tecnologias de informacion
+** actividad evaluitiva 3
+** opcion 1
+*** recivir una tendencia
+*** recurso para generar esa tendencia
+*** profundicar en
+**** que consiste
+**** areas de aplicacion
+**** descripcion de un caso real
+*** para octubre 7
+** opcion 2 
+** hacer el curso : "big data:el impactos masivos en la sociedad actual"
+*** hasta el 12
+** fecha limite para tomar la decision 
+*** proccima clase
+** -> expocion de las anteriores clases
+** trabajo con la empresa : identificar
+*** mision - propocito
+*** vision - cosas a lograr
+*** objetivos estrategicos - que se va lograr mediante el tiempo 
