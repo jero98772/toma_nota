@@ -40,6 +40,9 @@
 ** clase 21/09/2020
 *** https://www.redeszone.net/noticias/seguridad/maze-ransomware-encripta-maquinas-virtuales-evadir-seguridad/
 *** https://m.europapress.es/portaltic/ciberseguridad/noticia-muere-mujer-ataque-ransomware-hospital-dusseldorf-alemania-20200918100804.html
+** clase 24/09/2020
+*** https://albertonews.com/internacionales/reuters-rappi-genera-un-mercado-negro-en-las-cuentas-de-los-trabajadores/
+*** https://es-us.finanzas.yahoo.com/noticias/entrega-deseada-rappi-genera-mercado-141511737.html
 * atividad 1
 ** con alguien
 **  el sistema de los peces del rio amazonas
@@ -347,3 +350,86 @@
 *** mision - propocito
 *** vision - cosas a lograr
 *** objetivos estrategicos - que se va lograr mediante el tiempo 
+* 24/09/2020
+** hasta hoy registar la actividad 3 (opcion 1)  
+** y buscar al docente para hablar de la tarea de la empresa
+** modelar los procesos de negocios de la empresa escogida
+** se van usar herramientas 
+*** bisalli
+** Web scraping es una "subciencia" o conjunto de tecnicas para  extrarer datos
+*** conectarse a la url
+*** selecionar los datos o los cuadros (supongo las etiquetas de html )  
+*** cargar los datos a un archivo (csv , json)
+* 28/09/2020
+** herramienta para actividades didacticas
+*** https://flippity.net/ 
+** proyecto  con la empresa
+*** crear un blog del proyecto
+**** preferible mente con 2 entradas por semanas
+**** cargar el link blog en la tarea de la U virtual
+**** la profe revisa las entradas los lunes
+**** preferible mente antes del 2 de octubre
+*** entradas
+**** fotos productos
+**** mision 
+**** vision
+**** etc.. cosas relacionadas con la empresa
+*** en orden
+**** descripcion de la empresa
+**** componentes de planaceion estrategiaca 
+***** mapa procesos
+***** mision
+***** valores corporativos
+***** vision 
+***** dofa
+***** obejetivos estrategicos
+***** estrategias
+** aspectos relevanes de saleforce
+*** compite con grandes empresas como SAP y oracle 
+*** su fortaleza es en la computacion en la nube 
+**** usan aws 
+*** hay fallas con la coneccion que debilita el servicio y confiansa
+*** se enfoca en aplicaciones en el entorno  movil  como en appstrore de apple o google play de android
+** cual es el reto o problema..
+* 01/10/2020
+** reslver preguntas 
+*** 3. ¿En que consiste el software bajo demanda? ¿Qué ventajas tiene?
+*** 4. ¿Cuáles son los retos de Salesforce?
+** preguntas 
+*** 1. ¿Qué servicios ofrece Salesforce?
+*** 2. ¿Por qué se puede considerar que Salesforce es una empresa exitosa?
+*** 3. ¿En que consiste el software bajo demanda? ¿Qué ventajas tiene?
+*** 4. ¿Cuáles son los retos de Salesforce?
+*** 5. ¿Con cuáles empresas se ha aliado Salesforce y con que objetivo?
+*** 6. Describa el caso de un cliente satisfecho con el uso de Salesforce
+*** 7. ¿Qué aspectos deben tener en cuenta una empresa para decidir si usao no Salesforce.com?
+** 3. ¿En que consiste el software bajo demanda? ¿Qué ventajas tiene?
+*** en que consiste : de acuerdo al uso del software  puede subir o bajar el precio (el uso va muy relacionado a la cantidad de usuarios)
+*** ventajas 
+**** software  mas personalisado
+**** no requiere un hardaware muy pontente por que se usa mayormente en la nube
+** 4. ¿Cuáles son los retos de Salesforce?
+*** solucionar problemas como :
+**** depender de una connecion a internet para el funcionamiento de saleforce.com (si no hay internet  no funciona)
+**** depender de muchos 3eros como aws ,google, apple en un caso que alguno de los 3eros no funcione,no funcionaria la parte que tiene que ver con ese 3ero 
+* 01/10/2020
+** mirar agenda y decier hay interesante (para uno) y para que puede servir (ejm:pycon2018 y jsconf)
+** https://eventos.udemedellin.edu.co/es/SICC2020/Agenda-Academica/ 
+** intereses
+*** Mejoramiento del algoritmo ADR en una red de Internet de las Cosas LoRaWAN usando aprendizaje de máquina
+*** Sistema de recomendación para contenidos musicales basado en el análisis emocional del contexto social
+*** Taller 4: Style transfer utilizando deep learning
+*** Conferencia: Aplicaciones de Inteligencia Artificial utilizando diferentes técnicas y herramientas
+** para que puede servir
+*** pycon: sirve para abrir los ojos
+*** 
+* 02/10/2020 asesoria
+** la asesoria para trabajo en equipo
+** asignar tareas
+** comprometerse dentro de los equipos
+** runion de segumineto
+** hablar a tiempo --> 
+** una tabla para las tareas con 
+*** tareas pendientes 
+*** hecho
+*** en proseso

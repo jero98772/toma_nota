@@ -38,7 +38,7 @@ def cuadradosPerfectoM(a,mod):
 	for i in range(13):
 		if  ((i**2) % mod) == a:
 			msg = str(a)+"tiene cuadrado perfecto en mod "+str(mod)+" por que "+str(i)+"² mod "+str(mod)+" = "+str(a)
-			break
+			print(msg)
 		else:
 			msg = "no se pudo encontrar"
 	return msg

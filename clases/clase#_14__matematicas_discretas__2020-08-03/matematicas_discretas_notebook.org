@@ -290,3 +290,7 @@
 ** hay mas trabajos en equipos o para arrastrar al otro
 ** aprender a hacer los elementos fuera del conjunto (el prfesor no sabe)
 *** pude ser poniendo un label por fuera el conjunto
+* 28/09/2020
+** enlaces que facilitan la tarea del diagrama de venn (que no han dicho que  hay que hacer)
+*** https://code.activestate.com/pypm/matplotlib-venn/
+*** https://pypi.org/project/matplotlib-venn/

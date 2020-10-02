@@ -169,3 +169,24 @@
 ** dominio x
 ** rango y
 ** proccimo miercoles prueba evaluativa sobre inecuaciones y ecuaciones
+* 23/09/2020
+** pregunta 1
+*** Julian Zea, le envía el siguiente ejercicio al profesor de álgebra. 
+*** img:ambiguo.jpeg
+*** Si la nota máxima es de 5.
+*** Argumente:
+*** 1) Coloque una nota
+*** 2) La calificación del estudiante, es decir, describa por que puso la nota y si el estudiante cometió errores ¿Cuales fueron estos?
+** pregunta 3
+*** Graba un video de como se resuelve la siguiente inecuación
+*** 1/x >= 16x
+*** <frame para grabar la camara , pidiendo permiso para video y microfono> como en la foto abusivo.jpg
+** ultima pregunta 
+*** Resolver la siguiente aplicación, debes grabar un video donde muestre:
+*** 1- Identificación de incógnitas
+*** 2- Procedimiento
+*** 3- Respuesta según el enunciado del ejercicio
+*** Si Don Jairo hubiera recibido $10000 pesos de Don Ramón, hubiera tenido 2 veces el dinero que le quedo a Don Ramón; pero si Don Ramón hubiera recibido $10000 pesos de Don Jairo, hubiera tenido 3 veces el dinero que le quedo a Don Jairo. ¿Cuánto dinero tiene cada uno? 
+*** <frame para grabar la camara , pidiendo permiso para video y microfono> similar a la foto abusivo.jpg
+* 28/09/2020
+** taller  de algebra de la U virtual
