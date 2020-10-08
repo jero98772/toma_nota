@@ -294,3 +294,10 @@
 ** enlaces que facilitan la tarea del diagrama de venn (que no han dicho que  hay que hacer)
 *** https://code.activestate.com/pypm/matplotlib-venn/
 *** https://pypi.org/project/matplotlib-venn/
+* 07/10/2020
+** problema 
+*** La Facultad de Ciencias Básicas de la Universidad de Medellín requiere de 30 docentes de cátedra para orientar 14 cursos de Física I (F), 14 de Algebra y Trigonometría (M) y 15 de Sistemas Geométricos (S). El decano al organizar las hojas de vida distribuyo a dichos docentes así: 7 catedráticos para Física I y Algebra y Trigonometría; 4 catedráticos para Física I y Sistemas Geométricos y, 5 catedráticos para Algebra y Trigonometría y Sistemas Geométricos.
+*** Departamento de estadística quiere saber (utilice un diagrama de Venn):
+*** a)¿Cuántos catedráticos orientarán o Física I u orientarán Sistemas Geométricos, pero no Algebra y Trigonometría?
+*** b)¿Cuántos catedráticos orientaran solamente 2 asignaturas o únicamente Física I o Sistemas geométricos?
+*** c)¿Cuántos catedráticos si orientaran Sistemas geométricos, pero no Física I entonces, no orientarán Algebra y Trigonometría?
