@@ -43,6 +43,8 @@
 ** clase 24/09/2020
 *** https://albertonews.com/internacionales/reuters-rappi-genera-un-mercado-negro-en-las-cuentas-de-los-trabajadores/
 *** https://es-us.finanzas.yahoo.com/noticias/entrega-deseada-rappi-genera-mercado-141511737.html
+** clase 15/10/2020
+*** https://www.eltiempo.com/colombia/medellin/metro-de-la-80-de-medellin-la-historia-de-los-afectados-por-la-entrega-de-predios-543358
 * atividad 1
 ** con alguien
 **  el sistema de los peces del rio amazonas
@@ -433,3 +435,83 @@
 *** tareas pendientes 
 *** hecho
 *** en proseso
+* 08/10/2020
+** actvidades evaluativas
+*** 3 actividades de "proyecto con empresa"
+*** octubre 26
+*** noviebre 12
+*** noviebre 26
+** ciclo software
+** evidencia 
+*** video (explicar del proseso de la solucion del problema o opurtunidad )
+*** fotos
+*** blog
+** items blog (2 por semana recomendable mente)
+*** planeacion estrategica
+**** descripcion 
+**** mapa de procesos
+**** mision
+**** vision
+**** valores corporativos
+**** analisis dofa
+**** objetivos estrategicos
+**** estrategia 
+***** do
+***** da
+***** fa
+***** fo
+*** contexto del software
+**** alcanse
+**** actores humanos y unidades organizacionales
+***** actores y roles
+***** responsabilidades por area
+***** organigrama de areas involucradas
+*** analisis problema
+**** proceso actual
+***** modelacion en lenguaje natural
+***** diagrama procesos
+** notas de una clase o examen
+*** 10 hogar
+*** 7 base de datos
+*** 8 ordenador
+*** 9 informacion
+* 15/10/2020
+** personajes rapizza 
+*** 1 despachador
+*** 3 chef
+*** 7 repartidores
+*** ? clientes
+** presoso de llamar por fallos a un provedor de servicios de telecomunicaciones
+*** (se omite el paso de buscar el telefono )
+*** 1 llamar a al telefono
+*** 
+* reuinion equipos
+** definir roles con la inicial de los nombres
+*** c 
+**** presentacion powerpoint ,
+*** d
+**** documentar ,vocero con la empresa ,programador 
+*** s
+**** video ,blog 
+** proceso verbal " presoso de llamar por fallos a un provedor de servicios de telecomunicaciones"
+* 22/10/2020
+** algo para hacer mapas de procesos ...
+*** https://online.visual-paradigm.com/
+* 26/10/2020
+** notas expociones
+*** g1
+*** g2
+**** + 
+**** mucha lectura
+**** no queda claro que trata la empresa y como lo hace (algo de descripcion)
+*** g3
+*** -g4
+**** + no hay tanta lectura 
+**** -
+**** se repite mucho lo que se dice
+**** dicen cosas que no son tan cierto
+**** no hay informacion total mentente clara y 
+**** se comenta desde de los ejemplos 
+*** g5
+*** g6
+**** mucha lectura 

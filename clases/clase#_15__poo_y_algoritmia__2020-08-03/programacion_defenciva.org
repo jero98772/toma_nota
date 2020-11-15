@@ -1,0 +1,84 @@
+* programacion defenciva
+** ejercio 1
+** Suponga que requiere calcular un salario, con sueldo base, numero horas trabajadas, valor hora.
+** ejercio 2
+** Suponga que está registrando un paciente en una clínica, con identificación, nombre dirección teléfono, fecha de nacimiento, fecha de ingreso.
+*** forma 1 try y except
+#+begin_src python
+identificacion = 54911
+nombre = "pepe juan"
+fechaNacimiento = "20/02/2000"
+fechaIngreso = 20202010
+#def verificar_dato (dato,Tipo):
+#tipo es un dato perteneciente al tipo de dato ejm 0 ,"" , 0.0
+#if type(0) == type(tipo): 
+"""
+try:
+    identificacion  = int(identificacion)
+    msgI = True
+except 
+    msgI = False
+return msgI
+try:
+    fechaNacimiento  = str(fechaNacimiento)
+    msgFN = True
+except 
+    msgFN = False
+return msgFN
+try:
+    fechaNacimiento  = int(fechaNacimiento)
+    msgFN = True
+except 
+    msgFN = False
+return msgFN
+"""
+def tieneInt(password):
+	haynumeros = False
+	Nohaynumeros = False
+	numeros = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+	for i in password:
+		if i in numeros:
+			haynumeros = True
+		else:
+	    Nohaynumeros = True
+	if ( not  Nohaynumeros) and haynumeros:
+		return True
+	else:
+		return False
+def tieneStr(password):
+	haletras = False
+	Nohaletras = False
+	letras = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'Ñ', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'ñ', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+	for i in password:
+		if i in letras:
+			hayletras = True
+		else:
+	    Nohayletras = True
+	if ( not  Nohaynumeros) and haletras:
+		return True
+	else:
+		return False
+def tieneStr(password):
+	haynumeros = False
+	hayletras = False
+	haysimbolos = False
+	numeros = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+	letras = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'Ñ', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'ñ', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+	for i in password:
+		try:
+			if i in numeros:
+				haynumeros = True
+			elif i in letras:
+				hayletras = True
+			else:
+				if type(int(i)) == type(0):
+					haynumeros = True
+				elif type(str(i)) == type(""):
+					hayletras = True				
+		except:
+			haysimbolos = True
+	if haysimbolos and hayletras and haynumeros:
+		return True
+	else:
+		return False
+#+end_src

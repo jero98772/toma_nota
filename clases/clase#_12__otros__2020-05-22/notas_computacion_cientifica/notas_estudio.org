@@ -1,0 +1,14 @@
+* se intentara aprender computacion cientifica
+** temas a investigar 
+*** Introducción a la Computación Científica 
+*** Algebra y Trigonometría
+*** geometria
+*** "aprender a escribir"
+*** R
+*** Cálculo Diferencial
+*** Algebra Lineal
+*** Herramientas Computacionales
+*** Matemáticas Especiales
+*** ...
+** algunos enlaces que sirven para aprender 
+*** https://streaming.udem.edu.co/tags/computacion-cientifica?page=2&show=latest
