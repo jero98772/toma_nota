@@ -8,7 +8,7 @@ scripts muy utiles que puenden servir para apreder
 
 # contibuye con donaciones  y ayudame a pagar mi estudio
 	
-	- Bitcoin: tb1qgt4trnnsxdmfcpnydkmk8ht0y4esg4cdvzmhaz
+	- Bitcoin: bc1qf3eh6ssgzw2t3qyjk2gzwuskq4ctfk8375fg3r
  
 # e visto que el trabajo en equipo no solo lo tiene que aprender un miebro del equipo, lo tiene que aprender todo el equipo , tranquilo es solo aqui o al menos eso creo
 
