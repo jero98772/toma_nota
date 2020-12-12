@@ -1,0 +1,23 @@
+el cliente se comunica con el acuario o se aparece en el acuario 
+
+* pez con garatia
+** cuando es un caso de una enfemdad contagiosa y hay mas peces en el acuario
+** se le da el medicamento como garantia , tiene posibilidad de devolverlo al acuario (en un acuario de cuarentena) para que lo cueren o le dan un pez con el mismo precio de la misma especie
+fin
+* cuando solo esta ese pez (enfermo)
+** se le da el medicamento como garantia
+fin
+* pez con tiempo en casa y sin garantia
+*pregunta si el pez puede tener una enfermdad
+** el empleado le responde 
+*pide asesoria del medicamneto
+** el empleado le responde
+*compra los medicamentos
+le vende el medicamento y ya el dueño (suponiendo que tiene experiencia ) cura al pez
+** el empleado le responde
+* si
+lo asesora y le vende el medicamento y le indica como usarlo
+* no
+fin
+
+

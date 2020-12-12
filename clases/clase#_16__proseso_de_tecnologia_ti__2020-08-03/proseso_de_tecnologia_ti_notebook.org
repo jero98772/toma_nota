@@ -515,3 +515,5 @@
 *** g5
 *** g6
 **** mucha lectura 
+* notas
+** modelar procesos

@@ -1,0 +1,21 @@
+* es posible viajar en el tiempo ampliando y contrallendo el espacio?
+** en un video explican como se puede viajar mas rapido que la velocidad de la luz
+*** https://www.youtube.com/watch?v=FWyiKvPg1oo
+* pequeño resumen del video
+** yo no lo interpretaria como tener mas velocidad que la luz , lo interpretaria recorrer mas distancia que reccorre la luz en un momento , contralledo y luego expandiendo el espacio 
+*** ejemplo:
+*** una nave espacial va a estrellarse con la luna o va directo a ella (con un obejto queda mejor explicado pero no se si se pueda con un objeto) cuando esta muy cerca hace que la luna quede MUY pequeña de el tamaño de un centimetro de diametro , enves de "atravesar" 	3476 km (diametro de la luna) atravesar 5 cm y cuando se atraviese "volver" a expandir la luna y haber recorrido 3476 km en lo que demoro 5 cm (si cambia la luna por un globo se puede entender mejor la parte expandir y contraer ,  ) es mucho mas dificil con la luna ...
+*** poquito de matematicas
+*** v= d/t , 
+*** caso de 5 cm: 0.05m en 0.1 seg 
+***  
+*** caso de 3476 
+* un poco de relatividad
+** para issac newton la medida de el tiempo y las distancias son absolutas pero enstain le dijo que no...
+** 
+* notas ayuda 
+** v= d/t
+* cibergrafias que en las que me apoyo
+** https://www.youtube.com/watch?v=lT4OLf4yyuU
+* ...
+*** no me da nesesito mas tiempo para expresarme y desarrollar mi desarrollo

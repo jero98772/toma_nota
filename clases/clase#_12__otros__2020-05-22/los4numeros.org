@@ -4,7 +4,7 @@
 *** las raices no cunetan como usar un numero difernte o mas veces ejemplo n^(1/2) 1 y 2  o otros no son "trampa" 
 *** no importa usar otras bases y convertilo a decimal
 *** algunas definiciones
-**** ** es para poentciar
+**** es para poentciar
 **** int  es para trasformar a un numero en un entero base 10
 **** 0b<numero> numero en binario
 **** 0o<numero> numero en octal
