@@ -1,0 +1,90 @@
+* 27/01/2021
+** temas 
+*** operar con la matriz
+*** aplicaciones como redes , ajuste de polinomios , criptografia  , minimos cuadrados
+** capitulo 1 (igual al libro de grossman )
+*** 2 ecuaciones lineales  con 2 incognitas
+*** m ecuaciones lineales con n incognitas eliminacion gauss jordan
+*** sistemas homogeneos de ecuacion lineales
+*** aplicaciones redes ajustes de polinomios
+** evluaciones 
+*** 2 eventos evaluativos (suenan parciales)
+*** 2 tareas , antes de los eventos evaluativos
+*** verificacion aprendisaje
+**** 4 quises
+*** participacion
+*** autoevaluacion
+**** trabajo escrito sobre tema de interes con algebra lineal tema libre (IA o criptografia ya estan hechos)
+** contenido
+*** vector puede ser una
+***  funcion
+***  la definicion que dan en fisica
+***  polinomio
+*** cambio base
+**** no esta nesariamnete relacionado con bases octal , hexadeciemal ,decimal
+**** tiene relacion con la potencia y las diemenciones
+** contenido del libro 
+*** algebra lineal es por algebra de la linea recta
+*** pendiente m = (x1-x2)/(y1-y2) = Δx / Δy o dx/dy
+**** si x1  ≠ x2 (si no son dieferentes son iguales es en el mismo punto)
+****  Δx = dx ,( suena derivadas)
+**** x2 - x1 ∧ y2 ≠ y1  ,(por que se tocan varias veces en Y algo en relacion a las funciones )
+**** rectas definidas pueden ser definidas con y=mx * b
+***** b donde inicia la recta 
+***** y un punto en y
+***** x un punto en x
+***** m la pendiente (dicha anterior) 
+** consultar
+*** definicion paralela 
+*** ecuacion
+**** una igualdad donde hay una incognita (un valor desconocido ya sea x,y,z ...)
+* 29/01/2021
+** clase
+** un sistema de ecuaciones 
+*** tiene varias posibles soluciones
+**** infinitas
+**** no tiene 
+**** una solucion
+*** se puede saber cuantas soluciones tiene graficandolo y viendo donde se cortan las rectas (la respuesta es donde se cortan)
+*** en algebra lineal y tambien es una variable dependiente 
+** libro
+*** si a12 = a22  = 0 el sietma tiene una sola incognita
+** consultar
+*** una recta de forma ax+by =c (b≠0) se puede usar m = -a/b ¿para que ? 
+** ejercios
+** respuesta segun 
+** ejrcio 1
+*** 4x + y = 13
+*** 9x + y = 37
+*** wolfram y geogebra = (x = 4.8 ,y =6.2)
+*** paso 2
+**** 4*9 =36 
+**** r2 = r2  * 4 =
+**** 4x + y = 13
+**** 36x + 4y = 148
+*** paso 3
+**** r2 = r2 -36
+**** 4x + y = 13
+**** 0 - 32 = 112
+*** creo que un hay un error
+**** por que y = 3.5 = 112/32
+*** paso 4
+**** 4x + 3.5 = 13
+*** paso 5 
+**** 4x = 13 - 3.5 
+**** 4x = 9.5
+**** x = 9.5/4
+*** paso 2.2
+**** r2 = r2 -9
+**** 4x + y =13
+**** 0  - 8y = 28 
+**** aqui da igual y=28/8 = 3.5
+*** respuesta x = 2.375 , y = -3.5
+*** paso 2.3
+**** y = 13+9x
+*** paso 3.3
+**** 4x + 13+9x = 13
+****  
+** tarea (foto 1)
+* 02/02/2021
+** resolver 1.png

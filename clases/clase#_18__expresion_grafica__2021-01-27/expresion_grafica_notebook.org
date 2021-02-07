@@ -1,0 +1,40 @@
+* material grafico 
+** https://www.youtube.com/channel/UCYLsN7VZ_USmp92fMaIIc6Q
+** https://www.youtube.com/user/lbmonroyja 
+** https://www.youtube.com/channel/UCml_nQw5R-abcKoLPgwo_aA 
+** se va manejar cad (maluco en linux)
+** evaluaciones
+*** 5 evaluciones de 20% cada una
+*** en la guia de actividades dice que se va evaluar que dia
+** contacto  
+*** lmonroy@udem.edu.co
+** formas de decir problemas de cad 
+*** tomar foto
+*** video
+** questionarios
+*** cuestionarios guardar archivo en el que se resuelve
+**** para entregarlo con formato unidad,inteto,cuetionario,nombre_completo
+**** nombres no ambiguos cosas que lo referencie a usted y su trabajo
+*** se propone intentar varias veces  los cuesrionarios en un tiempo predeterminado
+** posibles alternativas
+*** freecad?(no)
+*** autocad
+*** zwcad (limitado depronto fatsidia en la clase)
+*** qcad 
+*** libre cad
+*** escritorio remoto cdc (cita)
+** probrar para verificar si funciona
+*** hacer un rectangulo y calcular el area y preguntar si es valido   
+** caso sin internet
+*** clases 
+**** acceder en otro horario entre 6 am a 12pm
+**** datos moviles
+**** se puede faltar sin avisar
+*** examenes 
+**** intente asisntir 
+**** datos moviles
+** compartir
+*** no con alguien mas 
+*** si con el repo que tiene licencia
+* 29/01/2021
+** el mouse es importante 

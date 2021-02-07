@@ -12,3 +12,5 @@
 *** asia
 *** oceania
 *** international organizations
+* 01/02/2021
+** what is diplomatic?

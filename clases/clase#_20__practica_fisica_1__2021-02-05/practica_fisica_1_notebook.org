@@ -1,0 +1,62 @@
+* primera clase el 05/02/2021
+** pensar 2 proyectos y darles una razon (puede ser un codigo) 
+*** 1
+*** objetivo
+*** corta introduccion
+*** como se va medir las variables
+*** materiales
+*** ideas
+*** 2
+*** errores y fallas (aportar la solucion)
+*** porcentaje de avanse (mejor decir 0 por que es un avanse  que sin limites , que no se abandonde nunca que se le de soporte constante )(la idea es que siempre sea un prototipo por que siempre va tener siempra va tener una version en desarrollo )
+*** cambio en el rumbo del proyecto
+*** definicon de ecuaciones y fenomenos
+*** avasne
+** idea 1 river 
+*** hay un pequeño avanse ( https://github.com/jero98772/dibujo_acuario_p5js , https://jero98772.pythonanywhere.com/wwwof/drawFISHTANK.html )
+*** tiene que ver mucho con el contenido del curso
+*** es algo que nace de algo  nuevo (una calculadora de volumenes grafica a un simulador de como se mueve ese volumen )
+*** idea del concepto intuitivo
+*** ya existe algo llamado hidrodinamica (es una parte de la fisica que puede ayudar a explicar estos fenomenos en el agua y a simularlos en el computador)
+**  idea 2 mejorar pm25predict  ( https://github.com/jero98772/pm25_predict/tree/withoutMLlibs )
+*** ya tiene matematica pero no modelos fisicos
+*** la matematrica se entiende mayormente
+*** ya esta "completado" seria buscar una aplicacion (y aplicarlo) mejorar cosas (como cambair de una regresion lineal a series de tiempo) (observar con otras variables el comportamiento del pm25 y en diferentes puntos) 
+*** herramientas de docuemntacion disponibles
+*** ayuda de sobra y comunidades que apoyan lo que esta hecho (unlouqer , aire envigado , canairio , low carbon city ...)
+** ideas adicionales 
+*** drawfishtank (completo)
+*** cucha (simular la suciedad de un acuario pero creo que es mejor hacer primero river para avansar a cucha ) (nombre del pez cucha o limpia vidrios .. )
+*** nutfish ... (no estoy seguro que tenga que ver con mecanica ) 
+*** otros que su fuerte o enfoque no esta la mecanica (como pm25predict pero cambia el enfoque )
+** mala cosa , no hay mucho interes o ideas de proyectos con mecanica (en fisica :| )
+** presentacion river
+*** simular el movimiento de algunas corrientes de agua (causadas por unos filtros) de forma grafica  mediante avanses de drawfishtnak   el flujo sera representado con densidad de puntos o flechas con el motivo de ayudar y participar con codigo libre en los codigos y herramientas online de peces para avansar en la participacion ya que hay muy pocos proyectos de acuarios y ictiologia  y muy pocas personas o negocios que lo hagan (e podido contar 2 o 3 felix smart ,aquatools y wwwof)
+*** objetivo : apoyara la comunidad de codigo libre de ictiologia y acuarismo con una simulacion que ayude a enteder lo que ocurre dentro de un acuario para mejorar aspectos como la salud del pez (mucha corriente es mala en un acuario dependiendo del pez) ,asimilarlo con su habitad natural para un mejor habiente paar el pez . ademas de que es codigo libre permite hacer nuevos proyectos  como "Cucha" entre otros , ademas que tiene que ver mucho con los temas de la clase ...
+*** corta introduccion : apartir de los avanses con drawfishtnak  ( https://github.com/jero98772/dibujo_acuario_p5js , https://jero98772.pythonanywhere.com/wwwof/drawFISHTANK.html ) buscar un modelo matematico (o depronto tocara hacerlo ...) que usar y observar con diferntes variables como, densidad ,temperatura interna del agua , temperatura ambienete , "variable filtro"  ubicacion  ,l/h, cuanto esta sumergido (para observar la presion) , altura y presion del agua entre otras , principalmente cosas que tengan relacion directa como los filtros  y la presion , para observar  el comportamiento del flujo y furza  , depues de que este el nuecleo matematico adaptarlo de a la interfas de drawfishthank
+*** corta introduccion 2 : usar ecuaciones , modelos matematicos de hidrodinamica y si no los hay buscar como hacerlos para evaluar la "variable filtro" (variables que el filtro afecta la hidrodinamica del acuario , como el flujo ...) en 2 partes , la primera  una prueba de concepto para en la parte 2 enlazar la parte conceptual con una parte visual , Drawfishtank con sus avanses en la parte de una figura cubica o rectangular principalmente    
+*** como se va medir las variables : se ingresan unas varaibles en un input o en un slidebar y obtener un resultado visual y un registro de varaibles (no historico) 
+*** materiales 
+**** github
+**** pythonanywhere
+**** drawfishtank
+**** p5js
+**** html 
+**** js
+**** python
+**** css (posiblemente este hay pero no se use)
+*** ideas
+**** poder aprender hacer los modelos matematicos 
+**** poder hacer la parte visual para figuras como cilindros y triangulos
+**** hacerlo de forma muy general (que se pueda adaptar a muchas cosas sin problemas)
+**** adaptar nuevas ideas en cualquier momento ...
+** presentacion pm25predict2.0
+*** pm25predict (actual https://jero98772.pythonanywhere.com/proyects/pm25predict.html ,codigo usado  https://github.com/unloquer/pm25_predict/tree/withoutMLlibs)  es una regresion lineal que permite predecir el compotramiento futuro de la calidad de aire en un sensor AQA o CanAirIO (indivudalmente )
+*** objetivos 
+**** pasar de una regresion lineal a series de tiempo  para observar en diferntes momentos el comporatmeinto
+**** arreglar un error en la parte grafica (https://github.com/jero98772/my_good_site/issues/1)
+**** implementar los sensores CanAirIo en la parte  grafica ,es complicado pero se puede por que los datos estan en grafana como si fuera una tabla cada sensor (esto dificulta la descarga de los datos para la autoatisacion de este proceso) 
+**** hacer un nuevo mapa daquina con los datos interpolados apartir del mapa de calidad de aire de daquina (mapa de los CanAirAio's http://daquina.io/canairio/  , mapa de los AQA's http://daquina.io/aqaviz/ ) ,daquina esta escrita en R pero se puede juntar con python con recticulate (permite usar python y R al mismo tiempo) o  adaptar el codigo a R
+*** no estoy seguro de que se pueda incluir en la parte de mecanica  pero si se puede dar un enfoque no desde un invento pero si como una observacion cientifica con diferntes variables como temperatura , humedad, altutura , sonido , tiempo ...
+*** segun wikipedia "estudia y analiza el movimiento y reposo de los cuerpos, y su evolución en el tiempo, bajo la acción de fuerzas" ( https://es.wikipedia.org/wiki/Mec%C3%A1nica ) si  se puede usar pm25predict pero no con el efoque de predecir en el tiempo (X) el pm25 (Y), observar el comportamiento futuro del pm25 relacionado a humendad , temperatura , sonido ... obtener una hipoestis y demostrar por que  como un metodo cientifico
+*** los datos seran obtenidos de los sensores AQA's o CanAirIo's

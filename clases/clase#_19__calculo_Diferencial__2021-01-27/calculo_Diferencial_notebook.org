@@ -1,0 +1,30 @@
+* 25/01/2021 
+* 27/01/2021
+** limites 
+** contenido clase
+*** (x³-1)/x-1 , x = 1 ,seria algo como 0/0 que es considerado invalido  
+*** se puede hallar el valor con una trabala de valores
+**** valores cercanos a  x pasandolo por la funcion F(x) (en este caso (x³-1)/x-1))
+**** con una referncia en x , x a + infinito y x hacia - infinito 
+**** el exponente tiene que ver el resultado del limite
+** contenido libro guia leithold
+*** notas
+**** varible dependientes y variable independiente
+**** x es la varaible independiente , y es dependiente de x (comunmnete en las escrituras)
+*** mirar que numero se puede usar para  que el denominador de 0 
+*** ejercios
+**** f(x) = x²+3x-4 en 
+**** 0 = -4
+**** 2 = 6
+**** h = h²+3h-4
+**** 2h = 4h²+6h-4
+**** 2x = 4x²+6x-4
+*** definicion limite
+**** f(x+h)-f(x)/h
+** consultar 
+*** contradominio
+**** los valores que toma la variable dependiente
+*** dominio 
+**** un rango de valores de la variable independiente
+*** asintota
+*** siginificado del h en la definicion del limite (¿algun valor conocido?)
