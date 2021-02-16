@@ -28,3 +28,5 @@
 **** un rango de valores de la variable independiente
 *** asintota
 *** siginificado del h en la definicion del limite (¿algun valor conocido?)
+* 08/02/2021
+** libro

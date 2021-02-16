@@ -60,3 +60,4 @@
 *** no estoy seguro de que se pueda incluir en la parte de mecanica  pero si se puede dar un enfoque no desde un invento pero si como una observacion cientifica con diferntes variables como temperatura , humedad, altutura , sonido , tiempo ...
 *** segun wikipedia "estudia y analiza el movimiento y reposo de los cuerpos, y su evolución en el tiempo, bajo la acción de fuerzas" ( https://es.wikipedia.org/wiki/Mec%C3%A1nica ) si  se puede usar pm25predict pero no con el efoque de predecir en el tiempo (X) el pm25 (Y), observar el comportamiento futuro del pm25 relacionado a humendad , temperatura , sonido ... obtener una hipoestis y demostrar por que  como un metodo cientifico
 *** los datos seran obtenidos de los sensores AQA's o CanAirIo's
+* reunion entre integrantes del grupo para hablar del proyecto 13/02/2021

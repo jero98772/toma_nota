@@ -1,0 +1,17 @@
+#+OPTIONS:      LaTeX:dvipng
+* idea
+** experimentar mediante las derivadas el comportamiento de un camino como escaleras y como una pendiente recta
+** compara el problema con otros metodos como "trigonometria" , "algebra" y arimetica , y implementarlo de varias forma con programacion , como ecuacion con latex , verbalmente
+* ejemplo de aplicacion
+** recorrer una distancia X ,Y en un plano carteciano
+** X = 1470
+** Y = 7410
+* con una "escalon"
+** se usa la formula de pitagoras para caclular la distancia entre 0 y el punto (1470,7410)
+\begin{equation}
+h =\ \sqrt {x²+y²}  
+\end{equation}
+\begin{equation}
+7554.402...   \approx \sqrt {1470²+7410²}
+\end{equation}
+* con varios "escalones"
