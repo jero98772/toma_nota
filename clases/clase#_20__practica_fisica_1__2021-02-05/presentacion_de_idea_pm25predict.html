@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pm25Predict20</title>
+</head>
+<style type="text/css">
+.required{
+ 	color: blue;
+ }
+ 
+</style>
+<body>
+<center>
+	<h1>Pm25Predict20</h1>
+<h1><b>¿que es?</b></h1>
+</center>
+<h1><b>corta introduccion</b></h1>
+<p>es una version mejorada de <a href="https://github.com/jero98772/pm25_predict/tree/withoutMLlibs">pm25_predict</a>,es un programa para predecir la concentracion de pm2.5 en el aire</p>
+<br>
+<h1><b>objetivo </b></h1>
+<br>
+<h2><b>cientifico</b></h2>
+<p>observar el comportamiento de las predicciones lineales y fenomeno real </p>
+<ul>
+	<li>mediante series de tiempo</li>
+	<li>observar cuando el comportacmiento de la concentracion de pm2.5 </li>
+	<li>cuando el pm2.5 puede ser predecido de forma lineal con el tiempo, predice con precion el pm2.5 de forma lineal pero el comportamiento no es lineal</li>
+</ul>
+<br>
+<h2><b>social</b></h2>
+<p>participar con codigo libre y ciencia ciudadana en las comunidades que exploran estos fenomenos relacionados con la calidad del aire como <a href="https://unloquer.org/">Un/loquer</a> y <a href="https://canair.io/">CanAir.io</a> usando los datos de sus sensores y herramientas </p>
+<br>
+<h1><b>datos</b></h1>
+<h2><b>de donde los saca</b></h2>
+<p>con las mediciones ciudadanas y bases de datos abiertas libres como </p>
+<ul>
+	<li><a href="https://daquina.io/aqaviz/">daquina</a> intefas grafica del influx de los sensores de Un/loquer</li>
+	<li><a href="http://daquina.io/canairio/">daquina</a>intefas grafica del grafana de CanAirio</li>
+</ul>
+<p>se penso en estas por que permieten bajar los dataos como .Json o .csv para la manipulacion de los datos</p>
+<br>
+<h2><b>que hace con ellos</b></h2>
+<p>predecir y verificar</p>
+<ul>
+	<li><b>predecir</b> usar los datos como la base de las predicciones</li>
+	<li><b>Verificar</b> comparar en diferentes momentos, sensores, lugares las prediciones pasadas</li>
+</ul>
+<br>
+<h1><b>"materiales" o dependencias</b></h1>
+materiales esenciales<div class="required">*</div>
+<ul>
+<li><b>comunidades, informacion y datos</b><div class="required">*</div>para obtener los datos</li>
+<li><b>python</b><div class="required">*</div> para implementar la logica</li>
+<li><b>mathplotlib</b><div class="required">*</div>para generar la grafica de predcion</li>
+<li><b>numpy</b><div class="required">*</div>para darle un enfoque desde la optimisacion</li>
+<li><b>herramientas de documentacion</b><div class="required">*</div>como dowkuwiki , markdown, org, html... para tener registros pasados y futuros que sirvan para entender el proceso  </li>
+<li><b>biblioteca de ML</b><br/>se prefiere usar matematicas para enteder bien el proceso  sin depender de una libreria de Machine lerning</li>
+<li><b>github</b><br/>para cordinar mejor los procesos</li>
+<li><b>pythonanywhere</b><br/>para poder permitir la interaccion del publico en una intefas web</li>
+
+</ul>
+<h1><b>ideas del proceso</b></h1>
+<ul>
+	<li>poder aprender hacer los modelos matematicos y implementarlos</li>
+	<li>cambiar una la regresion lineal por series de tiempo </li>
+	<li>hacer una intefas web compatible con un grafico donde se pueda interactuar  </li>
+	<li>hacerlo de una forma adaptable y modular para proyectos de 3eros</li>
+	<li>poder adaptarlo a <a href="http://daquina.io/aqaviz/">daquina</a> para decir la predicion de cada sensor y mostarlo en la intefas web de daquina </li>
+	<li>que quede bien documentado</li>
+	<li>adaptar nuevas ideas en cualquier momento …(seguir con el proyecto)</li>
+</ul>
+<h1><b>avanses previos</b></h1>
+<h2><b>Pm25Predict</b></h2>
+<a href="https://github.com/jero98772/pm25_predict/tree/withoutMLlibs">codigo</a>
+<br>
+<a href="https://jero98772.pythonanywhere.com/proyects/pm25predict.html">intefasweb</a>
+<center>
+<h2>avanse en la intefas web ( no funciona en la web actual mente por <a href="https://github.com/jero98772/my_good_site/issues/1">problema de disponiblidad en el tiempo </a> )</h2>
+<iframe src="https://jero98772.pythonanywhere.com/proyects/pm25predict/pm25predictUnloquer.html" height="500" width="880"></iframe>
+</center>
+</body>
+</html>

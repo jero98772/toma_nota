@@ -6,4 +6,4 @@ if consumo>2000/personas:
     print("uy heramno se paso de consumo")
 #modulos energia
 modulo= 220
-print("modulo",modulo,)
+print("modulo",modulo)

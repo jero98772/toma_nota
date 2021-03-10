@@ -1,0 +1,20 @@
+#+OPTIONS:      LaTeX:dvipng
+\begin{equation}
+|f2| \sqrt {2.9²+4.3²} =5
+\end{equation}
+
+\begin{equation}
+θ =\ tan ⁻¹ \frac{4.3}{2.9} =\ 56°
+\end{equation}
+
+\begin{equation}
+E_1 =\  \frac {43-44}{43}  100%
+\\
+E_1 =\ 0.02%
+\end{equation}
+
+\begin{equation}
+E_2 =\  \frac {56-34}{56}  100%
+\\
+E_2 =\ 0.39%
+\end{equation}

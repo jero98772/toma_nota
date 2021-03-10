@@ -1,0 +1,4 @@
+* costo de viaje
+** distancia + peso en el tiempo = costo viaje 
+** costo viaje vs velocidad , costo viaje (con peso mio y de la mochila) vs costo viaje con solo mi peso 
+** consultar fuerza,aceleracion, masa

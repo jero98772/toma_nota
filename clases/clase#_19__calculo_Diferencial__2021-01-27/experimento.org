@@ -15,3 +15,9 @@ h =\ \sqrt {x²+y²}
 7554.402...   \approx \sqrt {1470²+7410²}
 \end{equation}
 * con varios "escalones"
+** se observa que la distancia (hipotenusa en este analisis) entre el punto 0,0 y 1470,7410  es :
+\begin{equation}
+x+y < tecnica de varios escalones  < \sqrt {x²+y²}  
+\end{equation}
+** se penso la tecnica de varios escalones como una estragia para recorrer menos distancia al caminar  
+*** menos distancia muchas veces es menos tiempo , otras es meterse a una via muy trasncurrida y no hay un camino recto para llegar al destino
