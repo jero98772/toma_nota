@@ -1,7 +1,5 @@
 *  20-1-2020
 ** info del area
-*** jehincapie@udem.edu.co
-*** jaecheverri@udem.edu.co
 ** pertenece a la uoc
 ** que van a evaluar
 *** 2 segumientos con

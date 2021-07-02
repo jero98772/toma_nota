@@ -1,6 +1,4 @@
 * clase del dia 20-1-2020
-* docente juan mauricio muñoz zapata enviar corroe
-* jumunos@udem.edu.co
 * analis geometrico
 * los elementos de euclides
 * un acercamiento al pensamiento geometrico

@@ -1,0 +1,19 @@
+* java
+** es un lenguaje de programacion compilado y tipado
+*** tipado , hay que declarar el tipo de dato
+*** compilado , genera un codigo maquina a partir de un codigo fuente 
+*** interpretado , parece ser mas un programa que un lenguaje de programcacion
+** hello word
+*** la extencion donde esta el codigo es .java
+*** para imprimir en pantalla se usa  '   System.out.println("Hola mundo");  '
+*** para correr el archivo .java en manjaro use
+#+BEGIN_SRC bash 
+java hola_mundo.java
+#+END_SRC
+*** un input en java seria:
+#+BEGIN_SRC java
+  import java.util.Scanner;  // se importa la libreria para el input
+  Scanner myinput = new Scanner(System.in); //generar la clase
+  String value = myinput.nextLine();//hacer un input de tipo String
+#+END_SRC
+*** en [[https://www.w3schools.com/java/java_user_input.asp][w3school]] se muestra una tabla con las formas de hacer un input dependiendo del tipo de dato  
