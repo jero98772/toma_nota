@@ -1,0 +1,8 @@
+* que es el pre-calculo y para que
+ un concepto de una metodologia introductoria al calculo, que intenta dar bases para entender el calculo mejor
+** numeros complejos
+ son otros tipos de numeros dentro del conjuto complejo, forman un cuerpo algebraico cerrado y tienen su relevancia en aplicaciones como fractales , aerodinamica,fisica ...etc
+** plano complejo
+es una herramienta para entender y manipular mejor los numeros complejos
+** referencias 
+*** [[https://www.khanacademy.org/math/precalculus][khanacademy]]
