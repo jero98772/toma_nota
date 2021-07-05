@@ -14,9 +14,15 @@ java hola_mundo.java
 *** tenga en cuenta que :
 ****  el nombre de la clase "main" debe ser el mismo nombre del archivo
 ****  despues de ejectar javac <archivo> ,los archivos con extencion .class se ejecutan con java y sin su extencion
- #+BEGIN_SRC bash 
+ #+BEG
+ IN_SRC bash 
  java hola_mundo
  #+END_SRC
+** print 
+*** para imprir use
+#+BEGIN_SRC java
+System.out.println(<string>);
+#+END_SRC
 ** input
 *** un input en java seria:
 #+BEGIN_SRC java
@@ -25,3 +31,13 @@ java hola_mundo.java
   String value = myinput.nextLine();//hacer un input de tipo String
 #+END_SRC
 *** en [[https://www.w3schools.com/java/java_user_input.asp][w3school]] se muestra una tabla con las formas de hacer un input dependiendo del tipo de dato  
+** length 
+*** es un metodo de los strings, se usa :
+#+BEGIN_SRC java
+"hola mundo".length();
+#+END_SRC
+** notas del proceso
+*** notas practicas
+**** a java no le gusta la expresion boolena (x<numero<y)
+*** notas de practicas 
+**** generar el numero phi
