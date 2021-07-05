@@ -10,6 +10,14 @@
 #+BEGIN_SRC bash 
 java hola_mundo.java
 #+END_SRC
+** hello word con javac
+*** tenga en cuenta que :
+****  el nombre de la clase "main" debe ser el mismo nombre del archivo
+****  despues de ejectar javac <archivo> ,los archivos con extencion .class se ejecutan con java y sin su extencion
+ #+BEGIN_SRC bash 
+ java hola_mundo
+ #+END_SRC
+** input
 *** un input en java seria:
 #+BEGIN_SRC java
   import java.util.Scanner;  // se importa la libreria para el input
