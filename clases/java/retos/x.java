@@ -5,7 +5,7 @@ public class x {
     }
     public static String[] Xdraw(String caracter, int medida) {
         //"tamaño" no es valido por el uso de la Ñ , no se vio nesario recurrir a una
-        String caracterBlanco = " "*caracter.length();
+        String caracterBlanco = " ".repeat(caracter.length());
         String[][] dibujo = new String[medida][medida];
         int x = 0;
         for(int i = 0;i<medida;i++){
@@ -14,6 +14,7 @@ public class x {
                 //x = x+1, y =
                 if(j == 4){
                     //test , = carcacter
+                    dibujo[i][j] = caracter;
                 }
                 else{
                     dibujo[i][j] = caracterBlanco;

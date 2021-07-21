@@ -1,4 +1,43 @@
 * calculo
+se va a tarbajar con el libro de stewart
+** 1 . cuatro maneras de representar una funcion
+*** introducir una grafica un graficador
+*** dominio 
+**** un conjunto de partida
+*** rango
+**** el rango depende del domino
+*** interpretar grafia¿?
+*** ejercios
+*** -2+3
+1
+*** -(2-3)
+1
+*** 1/2-1
+((1*1)+(2*-1))/2*1
+1(-2)/2
+-1/2
+*** 2a+4b
+2a+4b
+*** -2(-3-5)
+-2(-8)
+16
+*** -2²
+4
+*** (-2)²
+-4
+*** √(4²+3²)
+25
+*** (√4²+√3²)²
+(4+3)²
+49
+*** (-1/2)-2
+((-1*1)+(2*-2))/2*1
+(-1+-4)/2
+-5/2
+*** -(3/2)-(5/3)
+** preguntas ¿?
+*** 2a+4b ¿se puede simplificar?
+*** que hace que el resultado de -2² sea diferente a (-2)² 
 * referencias 
 [[https://web.ma.utexas.edu/users/m408n/CurrentWeb/LM0-0-1.php][ruta del calculo]]
 [[https://mind42.com/public/f73df552-1104-4053-848e-2b5baad8bbbe][mapa jerarquico del calculo]]
