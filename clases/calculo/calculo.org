@@ -78,9 +78,29 @@ se va a tarbajar con el libro de stewart
 φ = 1.618033
 e =  2.71828
 π/2 = 1.570796326795
+** de una conclusion de elevar por 1,2,3,4 y 5 estos numeros
+*** a) (-1)^n
+genera un ciclo entre 1 y -1 
+*** b) (0.1)^n
+mientras el exponente se aleje de 1 , mas partes puede tener y ser mas cercano a 0
+*** c) (1.1)^n
+incrementa sus decimales y tambien sus enteros 
+*** d) (-0.1)^n
+genera un ciclo entre positivos y negativos , los exponentes pares tienen el signo menos y los impares los negativos , esto mientras se hacerca a 0 y incrementan los decimales
+*** e) -(1.1)^n
+se va aumentado los enteros y la cantidad de decimales , hay mas decimales que se aprocciman a 0 .
+*** f) (0.1)⁻n
+todos son numeros con un exponente mayor o igual a 2 , me dieron 9 , como si fueran multiplicados de 10 en 10 pero: 99,999,9999 
+*** g) (1.1)⁻n
+el numero resultante va llegando mas a 0
+*** h) -0.1⁻n
+da como el f , con solo 9 con exponentes mayores o iguales a 2,pero con negativos
+*** i) -1.1⁻n
+mayor expoente , mas se acerca a 0
 ** preguntas ¿?
-*** 2a+4b ¿se puede simplificar?
-*** que hace que el resultado de -2² sea diferente a (-2)² 
+*** 2a+4b ¿se puede simplificar? (2)
+*** que hace que el resultado de -2² sea diferente a (-2)² (2)
+*** en el ejercio 2 de rescribir las expresiones para que - sea un factor ¿en algunos no se puede por que no hay -?
 * referencias 
 [[https://web.ma.utexas.edu/users/m408n/CurrentWeb/LM0-0-1.php][ruta del calculo]]
 [[https://mind42.com/public/f73df552-1104-4053-848e-2b5baad8bbbe][mapa jerarquico del calculo]]
