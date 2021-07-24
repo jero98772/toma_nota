@@ -97,6 +97,7 @@ el numero resultante va llegando mas a 0
 da como el f , con solo 9 con exponentes mayores o iguales a 2,pero con negativos
 *** i) -1.1⁻n
 mayor expoente , mas se acerca a 0
+*** 
 ** preguntas ¿?
 *** 2a+4b ¿se puede simplificar? (2)
 *** que hace que el resultado de -2² sea diferente a (-2)² (2)
