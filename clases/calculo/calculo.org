@@ -17,7 +17,7 @@ se va a tarbajar con el libro de stewart
 1(-2)/2
 -1/2
 *** 2a+4b
-2a+4b
+2(a+2b)
 *** -2(-3-5)
 -2(-8)
 16
@@ -52,6 +52,10 @@ se va a tarbajar con el libro de stewart
 1/(1/6) ;1*6/1*1 =
 6
 ** 2) rescribir las ecuaciones de tal forma que el signo menos sea un factor comun
+*** a) a+b
+a+b
+*** b) -3a+9a²b
+-3a(3ab)
 ** 3) escibir 3 numeros reales entre otros 2 dados
 *** a)0 y 0.5
 1/8  , 0.125
@@ -78,7 +82,7 @@ se va a tarbajar con el libro de stewart
 φ = 1.618033
 e =  2.71828
 π/2 = 1.570796326795
-** de una conclusion de elevar por 1,2,3,4 y 5 estos numeros
+** 4) de una conclusion de elevar por 1,2,3,4 y 5 estos numeros
 *** a) (-1)^n
 genera un ciclo entre 1 y -1 
 *** b) (0.1)^n
@@ -97,11 +101,32 @@ el numero resultante va llegando mas a 0
 da como el f , con solo 9 con exponentes mayores o iguales a 2,pero con negativos
 *** i) -1.1⁻n
 mayor expoente , mas se acerca a 0
-*** 
+** realizar
+*** a) 1/2+1/3
+(3+2)/6
+5/6
+*** b) 3(3/2+1/3)
+(9+2)/6
+3(11/6)
+33/6
+*** c) 3/4*3/2*1/3
+9/8*1/3
+9/24
+*** d) 3/4((3/2)/(1/3))
+3/4(9/2)
+27/8
+*** e)3/5(1/2-2/3)²
+    
 ** preguntas ¿?
-*** 2a+4b ¿se puede simplificar? (2)
-*** que hace que el resultado de -2² sea diferente a (-2)² (2)
+*** 2a+4b ¿se puede simplificar? 
+2(a+2b)
+*** que hace que el resultado de -2² sea diferente a (-2)² 
+because -2² means -(2²). (there's not much of a reason for *that*, except that it's convenient.) , by buster. -2² != (-2)² = (-2)*(-2)
 *** en el ejercio 2 de rescribir las expresiones para que - sea un factor ¿en algunos no se puede por que no hay -?
+** 3 veces preguntado , respuesta de irc.libera.chat:6667 #math
+*** a+b puede tener - como factor comun?
+*** 1/2-2/3 , una fraccion como se puede factorisar , pienso que quedaria 
+
 * referencias 
 [[https://web.ma.utexas.edu/users/m408n/CurrentWeb/LM0-0-1.php][ruta del calculo]]
 [[https://mind42.com/public/f73df552-1104-4053-848e-2b5baad8bbbe][mapa jerarquico del calculo]]
