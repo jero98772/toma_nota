@@ -144,7 +144,8 @@ because -2² means -(2²). (there's not much of a reason for *that*, except that
 ** 3 veces preguntado , respuesta de irc.libera.chat:6667 #math
 *** a+b puede tener - como factor comun?
 *** 1/2-2/3 , una fraccion como se puede factorisar , pienso que quedaria 
-
+** las embarradas
+*** para caclular m se usa (y1-y2)/(x1-x2)
 * referencias 
 [[https://web.ma.utexas.edu/users/m408n/CurrentWeb/LM0-0-1.php][ruta del calculo]]
 [[https://mind42.com/public/f73df552-1104-4053-848e-2b5baad8bbbe][mapa jerarquico del calculo]]
