@@ -12,11 +12,6 @@ muchas carpetas son de las materias cursadas y las cosas que se hicieron
 
 scripts  utiles que puenden servir para apreder
 
-# contibuye con donaciones  y ayudame a pagar mi estudio
-	
-	- Bitcoin: bc1qf3eh6ssgzw2t3qyjk2gzwuskq4ctfk8375fg3r
-
-
 # porfavor fijese en la licencia https://github.com/jero98772/toma_nota/blob/master/LICENSE en caso que hallan problemas
 hay esta la licencia por si hay algun problema sera usada para que no afecte mucho ...
 
