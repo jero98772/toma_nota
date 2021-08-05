@@ -8,9 +8,9 @@ public class Jugador{
         this.salud = s;
     }
     public String getNombre(){
-        return nombre
+        return this.nombre;
         }
     public int getSalud(){
-        
+        return this.salud;
     }
 }

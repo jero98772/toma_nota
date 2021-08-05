@@ -1,20 +1,21 @@
 public class MascotaSimple{
-    private int eddad =8;
-    private string nombre;
-    public static void main(){
-        nombre = Kitty;
+    private int edad =8;
+    private String nombre;
+    public MascotaSimple(String nuevoNombre){
+        this.nombre = nuevoNombre;
     }
-    public static void setNombre(string nuevoNombre){
-        nombre = nuevoNombre
+    public MascotaSimple(String nuevoNombre,int nuevaEdad){
+        this.nombre = nuevoNombre;
+        this.edad = nuevaEdad;
     }
-    public static void setMascota(string nuevoNombre,int nuevaEdad){
-        nombre = nuevoNombre;
-        edad = nuevaEdad;
+    public String getNombre(){
+        return this.nombre;
     }
-    public static String getNombre(){
-        return nombre;
+    public int getEdad(){
+        return this.edad;
     }
-    public static int getEdad(){
-        return edad;
+    public MascotaSimple() {
+    this.nombre = "kitty";
     }
 }
+
