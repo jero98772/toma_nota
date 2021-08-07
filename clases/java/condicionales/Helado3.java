@@ -1,11 +1,11 @@
 import java.util.Scanner;
-class Helado{
+class Helado3{
     public static void main(String[] args){
         int temperaturaLimite = 27;
         Scanner input = new Scanner(System.in);
         int temperaturaActual = input.nextInt();
         int edad = input.nextInt();
-        if (temperaturaActual > temperaturaLimite && edad < 18){
+        if (temperaturaActual > temperaturaLimite && edad > 18){
             int costo = 5000;
             int dinero = input.nextInt();
             if (dinero < costo){
