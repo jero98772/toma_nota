@@ -1,8 +1,7 @@
-//import java.util.Scanner;
 public class Discoteca{
-    boolean accesoDiscoteca(int edad,int dineor,String nombre){
+    boolean accesoDiscoteca(int edad,int dinero,String nombre){
         boolean acceso ;
-        if (edad >= 18 && dinero >= 100 && nombre != "jimmy"  ){
+        if (edad >= 18 && dinero >= 100 && !nombre.equals("jimmy")){
             acceso  = true;
         }else{
             acceso = false;
