@@ -7,13 +7,13 @@ public class ControlAmbiente{
 		 int iterationLimit =4 ; 
 		 for(int i = 0;i<iterationLimit;i++){
 		 	num = input.nextInt();
-		 	if(i <2){
+		 	if(i<2){
 		 		sa1.disminuirTemp(num);
 		 	}else{
 		 		sa1.aumentarTemp(num);
 		 	}
 
 		 }
-		 System.out.println(sa1.getTemperatura())
+		 System.out.println(sa1.getTemperatura());
 	}
 }

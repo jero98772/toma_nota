@@ -7,7 +7,7 @@ public class Infinito{
 		do{
 		int num = input.nextInt();
 		if (num == 0){
-			alerta = false;
+			alert = false;
 			break;
 		}else{
 			multiplicacion = num*3;
