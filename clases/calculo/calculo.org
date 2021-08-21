@@ -183,6 +183,31 @@ x=5*6
    x = 5
    y = 
    2  m =
+** stewar
+*** (-3)⁴
+-3*-3*-3*-3
+81
+*** -3⁴
+    -81
+*** 3-⁴
+(1/3)*(1/3)*(1/3)*(1/3)
+(1/81)
+0.012345679012345678
+*** 5²³/5²¹
+    5²
+    25
+*** (2/3)-²
+    (3/2)*(3/2)
+*** determine el tipo de funcion (solo respuestas para optimisacion de tiempo)
+    
+*** x²
+cuadratica
+*** √x-1
+radical
+*** cos()...
+trigonometrica
+*** 2x²+3x+4
+identidad
 ** preguntas ¿?
 *** 2a+4b ¿se puede simplificar? 
 2(a+2b)

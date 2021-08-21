@@ -1,12 +1,3 @@
-
-
-
-
-
-
-
-
-
 import java.util.Scanner;
 public class Conteo100{
 	public static void main(String[] args){
