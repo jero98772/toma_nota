@@ -1,0 +1,11 @@
+* calsidicacion de textos
+** leer los 4 textos
+*** clasificarlos
+**** argumentativo
+**** narrativo
+**** descriptivo
+**** expositivo
+*** por que se calisfico asi
+
+** dudas
+*** narcisismo colectivo
