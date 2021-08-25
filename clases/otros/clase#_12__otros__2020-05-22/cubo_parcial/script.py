@@ -1,10 +1,11 @@
 a = 1
 b = 1
-c = 202
-x = 1 
-y = 1
-z = -4
-z2 = -4
+c = 2
+x = 1-a
+y = 1-b
+z = 8-c
+z2 = 10-c
+"""
 d=(a*x+b*y+c*z)
 print(d)
 hipo = ((a**2+b**2+c**2)**(1/2))
@@ -29,7 +30,6 @@ d2=(c*z2)
 hipo = ((c**2)**(1/2))
 distancia2 = (c*z2+d2)/hipo
 print(distancia2)
-"""
 print(str(z)+"<"+str(c)+"<"+str(z2)+str(bool(z<c<z2)))
 #print(str(d)+"<"+str(c)+"<"+str(d2)+str(bool(d<c<d2)))
 print(str(distancia)+"<"+str(c)+"<"+str(distancia2)+str(bool(distancia<c<distancia2)))
