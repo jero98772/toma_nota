@@ -1,3 +1,4 @@
+import Jugador.Jugador;
 import java.util.Scanner;
 class PrincipalJugador{
     public static void main(String[] args){
