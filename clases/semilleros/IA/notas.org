@@ -1,0 +1,6 @@
+* 2
+** criptografia y IA
+*** cambiar los labes por hash puede ayudar al modelo a ser mejor
+*** Historia:experimento de mandar y entrenar de forma anonmia la IA , darle los datos encriptados y la IA los va clasificar como sino estubieran encriptados
+** trucos
+*** en las caprteas con los datos(o sin ellos) algunos ponen un modelo prenetrnado en vez de poner los datos
