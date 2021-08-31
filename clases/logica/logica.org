@@ -1,0 +1,46 @@
+* logica
+** simbolos
+*** ⊂ 
+**** si entonces
+*** ~
+**** negacion
+*** ∨
+**** disjucion (o)
+*** ∧
+**** conjucion (Y)
+*** ⊃
+**** si entonces
+*** ≡
+**** si y solo si
+** concepto
+*** inferencia
+**** es el proceso para llegar a una proposicion
+*** proposicion
+expresion con sentido que afirma o niega algo
+*** argumento 
+ es lo que da estructura a las propociones ,lo que cambia el sentido y las une
+*** conclusion
+ es la propocicion del argumento que se afirma en base en las otras propociones 
+*** premisas
+ son las propociones del argumento que son afirmadoas o supestas
+** tablas de proposiones
+*** ⊂
+p|q|⊃
+-+-+-
+v|v|v
+-+-+-
+v|f|f
+-+-+-
+f|v|v
++-+-
+f|f|v
+*** ~
+p|~
+-+-
+v|f
+-+-
+f|f
+*** ∨
+*** ∧
+*** ⊃
+*** ≡
