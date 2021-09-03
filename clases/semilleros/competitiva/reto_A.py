@@ -1,7 +1,7 @@
 #oficina de
 larry = []
 t = int(input("cantidad\n"))
-if 1<t<2000:
+if 1<=t<=2000:
 	for i in range(t):
 		numero = input("prefijo + numero")
 		larry.append(numero)
