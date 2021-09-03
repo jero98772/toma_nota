@@ -208,6 +208,11 @@ radical
 trigonometrica
 *** 2x²+3x+4
 identidad
+*** punto (-2,-2 ) m = 0
+donde puedo poner -2 ,-2
+y-y1=(y2-y1)/(x2-x1)(x-x1)
+m = 0 ()
+
 ** preguntas ¿?
 *** 2a+4b ¿se puede simplificar? 
 2(a+2b)
