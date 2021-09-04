@@ -1,14 +1,14 @@
 class Overloading{
-	void mostrar(int p){
+	public static void mostrar(int p){
 	System.out.println("Se ha ingresado un entero");
 	}
-	public void mostrar(double p){
+	public static void mostrar(double p){
 	System.out.println("Se ha ingresado un double");
 	}
-	static void mostrar(String p){
-	System.out.println("Se ha ingresado una string");	
+	public static void mostrar(String p){
+	System.out.println("Se ha ingresado un string");	
 	}
-	void mostrar(char p){
+	public static void mostrar(char p){
 	System.out.println("Se ha ingresado un caracter");	
 	}
 }
