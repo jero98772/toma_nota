@@ -212,7 +212,15 @@ identidad
 donde puedo poner -2 ,-2
 y-y1=(y2-y1)/(x2-x1)(x-x1)
 m = 0 ()
-
+** taller 6
+-3 no es una funcion
+-2 tampoco
+no son una funcion
+-1
+3
+1
+5
+7
 ** preguntas ¿?
 *** 2a+4b ¿se puede simplificar? 
 2(a+2b)
@@ -227,3 +235,4 @@ because -2² means -(2²). (there's not much of a reason for *that*, except that
 * referencias 
 [[https://web.ma.utexas.edu/users/m408n/CurrentWeb/LM0-0-1.php][ruta del calculo]]
 [[https://mind42.com/public/f73df552-1104-4053-848e-2b5baad8bbbe][mapa jerarquico del calculo]]
+
