@@ -6,6 +6,10 @@
 **** descriptivo
 **** expositivo
 *** por que se calisfico asi
+
+
+
+    
 ** explicar como se llega a la respuesta correcta en la prengunta
 *** "Nos hemos convencido de ser un país singularmente violento, por contraste, sobre todo, con las sociedades europeas, que imaginamos mucho menos agresivas", la expresión subrayada establece una relación anafórica con:
 **** un país violento.
@@ -14,7 +18,7 @@
 **** las sociedades europeas.
 ** resolver a punta de descarte
 anafora quiere decir hacia atras en el texto
-**** un país violento.
+**** un país violento.-
 depronto
 **** los colombianos.
 no por que hacer refencia en el texto , 
@@ -24,7 +28,7 @@ no por que esta descpues , seria una relacion cataforica
 depronto
 *** descarte 2
 (que) imaginamos mucho menos agresivas 
-**** un país violento.
+**** un país violento.-
 no tendira mucho sentido referenciar una afirmacion y una percpecion,por que faltarian conectores
 un país violento,que imaginamos mucho menos agresivas 
 **** las sociedades europeas.
@@ -32,4 +36,4 @@ esta por que hace referencia una percepcion sobre lo anterior,
 las sociedades europeas,que imaginamos mucho menos agresivas.
 ** es las sociedades europeas.
 ** dudas
-*** narcisismo colectivo
+*** 
