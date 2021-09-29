@@ -222,11 +222,11 @@ f(-1)
 1
 5
 7
+** parte taller 8
 ** parcial2
 *** 1,2,3,4,5
  (7x-2)(x+1)/(49x²-4)
  (7x-2)(x+1)/(7x+2)(7x-2)
-
 ** preguntas ¿?
 *** 2a+4b ¿se puede simplificar? 
 2(a+2b)

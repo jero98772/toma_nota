@@ -34,6 +34,52 @@ un país violento,que imaginamos mucho menos agresivas
 **** las sociedades europeas.
 esta por que hace referencia una percepcion sobre lo anterior, 
 las sociedades europeas,que imaginamos mucho menos agresivas.
-** es las sociedades europeas.
-** dudas
-*** 
+*** es las sociedades europeas.
+** parrafos
+*** un parrafo en interente debe ser
+    corto ...
+*** un parrafo no debe ser ni muy corto ni muy largo
+* actividad
+** texto 1
+*** titulo:Voyant Tools redme.md
+*** formato:instructivo
+*** parrafo introcuctorio
+    Voyant Tools is a web-based text analysis, reading and visualization environment. Developed by a small team of digital humanities scholars led by Stéfan Sinclair and Geoffrey Rockwell, Voyant Tools is designed for a very wide range of applications and users, from students to researchers and journalists to market analysts. It strives to balance user-friendliness with a range of analytic and interpretive functions.    
+*** caractristicas
+    Some of the important features of Voyant Tools include:
+
+*importing documents in various formats (plain text, HTML, XML, PDF, RTF, MS Word, ODF, etc.)
+*several tools for studying term frequencies and distributions within documents and within a collection of documents (a corpus)
+*a full-text reader that support very large texts and includes interactive features
+*interaction between the the tools that facilitates navigation and exploration at diffent scales (from "close reading" to "distant reading")
+*a mechanism for bookmarking and sharing instances of Voyant Tools (specific texts and tools) through persistent URLs
+*access to a hosted version of Voyant Tools or a downloadable standalone version
+*Voyant Tools is free and open source (GPLv3)
+
+es descrive por que es 
+
+*** link:https://github.com/voyanttools/Voyant
+** texto 2
+*** titulo:manfiesto hacker
+*** formato:manifesto
+*** parrafo introcuctorio
+    Another one got caught today, it's all over the papers.  "Teenager
+Arrested in Computer Crime Scandal", "Hacker Arrested after Bank Tampering"...
+        Damn kids.  They're all alike.
+*** caracteristicas
+*** link:http://www.phrack.org/issues/7/3.html
+** texto 3
+*** titulo
+*** formato
+*** parrafo introcuctorio
+*** caracyeristicas
+*** link
+** enunciado solucion problema
+*** premisa
+en colombia se viven muchas situaciones muy inciertas debido a las pocas herramienas y materieles para intepretalos ,como pueden ser las cifras y datos que estan exageradamente ponderadas por ausencia de estas.todo tipo de datos y cifras desde cifras economicas perdidas , hasta datos ambientales. esto hace ver que colombia no es pobre en datos, solo es que no hay datos suficientes o utiles para hacer algo.  
+*** pregunta
+¿como colombia podria superar el umbral de la pobresa en los proximos años? 
+*** solucion
+si colombia se centra mas formas de capturar datos y no en la calidad , estos puden existir. hay muchas formas para recoger mas datos , entre ellas esta darle poder al ciudadano con sesnores  , como podria ser el caso del siata con las nubes ciudadanas
+
+ 
