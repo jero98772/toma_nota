@@ -1,5 +1,5 @@
 * cosas para hacer
 ** 1 practica de analisis textual
-** 2 coso materia relleno
+** DONE 2 coso materia relleno
 ** 3 taller fundamentos de programacion , terminar carrito
 ** verficar proeso de logica

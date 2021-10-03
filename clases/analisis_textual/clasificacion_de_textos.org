@@ -1,4 +1,4 @@
-* calsidicacion de textos
+* clasidicacion de textos
 ** leer los 4 textos
 *** clasificarlos
 **** argumentativo
@@ -6,10 +6,6 @@
 **** descriptivo
 **** expositivo
 *** por que se calisfico asi
-
-
-
-    
 ** explicar como se llega a la respuesta correcta en la prengunta
 *** "Nos hemos convencido de ser un país singularmente violento, por contraste, sobre todo, con las sociedades europeas, que imaginamos mucho menos agresivas", la expresión subrayada establece una relación anafórica con:
 **** un país violento.
@@ -58,7 +54,15 @@ las sociedades europeas,que imaginamos mucho menos agresivas.
 
 es descrive por que es 
 
-*** link:https://github.com/voyanttools/Voyant
+*** link:https://github.com/voyanttools/VoyantSome of the important features of Voyant Tools include:
+
+*importing documents in various formats (plain text, HTML, XML, PDF, RTF, MS Word, ODF, etc.)
+*several tools for studying term frequencies and distributions within documents and within a collection of documents (a corpus)
+*a full-text reader that support very large texts and includes interactive features
+*interaction between the the tools that facilitates navigation and exploration at diffent scales (from "close reading" to "distant reading")
+*a mechanism for bookmarking and sharing instances of Voyant Tools (specific texts and tools) through persistent URLs
+*access to a hosted version of Voyant Tools or a downloadable standalone version
+*Voyant Tools is free and open source (GPLv3)
 ** texto 2
 *** titulo:manfiesto hacker
 *** formato:manifesto

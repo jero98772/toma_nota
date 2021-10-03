@@ -1,0 +1,34 @@
+
+* actividad
+** con 3 textos dar la siguiente informacion 
+*** titulo
+*** formato
+*** parrafo introcuctorio
+*** caracteristicas
+*** link
+** texto 1
+*** titulo:Voyant Tools redme.md
+*** formato:instructivo
+*** parrafo introcuctorio
+    Voyant Tools is a web-based text analysis, reading and visualization environment. Developed by a small team of digital humanities scholars led by Stéfan Sinclair and Geoffrey Rockwell, Voyant Tools is designed for a very wide range of applications and users, from students to researchers and journalists to market analysts. It strives to balance user-friendliness with a range of analytic and interpretive functions.    
+*** caractristicas
+en el texo sale directamente cacteristicas, pero son del programa
+
+las caracteristicas del texto son es descrive por que es 
+
+*** link:https://github.com/voyanttools/Voyant
+** texto 2
+*** titulo:manfiesto hacker
+*** formato:manifesto
+*** parrafo introcuctorio
+    Another one got caught today, it's all over the papers.  "Teenager
+Arrested in Computer Crime Scandal", "Hacker Arrested after Bank Tampering"...
+        Damn kids.  They're all alike.
+*** caracteristicas
+*** link:http://www.phrack.org/issues/7/3.html
+** texto 3
+*** titulo
+*** formato
+*** parrafo introcuctorio
+*** caracyeristicas
+*** link
