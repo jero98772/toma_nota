@@ -9,4 +9,28 @@
 (-00,-3]
 *** (2x-3y)²
 4x²-12xy+9y²
-*** (2x+4)(x-3)-5(x-3)
+*** (2x+4)(x-3)-5(x-3
+* matematicas basicas
+** 3)
+   p(2,3)
+   m=-(1/2)
+   y-y1=m(x-x1)
+   y-3=m(x-2)
+
+   y=1/2(x-2)+3
+   1/2*-2/1=-2/2=-1
+   y=-1/2x-1+3
+   y=-1/2x-2
+** recta perpendicular
+   (para allar la ecuacuion de una linea perpendicular ademas de invertir m, b tambien cambia)
+   5x+2y=-1
+   y=5x-3
+   m=-1/5
+   -1/5*3+2=b
+   -1/5*3/1=-3/5
+   -3/5+2/1
+3*1+2*5/1*5
+-3+10/5
+7/5=b
+** taller
+2**(1/3)

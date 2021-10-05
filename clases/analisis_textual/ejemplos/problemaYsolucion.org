@@ -1,0 +1,7 @@
+* enunciado solucion problema
+** premisa
+En colombia se viven muchas situaciones muy inciertas debido a las pocas herramienas y materieles para intepretalos ,como pueden ser las cifras y datos que estan exageradamente ponderadas por ausencia de estas.Todo tipo de datos y cifras desde cifras economicas perdidas , hasta datos ambientales. esto hace ver que Colombia no es pobre en datos, solo es que no hay datos suficientes o utiles para hacer algo con ellos.  
+** pregunta
+¿Como Colombia podria superar el umbral de la pobresa(en este caso pobresa de datos) en los proximos años? 
+** solucion
+Si Colombia se centra mas formas de capturar datos y no en la calidad, ni en esconderlos,estos puden existir por mas tiempo y ser mas utiles si se cuidan.Hay muchas formas para recoger mas datos , entre ellas esta darle poder al ciudadano con sesnores  , como podria ser el caso del Siata con las nubes ciudadanas entre otros.
