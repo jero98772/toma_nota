@@ -1,0 +1,7 @@
+* Párrafo causa-efecto
+** efecto
+   El comienzo de la segunda guerra mundia fue dado por 
+** Causa
+   1. la invasion de alemania a polonia
+   2. El Reino Unido y Francia le declararon la guerra a Alemania
+   3. Maniobras tacticas y movimiento de armamento y soldados , previo 

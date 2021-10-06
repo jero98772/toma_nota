@@ -1,0 +1,9 @@
+* Párrafo de enumeracion
+** frase organisadora
+en el campo de clases virtueles suceden errores  y problemas  de froma frecuente como 
+** lista
+   1. hablar con el microfono mueteado
+   2. distracciones
+   3. dejar conectada la llamada y irse ,y no estar cuando lo llamen
+   4. problemas en la casa o familisares
+   5. problemas con su isp
