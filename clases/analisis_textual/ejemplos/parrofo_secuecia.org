@@ -1,0 +1,4 @@
+
+* Párrafo de secuencia
+** Construya un párrafo de secuencia a partir del siguiente procedimiento:
+ para organizar un viaje para acampar durante una semana, se nesesita tener en cuenta el lugar donde acampar si es un lugar calido o frio para destinar el equipaje para su clima,una vez en el lugar y con las cosas nesarias como comida,techo(carpa) piense donde va destinar sus acciones ,donde va poner la carpa , a donde va ir al baño ... asumiendo que usted ya sabe que va hacer esa semana en ese lugar solo le queda hacerlo y esperar que se acabe la semana para volver a empacar y irse , recuerde llevarse la carpa y la basura , en el caso que sea residuos organicos los puede enterrar para no llevarselos y para finalisar volver a repetir la experiencia.  

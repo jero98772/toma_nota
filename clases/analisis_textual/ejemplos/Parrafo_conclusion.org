@@ -1,0 +1,32 @@
+* Párrafo de conclusión
+  Busque en internet 3 textos diferentes
+*** titulo
+*** formato
+*** parrafo
+*** caracteristicas
+*** link
+** texto 1
+*** titulo
+*** formato
+*** parrafo
+*** caracteristicas
+*** link
+** texto 2
+*** titulo:Federico López un explorador curioso tras la música
+*** formato:entrevista
+*** parrafo
+    En la actualidad el portal de Lorito ofrece más de 80 temas para bajar gratis y más de 20 grupos locales, donde se puede adquirir los trabajos musicales mediante varias alternativas, compra, donación o trueque.
+*** caracteristicas:
+    descriptivo, dise que tiene el portal de Lorito
+    informativo, dise que se puede adquirir y como
+*** link:https://vivirenelpoblado.com/federico-lopez-explorador-curioso-tras-la-musica/
+** texto 3
+*** titulo:La segunda vida de los dispositivos con ‘Trewa’
+*** formato: entrevista
+*** parrafo:
+Así que la próxima vez que un simple celular de juguete se atrofie en las manos, será mejor que lo piense dos veces antes de botarlo. Puede que el reciclaje electrónico, el acercamiento a este campo y la experimentación sonora sean la posibilidad de reinventarlo y regalarle una segunda vida, revalidada en destornilladores de pala, estrella y pinzas.
+*** caracteristicas:
+    refelxivo
+    es un texto mas artistico que cientifico o tecnico
+    expositivo ,mas que exponer una tecnica expone una filosofia de vida de recilcar. 
+*** link:https://www.elheraldo.co/tendencias/la-segunda-vida-de-los-dispositivos-con-trewa-120449
