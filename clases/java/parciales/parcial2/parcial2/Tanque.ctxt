@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Tanque
+comment1.params=
+comment1.target=Tanque()
+comment10.params=
+comment10.target=java.lang.String\ toString()
+comment11.params=tanques
+comment11.target=void\ mostrarTanquesVivos(Tanque[])
+comment2.params=c\ a\ s
+comment2.target=Tanque(int,\ int,\ int)
+comment3.params=t1\ t2
+comment3.target=void\ ataque(Tanque,\ Tanque)
+comment4.params=
+comment4.target=int\ getSalud()
+comment5.params=
+comment5.target=int\ getCodigo()
+comment6.params=
+comment6.target=int\ getAtaque()
+comment7.params=c
+comment7.target=void\ setCodigo(int)
+comment8.params=a
+comment8.target=void\ setAtaque(int)
+comment9.params=s
+comment9.target=void\ setSalud(int)
+numComments=12

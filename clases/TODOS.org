@@ -3,4 +3,4 @@
 ** DONE 2 coso materia relleno
 ** 3 taller fundamentos de programacion , terminar carrito
 ** verficar proeso de logica
-** "fractal" (visualisacion de difurcaciones) de la palabra integridad
+** DONE "fractal" (visualisacion de difurcaciones) de la palabra integridad
