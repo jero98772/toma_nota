@@ -4,3 +4,5 @@
 ** taller(proyecto en grupo) fundamentos de programacion , terminar carrito
 ** DONE verficar proeso de logica
 ** DONE "fractal" (visualisacion de difurcaciones) de la palabra integridad
+** parcial proxima semana
+** informe lectura , se entrega en teams 
