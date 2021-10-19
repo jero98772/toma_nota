@@ -1,9 +1,13 @@
 * taller preparacion
 ** determine
-*** tema
-*** tesis
+*** tema:
+    problematica frente alos recursos hidricos
+*** tesis:
+    los recursos hidricos estan en graves problemas y se nesesita hacer algo
 *** organisacion discursiva
-*** formato
+    expositivo
+*** formato:
+    noticia
 ** definir 
 *** de que habla
 *** como habla del tema(posion frente al tema)
@@ -34,13 +38,21 @@
     la perdida de fuentes hidricas se pierde por los desechos que administran los humanos
 ** parrafo 8
 *** habla que:
+    de la laguna de Suesca
 *** dice que:
+    la laguna esta en malas condiciones y que antes estaba mejor 
 ** parrafo 9
 *** habla que:
+    lo que pasa en la laguna de suesca es un problema 
 *** dice que:
+    la problematica sobre la lagubna de suesca es muy grande no solo por 
 ** parrafo 10
 *** habla que:
+    el plan de recuperacion
 *** dice que:
+    que ya si se va hacer algo
 ** parrafo 11
 *** habla que:
+la propuesta del turismo para la laguna
 *** dice que:
+el turimo pueder beneficioso y oprtuno para la laguna y pobladores
