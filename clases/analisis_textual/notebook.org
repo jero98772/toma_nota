@@ -35,3 +35,25 @@ tienen un contexto, tema y tesis , y estructura del informe
 *** 14 asesoria 
 *** 15 evaluacion por pares y tips puntuacion y ortografia
 *** 16 
+* 03/11/2021
+** tips ortografia
+*** por que
+    finalidad
+*** por qué
+    pregunta
+*** porque
+    respuesta
+*** porqué
+    motivo
+*** demas
+    otras personas o supocision
+*** de mas
+    de mayor 
+*** aparte
+    de apartar algo ,reservar
+*** a parte
+    de una parte
+*** hacia
+    referente un lugar , direccion
+*** hacía
+    referencia en 3era persona, referencia hacer algo del pasado

@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=hada
+comment1.params=n\ s\ a
+comment1.target=hada(java.lang.String,\ int,\ int)
+numComments=2

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=principal
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=personajes
+comment2.target=void\ mostrarNombresPersonajes(personaje[])
+numComments=3
