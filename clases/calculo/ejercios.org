@@ -14,4 +14,32 @@
   (√3x)²=9²
   3x=81
   =27
-5) verdadero
+1) verdadero
+* 2022
+** 1.10
+La mitad del dinero que tiene Juan es igual al doble de lo que tiene Pascual.
+x/2=2y
+
+El triple de un n ́umero es igual al cuadrado de otro
+
+3x=y²
+
+ La ra ́ız cuadrada de un n ́umero es igual al cuadrado de otro.
+
+ √x = y²
+
+a oficina de env ́ıos solo acepta paquetes para los que la longitud m ́as su circunferencia sea menor
+que 100 centımetros.
+ x+c>100
+
+  La suma de dos n ́umeros al cuadrado es igual al cuadrado del primero m ́as dos veces el primero
+por el segundo m ́as el segundo al cuadrado.
+
+(x+y)²=x²+2xy+y²
+ 
+   La diferencia de los cuadrados de dos numeros es igual a la suma de las ra ́ıces cuadradas de los
+n ́umeros por la diferencia de sus ra ́ıces cuadradas
+
+   R:(x²-y²)=(√x+√y)*(√x-√y)
+
+

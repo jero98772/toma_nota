@@ -1,0 +1,22 @@
+Hola ,alguien conoce implementaciones del producto carteciano en paralelo?o un algoritmo para generar combinaciones con x caracteres para un string de longitud y 
+
+¿es mejor hacer una implementacion aparte del producto carteciano o se puede usar itertools.product para hacerlo en paralelo?
+estado buscando y veo que es un mal algoritho para lo que quiero hacer,pero no conosco otro.
+https://ieeexplore.ieee.org/document/8785730
+https://www.worldscientific.com/doi/10.1142/S0129626495000060
+prototipo
+https://pastebin.com/Ushbwg47
+
+
+nbase (numero de caracteres)
+x
+
+Parce, ps dada la manera en que lo estás tratando es un problema de conteo donde tienes base N (conjunto de caracteres a usar) y solicitas números Xi desde 1 a D dígitos. De modo que tienes que generar siempre N**D combinaciones.
+Paralelizarlo sería simplemente buscar cómo puedes simular un conteo en base N y reemplazar los valores por tus dígitos xd, divides N**D en el número de procesos o hilos que quieras usar.
+
+Toca tener cuidado con el 0 ya q al pensar en bases 001 es lo mismo q 1 pero para las permutaciones no, entonces no van a ser exactamente N**D, toca hacer las cuenticas, pero esa si es la idea y manejar los casos con 0's a la izquierda con cuidado
+
+No se me ocurre nada muy rapido cuando son combinaciones puedes probar recursion como backtracking a ver si puedes quitarle recorrido a esa fuerza bruta si es algo mas eficiente demas que algoritmos como branch and bound o parecidos te ayudan
+
+https://towardsdatascience.com/the-branch-and-bound-algorithm-a7ae4d227a69
+https://www.geeksforgeeks.org/branch-and-bound-algorithm/

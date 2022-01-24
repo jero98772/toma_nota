@@ -4,7 +4,6 @@ import subprocess
 
 #multitreading
 #brutal force
-
 def brutalforceGen(chars):
     for length in range(1, 6): # only do lengths of 1 + 2
         to_attempt = product(chars, repeat=length)
