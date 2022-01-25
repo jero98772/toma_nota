@@ -1,0 +1,48 @@
+* fisica
+** parciales 20% cada uno
+   1, semana 6(28 febrero)
+   2, semana 11(18 abril) 
+   final, semana 15(30 mayo)
+*** contenidos
+   25%  punto laboratorio
+   50% ejercios o problemas
+   25% otras ,variedad
+** seguimiento 40%
+*** quizes 5% cada uno
+    quiz 1, semana 4(14 o 15 febrero)
+    quiz 2, semana 9(21 o 22 marzo)
+    quiz 3, semana 15(16 o 17 mayo)
+*** practicas de laboratorio 15%
+**** guia impresa
+***** objetivo
+***** marco teorico
+***** procedimiento
+***** evaluacion
+      informe (semana siguiente)
+      hoja respuestas (ese dia)
+*** exposicion 10%
+    preinforme o avanse 20%
+    nota grupal 20%
+    nota individual 50%
+    asistencia otras expociones 10%
+*** temas exposiciones
+**** biomecanica de peces saltadores,
+     como arawana, arapaima,salmones,ciclidos
+     analisis: vecotorial y cinematico de los peces saltadores
+     estudio: pez movimiento del agua y posion de la presa
+     en semana 5 preinforme
+     en semana 7 exposicion
+**** estructura
+     que queremos lograr (comunicar)
+     abordaje conceptual y teorico
+     contenido
+     algo experimental
+     aplicaciones
+     concluciones
+     bibliografia y recursos
+** recursos del curso
+   fisica universitaria,sear,zemansky
+** monitorias de 5 piso bloque 38
+* clase 1
+  que es fisica?
+  ciencia que estudia el funcionamiento del todo(universo) y sus partes

@@ -242,3 +242,46 @@ because -2² means -(2²). (there's not much of a reason for *that*, except that
 [[https://web.ma.utexas.edu/users/m408n/CurrentWeb/LM0-0-1.php][ruta del calculo]]
 [[https://mind42.com/public/f73df552-1104-4053-848e-2b5baad8bbbe][mapa jerarquico del calculo]]
 
+
+* curso
+quiz cada semana
+** notas
+  1 parcial (15%) 4 semana (virtual)
+  2 parcial (17%) 8 semana (virtual)
+  3 parcial (25%) 12 semana (presencial)
+  final (27%) 17 semana (presencial)
+  16 quizes,16%
+* ejercios
+*** x/2 + 3 < x/3−2x
+    3x/2 +2x-x/3< -3
+    x/2+2x/1-x/3
+    x*1+2*2x/2=5x/2
+    5x/2-x/3, 5x*3-2*x/2*3,13x/6
+    13x/6<-3
+*** x/2 + x > x/3 −2
+    x/2+x/1-x/3>-2
+    x+2x/2
+    3x/2
+    3x/2-x/3
+    9x-2x/6
+    7x/6>-2
+*** x/2 + 3 ≥ 3/x −2
+    x/2-3/x >= -3-2
+    -6-2x/2x>= -5
+*** 2/x + 3 ≤ x/3 −2
+    2/x-x/3 <= -3-2
+    2x-3x/3x<=-5
+    -x/3x<=-5
+*** a) (a + b)2 6= a2 + b2 y en general para cualquier exponente.
+  no hay igualdad por en un caso primero se suma y luego se exponencia todo junto y en el otro se exponencia y luego se suma, en este caso el orden de los factores afecta el producto
+***   √a + b 6= √a + √b y en general para cualquier  ́ındice de la ra ́ız.
+   el orden de los factores afecta el producto,y en este caso no hay una igualdad o algo reversible.
+   no hay una potenciacion que invalide la raiz
+*** √(a2 + b2) = a + b
+se potencian y se suman ,se hace la operacion contraria al ser otro numero por que se sumaron
+*** -2² != 4
+    puede ser si primero se potencia todo inluyendo el negativo,-2*-2=4,como no se potencia el negagativo, este solo multiplica seria -(2*2)=-4
+*** (−a + b)/(c)= (−a + b)/(c)
+    el resultado cambia por la cantidad de operaciones
+*** a/(b + c) = (a/b) + (a/c)
+en una parte se dividen 2 cosas , en la otra se divide 1 , 
