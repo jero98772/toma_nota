@@ -1,0 +1,5 @@
+n=int(input())
+if n>4:print("Muy buena nota")
+elif n<3:print("puedes mejorar")
+else:print("Estas en el medio")
+print("Fin programa")

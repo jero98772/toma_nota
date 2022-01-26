@@ -1,0 +1,1 @@
+for i in range(5,int(input())+1,5):print(i)
