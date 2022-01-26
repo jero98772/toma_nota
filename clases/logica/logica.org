@@ -44,3 +44,13 @@ f|f
 *** ∧
 *** ⊃
 *** ≡
+* clase
+  4 parciales de 21%
+  quiz 1 semana 3
+  quiz 2 semana 6
+  quiz 3 semana 10
+  quiz 4 semana 14
+ hay asesorias
+  induccion logic coach primero febrero
+
+  inferencia 

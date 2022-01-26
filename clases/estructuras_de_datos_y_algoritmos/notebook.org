@@ -1,0 +1,11 @@
+* dsa
+** pacto pedago
+   proyecto
+ segumiento 1,2,3 (10,10,5)%
+ entrevista 1 10%
+ entreviista 2
+ 
+*** preguntas 
+  semillero IA?
+  python,c++,java? python
+  ingles? si

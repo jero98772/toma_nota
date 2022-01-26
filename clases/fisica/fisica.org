@@ -46,3 +46,34 @@
 * clase 1
   que es fisica?
   ciencia que estudia el funcionamiento del todo(universo) y sus partes
+* clase 2
+** cantidades fisicas
+   al realizar mediciones obtenemos numeros que describen fenomenos fisicos, estos numeros los llamamos cantidades fisicas y estas constitullen ese conjunto de constantes y variables que usamos en fisca
+** cantidades
+*** escalares
+    se describen mediante un numero , solo posen magnitud
+*** vectoriales
+    posen magnitud y direccion
+las cantidades nesistan una medida,estas facilitan la comunicacion
+se usara el sistema internacional
+*** metros
+    km=10m³(central)
+    hm=10m²(hectometro)
+    Dm=10m (decametro)
+    m=1m
+    dm=10m⁻¹(decimetro)
+    cm=10m⁻²
+    mm=10⁻³
+*** masa
+    kg=10g³(central)
+    hg=10g²
+    Dg=10g
+    g=1g
+    dg=10g⁻¹
+    cg=10⁻²
+    mg=10⁻³
+*** tiempo
+    s=1s(central)
+    60s=min
+    3600s=hr
+*** unidades compuestas
