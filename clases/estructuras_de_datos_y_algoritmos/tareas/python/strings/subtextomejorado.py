@@ -1,0 +1,6 @@
+txt=input()
+p1=int(input())
+p2=int(input())
+if len(txt)<p2:print("Error")
+elif p2<p1:print("Error2")
+else:print(txt[p1:p2])

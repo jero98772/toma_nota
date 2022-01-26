@@ -252,6 +252,14 @@ quiz cada semana
   final (27%) 17 semana (presencial)
   16 quizes,16%
 * ejercios
+*** x/2 + x = x/3 −2
+    x/2-x/3=-2
+*** x/2 + 3 = x/3 −2x
+   3=-x/2+x/3-2x
+   x/2+x/3-2x
+   5x/6-2x/1
+   3=17x/2x
+** 1.10     
 *** x/2 + 3 < x/3−2x
     3x/2 +2x-x/3< -3
     x/2+2x/1-x/3
@@ -275,6 +283,9 @@ quiz cada semana
 *** x/2 + 3 < x/3 −2
     x/2-x/3 < -3-2
     -6-2x/2x < -5
+*** 2x −3 > 4x + 2
+    2x-4x>5
+    -2x>5
 *** a) (a + b)2 6= a2 + b2 y en general para cualquier exponente.
   no hay igualdad por en un caso primero se suma y luego se exponencia todo junto y en el otro se exponencia y luego se suma, en este caso el orden de los factores afecta el producto
 ***   √a + b 6= √a + √b y en general para cualquier  ́ındice de la ra ́ız.
