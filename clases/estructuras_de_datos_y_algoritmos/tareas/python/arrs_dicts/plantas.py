@@ -5,9 +5,4 @@ def plantavieja(arr):
   if i["antiguedad"] > old:
    old=i["antiguedad"]
    name=i["nombre"]
- print(name)
-"""
-nombre=input()
-edad=int(input())
-plantavieja(arr)
-"""
+ return name

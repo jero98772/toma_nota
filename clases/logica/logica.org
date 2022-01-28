@@ -53,4 +53,14 @@ f|f
  hay asesorias
   induccion logic coach primero febrero
 
-  inferencia 
+  inferencia
+*** clase 2
+    buscar metodos de estudio para aprender mateaticas
+    textos copi, hurley
+    hurleyseccion de 6.2,6.3,..
+    la y predomina sobre otros operadores
+**** ejercios
+     x y y =f
+     a y b =V
+     ~(AvX) = F
+
