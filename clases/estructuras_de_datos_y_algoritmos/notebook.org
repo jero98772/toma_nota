@@ -6,6 +6,11 @@
  entreviista 2
  
 *** preguntas 
-  semillero IA?
-  python,c++,java? python
-  ingles? si
+  ejercios como:
+  (0)Función Mayor
+  (1)Crear una nueva cadena cambiando la x por la y - Básico,(recursiva)
+  (2) notas, 
+  que tiene casos especiales como:
+  (0) numeros iguales, mejor mediante for de forma general
+  (1)el usario no entra nada
+  (2) notas .txt no existe
