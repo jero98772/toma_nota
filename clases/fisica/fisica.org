@@ -77,3 +77,49 @@ se usara el sistema internacional
     60s=min
     3600s=hr
 *** unidades compuestas
+* clase 3
+  si los modelos se hacen en metros,funcionan en metros
+  la magnitud no puede ser negativa
+  los vectores
+  lambda es un operador
+  λA*-1 =-A
+  si lambda es diferente 1 cambia la magnitud
+** operar vectores
+*** suma
+    cabeza con cola
+*** resta
+    cola con cola
+    la resta de A⃗-B⃗
+    tienen la misma magnitud, pero con direccion opuesta
+    la base en vectores son las dimenciones (no son bases numericas)
+    vector unitario es que es magnitud 1
+* lab
+ todo en una mks?en alguna unidad central
+ material
+* clase 4
+caclular la magnitud del vector
+|A⃗|=√(Ax²+Ay²)
+hallar la direccion
+*** si es en el cuadrante +,+
+    θ=tan⁻¹(Ay/Ax)
+    θ=∠
+*** si es en el cuadrante -,+
+θ=tan⁻¹(Ay/Ax)
+180°-θ=∠
+*** si es en el cuadrante -,-
+θ=tan⁻¹(Ay/Ax)
+180°+θ=∠
+
+*** si es en el cuadrante +,-
+θ=tan⁻¹(Ay/Ax)
+360°-θ=∠
+
+meter las cordenadas en postivo independiente del cuadrante,
+
+*** producto escalar,producto punto o producto interno son la misma cosa
+
+|A⃗||B⃗| cos θ
+θ es el angulo entre los 2 vectores
+si los vectores estan el la misma direccion no hay que hacer coseno
+cuando los vectores son perpendiculares da 0
+

@@ -327,3 +327,20 @@ se potencian y se suman ,se hace la operacion contraria al ser otro numero por q
     el resultado cambia por la cantidad de operaciones
 *** a/(b + c) = (a/b) + (a/c)
 en una parte se dividen 2 cosas , en la otra se divide 1 , 
+* taller 2
+  es o no es funcion
+  1 no , es una accion que no involucra numeros, a menos que descuente de un valor  
+  2 no, no es cuantitativo
+  3 si, por que toma un valor externo (valor petroleo) y lo observa en el tiempo
+  4 si, pero nesesita tener valores numericos
+  5 no,(imaginando que no hacen referencia a numeros primos)
+  6 si , por que la formula de velocidad proviene del calculo 
+  7 no, es una constante y en calculo seria mas una relacion
+** determinar funciones apartir de tablas
+   f(), si
+   g(), si
+   w(), si
+   h(), si
+   T(), no ,se repiten valores
+   M(), no ,se repiten valores
+que quiere decir Df y Rf en el punto  1.4
