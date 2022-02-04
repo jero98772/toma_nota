@@ -344,3 +344,9 @@ en una parte se dividen 2 cosas , en la otra se divide 1 ,
    T(), no ,se repiten valores
    M(), no ,se repiten valores
 que quiere decir Df y Rf en el punto  1.4
+c)1.2...
+d)
+*
+** monitorias
+   dominio en x
+   rango en y

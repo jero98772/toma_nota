@@ -24,7 +24,7 @@ expresion con sentido que afirma o niega algo
 *** premisas
  son las propociones del argumento que son afirmadoas o supestas
 ** tablas de proposiones
-*** ⊂
+*** ⊃
 p|q|⊃
 -+-+-
 v|v|v
@@ -63,4 +63,31 @@ f|f
      x y y =f
      a y b =V
      ~(AvX) = F
-
+* clase 2
+  un armumento es :
+**** valido
+     cuando todo es verdad
+*** invalido
+**** contradiccion
+     cuando todo es Falso
+**** contingencia
+**** doble marca
+doble marca -> arg valido
+no doble marca -> arg invalido
+supocion y doble marca -> arg valido
+supocion y no doble marca -> alg invalido
+si no ,es por que puede ser contradiccion o contingencia al mismo tiempo
+en el bloque 18,piso 4 ayudan con logic coach
+** ejercio
+   (OvP)⊃Q
+   Q⊃(PvR)
+   O⊃(~S⊃P)
+   (S⊃O)⊃~R
+   :.P≡Q
+**** (OvP)⊃Q
+     ||V| |V |V |
+**** Q⊃(PvR)
+     V|V|T||
+**** O⊃(~S⊃P)
+**** (S⊃O)⊃~R
+**** :.P≡Q
