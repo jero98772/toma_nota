@@ -1,8 +1,8 @@
 * proyectos
- DiaNA
+con DiaNA,encontrar patrones, otra cosa reconstruirlas
 buscar en lugar x , que especies hay
-
+hacer una interfas bonita y intuitiva
 * cursos
-  bioinformatics methithos ,cursera
+  bioinformatics methothos ,cursera
   
 
