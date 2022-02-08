@@ -5,8 +5,8 @@ def main():
 	a=input().split(" ")
 	for i in range(n):
 		mana+=int(a[i])
-		print("")
-		if mana<0:
-			minMana=mana
+		if mana<0 and int(a[i])!=0:
+			print("aqui")
+			minMana+=mana
 	print(minMana*-1)
 main()

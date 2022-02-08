@@ -9,7 +9,7 @@
    25% otras ,variedad
 ** seguimiento 40%
 *** quizes 5% cada uno
-    quiz 1, semana 4(14 o 15 febrero)
+    quiz 1, semana 5(14 o 15 febrero)
     quiz 2, semana 9(21 o 22 marzo)
     quiz 3, semana 15(16 o 17 mayo)
 *** practicas de laboratorio 15%
@@ -123,3 +123,27 @@ meter las cordenadas en postivo independiente del cuadrante,
 si los vectores estan el la misma direccion no hay que hacer coseno
 cuando los vectores son perpendiculares da 0
 
+* clase 5
+
+ 
+**  producto vectorial
+i|j|k
+-+-+-
+Ax|Ay|Az
+-+-+-+
+Bx|By|Bz
+opere en x
+ejemplo
+
+i+j+k
+
+
+
+** cinematica ,
+   lo que estudia el movimiento, no estidia que causo que se moviera
+
+*** posicion
+    una cantidad vectorial dada por la ubicacion referente a un origen , de un sistema cordenado
+
+*** movimiento unidireccional
+    es una cantida ,cuando la velocidad es constante se puede ver de fomra lineal

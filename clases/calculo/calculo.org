@@ -350,3 +350,14 @@ d)
 ** monitorias
    dominio en x
    rango en y
+*
+* taller 3
+  que tipo de funcion es
+*** x²
+  cuadrada
+*** √(x-1)
+    raiz cuadrada
+*** cos(x −1) + x
+trigonometrica
+*** 2x2 + 3x + 4
+    polinomica
