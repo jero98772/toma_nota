@@ -91,3 +91,22 @@ en el bloque 18,piso 4 ayudan con logic coach
 **** O⊃(~S⊃P)
 **** (S⊃O)⊃~R
 **** :.P≡Q
+* clase 3
+tabla indierecta
+demostracion
+simbolisacion
+  imprimir regls de inferencia  para el parcial
+  reglas de inferencias
+
+  modus ponens
+
+  p⊃q
+p
+concluye q
+
+  modus tollens
+
+p⊃q
+¬q
+concluye ¬p
+

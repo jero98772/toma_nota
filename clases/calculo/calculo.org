@@ -361,3 +361,5 @@ d)
 trigonometrica
 *** 2x2 + 3x + 4
     polinomica
+*** x⁻³
+    racional , por que un numero elevado a un negativo ,a⁻n = 1/(a**n) 

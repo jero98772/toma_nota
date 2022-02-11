@@ -1,22 +1,35 @@
-def sumaGrupos(obj,arr):
-  return  sumaGruposAux(0,obj,arr)
-def sumaGruposAux(start,obj,arr):
-	if start == len(A):
-	if k == 0:
-	  return True
-	else:
-	  return False
-	else:
-	miraTeDioSinElElementoEnS = g(A,k,s+1)
-	miraTeDioConElElementoEnS = g(A,k-A[s],s+1)
-	if miraTeDioSinElElementoEnS == True:
-	  return True
-	if miraTeDioConElElementoEnS == True:
-	  return True
-	return False
+#se creo apartir del codigo visto en clase
+def subGrupos(arr,k) :
+    return subGruposAux(arr,k,0)
+
+def subGruposAux(arr,k,start):
+  if start == len(arr):
+    if k == 0:
+      return True
+    else:
+      return False
+
+  if arr[start] % 5 == 0:
+      if start != len(arr)-1 and arr[start+1] == 1:
+         summ = subGruposAux(arr,k,start+2)
+      else:
+         summ = subGruposAux(arr,k-arr[start],start+1) 
+  else:
+    noItem = subGruposAux(arr,k,start+1)
+    item = subGruposAux(arr,k-arr[start],start+1)
+    if noItem == True:
+      return True
+    if item == True:
+      return True
+    return False
+    
 def main():
-    n=int(input())
     arr=[]
+    n=int(input())
     for i in range(n):
-       arr.append(int(input()))
-    fin=int(input())
+    	arr.append(int(input()))
+    k=int(input())
+    print(subGrupos(arr,k))
+main()
+
+

@@ -2,7 +2,11 @@
 con DiaNA,encontrar patrones, otra cosa reconstruirlas
 buscar en lugar x , que especies hay
 hacer una interfas bonita y intuitiva
-* cursos
-  bioinformatics methothos ,cursera
-  
-
+** cursos
+   bioinformatics methothos ,cursera
+   cada viernes curso
+* session 2
+  develoment y workflow ,picon y valentina
+  desarrollo programar
+  workflow ,portabilidad y escabilida
+** develoment
