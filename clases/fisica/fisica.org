@@ -147,3 +147,14 @@ i+j+k
 
 *** movimiento unidireccional
     es una cantida ,cuando la velocidad es constante se puede ver de fomra lineal
+
+* clase 7
+  protyectiles
+  es un movimiento rectilinio uniforme en el eje horizontal y movimiento unifome acelerado en el eje verical
+  la velocidad es bidimencional
+  se analisa cada eje de forma independiente
+  un proyectil es una caida libre con movimento lateral
+  formulas:
+  https://apirepo.cubaeduca.cu/v1/private/60-1f47ungjs/11-10Proyectiles/res/0-ec_proyectiles.png
+
+  (para el parcial se puede traer formulas)

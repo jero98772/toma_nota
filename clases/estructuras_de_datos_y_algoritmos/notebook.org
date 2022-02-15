@@ -10,3 +10,15 @@
   (1)Crear una nueva cadena cambiando la x por la y - Básico,(recursiva
   que tiene casos especiales como:
   (1)el usario no entra nada
+
+** entrega proyecto 1
+   codigo que lea el csv
+   presentacion power point
+   titulo y integrantes
+   alternaivas de solucion y trabajos relacionados
+
+
+alternatives
+
+https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm#:~:text=Dijkstra%27s%20algorithm%20(%2Fˈdaɪ,and%20published%20three%20years%20later.
+
