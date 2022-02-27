@@ -158,3 +158,24 @@ i+j+k
   https://apirepo.cubaeduca.cu/v1/private/60-1f47ungjs/11-10Proyectiles/res/0-ec_proyectiles.png
 
   (para el parcial se puede traer formulas)
+
+* clase 8
+  mru formula
+  x=x0+vxt
+  mua
+  y=y0+vy0t+(1/2)*g*t²
+libro, capitulo 3 movimiento en 3 dimenciones
+
+* clase 9
+
+  
+** fuerza de friccion
+
+   es mas dificil empesar a mover algo que mantener moviendo ese algo
+
+   en un cuerpo en reposo no hay friccion
+
+   leyes de newton
+
+   1 un cuerpo permanece en reposo hasta que una fueza externa actue en el
+   2 la fuerza es masa por aceleracion , m*a
