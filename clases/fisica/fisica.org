@@ -150,21 +150,31 @@ i+j+k
 
 * clase 7
   protyectiles
+
   es un movimiento rectilinio uniforme en el eje horizontal y movimiento unifome acelerado en el eje verical
+
   la velocidad es bidimencional
+
   se analisa cada eje de forma independiente
+
   un proyectil es una caida libre con movimento lateral
+
   formulas:
+
   https://apirepo.cubaeduca.cu/v1/private/60-1f47ungjs/11-10Proyectiles/res/0-ec_proyectiles.png
 
   (para el parcial se puede traer formulas)
 
 * clase 8
   mru formula
+
   x=x0+vxt
+
   mua
+
   y=y0+vy0t+(1/2)*g*t²
-libro, capitulo 3 movimiento en 3 dimenciones
+
+  libro, capitulo 3 movimiento en 3 dimenciones
 
 * clase 9
 
@@ -178,4 +188,80 @@ libro, capitulo 3 movimiento en 3 dimenciones
    leyes de newton
 
    1 un cuerpo permanece en reposo hasta que una fueza externa actue en el
+
    2 la fuerza es masa por aceleracion , m*a
+
+   
+* clase 10
+** dinamica del movimiento circular
+
+   semejansa de triangulos
+
+(Δv/v1)=(Δx/r1)
+
+Δv=Δx*(v1/r1)
+
+aceleracion centrifuga o radial
+
+ar=(v²/R)
+
+(ar es aceleracion radial)
+
+la friccion de un carro al tomar una curva donde puede derrapar ,es hacia adentro de la curva
+
+la friccion es la que no salirse de la curva al carro
+**** 
+
+  F fuerza,
+
+  fs fuerza friccion,
+
+  m masa
+
+  g gravedad, 9.8
+
+  v velocidad
+
+  R radio
+
+  N fuerza normal
+  
+**** formulas
+
+  ∑F=max
+
+  ∑Fx=max
+
+  fs=max
+
+  fs=(mv²/R)
+
+  ∑Fy=0
+
+  n-w=0
+
+  n=mg
+
+  la curva no afecta la componente en y, ni por que este inclidada.
+
+  Nx=mar
+
+  Nsen(β) =(mv²/R)
+
+  Ncos(β)=mg
+
+  cos(β)=(mg)/N
+
+  V²>gR
+
+  V> sqrt(gR)
+
+para que halla fuerza normal tiene que estar en el piso(contacto), si la fuerza normal es 0 por que esta callendo.
+  
+* temas (off-topic)
+  unidades de medida
+  vectores
+  mru y mua
+  proyectiles
+  leyes de newton
+  dinamica movimiento circular
