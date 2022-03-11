@@ -1,13 +1,19 @@
 def move(disk,source,destination,aux,moves):
-   if disk>0:
-        move(disk-1,source,aux,destination,moves+1)
-        print("Mover disco "+str(source[disk])+" de la vara x a la vara 2")
-        destination.append(source.pop())
-        move(disk-1,aux,destination,source,moves+1)
-   return moves
+    if disk==1:
+        print("Mover disco 1 vara "+str(source)+" a la vara "+str(destination))
+        return 1
+    move(disk-1, source, aux, destination,moves)
+    print("Mover disco "+str(disk)+" vara "+str(source)+" a la vara "+str(destination))
+    return 2+move(disk-1, aux, destination, source,moves)
+
 def main():
     disks=int(input())
-    poles=[[]]*3
-    poles[0]=list(range(0,disks,1))
-    print(move(disks,poles[0],poles[1],poles[2]))
+    a=[]
+    b=[]
+    c=[] 
+    m=0
+    a=list(range(0,disks))
+    #print(list(range(0,disks)),poles)
+    m=move(disks,"1","2","3",m)
+    print(m)
 main()
