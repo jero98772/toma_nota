@@ -257,7 +257,35 @@ la friccion es la que no salirse de la curva al carro
   V> sqrt(gR)
 
 para que halla fuerza normal tiene que estar en el piso(contacto), si la fuerza normal es 0 por que esta callendo.
+
+* clases
+** trabajo con resortes
+  fuerza para deformar el resorte F=kx
+analsisi grafico
+wf=area + area
+wf=(x2-x1)kx+1/2(x2-x1)(kx2-kx)
+wf=kx1x2-kx²1+1/2kx²2-1/2kx1x2-17/2kx1x2+1/2kx²1
+wf=1/2kf2
+** energia potencial
+   Ug=mgy
   
+** pregunta proximo lab
+   como se relaciona el cambio de energia con el trabajo
+   
+** ejercios
+   parcial dentro de 15 dias
+   5.58
+   5.72
+   5.73
+   5.68
+   5.89
+   5.91
+   5.92
+   5.93
+   5.94
+   5.99
+   5.103
+   5.120
 * temas (off-topic)
   unidades de medida
   vectores

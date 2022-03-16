@@ -4,3 +4,34 @@
 *** Historia:experimento de mandar y entrenar de forma anonmia la IA , darle los datos encriptados y la IA los va clasificar como sino estubieran encriptados
 ** trucos
 *** en las caprteas con los datos(o sin ellos) algunos ponen un modelo prenetrnado en vez de poner los datos
+* semillero 2022-1
+*** 15/3/2022
+**** notificaciones y novedades
+     le queda dificil ultimamente entoces empoderarse y tratar de darle vida al semillero entre estudiantes.
+     resaltar metodologia de research lab, aprender mediante proyectos
+     llenar datos del exel
+     enfocarlo a deep learning
+**** proyectos y avanses
+
+     curapeces 0
+
+     metagenomica codigo en python que genera varios archivos apartir de una secuencia y en R para comparar la secuencia
+
+     parquiaderos
+
+     kagle
+
+     ctrl+f inteligente
+
+     la IA que juega sola
+     
+****  charla semanal ,lecture,explicar proyectos 
+
+     proponerlas
+     
+     revista
+
+     maquinas y arquitectur
+     1956 , nacimiento de la IA hoy
+     1962
+     1972 maquina que gano en damas
