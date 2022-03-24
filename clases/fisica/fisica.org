@@ -286,10 +286,18 @@ wf=1/2kf2
    5.99
    5.103
    5.120
+
+   
+** energia potencia elastica
+   (1/2)ks²
+   ΔUels=(1/2)kx²1 -(1/2)kx²2
+   trabajo positivo saca energia
+   trabajo negativo almacena energia
 * temas (off-topic)
   unidades de medida
   vectores
   mru y mua
   proyectiles
+  
   leyes de newton
   dinamica movimiento circular
