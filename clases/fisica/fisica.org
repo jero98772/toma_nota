@@ -286,13 +286,42 @@ wf=1/2kf2
    5.99
    5.103
    5.120
-
+   ejercio de resortes
+   7.43
+   7.38
+   7.41
+   7.42
+   7.45
+   7.47
+   7.49
+   7.50
+   7.55
+   7.65
+   7.75
    
 ** energia potencia elastica
    (1/2)ks²
    ΔUels=(1/2)kx²1 -(1/2)kx²2
    trabajo positivo saca energia
    trabajo negativo almacena energia
+   
+** cantidad de movimiento lineal
+   es una cantidad de movimiento lineal que tiene un sistema
+   el momento total del sistema es la suma de los momentos individuales de cada cuerpo 
+
+   momento (p)
+   m masa
+   velocidad
+   P=m*v
+   cada vez que hay interacciones se van a ejercer fuerzas entre los participantes de esas interacciones
+   esta ley es universal, ocurre desde el mundo micro al macro
+
+   estas fuerzas tienen la misma magnitud y diferente direcciones
+
+   el momento de un sistema se mantiene,pueden cambiar los momentos indiduale, pero no el momento total.
+   
+** coliciones
+   es cuando hay contacto entre cuerpos
 * temas (off-topic)
   unidades de medida
   vectores
