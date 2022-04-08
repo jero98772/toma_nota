@@ -363,3 +363,21 @@ trigonometrica
     polinomica
 *** x⁻³
     racional , por que un numero elevado a un negativo ,a⁻n = 1/(a**n) 
+* algun momento
+**   recta tangente
+   linea recta que toca a un solo punto
+
+   una liena que toque una curva en mas de un punto es una recta secante
+
+   Δx≠x
+** definicion de la derivada 
+lim   fx(x+h)-f(x)
+      ------------
+Δx→0       h
+*** dan
+    funcion
+    valor en x
+*** pasos 
+   primero remplaso x con el valor del dado
+   resuelve la operacion
+   remplasa h o Δx por 0

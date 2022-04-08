@@ -1,0 +1,878 @@
+https://www.cs.usfca.edu/~galles/visualization/DFS.html
+  
+  
+  
+  #TALLER 6 DE ABRIL 
+  #Clase para crear los vertices, que son nodos
+class Node():
+    def __init__(self,destino, weight):
+        self.destino=destino
+        self.weight=weight
+        self.next=None
+#Crear el grafo
+class Graph:
+    def __init__(self,nVertices):
+        self.nVertices=nVertices
+        self.graph={} #Llaves Diccionario que va a ser la lista de adyacencia
+        
+        for vertice in range(nVertices):
+            self.graph[vertice]=[] #Lleno el diccionario de vacíos
+            
+    def addEdges(self,source,dest, weight): #Crear Aristas
+        vertice=Node(dest, weight) #parto de un vertice hacia al destino con un peso
+        vertice.next=self.graph[source]
+        self.graph[source]= vertice
+        
+        
+    
+    def imprimirGrafo(self):
+        for vertice in self.graph: #Cambiar la funcion imprimir que imprima todos los destinos. Falta eso
+            print("Dato: "+str(vertice)+" Peso: "+str(self.graph[vertice].weight)+ " ->  " + str(self.graph[vertice].destino)) 
+        
+        
+        
+def main():
+    grafo=Graph(5)
+    
+    print(grafo.graph)  
+    grafo.addEdges(0,1,5)
+    grafo.addEdges(2,1,1)
+    grafo.addEdges(1,2,4)
+    grafo.addEdges(1,4,1)
+    grafo.addEdges(3,1,9)
+    grafo.addEdges(3,2,10)
+    grafo.addEdges(3,4,2)
+    grafo.addEdges(4,3,2)
+    
+    grafo.imprimirGrafo()
+    
+          
+            
+main()
+
+#TALLER 30 DE MARZO
+class Node:
+    def __init__(self,valor):
+        self.valor=valor
+        self.left=None
+        self.right=None
+    
+
+#Cuantos nodos hay?
+
+def contarNodos(root):
+    if root is None:
+        return 0
+    else:
+        nodoIzquierda= contarNodos(root.left) 
+        nodosDer=contarNodos(root.right)
+        yo=1
+        return nodoIzquierda+nodosDer+yo
+# cuenta todos los nodos derechos y todos los izquierdos, no los de la mitad. 
+# #Cuenta como un triangulo    
+def contarNodosWhile(root, cont=0):
+    raiz=root
+    while(root):
+        root=root.left
+        cont+=1
+    while(raiz):
+        raiz= raiz.right
+        cont+=1
+    return cont
+        
+def alturaMax(root):
+    if root is None:
+        return 0
+    else:
+        izq= alturaMax(root.left)
+        der =alturaMax(root.right)
+        return max(izq, der)+1
+      
+   
+q
+raiz= Node(5)
+nodo2= Node(2)
+nodo3 = Node(7)
+nodo4 = Node(1)
+nodo5 = Node(4)
+nodo6 = Node(6)
+nodo7= Node(9)
+nodo8=Node(0)
+
+raiz.left=nodo2
+raiz.right=nodo3
+nodo2.left=nodo4
+nodo2.right=nodo5
+nodo3.left = nodo6
+nodo3.right = nodo7
+nodo4.left=nodo8
+
+#print(contarNodos(raiz))
+# print(contarNodosWhile(raiz))
+print(alturaMax(raiz))
+
+
+
+
+
+
+
+class Nodo:
+    def __init__(self, dato):
+        self.dato = dato
+        self.izq = None
+        self.der = None
+
+def buscar(raizDeUnArbol : Nodo, loQueEstaBuscando : int):
+    if raizDeUnArbol == None:
+        return False
+    if raizDeUnArbol.dato == loQueEstaBuscando:
+        return True
+    else:
+        estaPorLaIzquierda = buscar(raizDeUnArbol.izq, loQueEstaBuscando)
+        estaPorLaDerecha = buscar(raizDeUnArbol.der, loQueEstaBuscando)
+        if estaPorLaIzquierda == True:
+            return True
+        if estaPorLaDerecha == True:
+            return True
+        return False
+        
+n1 = Nodo(1)
+n2 = Nodo(2)
+n3 = Nodo(3)
+n4 = Nodo(4)
+n5 = Nodo(5)
+
+n1.izq = n2
+n1.der = n3
+n2.der = n4
+n4.der = n5
+
+print(buscar(n1,3))
+print(buscar(n1,9))
+
+
+
+class Nodo:
+    def __init__(self, dato):
+        self.dato = dato
+        self.izq = None
+        self.der = None
+        
+n1 = Nodo(1)
+n2 = Nodo(2)
+n3 = Nodo(3)
+n4 = Nodo(4)
+n5 = Nodo(5)
+
+n1.izq = n2
+n1.der = n3
+n2.der = n4
+n4.der = n5
+
+#https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/#hashing
+  
+#NO ESTAN EN COMUN
+from collections import deque
+def arreglo(arr1,arr2):
+    c1= set(arr1)
+    c2 = set(arr2)
+    diccionario= dict()
+    
+    nuevo=deque()
+    
+    
+    for i in c1:
+        if i in diccionario:
+            diccionario[i]=diccionario[i]+1
+        else:
+            diccionario[i]=1
+    
+    for i in c2:
+        if i in diccionario:
+            diccionario[i]=diccionario[i]+1
+        else:
+            diccionario[i]=1
+
+    for key,valor in diccionario.items():
+        if valor==1:
+            nuevo.append(key) 
+
+    nuevo = list(nuevo)
+    nuevo.sort() 
+  
+    return nuevo
+            
+            
+            
+        
+
+
+
+
+
+cadena = "hola"
+for letra in cadena:
+    print(letra)
+for i in range(len(cadena)):
+    print(cadena[i])
+
+def caracteresQueNoEstanEnComun(cadena1 : str, cadena2 : str) -> str:
+    diccionario = dict()
+    cadenaRespuesta = ""
+    ...
+    return cadenaRespuesta
+
+diccionario = { }
+a = 2
+diccionario["2+a+5+6"] = eval("2+a+5+6")
+
+lista = [2,2,3,3,4,5,56,3,3,2]
+print(lista)
+conjunto = set(lista)
+print(conjunto)
+print(2 in conjunto)
+
+tabla_de_hash = dict()
+
+tabla_de_hash[(-75.4,6.1)] = [(-75.54,6.18),(-75.64,6.18),(-75.74,6.19)]
+tabla_de_hash[(-75.6,46.1)] = [(-75.54,6.19),(-75.64,6.19)]
+tabla_de_hash[(-75.6,46.2)] = [(-75.54,6.19)]
+
+tabla_de_hash = dict()
+def f(n):
+    return n+1
+def g(n):
+    return n+2
+    
+tabla_de_hash[f] = "suma uno"
+tabla_de_hash[g] = "suma dos"
+
+
+tabla_de_hash = dict()
+#insertar
+tabla_de_hash["panda"] = 1
+tabla_de_hash["pardo"] = 1
+tabla_de_hash["polar"] = 1
+#buscar
+print("pardo" in tabla_de_hash)
+print("guitarrista" in tabla_de_hash)
+#borrar
+print(tabla_de_hash.pop("pardo"))
+#hash
+print(hash("pardo"))
+print(hash("panda"))
+
+tabla_de_hash = dict()
+#insertar
+tabla_de_hash["panda"] = 1
+tabla_de_hash["pardo"] = 1
+tabla_de_hash["polar"] = 1
+#buscar
+print("pardo" in tabla_de_hash)
+print("guitarrista" in tabla_de_hash)
+
+tabla_de_hash = dict()
+tabla_de_hash["panda"] = 1
+tabla_de_hash["pardo"] = 1
+tabla_de_hash["polar"] = 1
+
+from collections import deque
+input()
+cadenaConLaSegundaLinea = input()
+listaDeElementos = cadenaConLaSegundaLinea.split(" ")
+cola = deque()
+for elemento in listaDeElementos:
+    cola.appendleft(elemento)
+while len(cola) != 0:
+    elemento = cola.pop()
+    print(elemento)
+
+from collections import deque
+
+def main():
+    n = int(input())
+    segundaLinea = input()
+    listaDeCadenasConLaSegundaLinea = segundaLinea.split(" ")
+    numeros = map(int,listaDeCadenasConLaSegundaLinea )
+    pila = deque()
+    for numero in numeros:
+        pila.append(numero)
+    while len(pila) != 0:
+        elNumero = pila.pop()
+        print(elNumero)
+    
+main()
+
+from collections import deque
+unaPila = deque()
+for i in range(1,3+1):
+    unaPila.append(i)
+while not len(unaPila) == 0:
+    print(unaPila.pop())
+print("gracias")
+
+
+from collections import deque
+unaCola= deque()
+unaCola.appendleft("1")
+n = 7
+for _ in range(n):
+    elQueLlegoDePrimero = unaCola.pop()
+    print(elQueLlegoDePrimero)
+    unaCola.appendleft(elQueLlegoDePrimero+"0")
+    unaCola.appendleft(elQueLlegoDePrimero+"1")
+
+from collections import deque
+unaCola= deque()
+for i in range(1,3+1):
+    unaCola.appendleft(i)
+for _ in range(len(unaCola)):
+    print(unaCola.pop())
+    
+https://www.cs.usfca.edu/~galles/visualization/StackLL.html 
+  
+from collections import deque
+unaPila = deque()
+unaPila.append(1)
+unaPila.append(2)
+unaPila.append(3)
+print(unaPila)
+
+#Entrevista 1
+#Imprimir
+def imprimir(head:Node) -> None:
+  if head == None:
+    return
+  else:
+    print(head.val, end=", ")
+    imprimir(head.next)
+
+def main():
+  nodo1 = Node(1)
+  nodo2 = Node(2)
+  nodo3 = Node(3)
+  nodo4 = Node(4)
+  nodo5 = Node(5)
+  nodo1.next = nodo2
+  nodo2.next = nodo3
+  nodo3.next = nodo4
+  nodo4.next = nodo5
+  printLista(nodo1)
+  print("...")
+  rotado = rotar(nodo1,2)
+  printLista(rotado)
+
+main()
+
+#Seguimiento
+class Node:
+    def __init__(self, val):
+        self.val = val
+        self.next = None
+
+def obtenerNodoEnLaPosicionI(head: Node, i: int) -> Node:
+ elNodoActual = head
+ for _ in range(1,i):
+  if elNodoActual == None:
+    return None
+  elSiguienteDelNodoActual = elNodoActual.next
+  elNodoActual = elSiguienteDelNodoActual
+ return elNodoActual
+
+def insertarUnNodoEnLaPosicionI(head: Node, valor: int, i : int) -> Node:
+ unNodoNuevo = Node(valor)
+ if i == 1:
+  unNodoNuevo.next = head
+  head = unNodoNuevo
+  return head
+ elNodoEnLaPosicionIMenosUno = obtenerNodoEnLaPosicionI(head,i-1)
+ if elNodoEnLaPosicionIMenosUno == None:
+  return head
+ unNodoNuevo.next = elNodoEnLaPosicionIMenosUno.next
+ elNodoEnLaPosicionIMenosUno.next = unNodoNuevo
+ return head
+
+def insertar(head: Node, valor, posI):
+  return insertarUnNodoEnLaPosicionI(head, valor, posI)
+
+def borrar(head: None, valor: int, posI: int):
+  elNodoEnLaPosicionIMenosUno = ...
+  elSiguienteDelNodoEnLaPosicionIMenosUno = elNodoEnLaPosicionIMenosUno.next
+  elSiguienteDelSiguienteDelNodoEnLaPosicionIMenosUno = elSiguienteDelNodoEnLaPosicionIMenosUno.next
+  elSiguienteDelSiguienteDelNodoEnLaPosicionIMenosUno = (elNodoEnLaPosicionIMenosUno.next).next
+  
+class Node:
+    def __init__(self, val):
+        self.val = val
+        self.next = None
+
+def obtenerNodoEnPosicionI(head: Node, i: int) -> Node:
+ elNodoActual = head
+ if elNodoActual == None:
+    return None
+ for _ in range(1,i):
+  elSiguienteDelNodoActual = elNodoActual.next
+  elNodoActual = elSiguienteDelNodoActual
+ return elNodoActual
+
+def obtenerElValorDelNodoEnLaPosicionI(head : Node, i : int) -> int:
+  elNodoQueHayEnLaPosicionI = obtenerNodoEnPosicionI(head,i)
+  if elNodoQueHayEnLaPosicionI == None:
+    return 0
+  elValorDelNodoEnLaPosicionI = elNodoQueHayEnLaPosicionI.val
+  return elValorDelNodoEnLaPosicionI
+
+def posicion(head: Node, i:int) -> int:
+ return obtenerElValorDelNodoEnLaPosicionI(head,i)
+  
+class Node:
+    def __init__(self, val):
+        self.val = val
+        self.next = None
+
+def buscar(head: Node, k : int) -> int:
+ elNodoActualQueEstoyMirando = head
+ posicionDelValorK = 0
+ while elNodoActualQueEstoyMirando != None:
+    elValorDelNodoActual = elNodoActualQueEstoyMirando.val
+    if elValorDelNodoActual == k:
+      return posicionDelValorK
+    elSiguienteDelNodoActual = elNodoActualQueEstoyMirando.next
+    elNodoActualQueEstoyMirando = elSiguienteDelNodoActual
+    posicionDelValorK = posicionDelValorK + 1
+ return -1
+
+
+class Node:
+    def __init__(self, val : int):
+        self.val = val
+        self.next = None
+        
+def printLista(head: Node) -> Node:
+  temp = head
+  while (temp!=None):
+   print(temp.val)
+   temp = temp.next
+
+def rotar(head: Node, k : int) -> Node:
+  if head == None:
+    return None
+  #Sacar el tam
+  size = 0
+  temp = head
+  while(temp != None):
+    size = size+1
+    temp = temp.next
+  
+  k = k % size
+  
+  fast = head
+  slow = head
+  for _ in range(1,k+1):
+    fast = fast.next
+    
+  while (fast.next != None):
+    fast = fast.next
+    slow = slow.next
+    
+  fast.next = head
+  result = slow.next
+  slow.next = None
+  return result
+  
+def main():
+  nodo1 = Node(1)
+  nodo2 = Node(2)
+  nodo3 = Node(3)
+  nodo4 = Node(4)
+  nodo5 = Node(5)
+  nodo1.next = nodo2
+  nodo2.next = nodo3
+  nodo3.next = nodo4
+  nodo4.next = nodo5
+  printLista(nodo1)
+  print("...")
+  rotado = rotar(nodo1,2)
+  printLista(rotado)
+
+main()
+
+
+class Node:
+    def __init__(self, val : int):
+        self.val = val
+        self.next = None
+
+def printLista(head: Node) -> Node:
+  temp = head
+  while (temp!=None):
+   print(temp.val)
+   temp = temp.next
+        
+def invertir(head: Node) -> Node:
+  if head == None:
+    return None
+  anterior = None
+  actual = head
+  siguiente = head.next
+  while(siguiente != None):
+    actual.next = anterior # invertir
+    anterior = actual
+    actual = siguiente
+    siguiente = siguiente.next
+  actual.next = anterior 
+  return actual
+
+def main():
+  nodo1 = Node(1)
+  nodo2 = Node(2)
+  nodo3 = Node(3)
+  nodo4 = Node(4)
+  nodo1.next = nodo2
+  nodo2.next = nodo3
+  nodo3.next = nodo4
+  printLista(nodo1)
+  print("...")
+  inv = invertir(nodo1)
+  printLista(inv)
+
+main()
+
+def maximo(head: Node) -> int:
+    if head == None:
+      return 0
+    else:
+      elPrimerValorDeLaLista = head.val
+      elMaximoDelSiguienteEnAdelante = maximo(head.next)
+      return max(elPrimerValorDeLaLista,elMaximoDelSiguienteEnAdelante)
+
+class Node:
+    def __init__(self, val):
+        self.val = val
+        self.next = None
+
+def buscar(head: Node, k : int) -> int:
+ 
+            	
+
+class Node:
+    def __init__(self, val : int):
+        self.val = val
+        self.next = None
+
+def insertarAlInicio(head: Node, valor : int) -> Node:
+    nuevo = Node(val = valor)
+    nuevo.next = head
+    return nuevo
+    
+    
+
+class Nodo:
+    def __init__(self,dato):
+        self.elDatoDelNodo = dato
+        self.elSiguienteDelNodo = None
+
+def main():
+    nodo1 = Nodo(3)
+    nodo2 = Nodo(14)
+    nodo1.elSiguienteDelNodo = nodo2
+    nodo3 = Nodo(24)
+    nodo3.elSiguienteDelNodo = nodo1.elSiguienteDelNodo
+    nodo1.elSiguienteDelNodo = nodo3
+
+main()
+
+https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/
+
+https://github.com/mauriciotoro/ST0245-Eafit/blob/master/proyecto/Proyecto%20Final%20ED1%20-%20Algoritmos%20para%20el%20camino%20m%C3%A1s%20corto%20restringido%20con%20el%20objetivo%20de%20reducir%20el%20acoso%20callejero%20en%20Medell%C3%ADn%20V1.pdf
+
+https://github.com/imontoyah/ST0245-002/tree/master/proyecto
+
+def imprimeSubconjuntos(p):
+  i("",p)
+
+def i(respuesta,pregunta):
+  if pregunta == "":
+    print(respuesta)
+  else:
+    i(respuesta+pregunta[0],pregunta[1:])
+    i(respuesta, pregunta[1:])
+    
+
+def subgrupos(A,k) :
+    return g(A,k,0)	
+def g(A,k,s) -> bool:
+  if s == len(A):
+    if k == 0:
+      return True
+    else:
+      return False
+  if A[s] % 5 == 0:
+      if s != len(A)-1 and A[s+1] == 1:
+         laSumaSinElMultiplo = g(A,k,s+2)
+      else: # No es un un 1
+         laSumaConElMultiplo = g(A,k-A[s],s+1) 
+  else:
+    miraTeDioSinElElemendtoEnS = g(A,k,s+1)
+    miraTeDioConElElementoEnS = g(A,k-A[s],s+1)
+    if miraTeDioSinElElementoEnS == True:
+      return True
+    if miraTeDioConElElementoEnS == True:
+      return True
+    return False
+    
+def main():
+    n, k = map(int, input( ).split(" "))
+    A = list(map(int, input( ).split(" ")))
+    r = subgrupos(A,k)
+    print("YES") if r else print("NO")
+ 
+main()
+
+
+
+def subgrupos(A,k):
+  return g3(A,k,0)
+  
+def g3(A,k,s) -> bool:
+  return k == 0 if s == len(A) else g3(A,k,s+1) or g3(A,k-A[s],s+1) 
+
+def main():
+    n, k = map(int, input( ).split(" "))
+    A = list(map(int, input( ).split(" ")))
+    r = subgrupos(A,k)
+    print("YES") if r else print("NO")
+ 
+main()
+
+
+def subgrupos(A,k):
+  return g(A,k,0)
+
+def g(A,k,s) -> Bool:
+  if s == len(A):
+    if k == 0:
+      return True
+    else:
+      return False
+  else:
+    miraTeDioSinElElementoEnS = g(A,k,s+1)
+    miraTeDioConElElementoEnS = g(A,k-A[s],s+1)
+    if miraTeDioSinElElementoEnS == True:
+      return True
+    if miraTeDioConElElementoEnS == True:
+      return True
+    return False
+    
+def g2(A,k,s) -> Bool:
+  if s == len(A):
+    return k == 0
+  else:
+    return  g2(A,k,s+1) or  g2(A,k-A[s],s+1) 
+
+def g3(A,k,s) -> Bool:
+  return k == 0 if s == len(A) else g3(A,k,s+1) or g3(A,k-A[s],s+1) 
+
+def main():
+ 
+main()
+
+def cambiarx(cad):
+  return cambiarAUX(cad,0)
+
+def cambiarAUX(cad,i):
+  if i == len(cad):
+    return ""
+  nuevaletrai = "y" if cad[i] == "x" else cad[i]
+  return nuevaletrai + cambiarAUX(cad,i+1)
+
+def main():
+  cadena = input()
+  print(cambiarx(cadena))
+
+main()
+
+#Sin recursión 
+s = input()
+s = s.replace('x', 'y')
+print(s)
+   
+   #=====
+   
+   def xs(txt,i,size,newtxt,chararcter="x"):	
+    if i<size:
+        if txt[i]==chararcter:
+            return xs(txt,i+1,size,newtxt+"y",chararcter)
+        else:
+            return xs(txt,i+1,size,newtxt+txt[i],chararcter)
+    else:
+        return newtxt
+        txt=input()
+        print(xs(txt,0,len(txt),"","x"))
+   
+   #====
+   
+   
+def cantidaddex(cadena : str) -> int:
+  return cantidaddexAUX(cadena, 0)
+
+def cantidadeexAUX(cadena, i):
+  if i == len(cadena):
+def cantidaddex(cadena : str) -> int:
+  return cantidaddexAUX(cadena, 0)
+
+def cantidaddexAUX(cadena, i):
+  if i == len(cadena):
+    return 0
+  else:
+    sienihayx = 1 if cadena[i] == "x" else 0
+    return cantidaddexAUX(cadena,i+1) + sienihayx
+
+def main():
+  cadena = input()
+  print(cantidaddex(cadena))
+  
+main()
+
+
+def sumar(n):
+    if n == 1: 
+        return 1 
+    else: 
+        return n + sumar(n - 1)
+    
+
+
+def main():
+    n=int(input())
+    print(sumar(n))
+    
+main()
+
+# Eliminar 'pass' y reemplazar por el codigo
+class Fecha:
+    def __init__(self, d, m, a):
+       self.d = d
+       self.m = m
+       self.a = a
+    def string(self):
+        return str(self.d)+"-"+str(self.m)+"-"+str(self.a)
+    def comparar(self, fecha2):
+        tmp=""
+        if fecha2.string()==self.string():
+           tmp="iguales"
+        elif self.string()<fecha2.string():
+           tmp="antes"
+        else:
+           tmp="después"
+        return tmp
+d, m, a = map(int, input().split())
+f1 = Fecha(d, m, a)
+
+d, m, a = map(int, input().split())
+f2 = Fecha(d, m, a)
+
+print(f1.string())
+print(f1.comparar(f2))
+
+# Eliminar 'pass' y reemplazar por el codigo
+
+class Fecha:
+    def __init__(self, d, m, a):
+        self.d = d
+        self.m = m
+        self.a = a
+    
+    def string(self):
+        return str(self.d)+"-"+str(self.m)+"-"+str(self.a)
+        
+    def comparar(self, fecha2):
+        f1 = self.d + self.m*100 + self.a*1000
+        f2 = fecha2.d + fecha2.m*100 + fecha2.a*1000
+        if f1 == f2:
+        	  return "iguales"
+        elif f1 < f2:
+        		return "antes"
+        else:
+            return "despues"
+
+d, m, a = map(int, input().split())
+f1 = Fecha(d, m, a)
+
+d, m, a = map(int, input().split())
+f2 = Fecha(d, m, a)
+
+print(f1.string())
+print(f1.comparar(f2))
+
+
+import math
+class Punto:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+    def distanciaAlOrigen(self):
+        return math.sqrt(self.x**2 + self.y**2)
+    
+    def anguloConElEjeX(self):
+        return math.atan2(self.y, self.x)
+    
+    def distanciaAOtroPunto(self, punto2):
+        deltax = self.x - punto2.x
+        deltay = self.y - punto2.y
+        return math.sqrt( deltax**2 + deltay**2)
+
+# INPUT
+x1, y1 =  map(int, input().split())
+x2, y2 =  map(int, input().split())
+
+punto1 = Punto(x1, y1)
+punto2 = Punto(x2, y2)
+
+print( round( punto1.distanciaAlOrigen(), 2 ))
+print(round(  punto1.anguloConElEjeX(), 2))
+print(round(  punto1.distanciaAOtroPunto(punto2), 2))
+
+link de ejercicios:
+https://contenidosint.org/
+
+IDE online:
+https://replit.com/
+
+def sumar(n: int) -> int:
+    if n == 1:
+        return n
+    else:
+        return n + sumar(n - 1)
+
+
+def main():
+    n = int(input())
+    print(sumar(n))
+
+
+main()
+
+ñññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑññññññññññññññññññññÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑññññññññññÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑññññññññÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑññññÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑñññññÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑñññññÑÑÑÑñññÑÑÑÑññÑÑÑññÑÑÑññÑÑÑññÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑññññññññNnnNNNNNNNNNNNnnnnnnnnnnnnnnnnNNNNNNNNNNNnnnnnNNNNNnnnnnNNNnnNNNnnNNNNnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnñññññññññññÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑNnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnNNNNNNNNNNNNNNNNNNNNnnnnnnnnNNNNNNNNNNNNNNNNNNNNNnnnnNNNNNNNNNNNNNNNNNNNNNnnnnnNNNnnnnnnnnnNNNnnnnnnnnnnNnnnnnnnnNNnnnNnnnNNnnnNNNnnnNNnnnNNNnnnnNnnnnnnnnnnNNnnnnnnnnnnnnnnnnNnnnnnnnnnnnnnnnnNNnnnNNNnnnNNnnnNnnnnNnnnnnnnnnnnnnnnnnNnnnnNNnnnnnnnnnnNNnnnNNNnnnnnnnnnnNNnnnNNNnnNNNnnnNNnnnnNNnnnnNNNnnnnnnnnnnnnnNNnnnnNNNnnnnnnnnNNNNnnnNNNnnnnNNNNNnnnnNNNnnnnnnnnnnnnnnNNNnnnNNNnnnNNnnnNNNnnnnnnNNNNnnnnnnnnnnnNNNnnnNNnnnNNnnNNNNnnnnnnNNNNNNNNNNNNNNNNNNNNNNNNñññññ; para usar  N en python use # -*- coding: utf-8 -*-"
+python en semana santa para contar mil jesuses
+
+https://pastebin.com/vnzfm7kp
+
+amen
+
+ya se pueden ir en paz
+#No adyacentes
+def sumaGrupos(nums,k):
+	pass
+
+n = int(input())
+nums = [0]*n
+for i in range(n):
+	nums[i] = int(input())
+k = int(input())
+print(sumaGrupos(nums,k))
+
+            
+
