@@ -1,14 +1,18 @@
 * preguntas
-para uds esta bien o mal consumir drogras?
-uds ve que sea correcto que regulen las drogas?
-dejaria que un tema que "solo" afecta al que consume, lo administre el consumidor? 
-ve algun problema con consumir drogas?
+¿Para usted está bien o mal consumir drogas?
 
-* que son cultivos ilicitos
+¿Usted ve que sea correcto que regulen las drogas?
+
+¿Dejaria que un tema que "solo" afecta al que consume, lo administre el consumidor?
+
+¿Ve algún problema con consumir drogas?
+
+* que son cultivos ilícitos
 ** definir ilicitos
 *** "No permitido legal o moralmente."https://dle.rae.es/il%C3%ADcito
 ** como definir "cultivos ilicitos"
    (se parte de la base que sabemos que son ilicitos)
+   (y se habla en el conetxto colomiano)
    es un cultivo que va encotra de las leyes.
 ** como afectan?
 *** a un territorio
@@ -25,6 +29,12 @@ ve algun problema con consumir drogas?
     * empeora el calentamiento global
       ... en el proceso del cultivo talan especies tropicales importantes y quemas que desequilibran la atmosfera  , para obetener mas espacio para la siembra
 *** a la sociedad
+    * fragmentación de sociedades locales
+    * desplasamiento
+    * inestabilidad de los poderes
+    * cambio de actividades
+    * tendencias consumistas
+    * mayor tension
 ** por que son ilicitos?
    por el impacto negativo es mayor al positivo
 * referencia
