@@ -322,6 +322,46 @@ wf=1/2kf2
    
 ** coliciones
    es cuando hay contacto entre cuerpos
+
+   
+** energia en el movimiento rotacional
+    ω es velocidad angular 
+   mientras mas alejada este la masa mas energia nesecita para que el cuerpo adquiera velocidad angular
+
+    i= ∑,n,i=1:mi*r²
+
+    inersia total
+
+    las rotaciones varian y sirven de referencia
+
+    densidad = masa /volumen
+    d=m/v
+    
+    volumen de un cilindrio V = π*r²*h
+
+    cada atomo tiene su propia inercia y por eso se suma todo usus diferenciales de masa
+
+    ∫,R1,R2:r²dm
+
+    ∫,R1,R2:  r²ρ2πr2dr
+
+    inerecia de un cilindro hueco i=m(R²+R²)
+    
+    el momento inercial de una particula es MR², y es el mismo de un cilindro con un borde muy pequeño
+
+    
+** temas quiz
+   momento lineal
+   colisiones
+** ejercios 
+   8.73
+   8.44
+   8.83
+   8.95
+** torque
+   cuando se aplica torsíon se aplica  fuerza
+   hacia donde acelere el sistema se coge el positivo como punto de referencia
+   
 * temas (off-topic)
   unidades de medida
   vectores
@@ -330,3 +370,5 @@ wf=1/2kf2
   
   leyes de newton
   dinamica movimiento circular
+
+  
