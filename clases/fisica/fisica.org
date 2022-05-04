@@ -361,7 +361,47 @@ wf=1/2kf2
 ** torque
    cuando se aplica torsíon se aplica  fuerza
    hacia donde acelere el sistema se coge el positivo como punto de referencia
-   
+** movimiento armonico simple
+** mas
+
+   restitucion es que vuelve a su estado original
+
+F(res)=-cs
+
+c es una constante
+
+s es una cordenada
+
+el sistema armonico simple tiene una formula parecida ala de los resortes
+*** ley de hook
+f=-ks
+*** mas
+  F(res)=-cs
+*** posicion especifica
+    x=A*cos(θ)
+*** posicion especifica en cualquier lado
+    X(t)=A cos(ωt+φ)
+*** velocidad especifica
+    V=vsin(θ)
+*** velocidad en cualquier lado
+    X(t)=A ω*cos(ωt+φ)
+*** aceleracion especifica
+    a=-acos(θ)
+*** aceleracion en cualquier lado
+    X(t)=A ω²*cos(ωt+φ)
+*** otras formulas
+  a(x)=-(k/m)*x
+  c=k/m
+  
+  ω es velocidad angular
+
+en el mas ω se define como frecuencia angualar
+
+A es el radio,para entenderlo mejor
+
+la ecuacuon que describe el movimiento alrmonico simple
+
+a=-(k/m)*x
 * temas (off-topic)
   unidades de medida
   vectores

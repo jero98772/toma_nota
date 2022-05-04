@@ -381,3 +381,8 @@ lim   fx(x+h)-f(x)
    primero remplaso x con el valor del dado
    resuelve la operacion
    remplasa h o Δx por 0
+** temas
+   derivada de fraciones
+   trigonome tricas
+   regla de la cadena
+   logaritmos
