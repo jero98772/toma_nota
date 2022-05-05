@@ -1,19 +1,23 @@
-class Nodo:
-    def __init__(self, dato):
-        self.dato = dato
-        self.izq = None
-        self.der = None
+class Node:
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
 
-def buscar(raizDeUnArbol : Nodo, loQueEstaBuscando : int):
-    if raizDeUnArbol == None:
-        return False
-    if raizDeUnArbol.dato == loQueEstaBuscando:
-        return True
+def BuscarBST(root,val):
+    if (nodeExists(root, val)):
+        return "YES"
     else:
-        estaPorLaIzquierda = buscar(raizDeUnArbol.izq, loQueEstaBuscando)
-        estaPorLaDerecha = buscar(raizDeUnArbol.der, loQueEstaBuscando)
-        if estaPorLaIzquierda == True:
-            return True
-        if estaPorLaDerecha == True:
-            return True
+        return "NO"
+        
+def nodeExists(node, val):
+    if (node == None):
         return False
+    elif (node.val == val):
+        return True
+    #siga buscando en el lado izquierod
+    if nodeExists(node.left, val):
+        return True
+    #busque en el lado derecho
+    return nodeExists(node.right, val)
+ 
