@@ -1,0 +1,23 @@
+borro
+factorial recursivo 
+pares recursivo
+pares raros recursivo
+
+sabra dios que hace
+mensajes encriptados
+numeros que estan en 2 arreglos tablas de hash
+numeros que no estan en 2 arreglos tablas de hash
+camino usando dfs
+ciudad unida
+
+no marca
+
+buscarBst arboles
+tamaño arbol
+
+
+error de moodle
+arbol a lista enlasada
+
+hechos por defecto 
+algunos de tablas de hash

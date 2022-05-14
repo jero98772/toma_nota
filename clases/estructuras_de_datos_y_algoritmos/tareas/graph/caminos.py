@@ -1,6 +1,3 @@
-
-
-
 def dfs(matriz, x, y):
   matriz[x][y]  = 0
   

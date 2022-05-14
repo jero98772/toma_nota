@@ -399,16 +399,36 @@ en el mas ω se define como frecuencia angualar
 
 A es el radio,para entenderlo mejor
 
-la ecuacuon que describe el movimiento alrmonico simple
+la ecuacion que describe el movimiento alrmonico simple
 
 a=-(k/m)*x
-* temas (off-topic)
-  unidades de medida
-  vectores
-  mru y mua
-  proyectiles
-  
-  leyes de newton
-  dinamica movimiento circular
 
+para saber si un sistema de movimiento armonico simple hay que identificar si hay una fuerza de restitucion
+
+se sabe que si una fuerza de restiticion si en su formula no hay funciones
+
+pendulos con angulos pequeños si son armonicos simples
+
+pendulos con angulos grandes no son armonicos simples
+
+libro fisica: fisica universitaria stwewar
+
+puntos fisica
+
+14.4
+14.17
+14.34
+14.57
+14.72
+14.79
+14.95
+14.97
+14.99
+
+* temas (off-topic)
+  coliciones
+  conservacion de energia
+  leyes de newton
+  cuerpo rigido
+  movimiento armonico simple
   
