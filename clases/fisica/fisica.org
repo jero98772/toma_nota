@@ -425,6 +425,49 @@ puntos fisica
 14.97
 14.99
 
+no se debde confundir velocidad de base con la del armonico simple
+*** ondas
+    λ (longitud de onda) es la distancia entre cresta y cresta o entre valle y valle
+    F es la cantidad de veces que se va repeteir
+    T es el tiempo en el que pasa una longitud de onda por un punto de la cuerda
+    y perturbacion es el cambio en Y
+    las ondas se pueden definir como K=2π/λ
+    λ= vT
+    T=2π
+    la ecuacuion para la velocidad y aceleracion se puede obtener derivando las expreciones anteriores
+
+    onda que viaja hacia la derecha
+    vy(x,t)=wAsen(kx-wt+φ)
+    ay(x,t)=-w²Acos(kx-wt+φ)
+
+    onda que viaj hacia la izquierda
+    vy(x,t)=-wAsen(kx+wt+φ)
+    ay(x,t)=-w²Acos(kx+wtφ)
+
+    las ondas cumplen el principio de superposicion (se suman o se restan) por lo que se puede inferir dando lugar a una nueva onda
+    dich intereferencia pueden ser contructiva cuando las ondas estan enfasadas o destructivas cuadno estan desfasdas
+
+    desfasadas al contrario
+    enfacadas iguales
+
+    reflexion ondulatoria
+    
+
+leyes de newton
+momento lineal
+masas (centro masas)
+dinamica rotacional
+movimiento inercial
+torque
+momento angular
+movimiento armonico simple
+conduccion de equilibrio
+*** repaso
+    momento lineal
+    leyes de newton
+
+    
+
 * temas (off-topic)
   coliciones
   conservacion de energia
