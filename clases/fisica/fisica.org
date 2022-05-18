@@ -440,6 +440,8 @@ no se debde confundir velocidad de base con la del armonico simple
     vy(x,t)=wAsen(kx-wt+φ)
     ay(x,t)=-w²Acos(kx-wt+φ)
 
+    y(x,t)= Acos(kx-wt+Φ)
+
     onda que viaj hacia la izquierda
     vy(x,t)=-wAsen(kx+wt+φ)
     ay(x,t)=-w²Acos(kx+wtφ)
@@ -465,9 +467,22 @@ conduccion de equilibrio
 *** repaso
     momento lineal
     leyes de newton
+** ejercios ondas
 
-    
-
+   15.7
+   15.8
+   15.11
+   15.12
+   15.13
+   15.30
+   15.32
+   15.34
+   15.35
+       
+* formulas
+  T=1/f
+  w=2π/T
+  
 * temas (off-topic)
   coliciones
   conservacion de energia
