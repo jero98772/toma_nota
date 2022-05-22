@@ -434,6 +434,7 @@ no se debde confundir velocidad de base con la del armonico simple
     las ondas se pueden definir como K=2π/λ
     λ= vT
     T=2π
+    v=λf
     la ecuacuion para la velocidad y aceleracion se puede obtener derivando las expreciones anteriores
 
     onda que viaja hacia la derecha
@@ -478,7 +479,44 @@ conduccion de equilibrio
    15.32
    15.34
    15.35
-       
+** ejercio ejemplo 15.1
+   temperatura 20°C
+   344 m/s
+   262 hz
+   v=λf
+   λ=v/f
+   
+   
+** 15.7
+   onda longitudinal en una cuerda estirdada
+
+   si se puede , se entiende que estirada es que esta tensionada, por que una cuerda es un material moldeable
+
+   
+   onda transversal en una varilla de acero
+
+   no , se entiende que es una varilla rigida y el acero no es moldeable
+** 15.8
+   me bloquie por que es fisica,
+   use un microfono grabe el sonido para saber que la onda llego a su punto final ,emite una onda que se mueve a una velocidad x y mide el tiempo, ya con estas 2 variables puede calcular la distancia , d=t*v
+** ejercios online
+
+   https://www.youtube.com/watch?v=ACyoJ-zrvHM
+
+*** 2
+
+    v=60 m/s
+    λ=200 cm
+    t y f ?
+    f=v/λ
+    T=1/f
+    200 cm2m 2
+    f=60/2
+    30
+    t=1/30
+    0.03333..
+    
+*** 3
 * formulas
   T=1/f
   w=2π/T
