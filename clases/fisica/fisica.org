@@ -308,32 +308,6 @@ wf=1/2kf2
 ** cantidad de movimiento lineal
    es una cantidad de movimiento lineal que tiene un sistema
    el momento total del sistema es la suma de los momentos individuales de cada cuerpo 
-
-   momento (p)
-   m masa
-   velocidad
-   P=m*v
-   cada vez que hay interacciones se van a ejercer fuerzas entre los participantes de esas interacciones
-   esta ley es universal, ocurre desde el mundo micro al macro
-
-   estas fuerzas tienen la misma magnitud y diferente direcciones
-
-   el momento de un sistema se mantiene,pueden cambiar los momentos indiduale, pero no el momento total.
-   
-** coliciones
-   es cuando hay contacto entre cuerpos
-
-   
-** energia en el movimiento rotacional
-    ω es velocidad angular 
-   mientras mas alejada este la masa mas energia nesecita para que el cuerpo adquiera velocidad angular
-
-    i= ∑,n,i=1:mi*r²
-
-    inersia total
-
-    las rotaciones varian y sirven de referencia
-
     densidad = masa /volumen
     d=m/v
     
