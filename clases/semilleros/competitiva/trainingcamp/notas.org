@@ -1,0 +1,54 @@
+* dia 1 libreria estandar de c
+
+** bits/stdc++
+incluye las librerias que usamos por defecto en competitiva
+
+codigo:
+
+#include <bits.stdc++.h>
+
+** using name
+
+using name std;
+
+ahorra poner std::
+
+** notas
+
+codeforces remueve todos los caracteres blancos
+
+si el input es muy grande es mejor usar archivos y pasarselo con < en consola
+
+a.out < archivo
+
+command time -v <programa>
+
+*** caso indefinido de lineas
+
+se usa while(cin << x){}
+
+** compilar con c++
+
+$g++ -std=c++17 -O2 -o name
+
+g++ compiladpor
+
+-std=c++17 incluir la libreria
+
+-O2 un optimisador para que corra mas rapido en la maquina local
+
+-Wall -Wextra muestra warnings
+
+-Werror toma warnings como
+
+** memoria
+
+n=numero para convertirlo de bits a bytes
+
+4
+
+** verifications
+
+son preguntas que se deben responder en si o no
+
+
