@@ -12,7 +12,7 @@ class linkedList:
         node.next = self.head
         self.head = node
 
-
+|
 def insertarAlInicio(head: Node, allList:Node) -> Node:
     return head.next(allList)
 def main():

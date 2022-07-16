@@ -1,0 +1,10 @@
+2
+3 2
+http://acm.hit.edu.cn/problemset/1003
+http://acm.hit.edu.cn/problemset/1002
+http://acm.hit.edu.cn/problemset/1001
+4 1
+http://acm.hit.edu.cn/problemset/1001
+http://acm.hit.edu.cn/problemset/2002
+http://acm.hit.edu.cn/problemset/3003
+http://acm.hit.edu.cn/problemset/501
