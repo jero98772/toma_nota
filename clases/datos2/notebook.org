@@ -1,0 +1,28 @@
+* datos 2
+desarrollar las competencias para generar algoritmos
+** practicas
+
+fuerza bruta y backtracking
+
+greedy
+
+dividir para conquistar y dp
+
+problema abierto
+** evaluacion
+
+juez en linea universidad de valle molina,debe funcionar en you debug
+
+20% you debug
+
+40% casos de prueba
+
+40% calidad de codigo y expliacion
+** 
+
+30 oct
+** coevaluacion
+*** algoritmo sudoku practica final (eso ya existe)
+* problemas clase
+
+- https://leetcode.com/problems/binary-watch/
