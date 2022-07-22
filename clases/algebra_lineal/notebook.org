@@ -1,0 +1,184 @@
+* algebra lineal
+** temas
+*** algebra matricial
+**** definicion y ejemplo
+**** operaciones
+**** igualdad suma y multipliacion
+**** producto entre matrices
+**** operaciones elementales y rango
+**** matrices singuales
+**** sistemas ecuaciones
+*** dterminantes
+**** definicione y propiedades
+**** menores y cofactores de una matriz
+**** adjuntas y inversas
+*** espacios vectoriales
+**** definicion y ejemplos
+**** subespacios vectoriales
+**** combinacion lineal e independencia lienal
+**** bases y dimencniones de espacios vectoriales
+*** producto interno y producto vectorial
+**** definicon y ejemplos
+**** ortogonalidad
+**** producto interno respecto a una base
+**** bases ortogonales  y proceso gram-schmidt
+**** areas y volumenes en R3
+**** rectas y planos en R3
+*** diagonalizacion
+**** valores y vectores propios
+**** matrices semejantes
+**** matrices diagonalizables
+**** diagonalizacion ortogonal
+*** si el tiempo da
+**** formas cuadraticas
+**** prodcutos de markov
+*** textos
+**** algebra lineal grossman
+**** algebra lienal  eafit
+*** evaluacion
+4 parciales 25%
+semana 5,9,13,17
+** definicion matriz
+
+una matriz es un arreglo rectangular de numeros reales o complejos asi:
+
+a11 a12 a13 ... a1n
+a21 a22 a23 ... a2n
+..  ..  ..      ..
+am1 am2 am3 ... amn
+
+en donde para iE{1,2,...,n} y jE{1,2,...,m}
+
+aij debe pertencer a los reales
+
+asi para aij
+
+i -> indice fila
+j -> indice columna
+
+las matrices suelen nombrarse con mayusculuas
+
+cuando uno quiere hablar de una columna o una fila pone
+
+A sub I para referise a una fila
+A super J para referise a una columna
+
+el orden de una matriz es la multipliacion (no el producto) del numero de filas por el numero de columnas
+
+A= 1 2 3 33
+   9 6 7 22 
+   4 5 8 88
+
+B = 1 5 7
+    7 2 4
+
+el orden de A es 3*5 y el de B es 2*3
+
+su una matriz tiene igual numero de filas qeu de columnas, lo llamamos matriz de orden N
+
+ejemplo
+
+D= 1 2
+   3 4
+
+C = 8 3 1
+    4 1 4
+    1 4 2
+
+D es 2 y C es 3
+* notacion
+
+1) el conjunto de todas las matrices de orden m*n con entradas reales se denota por:
+
+   Mm*n(R)
+
+   AEM3*4(R)
+
+2) el conjunto de matrices cuadradas de orden n se denora por Mn(R)
+
+   Mn(R)
+** algunos tipos de matrices 
+
+   1) matriz nula, una matriz llena de 0ś
+      denotada ṕor 0EMm*n(R)
+
+   0= 0 0 0
+      0 0 0
+      0 0 0
+
+   2) matriz identidad, cada i==j con 1 y si no 0
+      denotada por InEMn(R)
+      tal que
+   aij= 1 si i=j
+        0 si i!=j
+    entonces
+
+    i2= 1 0
+        0 1
+
+    i3  1 0 0
+        0 1 0
+        0 0 1
+
+    sea AEMn(R) llamamos diagonal principal a los elementos aii
+
+    ejemplo
+
+   (3) 6  7
+    3 (4) 2
+    2  7 (4)
+**** 3) triangular superiro 
+ una matrzi AEMn(R) se denominda triangular superior si y solo si:
+ aij=0 para i>j
+ 
+**** 4) triangular inferior
+    una matriz AEMn(R) se denota triangualar inferiro si y solo si
+
+    llamaremos "matriz triangular" a aquellas que sean triangular superior o triangular inferior
+
+   1) matriz diagonal
+
+    una matriz diagonal
+
+    DEMn(R) se denomina matriz diagonal si y solo si dj=0 para i!=j
+
+    ejemplo
+
+    3 0 0
+    0 5 0
+    0 0 7
+
+    D=diagonal(3,5,7)
+
+    1) matriz transpuesta sea AEMm*n(R) la transpuesta de A denotada por A^T es una matriz que satisfase A^TEMn*m(R), (aji)^T=aij para todo i,j
+
+    F= 1 2 3 4
+       9 8 7 6
+
+    F^t= 1 9
+         2 8
+         3 7
+         4 6
+          
+** operaciones entre matrices
+   1) igualdad      
+       dadas A,B matrices decimos que A es igual a B lo que escribimos A=B si se cumple
+       A,B EMm*n(R)
+       aij=bij para todo i,j
+
+   2) suma sean A,BEMm*n(R) la suma es una nueva matriz C=A+B tal que:
+       C E Mm*n(R)    (deben ser del mismo orden)
+       Cij=aij+bij para todo (i,j)     
+
+
+   A= 1 2 3
+      4 5 5
+   B= 5 6
+      5 6
+   C= 9 4 1
+      4 4 2
+
+    A+B no se pude por que no tienen la mismas dimenciones
+
+    A+B= 10 6 4
+          8 9 7

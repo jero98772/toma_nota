@@ -1,0 +1,31 @@
+* lenguajes
+** temas
+*** historoia
+*** grmatica
+**** arboles de parser
+*** asembler, jcoco
+*** poo
+**** java y c++
+**** linkeo dinamico
+**** garbage colector
+**** hilos
+**** pytoken
+**** jcoco en profundidad
+*** funcional
+**** haskell
+**** calculo lambda
+*** programacion logica
+** evaluaciones
+*** proyecto 1 10 septiembre
+**** lista enlacadas en c++
+*** proyecto 2 y 3
+**** haskell,javascript, f#
+12 de octubre y 13 de noviembre 
+** parciales
+*** semana 4 12 agosto
+* tareas
+implemental lista enlacasda c++
+
+maximo  4 parrafos
+leea historical perspective
+la evolucion historia de los lenguajes de programacion

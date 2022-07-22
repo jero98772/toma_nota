@@ -6,3 +6,16 @@
 50% quices
 
 se vale ficha tecnica
+* 2
+2 tipos de funciones
+algebraicas
+tracendentes
+*** dominio
+se cambia la expreccion a una desigualdad y se despeja
+*** rango
+*** puntos de corte
+igualar f(x)=g(x)
+remplazar por la formula
+*** limite
+metodo hallar asintotas
+limite de una constante es la misma constante
