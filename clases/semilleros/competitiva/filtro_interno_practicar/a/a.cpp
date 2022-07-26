@@ -6,8 +6,9 @@ int main(){
   cin>>test;
   string url; 
   for (int i=0;i<test;i++){
-  	cin>>q;nq;
-  	int nums[q+3];
+  	cin>>q>>nq;
+  	int nums[q];
+
   	for(int ii=0;ii<q;ii++){
   		cin>>url;
         string urlnum=url.substr(33,url.length());
@@ -15,8 +16,10 @@ int main(){
   	}
   	int n=sizeof(nums)/sizeof(nums[0]);
   	sort(nums,nums+n);
+
   	for(int iii=0;iii<nq;iii++){
-  		cout<<nums[iii]<<endl;
+  		cout<<nums[iii]<<" ";
   	}
+    cout<<endl;
   }
 }

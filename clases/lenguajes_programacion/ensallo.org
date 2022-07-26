@@ -1,0 +1,9 @@
+* ensayo  de Lenguajes de programación 
+
+opino que la evolución de los lenguajes de programación a cambiado con un efecto en el público que programa, antes la programación era algo exclusivo para las universidades por que en ese momento se usaban maquinas complejas y costosas que leían tarjetas perforadas, hoy es algo que puede hacer cualquiera en cualquier lado. 
+
+dentro de los cambios a sido el cambio de lugar de la instrucción go to, actualmente ya solo lo vemos en lenguajes de juguete como brainfuck,dna# ...etc   
+
+Es significativo que no solo cambie el lenguaje sino que también cambie su forma de hablarlo (paradigmas) y las diferentes ventajas y cosas que se pueden lograr, no me imagino un emacs si no se hubiera hecho sin lisp, o un bitcoin sin c++... 
+
+para mi un ingeniero es alguien que invita máquinas y soluciona los problemas de una forma creativa, la programación es una herramienta para solucionar, mejorar o automatizar sus creaciones, además es la herramienta con lo que puede dar inteligencia (toma de decisiones) a esas maquinas   
