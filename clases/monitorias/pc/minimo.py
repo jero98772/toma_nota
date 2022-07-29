@@ -1,0 +1,5 @@
+print("ingrese numeros a escojer minimos\n")
+nums=list(map(int,input().split()))
+nums.sort()
+x=int(input("que cantidad de minimos quiere escojer?\n"))
+print(nums[:x])

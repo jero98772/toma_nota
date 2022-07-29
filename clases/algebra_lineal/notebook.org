@@ -182,3 +182,171 @@ D es 2 y C es 3
 
     A+B= 10 6 4
           8 9 7
+
+          
+** propiedades
+
+sean A,B,C E Mm*n(R)
+
+** clausurativa
+s1 A+B E Mm*n(R) (clausurativa)
+
+** asociativa
+s2 A+(B+C)=(A+B)+C (asociativa)
+
+** modular
+s3 para toda matriz AEMm*n(R) existe una unica matriz eEMm*n que:
+
+A+e=A (modular)
+
+** invertiva
+s4 para cada matriz AEmm*n(R)
+
+existe una uica matriz iEMm*n(R)
+
+tal que A+I=0 (invertiva)
+
+denotemos "I=-A" de donde
+
+A+(-A)=0
+
+si A=[-aij]
+
+** conmutativa
+
+s5 A+B=B+A  (conmutativa)
+
+** multipliacacion por escalar real
+
+sean AEMm*n(R) y λER
+
+la yuxtaposicion "λA" es una nueva matriz que satisface
+
+λ representa la yuxta posicion
+
+i) λAEMm*n(R)
+
+ii) [λA]ij=λaij para todo (i,j)
+
+ejm
+
+A= 2  1  0 
+   3 -4  2
+   7  6  3
+
+3A= 3*2 3*1  3*0
+    3*3 3*-4 3*2
+    3*7 3*6 3*3
+
+=6  3  0    
+ 9 -12 6 
+ 21 18 9
+
+ 
+** distrinutiva
+
+*** izquierda
+λ(A+B)=λA+λB
+
+*** derecha
+(λ+a)A=λA+aA
+*** elemento identidad
+1A=A
+** consecuencias
+sean A,B,CEMm*n(R) entonces
+
+1) A+B=A+C si y solo si B=C
+
+2) (-1)A=-A
+
+3) 0A=0m*n
+** multiplicacion entre matrices
+
+sean AEMm*p(R) y BEMp*n(R)
+
+la multiplicacion "AB" es una matriz que satisface
+
+i) ABEMm*n(R)
+
+ii)[AB]ij=Σ,k=1 hasta p, aix*bxj
+
+para iE{1,2,...,m}
+     jE{1,2,...,n}
+
+observacion
+
+i) A B
+m*p  p*n
+
+columnas de B debe ser igual filas A
+
+ii)sean AEMn3*4(R) y BEM4*2(R)
+
+ABEM3*2(R)
+BA no esta definida por que # de culumnas de B!= # filas A
+
+iii) sean  AEM4*3(R) y BEM3*4(R)
+
+A*BEM4(R)
+B*AEM3(R)
+
+en general AB!=BA
+
+el producto entre matrices no nesesariamente es conmutativo
+
+
+
+iv) [AB]=Σ,k=1 hasta P aik*bkj
+
+el primer indice i se refiere a la fila -> Ai
+el segunda indice j se refiere a la columna ->A^j
+
+
+ejm
+A= 3 5  1
+   0 4 -2
+   6 1 -3
+
+B= 1  2 0 4
+  -3 -1 2 5
+   1  1 0 2
+** teorema
+sea A,B,C matrics tales que los siguiente productos estan bien definidos
+
+1) A(BC)=(AB)C
+2) A(B+C)=AB+AC
+3) (B+C)A=BA+CA
+
+sean A,B matrices y λER
+
+1) (A^T)^T =A
+2) (λA)^T=λA^T
+3) (A+B)^T= A^T+B^T
+4) (AB)^T=B^T*A^t
+
+   definicion sea AEMn(R) entonces
+
+i) A es simetrica si y solo si A^T=A
+ii) es asimetrica si y solo si A^T=-A
+
+simetrica se reflejas
+
+A = 2 5
+    5 7
+A es simetrica
+
+B = 5 6
+    3 2
+ B es asimetrica
+
+ demostrar
+ A+A^T
+ A-A^T
+** evaluaciones
+ q1 semana 4(5%)
+ p1 semana 5(20%)
+ q2 semana 8(5%)
+ p2 semana 9(20%)
+ p3 semana 13(20%)
+ q3 semana 15(5%)
+ p4 semana 17(25%)

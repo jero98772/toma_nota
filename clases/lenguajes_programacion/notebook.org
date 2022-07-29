@@ -23,6 +23,31 @@
 12 de octubre y 13 de noviembre 
 ** parciales
 *** semana 4 12 agosto
+** backus naur form
+metalenguaje "formal" usado para describir la sintaxis de un lenguaje
+
+simbolos terminales en una gramatica no tienen el < y >
+<digito> ::= 1|2|3|4|5|6|7|8|9
+<numero> ::= digito+
+
+gramatica libre de contexto
+G=(n,t,p,s)
+
+n conjunto de simbolos no terminales
+t conjunto de simbolos terminales
+p conjuntos producciones de la forma n-> a donde
+nEN y aE{N U T}*
+
+s no terminal especial que 
+(-> no significa entonces se le dice derviva en..)
+
+G=(n,t,p,e)
+N={e,t,f}
+t={identifcador,numero,+,-,*,/,(,)}
+p es el siguente conhunto de producciones
+E->E+T|E-T|T
+T->T*F|T/F|F
+F->(E)|identificador|numero
 * tareas
 implemental lista enlacasda c++
 
