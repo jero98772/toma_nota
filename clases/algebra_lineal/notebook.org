@@ -310,6 +310,9 @@ A= 3 5  1
 B= 1  2 0 4
   -3 -1 2 5
    1  1 0 2
+
+=
+
 ** teorema
 sea A,B,C matrics tales que los siguiente productos estan bien definidos
 
@@ -342,6 +345,381 @@ B = 5 6
  demostrar
  A+A^T
  A-A^T
+*** dms
+sea AEMn(R) entonces A+A^T es simetrica ahora sea
+B=A+A^T
+B^T=(A+A^T)^T
+B^T=A^T+(A^T)^T pues (A+B)=A^T+B^T
+B^T=A^T+A pues (A^T)^T=A
+B^T=A+A^T pues A+B=B+A
+*** teorema
+si A es simetrica (antisimetrica) entonces λA es simetrica (antisimetria) resp.
+
+sea A una matriz antisimetrica
+
+A^T=-A
+(λA)=λA^T pues (λA)^T=λA^T
+(λA)=λ(-A) pes A es antisiemtrica
+(λA)^T=λ(-1)A pues (-1)A=-A
+(λA)^T=(-1)(λA)
+(λA)^T=-(λA)
+λA es antisimetrica
+
+dada una matriz cuadrada AEMn(R)
+sabemos que
+
+A+A^T es simetrica
+
+1/2(A+A^T) es simetrica
+
+A-A^T es antisimetrica
+
+1/2(A-A^T) es antisimetrica
+
+A=1/2(A+A^T)+1/2(A-A^T)
+
+toda matriz cudrada se descomopone como la suma de una matriz simetrica con una matriz antisimetrica denotemos
+
+Sn(R)={λA es antisimetrica
+
+dada una matriz cuadrada AEMn(R)
+sabemos que
+
+A+A^T es simetrica
+
+1/2(A+A^T) es simetrica
+
+A-A^T es antisimetrica
+
+1/2(A-A^T) es antisimetrica
+
+A=1/2(A+A^T)+1/2(A-A^T)
+
+toda matriz cudrada se descomopone como la suma de una matriz simetrica con una matriz antisimetrica denotemos
+
+Sn(R)={AEMn(R): A^T=A}
+An(R)={AEMn(R): A^T=-A}
+
+entonces se demuestra que
+
+Mn(R)=Sn(R) (+) An(R)
+
+(+) suma directa entre conjuntos
+
+teorema sea AEMm*n(R) entonces
+
+a)AATESm(R)
+
+b) A^TAESn(R)
+
+sea AEMm*n(R)
+
+a) A^TEMm*n(R) entonces
+AA^TEMm(R) ahora
+
+(AA^T)^T=A^T(A^T)^T =A
+
+por lo tanto AA^T es simetrica
+
+AA^T ESm(R)
+
+** operadores fild
+
+son operaciones que se realizan sobre filas de una matriz y determinan una transforacion de matrices
+
+1) Ri<->Rj permute (cambie) la i-esima fila de A con la j-esima fila de A
+
+A= 1 2 3
+   4 5 6  
+   9 8 7
+
+R1<->R3
+A= 9 8 7
+   4 5 6
+   1 2 3
+
+2) Ri->λRi: multiplique la I-esima fila de A por un escalar λ!=0
+
+A=1  2  4
+  5  9  10
+  3 -2 -6
+
+R3-> 4R3
+
+ 1  2  4
+ 5  9  10
+12 -8 -24
+
+3) Ri->Ri+λRj:
+cambie la i esima fila de A por el resultado de sumartle termino de a termino λ veces la j-esima fila de A
+
+1 7 -2
+3 4 -1
+2 3 -2
+
+R2->R2-3R1
+
+-3 -21 6
+3 4 -1
+
+1 7 -2
+0 17 5
+2 3 -2
+
+** observaciones
+
+las operaciones elementales fila son invertibles y sus respectivas inversas tambien son operaciones elementales fila siemore es posible recuperar la matriz original
+
+cada matriz quese obtiene elementales fila se denomina matriz equivalente d la matriz original
+
+las operaciones filas tambiense pueden aplicar a las columanas, pero no las 2 altiempo
+
+una matriz UEMm*n(R) se dice que esta en forma escalonada si satisface
+i) las filas nulas (si las hay) se encuentran las ultimas posiciones de las filas
+ii) los elementos por debajo del primer elemento no nulo de cada fila (de izquierda a derecha) son todos cero
+
+el primer elemento no nulo de cada fila en una matriz escalondad se denomina "PIVOTE"
+
+A=
+(5) 6 7 8
+ 0 (3)1 0
+ 0  0 0(4)
+ 0  0 0 0
+
+pivotes de A (x)= 5, 3 ,4
+
+B=
+ 0 (2)5 4
+(3)0 1 5
+ 0 0 (3)2
+
+pivotes de B (x) =2, 3 ,3
+ 
+C= (3)5 6 2
+    0(2)3 1
+    0 0(9)3
+    0 0 0(5) 
+
+teoremaD
+
+toda matriz AEMm*n(R) es equivalente a una matriz escalonada UEMm*n(R)
+
+toda matroz A la podemos transofmrar en una matriz escalonada U por medio de una sucecion de finita de operaciones elementales
+   (operaciones elementales)
+A->->->->->->->->->...->->->->->->->->->->-> U (forma escalonada)
+
+2 4 6
+4 5 6
+3 1 -2
+
+r2->r2-2r1
+=
+
+2 4 6
+0 -3 -6
+3 1 -2
+
+r3->r3*r2
+
+0 -3 12
+
+2 4 6
+0 -3 -6
+0 -3 12
+
+r3-> r3-r2*-1
+
+2 4 6
+0 -3 -6
+0  0  6
+
+
+** matrices simetricas
+sean AEMn(R) diremos que A es" no singular" (invertible) si y solo si existe una matriz BEMn(R) tal que
+
+AB=BA=In
+
+en este caso denotamos B=A^-1 y llamamos A^-1 la inversa de A y ese
+
+AA^-1=Ạ̣^⨪1A = In
+
+si dicha matriz no existe decimos que A es una matriz singualar (no inverible)
+
+ejem sea
+
+A=
+
+3 4
+
+1-2
+
+B=
+
+1/5  2/5
+
+1/10 -3/10
+
+A*B=
+
+1 0
+
+0 1
+
+B*A=
+
+1 0
+
+0 1
+
+por lo tanto A es no singular y su inversa
+
+A^-1=
+
+1/5   2/5
+
+1/10 -3/10
+
+** teorema
+singular= no invertible
+
+no sigula= invertible
+
+1) si A es no singular entonces A^-1 es unica
+
+2) si A es no singular entonces
+
+   (Ạ^-1)^-1=A
+
+3) si A es no singular entonces  A^T es no singular y
+
+(A^T)-1=(A^-1)^T
+
+4) si A y B son  no singulares entonces A*B es no singular y
+
+   (A*B)^-1= B^-1 A^-1
+
+5) si A es no singular y λ!=0 entonces  λA es no singular y
+
+   (λA)^-1=(1/λ)*A^-1
+
+observacion
+
+claramente In es no singular y (In)^-1=In
+
+0n*m es singular
+
+demostracion del teorema
+
+1) supongamos que A es no singular
+
+   existe A^-1 tal que:
+
+    AA^-1=A^-1=in
+
+2) supongamos que existe DEMn(R) tal que:
+
+    AD=DA=In
+
+    entonces
+    
+AD=In entonces
+
+A^-1(AD)=A^-1(In)
+
+(A^-1A)D=A^-1
+
+In D =A^-1
+
+D=A^-1
+
+por lo tanto A es unica
+
+3) sea A no singular existe A^-1
+
+   tal que:
+
+   AA^-1 = A^-1A=In ahora:
+
+a)
+AA^-1=In
+
+(AA^-1)^T=(In)^T
+
+(A^1)^T*A^t=In
+
+b) A^-1*A=In
+
+(A^-1*A)^T=(In)^T
+
+A^T(A^-1)^T=In
+
+por lo tanto A^T es no singular y ademas 
+
+(A^T)^-1=(A^-1)^T
+
+teorema sea AEMn(R)
+
+A es no singular si y solo si A esquivalente a In
+
+(simpre que se opere una matriz para  llevarla a la identidad se pasa por la matriz escalonada)
+
+U ->operaciones elementales para llegar a la matriz inversa
+
+A->->->U->->->In
+
+colorario
+
+A es no singular si y solo si
+
+R(A)=n
+
+metodologia para calcular A^-1 si existe
+
+tomamos la matriz identidad
+
+[A|In] -> [U|C] -> [In|B]
+
+In recordemos que es la matriz identidad
+
+U es la forma escalonada de A
+
+si este es el caso:
+
+B=A^-1
+
+ejemplo
+
+A=
+
+3  4
+
+1 -2
+
+[A|In]
+
+3 4 | 1 0
+
+1 -2| 0 1
+
+
+r1->r2 y r2->r2-3r1
+
+1 -2 |0  1
+
+0  10|1 -3
+
+r2->(1/10)r2
+
+1 -2 |0      1
+
+0  1 |1/10  -3/10
+
+r1->r1+2r2
+
+1 0 |1/5 2/5
+
+0 1 |1/10 -3/10
+
 ** evaluaciones
  q1 semana 4(5%)
  p1 semana 5(20%)

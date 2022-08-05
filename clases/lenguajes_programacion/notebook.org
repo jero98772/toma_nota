@@ -47,10 +47,30 @@ t={identifcador,numero,+,-,*,/,(,)}
 p es el siguente conhunto de producciones
 E->E+T|E-T|T
 T->T*F|T/F|F
-F->(E)|identificador|numero
+F->(E)|identificador|numeros
+
+E=> E-T =>E+T-T
+T+T-T->F+T-T->2+T-T
+**** el de clase
+E=>T
+->F
+->(E)
+(E)->(E-T)
+->(T-T)
+->(F-T)
+->((E)-T)
+->((T)-T)
+->((T*F)-T)
+->((T*3)-T)
+
+
+
+
 * tareas
 implemental lista enlacasda c++
 
 maximo  4 parrafos
 leea historical perspective
 la evolucion historia de los lenguajes de programacion
+
+definir un numero negativo con regex
