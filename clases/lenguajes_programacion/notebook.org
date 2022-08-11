@@ -63,7 +63,25 @@ E=>T
 ->((T*F)-T)
 ->((T*3)-T)
 
+*** parsing
+determinar si un conjunto de tokens es una sentencia valida en una gramatica
 
+proceso de parser
+
+archivo fuente -> parser ->AST (arbol de sintaxis abtrapta) -> genrador codigo -> asembler
+
+*** parsers
+
+**** top down
+escritos a manos, alguien los diseño
+
+parsers recursivos decendientes, se parte desde un simbolo inicial, los simbolos se vuelven funciones
+
+derivacion por la izquierda , se recorre por la izquierda
+
+tipo especial de gramatica
+
+left to rigth , left derivation con solo leer un token se sabe cual produccion de la gramatica elegit
 
 
 * tareas
