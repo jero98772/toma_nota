@@ -1,0 +1,90 @@
+a=>¬((b<=>T)vd)
+1 derivar gramatica por la derecha
+
+=> P
+=> P=>P
+=> P=>¬P
+=> P=>¬(P)
+=> P=>¬(P v P)
+=> P=>¬(P v d)
+=> P=>¬((P) v d)
+=> P=>¬((P<=>P) v d)
+=> P=>¬((P<=>T) v d)
+=> P=>¬((b<=>T) v d)
+=> a=>¬((b<=>T) v d)
+
+2  Arbol parser
+
+    P
+  / | \
+ P  =>  P
+ |       |
+ a       ¬P
+         /|\
+         (P)
+         / | \
+        P v  P
+         |    |   
+        (P)   d
+      / | \            
+    P<=>P
+    |   |
+    b   T
+
+3 arbol AST
+
+    =>
+  /  \
+a     ¬
+      |
+       ()
+        |
+       v
+     /   \
+   ()      d
+   |
+ <=>
+/    \
+b     T
+
+
+
+palabra.(letras+numeros)*
+
+si es exprecion regular
+
+
+
+       E
+       |
+        T
+      / \ \
+   /      |  \
+  T       .     K 
+  |              \  \
+  K              F    *
+  |                  / | \ 
+  F                 (  E  )
+  |                    |
+  |                 /  |  \
+caracteres           E + T  
+(palabra)            |   |
+                     T    K
+                     |    |
+                     K    F
+                     |     caracteres
+                     F      (numeros)
+                      |
+                 caracteres
+                  (letras)  
+
+
+arbol AST
+
+                  .
+              /      \
+palabra                ()
+                      /   \
+                     +      *
+                 /      \
+           letras    numeros

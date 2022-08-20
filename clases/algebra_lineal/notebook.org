@@ -880,8 +880,157 @@ ii) variables libres : A las asocidas d columnas sin pivote en U
 
 las soluciones se escribe se escriben en terminos de las varaible las variables libres
 
-
 j es el rango
+
+
+** sistemas homogeneos
+
+un sistema de ecuaciones lineales si es de la forma
+
+AX=0Rm
+
+deonde AEMm*n(R) XER^n
+
+y 0Rm= [0,0,0,0] n-componentes
+
+vector nulo del espacio euclidiano m-dimencional R^m
+
+es un vector vacio
+
+ejm
+
+3x-y+z=0
+x+2y-z=0
+-x-3y+2z=0
+
+en forma matricial
+
+3  -1  1 x  0
+1   2 -1 y =0
+-1 -3  2 z  0
+
+claramente tod sistema homogeneo
+
+AX==R^m
+
+tiene al menos una solucion dada por
+
+X0=0R^n
+
+esta solucion se conoce como la "solucion trivial"
+
+todo sistema homogeneo es consistente
+
+*** corolario
+
+sean A E Mm*n y X E R^n
+
+respecto al sistema homogeneo
+
+AX=0R^n tenemos
+
+i) el sistema tendra solucion unica (trivial) si y solo si
+
+j(A)=N#numero columnas
+
+ii) el sistema tendra infinitas soliciones si y solo si
+
+j(A)<n
+
+
+ejem
+
+en el sistema del ejemplo anterior
+
+tenemos
+
+A=
+
+
+3  -1  1
+
+1   2 -2
+
+-1  -3  2
+
+
+R1->R1-3R2
+
+R3->R3+R2
+
+
+0 -7  4
+
+1  2 -1
+
+0 -1 1
+
+R1->R1-7R3
+
+0  0 -3
+
+1  2 -1
+
+0 -1  1
+
+
+R1<->R2
+
+R3<->R2
+
+
+1  2 -1
+
+0 -1  1
+
+0  0 -3
+
+dado que j(A)=3 # numero de columnas el sistema homogeneo tiene solucion unica dada por X=[0,0,0]
+
+ejm
+
+considere el sistema
+
+
+4x+3y-z=0
+
+7x+3y+8z=0
+
+2x-4y+6z=0
+
+
+r2->r2-(r1+3)
+
+
+4x+3y-z=0
+
+0-3y+4z=-3
+
+2x-4y+6z=0
+
+
+r3->2r3-r1
+
+
+4x+3y-z=0
+
+0-3y+4z=-3
+
+0+5y+11z=0
+
+r3->r3-(r1+2)
+
+4x3y-z=
+
+0-3y+4z=-3
+
+0 0 10z=-2
+
+
+
+
+
+
 ** evaluaciones
  q1 semana 4(5%)
  p1 semana 5(20%)
