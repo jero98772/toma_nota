@@ -1,0 +1,22 @@
+LOAD_CONST
+carga un dato como entero o string
+
+BINARY_ADD =
+suma o concatenacion
+
+STORE_FAST =
+almacenar resultado de una operacion , en las variables definidas
+
+LOAD_FAST = carga las variables ya almacendas
+
+LOAD_GLOBAL =
+carga una de las funciones en global, como print
+
+CALL_FUNCTION =
+ejecuta la funcion
+
+POP_TOP = 
+libera el stack eliminando un elemento de el
+
+RETURN_VALUE =
+finalisa el programa
