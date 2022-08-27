@@ -1,0 +1,9 @@
+Problem
+
+https://onlinejudge.org/external/109/10950.pdf
+
+test cases
+
+https://www.udebug.com/UVa/10950
+
+expliacion 

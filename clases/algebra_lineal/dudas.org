@@ -1,0 +1,2 @@
+* preguntas
+*** el producto entre matrices no es nesariamente conmutativo .¿como se demuestra?

@@ -1,6 +1,5 @@
 def dfs(matriz, x, y):
-  matriz[x][y]  = 0
-  
+  matriz[x][y]  = 0  
   n, m = len(matriz), len(matriz[0])
   for fila in (0, 1, -1):
     for col in (0, 1, -1):
@@ -9,8 +8,6 @@ def dfs(matriz, x, y):
         if matriz[newx][newy] == 0:
           continue
         dfs(matriz, newx, newy)
-
-
 
 
 def main(a,b,matriz):
