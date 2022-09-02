@@ -83,6 +83,17 @@ tipo especial de gramatica
 
 left to rigth , left derivation con solo leer un token se sabe cual produccion de la gramatica elegit
 
+** c++
+
+compilacion
+
+#include <loquesea>
+c++ asume con <> que lo que vaya incluido fue descargado por la libreria estandar de c++ , y debes poner flags en compilacion especiales para eso
+
+#include <"loquesea">
+
+c++ asume con <""> que tu creaste el archivo y debes poner flags en compilacion 
+
 
 * tareas
 implemental lista enlacasda c++

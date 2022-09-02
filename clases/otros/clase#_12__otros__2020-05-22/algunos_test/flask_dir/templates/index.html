@@ -6,8 +6,15 @@
 	<title></title>
 </head>
 <body>
-	{% for i in fs %}
-		<p>{{ i }}</p>
+	{{ htmlcode|safe }}
+	<b>folders</b><br>
+	{% for i in folders %}
+		<a href="/files/{{ i }}">{{ i }}</a><br>
+	{% endfor %}
+	<br>
+	<b>files</b>
+	{% for i in files %}
+		<a href="/download/{{ i }}">{{ i }}</a><br>
 	{% endfor %}
 </body>
 </html>

@@ -1,0 +1,4 @@
+#read_multiples files
+#triming, quit noise
+#reverse and (change bases A->T,C->G)
+# compare all files

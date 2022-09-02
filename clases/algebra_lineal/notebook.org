@@ -1195,7 +1195,6 @@ Cof(A)
  12 -14  -15
 
 **** teorema
-SCHEDULED: <2022-08-25 jue>
 
 dada AEMn(R) se tiene
 
@@ -1284,6 +1283,380 @@ det(λA)=(λ)^n det(A)
 6) si B se obtiene de A al aplicarle una operacion elemental del tipo Ri->Ri+λRj
 
    det(B)=det(A)
+
+**** teorema
+dadas A,BEMn(R) se  tiene det(AB)=det(A)*det(B)
+
+A es no singular si y solo si
+
+det!=0 y ademas
+
+det(A^-1)= 1/det(A)
+
+esquema de demostracion
+
+si A es no singular entonces A es equivalente a la idenidad
+
+A->-> operaciones elementales ->-> In
+
+det(A)=(-1)^r K det(In)
+
+det(A)=-1 ^r K -> det(A)!=0
+
+A ->->-> operaciones elementales ->->-> forma escalonada de a
+
+det(A)=(-1)^r Kdet(U)
+
+det(A)=(-1)^r K(u11,u22,u33)
+
+como det(A)!=0 k=0 entonces  
+
+dada AEMn(R) se tiene
+
+que det(A) = k=1,Σ^n aik cik
+
+desarrollo
+
+ejem
+
+dado
+A=
+
+1 3 -2
+
+5 0 4
+
+3 -2 6
+
+y Cof(A)
+
+8 -18 -10
+
+-14 12 11
+
+12 -14 -15
+
+entonces
+
+fila 1
+
+det(A) = 1*8 +3*-18 +(-2)*-10 =-26
+
+fila 2
+
+det(A)= 5 *-14+0*12+4*11=-26
+
+fila 3
+
+det(A)=3*12+-2*-14+6*-15=-26
+
+ejm
+
+propiedades
+
+para AEMn(R)
+
+det(A)=Σ akj ckj
+
+concecuencia
+
+det(A^T)=det(A)
+
+2) si A tiene una fila (columna ) nula entonces =0
+
+3) si A es una matriz triangular entonces
+
+   det(A)=a11,a22,a33...anm=
+
+  n,i=1 Π aii
+
+4) si B se obtiene  de A al aplicar una operacion elemental del tipo
+
+
+Ri<->Rj entonces
+
+det(B)=-det(A)
+
+consecuencia
+
+si A tiene 2 filas (columnas) iguales
+
+det(A)=0
+
+5) si B se obtiene de A al aplicarle una operacion elemental del tipo: Ri->λRi
+
+   entonces
+
+   det(B)=λdet(A) λ!=0
+
+concecuencia
+
+para AEMn(R):
+
+det(λA)=(λ)^n det(A)
+
+6) si B se obtiene de A al aplicarle una operacion elemental del tipo Ri->Ri+λRj
+
+   det(B)=det(A)
+
+**** teorema
+dadas A,BEMn(R) se  tiene det(AB)=det(A)*det(B)
+
+A es no singular si y solo si
+
+det!=0 y ademas
+
+det(A^-1)= 1/det(A)
+
+esquema de demostracion
+
+si A es no singular entonces A es equivalente a la idenidad
+
+A->-> operaciones elementales ->-> In
+
+det(A)=(-1)^r K det(In)
+
+det(A)=-1 ^r K -> det(A)!=0
+
+A ->->-> operaciones elementales ->->-> forma escalonada de a
+
+det(A)=(-1)^r Kdet(U)
+
+det(A)=(-1)^r K(u11,u22,u33)
+
+como det(A)!= k!=0 entonces
+
+u11,u22,u33..unm != 0 y si Uii !=0 par todo iE{1,2,...,n}
+
+por lo tanto j(A)=n <-> A es no singular
+
+si A es no singular (A^-1 existe y det(A)!=0)
+
+A^-1A=In
+
+det(A^-1,A)=det(In)
+
+det(A⁻¹)*det(A)=1
+
+det(A⁻¹) = 1/det(A)
+
+si A Emn(R) sabemos que
+
+n,k=1Σ AikCik=det(A)
+
+pero
+
+n,k=1 Σ AiK =??
+
+tomeos A por filas y la matriz
+
+A= A1
+   A2
+   A3
+   ..
+   An
+
+calculamos det(A) respecto a los cofactores de la fila j de B
+
+det(B)= n,k=1 Σ Bjk Cjk
+
+en general
+
+n, K=1  Σ AikCjk
+
+
+det(A) si i=j
+
+0      si i!=j
+
+el determinate de la matriz identidad es 1 
+
+
+** espacios vectoriales
+
+sean V en conjunto no vacio y K en un cuerpo de escaleres (conjunto numerico con propiedades de  campo).
+ decimos que V es un espacio vectorial sobre el cuerpo K si existen 2 operaciones llamadas (+) y multiplicacion (* ) las cuales satisfacen para todo u,v,wEV
+
+s1 u(+)vEV
+
+s2 U(+) (v( +)w)=(u( +)v) ( +)W
+
+s3  para todo uEV existe un unico eEV tal que:
+
+u(+)e=e
+
+usualmente denoramos e=0V (nulo)
+
+s4 para cada uEV existe un unico iEV tal que
+
+u(+)i=e <-> u( +)i=0V
+
+usualmente denotamos i=-u
+
+s5 U+v=v(+)U
+
+para u,vEV y λ,αEK
+
+m1 λ(*)α E V
+
+m2 λ(*)(u(+)v)=(λ( *)u)( +)(λ( *v))
+
+m3 (λ+α)(*)u=(λ( *))(+)(α( *)u)
+
+m4 λ(*)(α( *)u)=(λα)( *)u
+
+m5  1(*)u=u
+
+**** observacion
+
+1) si K=R decimos que V es un espacio vectorial real
+
+2) los espacios vectoriales sonbre K tambien se nombran:
+
+
+***** k-espacio vectorial
+
+***** espacio lineal
+
+***** k-espacio lineal
+
+3) los elementos de un espacio vectorial se llaman vectores
+
+   ejm:
+
+   sean V=Mm*n(R) y K=R
+
+   y las opeaciones
+
+   A(+)B=[aij+bij]
+
+   λ(*)A=[λaij] para
+
+   iE{1,2,3...n}
+   jE{1,2,3...n}
+
+   se tiene que Mm*n(R) es un espacio vectorial real
+
+   ejm:
+
+   sean V=R^n
+
+   X^(->) =
+
+   X1
+   X2
+   ..
+   Xn
+
+   X^(->)/XiER
+
+   y K=R y defiimos
+
+   X(+)Y=
+
+   X1,Y1  X1+Y1
+   X2,Y2  X2+Y2
+   ..|..=  ...
+   Xn,Yn  Xn+Yn
+
+   λ(*)X^(->)=
+
+   λ*X1  λX1
+     X2  λX2
+     ..= ..
+     Xn  λXn
+
+     se tiene R^n es un espacio vectorial real
+
+     si tomas n=2  (R^2)
+
+     entonces para a y b
+     a^(->) =[3,2]
+
+     b^(->) =[-5,6]
+
+     a^(->)+b^(->)=
+
+     [3+(-5),-2+6]=[-2,4]
+
+     -3a^(->)=[-3*3,-3*(-2)]=[-9.6]
+
+     OR2=[0,0]
+
+     -b=[5,-6]
+
+     ejemplo
+
+     considere R2 con la multiplicacion por escalar usual y definida:
+
+     X(+)Y=
+
+     x1     y1     x1+y1-4
+        (+)     =
+     x2     y2     x2+y2+3
+
+     segun esta operacion
+
+     a(+)b=
+
+     3+(-5)-4 =-6
+     -2+6+3   = 7 
+
+     ahora
+
+     i) claramente X(+)Y ER²
+
+     ii) sean X^(->).Y^(->),Z^(->)E R² entonces
+
+     
+    X^(->) (+) (Y^(->) ( +) Z^(->))= X^(->)
+
+    Y1+Z1-4
+    Y2+Z2+3
+
+    =
+
+    X1+(Y1+Z1-4)-4
+    X2+(Y2+Z2+3)+3
+
+   =
+
+   (X1+Y1-4)+<Z1-4
+   (X2+Y2-3)+<Z2-3
+
+   =
+
+   X1+Y1-4     Z1
+           (+)
+   X2+Y2+3     Z2
+
+ X^(->)(+) ( Y^(->) ( +) Z^(->)) =  (X^(->)( +) Y^(->) )( +) Z^(->) 
+
+es decir el motivo de esta operacion =
+
+0R²(+)= 4,-3
+
+por lo tanto R^2 es un espacio vectorial real con dicha operacion de suma
+
+sabemos que Mm*n(R) es el espacio vectorial real
+
+sea Gl(n,R)={AEMn(R)/det(A)!=0}
+
+grupo lineal
+
+Gl(n,R) C Mm*n(R)
+
+
+R^2+={X=[x,y]/x>0,y>0}
+
+en R^2+ definimos las siguientes operaciones
+
+x(+)y=[x1y1,x2y2]
+
+λ(*)X^(->)=[(X1)^λ,(X2)^λ] para λER
+
+probar que R^2 con estas operaciones es un espacio vectorial real
+
 
 ** evaluaciones
  q1 semana 4(5%)
