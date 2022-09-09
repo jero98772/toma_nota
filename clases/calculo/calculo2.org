@@ -19,3 +19,21 @@ remplazar por la formula
 *** limite
 metodo hallar asintotas
 limite de una constante es la misma constante
+*** hallar trabajo con intergrales
+mientras n sea mayor mas exacto va ser el trabajo
+
+W≈F(X*1)*Δx+F(X*2)*Δx+... F(X*n)*Δx
+
+W=n  i=i  ΣF(xi*)
+
+otra apliacion de la intergal es hallar el promedio de una funcion
+
+multiplicacion de funciones con integrales
+
+LIATE
+
+limites
+integrales
+algebraica
+trigonometricas
+exponenciales
