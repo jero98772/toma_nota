@@ -1927,9 +1927,135 @@ como det(A)=12+3(20)=72!=0 el sistema tendra solicion unca para todo XER³ y asi
 para SC=V subconunto finito y no vacio de un espacio vectorial V
 se tiene que gen[s] es un subespacio de V
 
+*** teorema 2
+
+sean S={v1,v2,..vk} C= V con V
+
+es un espacio vecorial sea Uegen[S] U es combinacion lineal de los elementos de S
+
+entonces gen[v1,v2...vk]=gen[S]
+
+ejm tenemos
+
+V=R³
+
+el conjunto s={
 
 
+1 ; 4
 
+3 ; 6
+
+5 ; 10
+
+}
+
+si x=[x,y,z] E gen[s] existen escalares c1,c2 tales que
+
+
+c1[1,2,5]
+
++
+
+c2[4,6,10]
+
+=
+
+[x,y,z]
+
+<=>
+ 1 3 5   c1
+ 4 6 10  c2
+
+ =
+
+ x,y,z
+
+ el sistema es concistente si
+
+1  4 |x
+
+3  6 |y
+
+5 10 |z
+
+
+r2->r2-3r1
+r3->r3-5r1
+
+1 4 | x
+
+0 -6| y-3x
+
+0-10| z-5x
+
+r3->r3-(10/6)
+
+
+1  4 | x
+
+0 -6 | y-3x
+
+0  0 |<-5x-(10/6)(y-3x)
+
+el sistema sera consistente si y solo si
+
+z-5x-10/6(y-3x)=0
+
+6z -30x-10y+10x=0
+6z-10y=0
+5y-3z=0
+
+gen[s]={x,y,z} ER³ /5y3-z=0
+
+claramente los vecores
+
+a=[4,3,5]
+
+b=[-8,1/5,1/3]
+
+E gen[s]
+
+entonces
+
+gen[S]={[1,3,5];[4,6,10]}
+
+=
+
+gen {[1,3,5];[4,6,10];[4,3,5]}
+
+=
+gen {[1,3,5];[4,6,10];[4,3,5]:[-8,1/5,1/3]}
+
+dada un espacio vectorial V cual es el numero minimo de vectores que se nesesita para geneerar dicho espacipo??
+
+
+*** independencia lineal
+
+dado un espacio vectorial V y un conjunto {v1,v2,...,vk}C=V decimos que dichos vectores son linealmente independientes (l.i) si la unica solucion a la ecuacuion c1v1+c2v2+...ckvk=0v
+
+es c1=c2=...ck=0
+
+en caso contrario (si existe al menos un c!=0)
+
+y se genera un espacio nulo dicho conjunto se denomida linealmente dependiente(l,d)
+
+
+la union no queda en el sub espacio , la suma si queda en el subespacio
+
+
+w1∩w2 es subespacio, sean U,vE w1∩w2
+
+uEW1 y uEw2
+vEW1 y vEw2
+
+U(+)vEw1
+
+y
+
+U(+)vE
+
+(lo borro)
 ** evaluaciones
  q1 semana 4(5%)
  p1 semana 5(20%)

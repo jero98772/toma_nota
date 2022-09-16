@@ -1,0 +1,47 @@
+* competitiva 1
+** datos y algoritmos
+quee
+** stack
+ultimo entrar 1ero en salir
+lifo
+
+stack<type> identificador;
+*** metodos
+stack.push(x) //meter x en el stack
+stack.pop()// eliminar ultimo elemento del stack
+stack.top() // retorna el elemnto del stack
+stack.empty() // retorna si el stack esta vacio
+
+las operaciones son O(1)
+
+para ver los elementos del stack es
+
+while(!stack.empty()){
+    cout<<stack.top();
+    stack.pop();
+}
+** quee
+
+el unico metodo que cambia es
+
+.top() por .front()
+** deque
+** priority
+
+el orden de llegada se ve afectado por na funcion de ordenacimento
+
+priority_queue<int> pq
+
+pq.push(s);
+pq.pop():
+pq.front();
+
+kth largest element
+
+1
+*** convertir caracter a enterlo
+
+se convierte su caracter a entero y se resta su caracter a en entero
+
+
+
