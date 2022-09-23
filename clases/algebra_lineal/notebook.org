@@ -2056,7 +2056,256 @@ y
 U(+)vE
 
 (lo borro)
-** evaluaciones
+
+
+ejm en V=R² sea el conjunto
+
+S={
+1; -5;  2
+3;  2; -4
+}
+
+analicemos la ecuacion
+
+c1 [1,3] +c2 [5,2]+c3[2,-4]=[0,0]
+
+esto equvale a anlaizar ñas spñicomes de un sistema homogeneo:
+
+1 -5 2 = [c1,c2,c3] =[0,0]
+
+3 2 -4
+
+
+para la matriz de coeficentes
+
+A= 1  -5 2  -> 1 -5 2
+
+   3  2 -4  -> 0 17-10
+
+   se tiene que j(A)=2< #numero de columnas el sistema homogeneo tiene infitas soluciones
+   
+   por lo tanto el conjunto S es unicamente dependiente
+
+   
+*** teoremas
+
+1) si OvES entonces S es linearmente dependiente
+
+2) su V!=0v entonces el siguiente {V} es linearlemnte dependiente
+
+3) dado S={v1,v2,vk} C= V entonces si U E gen[s] el conjunto v1,v2,vk u es L.D
+
+4) el conjunto {v1,v2} es Ñd si y solo si existe un escalar tal que
+
+   V1=kV2
+
+5) sea S={v1,v2,... vm} C=R^n
+
+   si m>n entonces S es linearmente dependiente
+
+6) corolario
+    en R^N todo conjunto L I tiene a lo sumo N vectores
+
+7) sea V un espacio vectorial
+
+      A,BC= V tales que
+
+      A!=0, B es finito y A C(dentro de) B
+
+      i) si A es linealmente dependiente entonces B es linealmente dependiente
+
+      ii) si B es linealmente independiente entonces A es linealmente independiente
+
+
+*** base de un espacio vectorial
+
+sean V un espacio vectorial y
+
+B={v1,v2,...mvn} C= V
+
+B se denomina base pa el espacio V si satisface
+
+i) gen[B]
+
+ii) B es linealmente independiente
+
+
+ejm
+
+en V=R^3 considere el conunto
+
+B={[1,3,4];[2,1,-1];[4,-2,7]}
+
+veamos si es base para R^3
+
+i) si X=[x,y,z] E gen[B] entonces
+
+1  2  4  c1  x
+
+3  1  2  c2 =y
+
+4  -1 -7 c3  z
+
+para la matriz de coeficientes
+
+det(A)=(-5)-2(-27)+4(-7)=21!=0
+
+A es no singular y todo sistema asociado a ella es consistente con solucion unica y asi
+
+gen[B]=R^3
+
+el conjunto sera L.I si el sistema
+
+1  2  4  c1   0
+
+3  1  2  c2 = 0
+ 
+4 -1 -7  c3   0
+
+tiene solucion unica por el razonamiento del literal il sabemos que el sistema homogeneo tiene solucion unica
+
+c1   0
+
+c2 = 0
+
+c3  0
+
+por tanto el conjunto B es linealmente independiente
+
+y asi
+
+B= {
+1  2   4
+
+3 ;1  ;2
+
+4 -1  -7
+
+}es una base para R³
+
+si tomamos U= 2,3,-5  sabemso que existen escalares unicos c1,c2,c3 tales que:
+
+U=
+
+c1+c2+c3
+
+1  2   4
+
+3   1  2
+
+4  -1 -7
+
+
+U=c1v1+c2v2+c3v3
+
+en este caso
+
+2
+
+3 =U =(4/5)v1+(-61/25)v2+(38/25)v3
+
+-5
+
+sin embargo
+
+
+U=[2,3,-5]=(2)[1,0,0]+(3)[0,1,0]+(5)[0,0,1]
+
+es decir
+
+U=(2)i^ +(3)j^ +(-5)k^
+
+el conjunto
+
+BR^3={i^,j^,k^} se denomina base canonica de R^3
+
+denotamos [V] := representacion de V en la base B
+
+segun nuestro ejemplo
+
+U=[2,3,-5] esta escrito en la canonica
+
+UB=[4/5,-61/25,38/25 ]
+
+*** teorema sean V un espacio vectorial;
+
+B={v1,v2,...,vn} y B1 = {u1,u2,...,um}
+
+dos bases para V entonces n=m
+
+*** definicon
+
+sean V un espacio vectorial y B={v1,v2,...,vm} una base
+
+la dimension del espacio V es la cantidad de elementos en una base dim(V)=n y decimos que V es un espacio de dimension finita n
+
+si V={0} entonces definimos dim({0})=02
+
+sea V=S2(R) {AEM2(R)/A=A^T}
+
+si A E S2 (R) entonces en general
+
+A = a  b
+
+    b  c
+
+    con a,b,c ER
+
+A =a 1  0  + b  0  1  + c 0  0
+
+     0  0       1  0      0  1
+
+con a,b,c ER
+
+cualquier matriz lineal de orden 2 es combinacion de A
+
+entonces
+
+s2(R)=gen
+
+1  0   0  1   0  0
+     ;      ;
+0  0   1  0   0  1
+
+ahora sean c1,c2,c3 escalones tales que
+
+c121+c2w2+c3w3=0 S2(R)
+
+c1+c2+c3=
+
+0 0   c1 c2
+    =
+0 0   c2 c3
+
+se debe temer
+
+c1=0
+
+c2=0
+
+c3=0
+
+asi el conjunto es linealmente independiente y forma una base para S2(R) por lo tanto
+
+dim(S2(R))=3
+
+*** torema
+
+sean V un espacio vectorial de dimension N y M un subescpacio entonces
+
+dim(m)<dim(V)
+
+si las dimenciones conciden entonces M= V
+
+
+sea V un espacio vectorial de dimension N entonces todo subconjunto L I con N elementos es una base para V
+
+ejercio sea el plano:
+
+π {[x,y,z]ER^3/x+y+2z=0}
+
+
+** evaluaciones 
  q1 semana 4(5%)
  p1 semana 5(20%)
  q2 semana 8(5%)

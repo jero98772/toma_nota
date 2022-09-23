@@ -10,25 +10,34 @@ token::token(string exp){
 token::~token(){
 	exprecion.clear();
 }
+token::validtag(string charcter ,string letters,string nums,string simbols){
+		if(letters.find(charcter)){
+			ttag="l";
+		}
+		if(simbols.find(charcter)){
+			ttag="s";
+		}
+		if(nums.find(exprecion[i])){
+			ttag="n";
+		}
+}
 token::identificartoken(){
 	this->exprecion;
 	string nums="1234567890";
 	string letters="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ";
 	string simbols="+-*/().";
 	vector<string> tokens;
-	char ttag="":
-	for(int i=0;i<exprecion.length();i++){
+	char ttag="";
+	char ttag2="";
+	ttag=validtag(exprecion[0],letters,nums,simbols);
+	ttag2=ttag;
+	for(int i=1;i<exprecion.length();i++){
+		ttag=validtag(exprecion[i],letters,nums,simbols);
 		string t=t+exprecion[i];
-		if(letters.find(exprecion[i])){
-			ttag="l";
+		if(ttag!=ttag2){
+			tokens.push_back(t);
 		}
-		if(simbols.find(exprecion[i])){
-			ttag="s";
-		}
-		if(nums.find(exprecion[i])){
-			ttag="n";
-		}
-		//cuando reconosca un token mandar un mensaje
+		ttag2=ttag;
 	}
 }
 
