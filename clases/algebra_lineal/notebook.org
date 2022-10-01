@@ -2289,7 +2289,7 @@ asi el conjunto es linealmente independiente y forma una base para S2(R) por lo 
 
 dim(S2(R))=3
 
-*** torema
+*** teorema
 
 sean V un espacio vectorial de dimension N y M un subescpacio entonces
 
@@ -2304,7 +2304,115 @@ ejercio sea el plano:
 
 π {[x,y,z]ER^3/x+y+2z=0}
 
+*** producto interno
+sea V un espacio vectorial real una aplicacion
 
+<,>:VxV->R
+    (u,v)-><u,v>
+
+se denomina "producto interno" si satisface
+
+i)<u,v>= <v,u> simetrica
+
+ii) <u,V(+)W>=<u,v>+<u,w>
+
+iii) <u,λ(*)v>=λ<u,v>
+
+iv) <u,u> >= 0
+
+V) <u,u>=0 si y solo si  u=0v
+
+
+<x,y>R^n = n,i=1Σ xi,yi=x1,y1+x2+y2+...+xn,yn
+
+es facil verificar que dicha aplicacion satisfase las condiciones de un producto interno en particular
+
+<x,y(+)Z> Rn= n,i=1Σ xi(yi,zi)
+
+<x,y(+)Z> Rn= n,i=1Σ xi+yi+xi+zi
+
+<x,y(+)Z> Rn= n,i=1Σ xiyi + n,i=1Σxizi
+
+<x,y(+)Z> Rn= <x,y>Rn+<x,z>Rn
+
+notemos que usuando la multiplicacion entre matrices
+
+<x,y>Rn=Σxi,yi=[x1,x2,...,xn]*[y1,y2,...,yn]
+
+<x,y>Rn=(X)^T y  producto interno usual de R^n
+
+**** observacion
+
+un espacio vectorial con un producto interno se denomina "espacio euclidieo"
+
+*** teorema
+
+sea V un espacio euclideo entonces
+
+i) <u(+)v,w> =<u,w>+<v,w>
+
+ii) <λ(*)u,v>=λ<u,V>
+
+iii) <u,Ov>=0
+
+iv) si <u,v> =0 para todo vEV entonces U=0v todo producto interno indule en el espacio una norma (funcion de longitud)
+
+de la siguiente manera
+
+|  | *  || : V-> R^>=0
+
+          v -> || v||  norma de V
+
+asi
+
+||v||= √<v,v>
+
+en V=R^2 con el producto interno usual
+
+
+||x || R^2 =√<X,X>r^2
+
+||x || R^2 =√x1x1+x2x2
+
+||x || R^2 =√(x1)^2+(x2)^2
+
+si tomamos a=[2,5] entinces con la usual
+
+||a||R^2 = √(2)²+(5)² = √29
+
+con el producto  interno (1) se tiene
+
+||a  || = √((x1-2x²2)+(x2²)) =√89
+
+ejercio probar que ña norma en 2 satisfase
+
+i) || v|| >=0 y ||v||=0 si y solo si v=0v
+
+ii) ||λ(* )v||=|λ|*||v||
+
+*** teorema desiguañdad de cauchy-swartz
+
+en todo  espacio ecuclideo se satisface:
+
+| <v,u> |<= || u ||*|| v ||
+
+si u=0v o v=0 (o ambos)
+
+la desigualdad es trivial
+
+supongamos que U,V son no nulos
+
+0<= || (u/||u|| )-(v/||v||)||^2
+
+observacion
+
+|| (u/ ||u||)||= ||(1/||u||)||*u||
+
+= |1/||u|||*||u||
+
+se cancelan las ||u||
+
+= 1
 ** evaluaciones 
  q1 semana 4(5%)
  p1 semana 5(20%)
