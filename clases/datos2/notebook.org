@@ -23,6 +23,17 @@ juez en linea universidad de valle molina,debe funcionar en you debug
 30 oct
 ** coevaluacion
 *** algoritmo sudoku practica final (eso ya existe)
+* problema
+
+https://es.wikipedia.org/wiki/Algoritmo_divide_y_vencer%C3%A1s
+*** pasos para resolver un divide y conquistar
+
+evaluar el caso base
+
+
+
+
+
 * problemas clase
 
 - https://leetcode.com/problems/binary-watch/

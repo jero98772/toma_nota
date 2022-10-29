@@ -1,0 +1,44 @@
+* haskell notes
+
+** run haskell
+
+ghc -dynamic main.hs
+
+./main
+
+** factorial
+
+declaro la funcion
+
+nombre:: argumento->retorna
+#+beging_src haskell
+
+factorial :: Int -> Int
+factorial n = product [1 .. n]
+
+#+end_src
+
+print seria
+
+#+beging_src haskell
+putStrLn "string"
+#+end_src
+
+
+para salir del ghci es con ctrl+d
+
+para compilar use ghc y para ejecutar ghci
+
+** exportar archivos
+
+ :l f.hs
+
+
+
+** references
+
+http://aprendehaskell.es/content/Funciones.html
+
+http://www.cs.us.es/~jalonso/cursos/i1m/temas/tema-2.html#comentarios-en-haskell
+
+

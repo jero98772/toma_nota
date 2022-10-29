@@ -1,0 +1,6 @@
+* huffamn tests cases
+
+usando los apellidos
+
+para hacer una tabla con
+simbolos probabilidad ocurrencias y codigo 

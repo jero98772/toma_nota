@@ -2413,6 +2413,293 @@ observacion
 se cancelan las ||u||
 
 = 1
+
+*** por cunchy-schwartz se tiene
+
+|<u,v>| <= ||u||.||v||
+
+si u,v son no nulas
+
+|(<u,v>)/||u||.||v|| |<=1
+
+-1<= <u,v>/(||u||.||v||) <= 1
+
+si θ representa la medida del angulo entre los vectores u,v definimos
+
+cos(θ)=<u,v>/(||u||.||v||)
+
+ejm
+
+en V=R^3 con el producto interno usual y
+
+a=[2,-1,4];b=[3,2,1]
+
+si θ representa el angulo entre ellos tenemos
+
+<a,b>R^3 =2(3)+(-1)(2)+4(1)=8
+
+||a||=√(2)²+(-1)²+(4)² = √21
+
+||b||=√(3)²+(2)²+(1)² = √14
+
+y asi
+
+cos(θ)=(8/√21+√14) ->cos⁻¹(8/√21√14)
+
+θ≈62.1°
+
+ejm sea V= S2(R) con el producto interno
+
+<A,B>= trace(AB^T)=trace(AB)
+
+sea
+
+A= 1  2   ; B= 0 -3
+
+   2  3       -3  2
+
+
+si θ representa la medida del angulo entre dichas matrices tenemos <A,B> trace(AB)= trace ([[1,2],[2,3]][[0,-3],[-3,2]])
+
+<A,B>=trace([[-6,1] [-9,0]]) =-6 +0
+
+<A,B>=-6
+
+||A||=√<A,A> =√trace(AA)
+
+AA= 1 2  1 2  5  7
+        |   =
+    2 3  2 3  7 13
+
+||A|| = √(5+13)=√18 =3√2
+
+||B ||=√<B,B> =√trace(BB)
+
+BB=  0 -3 |  0 -3    9 -6
+          |       =
+    -3  2 | -3  2   -6 13
+
+||B|| =√9+13 =√22
+
+y asi
+
+cos(θ)=-6/(3√2*√22) -> θ=cos⁻¹(2/2√11)
+
+θ≈107.5°
+
+clarmente si θ representa el angulo entre 2 vectores u,v de un espacio euclideo tenemos 0<=θ<=π
+
+- si θ∈(0,π/2) entonces
+
+cos(θ)>0 <-> <u,v> >0
+
+- si  θ∈(π/2,0)
+
+  cos(θ)<0 <-> <u,v> <0
+
+- si θ=π/2 entonces cos(π/2) =0
+
+  es decir <u,v>/(||u|| || v||) =0 -> <u,v>=0
+
+  si <v,u>=0
+
+  entonces <u,v>/||u|| ||v ||=0 -> cos(θ)=0 y asi θ=π/2
+
+  dos vectores u,v se dicen ortogonales si y solo si <u,v>=0
+
+  
+u⊥ v ↔ <u,v>=0
+
+teorema si S={v1,v2,...,vk} es un conjunto ortogonal de vectores en un espacio euclideo V.
+
+es decir <Vi,Vj>=0 para todo i!=j
+
+entonces S es un conjunto linealmente independiente en V
+
+*** observacion
+
+dado U!=0V en un espacio euclide V unitario en el sentido de que tiene norma igual a 1
+
+u^ =u/|| u || vector unitario en la misma direccion de U
+
+pues || u^ || = ||u/||u|| ||
+
+= || (1/||u||) *u ||
+
+= | (1/|| u||)| * || u ||
+
+= 1/||u|| *|| u ||
+
+= 1
+
+sea V un espacio euclideo de dimencion 2 y B={v1,v2} una base dados u,w ∈ v existen escalares unicos tales que
+
+u=λ1v1+λ2+v2; [u]B=[λ1,λ2]
+
+u=α1v1+α2+v2; [w]B=[α1,α2]
+
+<u,w>=<u,α1v1+α2v2>
+
+<u,α1v1>+ <u,α2v2>
+
+α1<u,v1> +α2<u,v2>
+
+= α1<λ1v1+λ2v2,v1> + α2<λ1v1+λ2v2,v2>
+
+= α1λ1<v1,v1>+ α1λ2<v2,v1>+α2λ1<v1,v2>+α2λ2<v2,v2>
+
+entonces
+
+<u,w>=(λ1α1)|| v1||^2 +(λ1α2+λ2α1)<v1,v2>+(λ2α2)|| v2||^2
+
+si u=[λ1,λ2] y w =[α1,α2]
+
+tenemos
+
+<u,w>R²= (λ1α1)+(λ2α2)
+
+si la base B={v1,v2} satisface <v1,v2>=0 y ||v1||= ||v2||=1
+
+se tiene <u,w>=<u,w>R^2
+
+en un espacio euclideo de dimension N, una base ortonormal es aquella que satisface:
+
+Bon={v1,v2,...,vn}
+
+<vi,vj>=
+
+{0 ;i!=j
+{1 ; i=j
+
+*** producto vectorial
+
+dados u,v E E³ el producto vectorial (producto cruz) es un nuevo vector simbolisado "UXV" que satisface
+
+i) ||uXv|| = ||u||*||v|| sen(0) donde 0 es el angulo entre U y V
+
+ii) Uxv es ortigonal al plano que contiene a los vectores U y V en particuliar
+
+UxV ⊥ U
+
+UxV ⊥ V
+
+iii) el sentido de UxV esta dado por la regla de la mano derecha
+
+1) Ux0=0 pues
+
+   || Ux0 || = ||U||*||0||*sen(0)
+
+   || Ux0 || = 0 <-> Ux0=0
+
+2) UxU=0
+
+3) U//V <-> UxV=0
+
+4) claramente
+
+   VxU=-(UxV)
+
+   para la base canonica de R3
+
+   i^xj^=k^;  j^xi^=-k^
+   
+   j^xk^=i^;  k^xj^=-i^
+
+   k^xi^⁼j^; i^xk^=-j^
+
+   teorema el producto vecotorial es bilineal
+
+   es lineal en la primera componentes y en la segunda componente
+
+   u*(λv+w)=λ(u*v)+(u*w)
+
+   sean
+
+   U=[u1,u2,u3]=u1i^+u2j^+uk^
+   V=[v1,v2,v3]=v1i^v2j^+v3k^
+
+   U*V=(u1i⁺^+ u2)
+   
+*** truco
+nemotecnico apra calcular las componentes de UxV en la base canonica es el calculo del siguiente pseudodeterminate respecto a la primera fila
+
+relacion de gibbs
+
+*** areas truple producto escalado y volumenes
+
+sabemosq ue en un plano un
+
+paralelogramo es un cuadrilatero
+
+para el cual
+
+i) |OA| =|CB| y OA//CB
+
+ii) |OC|=|AB| y OC//AB
+
+claramente podemos visualisar dicho paralelo gramo en terminos de 2 vectores
+
+U=OA y V= OC
+
+calculemos el area del paralelogramo
+
+A(paralelogramo) = Base * altura =b*h
+
+donde: b=||u||
+
+ahora en la figura tenemos sen(θ)=h/||v|| -> h= ||v|| sen (θ)
+
+asi el area es igual a ||u||.||v|| sen(θ)
+
+dicha area se denomina area generada por los vectrores u y v
+
+Agen[u,v]=||u*v||
+
+dados los vectores  u,v,w ER³ tenemos que el escalar:
+
+ux(vxw) no es valido
+
+u*(vxw) si es valido
+
+"triple producto escalar"
+
+el cual en la base canonica de R³ lo podemos calcular asi: dados
+
+u =u1i^+u2j^+u3k^
+
+v =v1i^+v2j^+v3k^
+
+w =w1i^+w2j^+w3k^
+
+<u,vXw>R3= u *(vXw)
+
+= det [ u1 u2 u3
+        v1 v2 v3
+        w1 w2 w3 ]
+
+u*(vXw)=v*(wXu)=w*(u*v)
+
+consideremos en el espacio E³ el paralelepipedo generado por los vectores u,v,w
+
+el volumen de dicho paralelepipedo se denomia
+
+volumen generado por los vectores u,v,w
+
+y lo denotamos
+
+Vdgen[u,v,w]= Abase
+
+claramente:
+
+Abase=||V x W||
+
+y la altura es un segmento de un vector ortogonal a la base de un paralelepipedo la cual es:
+
+h=|| proy(u/vXw)|| ahora:
+
+proy(u/vxw)= (u*(vXw)/||vXw||) (vXw)
+
+
 ** evaluaciones 
  q1 semana 4(5%)
  p1 semana 5(20%)
