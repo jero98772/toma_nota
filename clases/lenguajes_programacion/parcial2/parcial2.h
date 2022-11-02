@@ -11,14 +11,14 @@ class lanzamiento{
 		lanzamiento();
 		~lanzamiento();
 		std::string toString();
-		void sigLanzamiento(lanzamiento sig);
-		*lanzamiento getSigLanzamiento();
+		void sigLanzamiento(lanzamiento *sig);
+		lanzamiento getSigLanzamiento();
 		float distancia();
 	private:
 		int velocidad;
 		int angulo;
 		float distanciaVar;
-		lanzamiento siguiente;
+		lanzamiento *siguiente;
 
 };
 

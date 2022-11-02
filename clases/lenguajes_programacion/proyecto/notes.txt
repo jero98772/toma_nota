@@ -1,0 +1,11 @@
+in c++ with poo
+
+data
+
+linked list
+
+user password , next ponter
+
+minimun interface
+
+read and overwitre txt file

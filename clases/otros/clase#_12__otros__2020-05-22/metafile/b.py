@@ -1,0 +1,1 @@
+bb={'ssid': 'gueeey', 'password': 'sky--eye', 'latitude': '', 'longitude': '', 'locationPublic?': True}

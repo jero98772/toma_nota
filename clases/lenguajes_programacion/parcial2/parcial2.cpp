@@ -1,6 +1,7 @@
 #include "parcial2.h"
 #include <iostream>
 #include <string>
+#include <ctime>
 
 using namespace std;
 
@@ -38,11 +39,12 @@ string lanzamiento::toString(){
 	string txt="Siguiente lanzamiento\n---------------------\nVelocidad inicial: "+to_string(this->velocidad)+" m/s\nAngulo: "+to_string(this->angulo)+"\nDistancia: "+to_string(this->distanciaVar)+" mts\n---------------------";
 	return txt;
 }
-void lanzamiento::sigLanzamiento(lanzamiento sig){
-	this->siguiente=*sig;
+void lanzamiento::sigLanzamiento(lanzamiento *sig){
+	//lanzamiento *nodo=new lanzamiento();
+	*this->siguiente=*sig;
 }
-lanzamiento *lanzamiento::getSigLanzamiento(){
-	return this->siguiente;
+lanzamiento lanzamiento::getSigLanzamiento(){
+	return *this->siguiente;
 }
 
 int main(){
@@ -51,17 +53,17 @@ int main(){
 	lanzamiento head=new lanzamiento();
 
 	//generar lanzamientos
-	lanzamiento tmp=head;
+	lanzamiento* tmp=*head;
 	for(int i=0;i<size;i++){
-		lanzamiento* node= new lanzamiento();
-		tmp.sigLanzamiento(node);
+		lanzamiento *node= new lanzamiento();
+		tmp->sigLanzamiento(node);
 		tmp=node;
 	}	
 
 	//mostrar lanzamientos
-	tmp=head;
+	lanzamiento* tmp2=head;
 	for(int i=0;i<size;i++){
-		cout<<tmp.toString()<<endl;
-		tmp=tmp.getSigLanzamiento();
+		cout<<tmp2->toString()<<endl;
+		*tmp2=tmp2->getSigLanzamiento();
 	}
 }
