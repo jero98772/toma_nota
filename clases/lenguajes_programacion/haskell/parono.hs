@@ -1,0 +1,1 @@
+ parono  n = if (n `mod` 2 ==0 )then putStrLn "es par" else putStrLn "es impar"
