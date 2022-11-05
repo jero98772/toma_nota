@@ -1,0 +1,73 @@
+* 99 problems of haskell
+
+https://wiki.haskell.org/99_questions/1_to_10
+
+1 Find the last element of a list.
+
+#+beging_src haskell
+
+mylast lista = lista!!(length a-1)
+
+#+end_src
+
+2 Find the last but one element of a list.
+
+#+beging_src haskell
+
+mylast lista = lista!!(length a-2)
+
+#+end_src
+
+3  Find the K'th element of a list. The first element in the list is number 1.
+
+#+beging_src haskell
+selectKinlist k lista = lista!!k
+#+end_src
+
+4 Find the number of elements of a list.
+
+#+beging_src haskell
+length x
+#+end_src
+
+5 Reverse a list.
+
+#+beging_src haskell
+reverse x
+#+end_src
+
+6. Find out whether a list is a palindrome. A palindrome can be read forward or backward; e.g. (x a m a x).
+
+#+beging_src haskell
+palindrome  n = if (n == reverse n )then True else False
+#+end_src
+
+7.
+   
+#+beging_src haskell
+
+#+end_src
+
+6.
+   
+#+beging_src haskell
+
+#+end_src
+
+6.
+   
+#+beging_src haskell
+
+#+end_src
+
+6.
+   
+#+beging_src haskell
+
+#+end_src
+
+6.
+   
+#+beging_src haskell
+
+#+end_src
