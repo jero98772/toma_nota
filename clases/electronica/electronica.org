@@ -1,0 +1,57 @@
+* electronica
+** clase 1
+profesor alejandro puerta
+plazo de una semana para el entregar el proyectos
+parciales individuales
+*** evaluaciones
+6  talleres 50%
+1 parcial 25%
+1 trabajo final 25%
+*** tema
+ electrinica
+ variable estaticas
+ circuitos domiciliarios y logicca
+**** electronica
+es la disiplica que estudia como controlar la engia
+electronica trata  con circuitos electricos que involucran elementos activos y pasivos
+
+- siempre hay una fuente
+- la resistencia tiene valores especificos (verlos en tabla de colores)
+
+ [[[[https://cibertareas.info/wp-content/uploads/2012/07/Codigo-de-colores-de-una-Resistencia-fija.jpg]]]]
+  
+- elementos arctivos transformasn la energia
+- elementos pasivos interactuan con la energia pero no la transoforman
+
+  simbolos de diagramas de circuitos 
+  [[https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Circuit_elements.svg/400px-Circuit_elements.svg.png]]
+
+ elementos de un circuito
+
+ -fuente
+ 
+ -carga
+
+ -trayectoria
+**** voltios y amperios
+
+ voltios diferencial de presion , mas presion mas flujo
+
+ ¿mayor voltios mas flujo? /no , se gasta mas rapido
+
+amperios sera como la cantidad
+**** unidades
+
+voltaje -> voltios V
+
+corriente-> amperios A, amp
+
+resistencia -> ohmios Ω
+**** circuitos en serie y paralelo
+**** serie
+
+esta conectado de forma secuencial, se conserva la corriente y el voltaje se reparte
+
+**** paralelo
+hay particiones en la forma que estan conectados los materiales se conserva el voltaje y el amperaje se reparte
+v=A*Ω

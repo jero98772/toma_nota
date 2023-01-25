@@ -109,4 +109,25 @@ concluye q
 p⊃q
 ¬q
 concluye ¬p
+* gg
 
+semantica para la logica propocicional
+
+(semantica es significado)
+
+inferencia  en la logica proposicional
+
+logica de predicados monadicos
+
+logica de las relaciones
+
+metodos de demostracion
+** tarea
+En la isla de caballeros y escuderos, los caballeros siempre dicen la verdad mientras que los
+escuderos siempre mienten. En esta isla solo hay caballeros y escuderos
+
+Suponga que un turista est ́a en presencia de dos habitantes de la isla llamados A y B. A dice:
+“nosotros tenemos la misma naturaleza”.
+¿Pueden determinarse las naturalezas de A y B?
+
+Si, caballeros por que si son cablleros es verdad y si son escuderos es mentira entonces son caballeros

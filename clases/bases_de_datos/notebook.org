@@ -1,0 +1,59 @@
+* bases de datos
+3 entrgables
+al final aplicacion final con
+actualisar
+borrar
+editar
+
+primera entrega buscar una problematica
+y exponer todo eso...
+
+** que es una base de datos
+conjunto de datos relacionados entre si
+
+en una base de datos
+
+hay un
+gestor
+manejador
+motor
+
+independencia logica y fisica
+
+**** fisica
+
+**** logica
+modificar el esquema sin tener que rescribirlo
+
+**** iventario
+
+identidicar 5 datos que me interese guardar informacion
+
+cajon
+
+string direccionremitente
+string remitente
+tripla<x,y,z> dimenciones 
+string objeto
+int peso
+string categoria
+string ubicacion
+unsigned int cantidad
+string fecha ingreso
+string fecha estimada de recogida
+string tipo de empaque
+bool estaVivo
+
+empleados
+
+string nombre
+string cedula
+string puesto
+float sueldo
+
+estanterias
+
+medias
+peso que soporta
+categias a guardar
+ubicacion en  bodega
