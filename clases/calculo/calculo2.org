@@ -37,3 +37,38 @@ integrales
 algebraica
 trigonometricas
 exponenciales
+*** indeterminacion
+
+0∞
+
+1∞
+
+0/0
+
+∞-∞
+
+∞/∞
+
+0*∞
+
+*** determinacion
+
+∞^n ->∞
+
+K/∞ ->0
+
+0/∞ -> 0
+
+∞/0 -> ∞
+
++- K/0-> +-∞
+
+0^∞->0
+
+∞+∞->∞
+
+
+
+*** derivadas
+
+dx/dy ln(x)=1/x

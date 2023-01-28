@@ -109,7 +109,7 @@ concluye q
 p⊃q
 ¬q
 concluye ¬p
-* gg
+* start
 
 semantica para la logica propocicional
 
@@ -131,3 +131,38 @@ Suponga que un turista est ́a en presencia de dos habitantes de la isla llamado
 ¿Pueden determinarse las naturalezas de A y B?
 
 Si, caballeros por que si son cablleros es verdad y si son escuderos es mentira entonces son caballeros
+
+no se puede determinar la naturaleza de A
+** otra clase
+
+proposion oracion que puede ser verdadero o falso
+
+argumento secuencia de propociones
+
+premisas verderas lleban a conclusiones verdaderas
+
+si las peremisas verderas me llevan a una conclusion falsa el argumento es invalido
+
+las propociones toman letras mayusculas
+
+conectores  logicos ¬, ∧, ∨, −→, ≡
+¬ = ~
+∧ = .
+ −→ = ⊃
+
+ las minusculas representan cualquier proposicion (no nesariamente simple)
+** tarea
+
+convertir las 2 otras frases en proposiciones logicas
+
+ hacer tabla de verdad y arbol de sintaxis
+
+ a) ¬(P∧Q)
+
+(¬P∨¬Q)
+
+f) proposiciones tales que:
+
+siempre sea T
+
+siempre sea F
