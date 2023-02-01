@@ -57,3 +57,59 @@ medias
 peso que soporta
 categias a guardar
 ubicacion en  bodega
+
+
+** clase 2
+
+identificar entidades y relaciones,atrubutos a tenidaes, dominios de los atributos
+determinar los identificadores
+determinar las jerarquias
+diagramar entidad -relacion
+validad y ajustar el esquema conceptual con el usuario
+
+
+relaciones
+binarias
+terciarias
+refrecivas
+
+hay relaciones de 1 a 1 y de 1 a muchos
+
+** actividad
+
+camion
+matricula
+modelo
+tipo
+potencia
+camioneros
+
+camionero
+camiones
+poblacion
+salario
+telefono
+nombre
+id
+fechas
+
+camiones 1:n<->1:n camioneros
+camioneros 1:
+
+paquete
+codigo de paquete
+descripcion
+destinatario
+direccion
+
+
+provincia
+codigo
+nombre
+
+paquete 1:1 <-> 1:n provincias
+
+
+robo relacion
+rectangulo entidad
+subrayado identificador

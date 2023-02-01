@@ -55,3 +55,47 @@ esta conectado de forma secuencial, se conserva la corriente y el voltaje se rep
 **** paralelo
 hay particiones en la forma que estan conectados los materiales se conserva el voltaje y el amperaje se reparte
 v=A*Ω
+
+**** para cirquitos en serie:
+
+para fuentes
+vt= v1+v2+v3+...+vn
+
+para resistencias
+
+Rt=R1+R2+R3+..+Rn
+
+IT=i1+i2+..i3 (potencia)
+
+**** para circuitos en paralelo
+
+1/Rt=1/R1+1/R2+1/R3+...1/Rn
+
+Vt =V1=V2=V3...=Vn
+
+**** la ley de Ohm
+
+asocia voltaje,resistencia y potencia
+
+V=A*Ω
+V=I*R
+
+
+**** leyes de kirchoff (lvk y lck)
+
+primero dividir los cables en partes divididos se gun la cantidad de materiales
+
+identificar cuanto voltaje nesesitamos para los materiales
+
+poner resistencias para controlar el voltaje en caso dado
+
+la suma de voltajes es un loop es igual a 0
+
+se definen los loops
+
+para los loops se conservan los voltajes
+
+se reitera que se haga el curso de google para entender todo
+
+
+** taller

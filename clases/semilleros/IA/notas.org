@@ -40,3 +40,19 @@ areas del semillero
 le vamos a camellar al proyecto 
 
 
+** proyectos 2023
+traductor de vos a vos en otro idioma
+
+whisper
+
+modelo  meta de traducciones
+
+defnir pipe line
+
+se piensa en hacer algo con imagenes satelitales
+
+aprender transfer lerning
+
+
+
+

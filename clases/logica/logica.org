@@ -166,3 +166,19 @@ f) proposiciones tales que:
 siempre sea T
 
 siempre sea F
+
+** jerarquia de los operadores logicos
+
+1) ¬ negacion
+2) ∨ ∧
+3) → impicacion
+4) Ξ bicondicional
+
+.: por lo tanto
+
+*** definiciones
+   tautologia -> una formula bien formada que resulta ser verdera en cualquier caso
+   argumento invalido -> si las premisas verderas lo llevan a un argumento falso
+   contradiccion ->  una proposicion que siempre es falsa
+
+   
