@@ -1,0 +1,16 @@
+* formulas
+
+** x/\
+/\x=(b-a)/n
+
+** sumas rimman
+
+*** punto medio
+
+xi+1/2*f(x)
+*** derecha
+
+
+*** izquierda
+
+sum(x*f(x))

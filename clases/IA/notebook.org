@@ -1,0 +1,37 @@
+* introduccion a la inteligencia artificial
+
+** tareas
+
+entregar la plantilla base msaina
+
+
+*** habilidades
+
+manejo de insetidumbre
+
+aprendisaje
+
+razonamiento
+
+comunicarse
+
+planificar sus tareas/actividades
+
+resolver un problema
+
+** libreria de python para crear agentes
+
+se usan mesa y agentpy
+instalarla con pip install mesa
+
+#+beging_src python
+from mesa import Agent,Model
+
+class Agent_HM(Agent):
+  def __init__(self):
+     print("hola mundo")
+class model_HM(Model):
+  def __init__(self):
+    agent=Agent_HM
+HM=model_HM()
+#+end_src
