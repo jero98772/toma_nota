@@ -97,5 +97,12 @@ para los loops se conservan los voltajes
 
 se reitera que se haga el curso de google para entender todo
 
+** proyecto domotica acuario
+
+*** luces
+  dia y noche
+
+  control por bluethoot
+  
 
 ** taller

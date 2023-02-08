@@ -178,7 +178,15 @@ siempre sea F
 
 *** definiciones
    tautologia -> una formula bien formada que resulta ser verdera en cualquier caso
-   argumento invalido -> si las premisas verderas lo llevan a un argumento falso
-   contradiccion ->  una proposicion que siempre es falsa
+   
+   argumento invalido -> si todas lsa  premisas son verderas lo llevan a un argumento falso
 
+contradiccion ->  una proposicion que siempre es falsa
+
+ contingencia -> son valores mixtos de verdero y falso
+
+ argumento valido <-> condicional asociado es tautologia
+
+ (P1^P2^P3..^Pn) -> C
+   t t  t    t   -> f (es argumento invalido)
    
