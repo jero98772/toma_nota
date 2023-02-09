@@ -10,3 +10,8 @@ hacer una interfas bonita y intuitiva
   desarrollo programar
   workflow ,portabilidad y escabilida
 ** develoment
+
+
+** de Bruijn graph
+
+spades lo usa
