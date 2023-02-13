@@ -190,3 +190,4 @@ contradiccion ->  una proposicion que siempre es falsa
  (P1^P2^P3..^Pn) -> C
    t t  t    t   -> f (es argumento invalido)
    
+un conjunto de proposiciones son consistentes si todas las propociones son verderas al tiempo y si no es inconsistente

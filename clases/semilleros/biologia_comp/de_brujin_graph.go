@@ -5,7 +5,7 @@ type pair struct{
 	firts string
 	second string
 }
-func build_k_mer(txt string,k int) []string{
+func buildKMer(txt string,k int) []string{
     mers:=make([]string,0)
     for i:=0;i<len(txt)-k+1;i++{   	
 	mers=append(mers,txt[i:k+i])
@@ -55,7 +55,7 @@ func debruijnize(reads []string) (nodes, edges []string, notStarts []string) {
 func makeNodeEdgeMap(edges []string) map[string][]string {
 	nodeEdgeMap := make(map[string][]string)
 	for _, edge := range edges {
-		n := edge[:strings.Index(edge, " ")]
+		n := edge[:string.Index(edge, " ")]
 		if nodeEdgeMap[n] != nil {
 			nodeEdgeMap[n] = append(nodeEdgeMap[n], edge[strings.Index(edge, " ")+1:])
 		} else {
@@ -138,11 +138,11 @@ func assembleTrail(trail []string) string {
 
 func testAssemblyDebruijn(t string, k int) string {
 	reads := buildKMer(t, k)
-	G := debruijnize(reads)
-	v := visualizeDebruijn(G)
+	_,G,_ := debruijnize(reads)
+	//v := visualizeDebruijn(G)
 	nemap := makeNodeEdgeMap(G[1])
 	fmt.Println(G)
-	fmt.Println(v)
+	//fmt.Println(v)
 	var start string
 	if len(G[2]) > 0 {
 		start = G[2][0]
@@ -153,9 +153,9 @@ func testAssemblyDebruijn(t string, k int) string {
 	return assembleTrail(trail)
 }
 func main(){
-	a:=build_k_mer("ATCGTTGCGCGACCG",4)
+	a:=buildKMer("ATCGTTGCGCGACCG",4)
 	nodes,edges,dijuntsetnodes:=debruijnize(a)	
-	fmt.Println(len(b))
+	fmt.Println(len(nodes),len(edges),len(dijuntsetnodes))
 	makeNodeEdgeMap(edges)
 }
 
