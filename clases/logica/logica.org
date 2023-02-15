@@ -191,3 +191,68 @@ contradiccion ->  una proposicion que siempre es falsa
    t t  t    t   -> f (es argumento invalido)
    
 un conjunto de proposiciones son consistentes si todas las propociones son verderas al tiempo y si no es inconsistente
+
+contradiccion es obtener un resultado opuesto al esperado
+
+** reglas
+
+premisas
+___________ = :.
+conclusiones
+
+*** modus ponens (MP)
+p->q
+p
+:.
+q
+
+
+*** modus tollens (MT)
+
+p->q
+~q
+:.
+~p
+
+*** silogismo hipotetico (SH) o transitividad de la implicacion
+
+p->q
+q->r
+:.
+p->r
+
+*** silogismo disyuntivo (SD)
+
+p V Q
+~p
+:.
+
+*** dilema constructivo (DC)
+
+(p->q)^(r->s)
+pVr
+:.
+qVs
+
+*** dilema destrictivo (DD)
+
+(p->q)^(r->s)
+~qV~s
+:.
+~pV~r
+
+*** simplificacion (S)
+p^q
+:.
+p
+
+*** conjucion (C)
+p
+q
+:.
+p^q
+
+*** adicion(A)
+p
+:.
+pvq

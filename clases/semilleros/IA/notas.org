@@ -53,6 +53,34 @@ se piensa en hacer algo con imagenes satelitales
 
 aprender transfer lerning
 
+** 14/02/2023
+
+- presentarse
 
 
+- se hablo
+  se hablo de chat gpt, y divulgador
 
+
+cursos
+https://developers.google.com/machine-learning/crash-course/ml-intro
+
+https://course.fast.ai/Lessons/lesson3.html
+
+https://fullstackdeeplearning.com/
+
+proyectos
+
+coceptos a aprender
+
+- gans
+- transformers
+- arboles
+  - binary serch tree
+  - decicion tree
+  - random forest
+  - gradient bootsing
+  - xgboots
+
+
+usar whisper
