@@ -256,3 +256,61 @@ p^q
 p
 :.
 pvq
+
+
+*** Dmorgan (DM)
+
+~(p^q)Ξ~p v ~q
+
+~(pvq)Ξ ~p^~q
+
+
+*** conmutatividad de la ^ y v
+
+voltiar datos
+
+(p^q)Ξ(q^p)
+
+(pvq)Ξ(qvp)
+
+*** asocioatividad de la ^ y v
+
+
+(p^(q^r))Ξ((p^q)^r)
+
+(pv(qvr)Ξ((pvq)vr)
+
+*** distributibidad de la ^ y v
+
+(p^(qvr))Ξ(p^q)v(p^r)
+
+(p^(qvr))Ξ(pvq)^(pvr)
+
+
+*** doble negacion (DN)
+
+~~pΞp
+
+*** transpocicion (contrapositiva)
+
+(p->q)Ξ(~q->~p)
+
+*** implicacion material (def de implicacion)
+
+(p->q)Ξ(~p->q)
+
+*** equivalencia material
+
+(pΞq)Ξ(p->q)^(q->p)
+
+(pΞq)Ξ(p^q)v(~p^~q)
+
+*** exportacion
+
+(p^q)->r Ξ p->(q->r)
+
+*** tautologia
+
+pΞ(pvp)
+
+pΞ(p^p)

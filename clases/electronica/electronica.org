@@ -97,6 +97,18 @@ para los loops se conservan los voltajes
 
 se reitera que se haga el curso de google para entender todo
 
+**** multimetro
+
+~ corriente alterna
+_ correinte directa
+
+**** resistencia
+
+banda doara a la derecha
+
+primeras 2 vandas el numero
+
+calcular potencia
 ** proyecto domotica acuario
 
 *** luces
