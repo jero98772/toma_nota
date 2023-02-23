@@ -223,10 +223,10 @@ p->r
 
 *** silogismo disyuntivo (SD)
 
-p V Q
+p V q
 ~p
 :.
-
+q
 *** dilema constructivo (DC)
 
 (p->q)^(r->s)
@@ -297,7 +297,7 @@ voltiar datos
 
 *** implicacion material (def de implicacion)
 
-(p->q)Ξ(~p->q)
+(p->q)Ξ(~pvq)
 
 *** equivalencia material
 
