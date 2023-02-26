@@ -1,0 +1,148 @@
+
+Identity 1.2 is developed by Hani Z. Girgis, PhD.
+
+This program calculates DNA sequence identity scores rapidly without alignment.
+
+Copyright (C) 2020 Hani Z. Girgis, PhD
+
+Academic use: Affero General Public License version 1.
+
+Any restrictions to use for profit or non-academics: Alternative commercial license is required.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Please contact Dr. Hani Z. Girgis (hzgirgis@buffalo.edu) if you need more information.
+
+Please cite the following papers: 
+	Identity: Rapid alignment-free prediction of sequence alignment identity scores using
+	self-supervised general linear models (2021). Hani Z. Girgis, Benjamin T. James, and
+	Brian B. Luczak. NAR Genom Bioinform, 13(1), lqab001.
+
+	A survey and evaluations of histogram-based statistics in alignment-free sequence
+	comparison (2019). Brian B. Luczak, Benjamin T. James, and Hani Z. Girgis. Briefings
+	in Bioinformatics, 20(4):1222–1237.
+
+Database file: test/keratin_small.fasta
+Query file: test/keratin_query.fasta
+Output file: output.txt
+Cores: 24
+Threshold: 0.7
+Automatically relax threshold: Yes
+All vs. all: No
+
+Average: 2209
+K: 5
+Histogram size: 1024
+A histogram entry is 16 bits.
+Generating data.
+Preparing data ...
+	Positive examples: 9440
+	Training size: 4720
+	Validation size: 4720
+Better performance of: 0.00117966
+	jeffrey_divergence
+Better performance of: 0.00105501
+	jeffrey_divergence
+	minkowski x simMM
+Better performance of: 0.000998568
+	correlation
+	jeffrey_divergence
+	minkowski x simMM
+Better performance of: 0.000942597
+	correlation
+	jeffrey_divergence
+	minkowski x sim_ratio
+	minkowski x simMM
+Better performance of: 0.00091604
+	correlation
+	jeffrey_divergence
+	d2_star
+	minkowski x sim_ratio
+	minkowski x simMM
+Better performance of: 0.000888712
+	correlation
+	jeffrey_divergence
+	d2_star
+	minkowski x sim_ratio
+	minkowski x simMM
+	covariance_r x d2_star
+Better performance of: 0.000861305
+	correlation
+	jeffrey_divergence
+	d2_star
+	minkowski x sim_ratio
+	minkowski x simMM
+	correlation x simMM
+	covariance_r x d2_star
+Better performance of: 0.000824825
+	correlation
+	jeffrey_divergence
+	d2_star
+	minkowski x sim_ratio
+	minkowski x simMM
+	correlation x simMM
+	jeffrey_divergence x sim_ratio
+	covariance_r x d2_star
+Better performance of: 0.00079766
+	correlation
+	jeffrey_divergence
+	d2_star
+	minkowski x sim_ratio
+	minkowski x simMM
+	minkowski x sim_ratio^2
+	correlation x simMM
+	jeffrey_divergence x sim_ratio
+	jeffrey_divergence x simMM
+	covariance_r x d2_star
+Selected statistics:
+	correlation
+	jeffrey_divergence
+	d2_star
+	minkowski x sim_ratio
+	minkowski x simMM
+	minkowski x sim_ratio^2
+	correlation x simMM
+	jeffrey_divergence x sim_ratio
+	jeffrey_divergence x simMM
+	covariance_r x d2_star
+Finished training.
+	MAE: 0.0190721
+	MSE: 0.00079766
+Optimizing ...
+Validating ...
+	MAE: 0.0236671
+	MSE: 0.00113843
+Relaxing the threshold
+Calculating the identity scores. This step may take long time ...
+
+Finished.
+
+Thanks for using Identity. Please post any questions or problems on GitHub: 
+https://github.com/BioinformaticsToolsmith/Identity or email Dr. Hani Z. Girgis.
+
+command time -v
+
+	Command being timed: "./bin/identity -d test/keratin_small.fasta -q test/keratin_query.fasta -o output.txt -t 0.7"
+	User time (seconds): 75.30
+	System time (seconds): 9.08
+	Percent of CPU this job got: 2172%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.88
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 128988
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 3
+	Minor (reclaiming a frame) page faults: 3133167
+	Voluntary context switches: 23127
+	Involuntary context switches: 1573
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 32
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

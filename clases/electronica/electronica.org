@@ -109,6 +109,37 @@ banda doara a la derecha
 primeras 2 vandas el numero
 
 calcular potencia
+
+
+**** los diodos
+
+sirven para darle un sentido al voltaje
+
+**** condensador o capacitor
+
+material electrico que funciona como una bateria , que se carga y descarga  
+
+**** rectificador se usa para convertir de ac a de
+
+s1--- ---- 12V
+    =
+s2--- ---- 0v
+
+**** andodod y cacatododo
+
+anodo (+)
+catodo (-)
+
+¿patas?
+
+**** leds
+
+R=(vin -vled)/Iled
+
+la mescla de colores en los leds es diferente a la normal artisitica
+
+¿diferenciade tierra y de negativo?
+
 ** proyecto domotica acuario
 
 *** luces

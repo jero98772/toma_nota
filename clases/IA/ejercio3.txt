@@ -1,0 +1,51 @@
+Haga la base de conocimiento que permita describir un juego de
+futbol (tanto en lenguaje natural como en LPO), considerando
+
+lenguaje natural
+
+
+abdutivas
+
+los todos jugadores corren al arco con el balon y intentan meter el balon en el arco
+los jugadores rojos van al arco del otro color difernte al rojo 
+los jugadores azules van al arco del otro color difernte al azules
+R:/
+los jugadores intentan meter el balon en el arco diferente a su color
+
+todos los jugadores 
+
+deductivas
+jugadores azules persigue el balon
+jugadores rojos persigue el balon
+
+jugadores rojos le quitan el balon a los jugadores propio
+jugadores azules le quitan el balon a los jugadores propio
+R:/
+todos los jugadores persigen el balon para quitarselo a jugadores de otros colores
+
+induccion
+
+hechos
+jugadores azules persigue el balon
+jugadores rojos persigue el balon
+R:/
+todos los jugadores persigue el balon
+
+lpo
+#s que hace
+s=>jugadores(color,s)
+
+induccion
+jugadores(rojo,persigue el balon) ^ jugadores(azul,persigue el balon) => ∀jugadores(persigue el balon)
+
+abdutivas
+s=>jugadores(color,s)
+x=>van(colororgigen,destino)#no origen no puede ser el destino
+c=>jugadores(color,~van(color,color)^van(color,todos))
+
+jugadores(todos,corren al arco con el balon) ^ jugadores(todos,intentan meter el balon en el arco)  ^
+(color=[azul,rojo]
+jugadores(color,~van(color,color)^van(color,todos)))
+=>
+R:/
+los jugadores intentan meter el balon en el arco diferente a su color
