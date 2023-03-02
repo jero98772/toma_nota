@@ -78,3 +78,25 @@ sen(x)**2 +cos(x)**2=1
 *** derivadas
 
 dx/dy ln(x)=1/x
+
+
+*** integrales simetricas
+
+dada f(x) decimos que f(x) es par si cumple
+
+f(-x)=f(x)
+
+ejemplo f(x)=x^2 => f(-x) =(-x)^2 =x^2=f(x)
+
+si por el contrario f(x) satisface que f(-x) =f(x) se dice impar
+
+ejemplo :f(x)=x^3 => f(-x) =(-x)^3 -x^3 =f(x)
+
+
+suponga que f(x) es una funcion en el intervalo [-a,a]
+
+a si f(x) es par luego
+
+S [-a,a] f(x)dx =2 S[0,a]
+
+si f(x) es impar = S[-a,a] f(x) =0

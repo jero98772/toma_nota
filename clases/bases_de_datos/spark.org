@@ -1,0 +1,35 @@
+* spark datacamp
+useful for ml
+and gain $
+** thechinal notes
+distributed
+** code
+you frist import sparck context
+we can run sql queries in spark
+next you need spark session
+we can convert data of spark to pandas
+#+beging_src python
+
+from pyspark.context import SparkContext
+from pyspark.sql import SparkSession
+master ="localhost"
+appname="nn"
+sc=SparkContext(master,appname)
+spark = SparkSession.builder.getOrCreate()
+
+
+#+end_src
+show tables
+
+#+beging_src python
+spark.catalog.listTables()
+#+end_src
+
+run sql queryes with spark
+#+beging_src
+query="select * from table"
+spark.sql(query)
+#+end_src
+
+
+
