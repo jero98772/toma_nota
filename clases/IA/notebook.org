@@ -35,3 +35,27 @@ class model_HM(Model):
     agent=Agent_HM
 HM=model_HM()
 #+end_src
+
+
+** incertidumbre
+
+*** razonamiento estocastico
+
+*** razonamiento difuso
+
+*** reglas de bayes
+
+P(B|A)=(P(A|B)*P(B))/P(A
+
+P(causa|efecto)=P(efecto|causa)P(causa)/p(efecto)
+
+
+
+P(A|N)/P(B|N)
+
+si el resultado es <1 hay mayor posibilidad de B y si es mayor que 1 hay mayor probabilidad de A
+
+
+grafo de ocurrencias
+
+nodos una probabilidad  y los vertices una ocurrencia
