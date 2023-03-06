@@ -140,6 +140,19 @@ la mescla de colores en los leds es diferente a la normal artisitica
 
 ¿diferenciade tierra y de negativo?
 
+**** lm35
+
+sensor de temperatura analogo
+
+pull up
+
+subir el valon del pin
+
+pull down
+
+bajar el valor del pin
+
+
 ** proyecto domotica acuario
 
 *** luces
