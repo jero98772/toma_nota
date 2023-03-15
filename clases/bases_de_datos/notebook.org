@@ -113,3 +113,28 @@ paquete 1:1 <-> 1:n provincias
 robo relacion
 rectangulo entidad
 subrayado identificador
+
+
+** cambiar diagrama
+
+cambiar ejemplo por atrivutos
+
+cambiar about de la persona
+
+quitar otros
+
+eventos
+
+añadirle "descripcion"
+
+cardinalidad
+
+valor agrgado
+
+visualisaciones ,
+
+decir
+
+independencia de otras personas
+
+sistema de recomendacion para 
