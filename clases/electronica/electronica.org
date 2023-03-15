@@ -152,6 +152,25 @@ pull down
 
 bajar el valor del pin
 
+**** transistor
+
+mosfet bueno para cosas grandes
+
+bjt para cosas pequñeas
+
+tiene 3 pienes base,colector, emisor
+
+base por donde activo desactivo
+colector recibe la carga
+emisor entrga a tierra
+
+hay un voltaje minimo y maximo para activar un transistor-> voltaje de saturacion
+
+factor apñificacion
+
+β=ic/ib
+
+el mosfet no regula corriente
 
 ** proyecto domotica acuario
 

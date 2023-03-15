@@ -314,3 +314,47 @@ voltiar datos
 pΞ(pvp)
 
 pΞ(p^p)
+
+
+*** demostracion
+
+pruba directa a prueba indirecta
+
+prubea de asumsion condicional (acp)
+
+prueba de asumcion inderecta (aip)
+
+1 a v (b^c) 
+
+2 a-> c
+ tenemos que llegar a  contruir una contradiccion
+3 ~c  Aip
+
+4 ~a mt 3,2
+
+5 b^c sd 1 4
+
+6 c^b conm 5
+
+7  c simplificacion
+
+
+la aip se puede suar mas de una vez
+
+las lineas que se obtienen dentro del aip y acp  no se pueden usar fuera
+
+simpre se debe llegar a la contradiccion
+
+
+
+*** ejercio
+
+1.h->(l->k)
+2.l->(k->~l)
+:. ~h v ~l
+3 ~(~hv~l) aip 
+4 ~~h ^ ~~l dm3
+5 h ^ l dn 4(a h y l)
+6 h simp 5
+7 l simp y conmutacion 5
+
