@@ -10,6 +10,7 @@ tabla
 
 	SELECT * FROM paciente
 medicos
+
 	CREATE TABLE medico (dni TEXT PRIMARY KEY,nombre TEXT NOT NULL ,apellido TEXT NOT NULL , conatacto TEXT, campo_ocupado TEXT, revisa_A  TEXT REFERENCES paciente(dni));
 	INSERT into medico VALUES ("104","sabo","alto","404@hotmail.cc","medico_general","100")
 	
