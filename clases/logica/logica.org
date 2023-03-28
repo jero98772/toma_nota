@@ -358,3 +358,39 @@ simpre se debe llegar a la contradiccion
 6 h simp 5
 7 l simp y conmutacion 5
 
+*** ejercio presentacion 3
+
+preguntas
+volver a explicar el significado de las letras (variables) x,y,z son valores que cambian y desconocemos y a,b,c.. son valores que son fijos
+
+ls letras las podemos llamar variables
+
+que errores hay
+
+1, no cambia y por x en f(y)
+
+2, no cambia nada y deberia todas las letras
+
+3, no hay una propiedad que diga que pueda juntar 2 para todos y concluirlo como uno solo
+
+4, se pasa de una propocion a para algunos con la propiedad de EI, y debe ser alreves de un para algunos a una propocion
+
+5, el tipo de valor que recive el UG no es fijo ?
+
+6, el orden debe cambiar de
+
+1 ∃xF(x)
+2 ∃xG(x)
+3 F(e)
+4 G(e)
+
+a
+
+1 ∃xF(x)
+2 F(e)
+3 ∃xG(x)
+4 G(e)
+
+7, la conjuncion cambia todos los s , por x falta 1 
+
+8 y 9 negaciones
