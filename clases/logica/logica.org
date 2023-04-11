@@ -394,3 +394,14 @@ a
 7, la conjuncion cambia todos los s , por x falta 1 
 
 8 y 9 negaciones
+
+**** Idempotencia
+
+∀x∀x =∀x
+
+**** valides
+
+
+∀ un para todo es unificar todo con una conjuncion (y) ^
+
+∃ se une todo mediante disyunccion (o) V

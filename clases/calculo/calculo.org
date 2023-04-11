@@ -386,3 +386,19 @@ lim   fx(x+h)-f(x)
    trigonome tricas
    regla de la cadena
    logaritmos
+** funciones trigonometricas
+
+sen x = cateto opuesto / hipotenusa
+
+cos x = cateto adyacente / hipotenusa
+
+tan x = cateto opuesto / cateto adyacente
+
+
+sustitucion trigonometrica
+
+√(a²-x²) x= a sen θ , -(π/2)<=θ<=(π/2)
+
+√(a²+x²) x=a tan θ ,-(π/2)<θ<(π/2)
+
+√(x²-a²) x=a sec θ ,0<=θ(π/2) o π<=θ(3π/2)

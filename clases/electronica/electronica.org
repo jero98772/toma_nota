@@ -172,6 +172,152 @@ factor apñificacion
 
 el mosfet no regula corriente
 
+
+** repaso
+
+**** ley kirchoff
+
+**** voltajes
+
+todo voltaje se reparte en las diferents intercecciones de un cable
+
+Vac=Vab+Vbc
+
+**** corrientes
+        /--- I3
+        
+I1 ----<
+
+        \---- I2
+I1=I3+I2
+
+**** ley Ohm
+
+V=I*R
+
+**** transistores
+
+tienen collector, emisor, base
+Ic corriente collector
+B = constante aplificacin,normalmente es B=100
+Ib =correinte base
+
+Ic=B*Ib
+
+voltaje de saturacion-> esta en 2 partes diferentes
+
+VBE (normalmente 0.2V)
+
+VCE (normalmente 0.2V)
+
+el auduino entrega 5V por defecto
+
+*** ejercio
+
+12v->|-W-T--||
+   ?Rled | Rb?
+         5v
+
+led =5v
+300 mA
+
+V=I*R
+R=V/I
+Ib=V/R
+
+
+6.8v= por la ley de kirchoff =12-(5+0.2)
+
+Rled=V/I
+Rled=6.8/300mA=22.6
+
+hallar voltaje transistor
+
+5v-0.2v=4.8
+Ic=300mA
+Ic=100*Ib
+Ib=0.3/100=3000mA
+
+V/I = 4.8 /30=0.16
+
+**** resistencias
+
+**** parlelo
+
+     |
+
+   -----
+
+   |   |
+
+R2 Z   Z R1
+
+   |   |
+
+   ----
+
+     |
+
+     1/Rt =1/R1+1/R2+....
+
+**** serie
+
+
+Rt=R1+R2
+
+|
+Z R1
+|
+Z R2
+|  
+
+
+**** ejercio
+
+
+R1=100ohm
+R2=30ohm
+R3=70Ohm
+R4=50Ohm
+
+por cual resistencia pasa mas corriente
+
+-----------------
+|     Z R1      Z R2
+
+=12V  |----------|
+
+|     Z R3      | R4
+
+-----------------
+
+RT=(1/r1+1/r2)+(1/r3+1/r4)
+
+IT=(I1+I2)+(I3+I4)
+
+ley de ohm
+VT=12=(V1+V2)+(V3+V4)
+
+V1+V2=6
+V3+V4=6
+
+V=I*R
+
+I=V/R
+
+V12=6
+
+
+I1=6/100 =0.06
+
+I2=6/30 =0.2
+
+I3=6/70=0.085
+
+I4=6/50=0.12
+
+
+donde practicar, nos manda ejercios
 ** proyecto domotica acuario
 
 *** luces
