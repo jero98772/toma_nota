@@ -318,6 +318,15 @@ I4=6/50=0.12
 
 
 donde practicar, nos manda ejercios
+
+** preguntas
+
+influx db auto hostiarlo y desplegarlo,
+
+conectar a wifi con un portal cautivo
+
+esp32_wifi 
+
 ** proyecto domotica acuario
 
 *** luces

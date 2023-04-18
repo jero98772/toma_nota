@@ -84,3 +84,11 @@ coceptos a aprender
 
 
 usar whisper
+
+
+** conferencia ml
+
+manejador de versiones para datos
+
+aprovechar todas las maquinas, paralelizar y clusterisar
+
