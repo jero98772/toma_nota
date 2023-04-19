@@ -1,0 +1,2 @@
+todos los X y algunos Y
+X v va ser menor o igual que Y y 4-x es 2 o 3?  entonces la suma de x+y+z  modulo 3 mas 1 no va ser 2 o 3

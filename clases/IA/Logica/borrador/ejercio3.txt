@@ -1,0 +1,39 @@
+Haga la base de conocimiento que permita describir un juego de
+futbol (tanto en lenguaje natural como en LPO), considerando
+
+lenguaje natural
+
+hechos
+jugadores azules persigue el balon
+jugadores rojos persigue el balon
+
+jugadores rojos le quitan el balon a los jugadores azules
+jugadores azules le quitan el balon a los jugadores rojos
+los jugadores rojos y los jugadores azules compiten
+
+abdutivas
+
+los todos jugadores corren al arco con el balon y intentan meter el balon en el arco
+los jugadores rojos van al arco del otro color difernte al rojo 
+los jugadores azules van al arco del otro color difernte al azules
+
+los jugadores intentan meter el balon en el arco diferente a su color
+
+todos los jugadores 
+
+deductivas
+jugadores azules persigue el balon
+jugadores rojos persigue el balon
+
+jugadores rojos le quitan el balon a los jugadores azules
+jugadores azules le quitan el balon a los jugadores rojos
+
+todos los jugadores persigen el balon para quitarselo a jugadores de otros colores
+
+induccion
+
+hechos
+jugadores azules persigue el balon
+jugadores rojos persigue el balon
+R:/
+todos los jugadores persigue el balon
