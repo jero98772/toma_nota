@@ -1,0 +1,46 @@
+* algoritmos 100 days
+
+Competitive Programming:
+
+Sorting algorithms (e.g. quicksort, mergesort, heapsort)
+Search algorithms (e.g. binary search, depth-first search, breadth-first search)
+Dynamic programming
+Graph algorithms (e.g. Dijkstra's algorithm, Bellman-Ford algorithm, Floyd-Warshall algorithm)
+Divide and conquer algorithms
+Greedy algorithms
+Artificial Intelligence:
+
+Neural networks (e.g. convolutional neural networks, recurrent neural networks)
+Decision trees
+Random forests
+Support vector machines
+K-means clustering
+Genetic algorithms
+Bioinformatics:
+
+Dynamic programming algorithms for sequence alignment (e.g. Needleman-Wunsch algorithm, Smith-Waterman algorithm)
+Hidden Markov models
+BLAST algorithm (Basic Local Alignment Search Tool)
+Clustering algorithms (e.g. k-means clustering, hierarchical clustering)
+Phylogenetic analysis algorithms (e.g. neighbor-joining algorithm, maximum likelihood algorithm)
+Signal Processing:
+
+Fourier transform
+Wavelet transform
+Discrete cosine transform
+Filter design (e.g. Butterworth filter, Chebyshev filter)
+Spectral analysis (e.g. power spectral density estimation, periodogram)
+Telematics:
+
+Routing algorithms (e.g. Dijkstra's algorithm, Bellman-Ford algorithm)
+Congestion control algorithms (e.g. TCP congestion control)
+Network security algorithms (e.g. cryptographic algorithms, firewalls)
+QoS (Quality of Service) algorithms
+Error correction algorithms (e.g. Reed-Solomon codes, Turbo codes)
+Graph Theory:
+
+Shortest path algorithms (e.g. Dijkstra's algorithm, Bellman-Ford algorithm, Floyd-Warshall algorithm)
+Minimum spanning tree algorithms (e.g. Prim's algorithm, Kruskal's algorithm)
+Network flow algorithms (e.g. Ford-Fulkerson algorithm, Edmonds-Karp algorithm)
+Topological sorting
+Graph coloring algorithms (e.g. greedy coloring, backtracking)
