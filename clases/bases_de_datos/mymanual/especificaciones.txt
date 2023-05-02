@@ -1,0 +1,5 @@
+se hicieron cambios en el diagrama, quitando valores multiples como hobbies, ya es hobbie favorito, se quito el atributo informacion basica
+el nivel de confianza lo maneja la aplicacion con el dato ingresado por el usuario, ademas la relacion es direccional
+en la tabla decifrarme es aproposito el varchar(200) es para que la gente hable como quiera de ellos pero que no ocupen mucha memoria 
+se quito la relacion entre gustos y hobbies(ojo que hay una linea que une gustos y confianza y otra que une persona y hobbies)
+ 
