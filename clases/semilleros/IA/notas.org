@@ -92,3 +92,4 @@ manejador de versiones para datos
 
 aprovechar todas las maquinas, paralelizar y clusterisar
 
+aprende hugginface libreria python y langue change

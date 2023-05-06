@@ -115,6 +115,13 @@ rectangulo entidad
 subrayado identificador
 
 
+** funciones triggers y procedimientos
+
+funcion retorna un valor
+procedimiento procesa datos y ejecuta operaciones
+triggers -> pedasos de codigo que se ejecutan cuando hay un cambio en una tabla
+
+
 ** cambiar diagrama
 
 cambiar ejemplo por atrivutos
@@ -138,3 +145,41 @@ decir
 independencia de otras personas
 
 sistema de recomendacion para 
+
+
+** funciones sql
+
+retorne el nombre de la pelicula
+
+create function nombre_pelicula (codigo_pelicula int)
+return varchar(45)
+reads SQL DATA
+begin
+declare NOMBRE_PELICULA
+from FILM F
+where F.Film_id=codigo:pelicula
+
+returns integer begin return 1;
+end
+
+
+para llamar la funcion select nombre_pelicula(2);
+*** deterministic
+no hace consulta en la base de datos
+** crear funcion que reciva id pelicula y id del actor y returna si participo 
+
+create function 'participo' (int idpelicula, int idacto)
+reads SQL DATA
+begin
+Declare esta bool;
+declare algo int;
+select count(1)
+into algo
+from flim_actor FA
+where FA.actor=idacto and FA.flim_id =idpelicula;
+if algo=0 then
+set esta=false;
+else
+set esta=true;
+return esta;
+** trigers

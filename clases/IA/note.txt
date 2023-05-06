@@ -1,0 +1,20 @@
+1) Que problemas surgio al tokenizar y como se resolvio?
+
+la informacion no relevante, como muntuacion url, etiquetas de html,simbolos
+
+se resolvio borrando los simbolos del dataset
+
+2) Como se hizo la comparacion entre autores de Twitters
+
+Se hizo una matriz de correlacionandolos, se busco la similitud entre sus perfiles, y se observo la cantidad de palabras comunes, elon musk tiene mas palabras en comun con mas personas de este ejercio, luego se observo las palabras mas diferenciadoras entre estos personajes
+
+3) Para que sirve el modelo SVM?
+
+en este ejecio se usa para verificar la autoria de los twits, en este caso lo usamos para clasificar
+
+normalmente es utilizado para tareas de clasificación(multi clase y binaria) y regresión
+
+
+4) En que consistio el analisis de sentimiento y que se debe considerar?
+
+en combinar un dataset que tiene un valor sentimiental de (negativo)-5 a (postivo) 5 con el dataset que ya teniamos, añadiendolo a cada palabra su respectivo valor sententimental
