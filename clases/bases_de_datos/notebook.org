@@ -183,3 +183,9 @@ else
 set esta=true;
 return esta;
 ** trigers
+CREATE TRIGGER ins_sum BEFORE INSERT ON account
+       FOR EACH ROW SET @sum = @sum + NEW.amount;
+** procedimientos
+create procedure "name" (in parm1,out return 1)
+
+call 'name'
