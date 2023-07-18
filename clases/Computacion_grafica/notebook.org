@@ -1,0 +1,62 @@
+* Computacion grafica
+
+** Pacto pedagojico
+*** la clase va hacer a la antigua
+*** el que le suene el celular trae una chocolatina
+*** explicacion teorica luego practica
+
+** temario
+
+algoritmo bresemhan
+
+line clipping
+
+matematicass para Computacion grafica
+
+transformacion 2D
+
+transformacion 3D
+
+proyeciones
+
+curvas y superficies
+
+shading
+
+texturas bump mapping
+
+ray traycing 1
+
+ray traycing 2
+
+reseso
+
+examen parcial (16/10)
+
+introduccion al procesamiento de imagnes (convoluciones)
+
+examen final (30/10)
+
+** Evaluacion
+
+20% retos semanales
+
+15% parcial toerico
+
+15% entrega 1 2/10 
+ 
+25% entrega 2 en finales
+
+25% entrega 3 
+
+** clase 1
+
+uno puede poner 
+
+vector * matriz = vector
+
+solo en java y en unity
+
+** Tareas
+
+instalar unity

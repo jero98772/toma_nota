@@ -1,0 +1,78 @@
+* Fisica 2
+** temas
+interacion electrica
+interacion magenetica
+interaccion electro-magnetica
+fisca nueva
+** evaluaciones
+3 parciales  20%
+
+3 quices 5%
+
+actiividad laboratorio , lab 15% y exp 10%
+
+
+preguntas conceptuales
+
+actividad lab 1.5%
+
+problema 1 teorico conceptual
+
+problema 2 teorico ccalculo
+*** qizes
+
+de 20 mins
+
+quices los martes
+
+8 agosto
+
+12 septiembre
+
+31  octubre
+*** parciales
+
+22 agosto 
+
+26 septiembre
+
+14  noviembre
+** temas anterirores
+fuerzas
+integral
+
+fisca semanski
+** clase 1
+
+Interacion gravitacional
+
+los objetos con masas son afectados por fuerzas
+
+una particula es un modelo
+
+Fij => fuerza sobre i debido a j
+
+newton propone que entre los cuerpos/particulas con masa surgen fuerzas de atraccion []fuerza gravitacional
+
+m1           m2
+
+0 - - - - - - 0
+
+f12->      <-f21
+
+que satisfacen :
+
+1) ||f12|| es proporcional al producto m1*m2
+
+2) ||f12|| es proporcional a 1/r2
+
+3) f12 y f21 van a lo largo de la linea que conecta m1 con m2
+
+4) f12 y f21 son fuerzas de accion reaccion
+
+   f1=-f21
+
+
+resumo 1,2,3,4 en una ecuacion
+
+f12=(G*m1*m2)/r2

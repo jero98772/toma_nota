@@ -1,0 +1,81 @@
+* Estrucutras discrtetas
+
+
+** evaluaciones
+Quices Eafit intercativa 
+
+quices semanas 3,6,10,14
+parciales semanas 4,8,12,16
+
+** temas
+
+induccion matematica y recurrencia
+
+teoria de conjuntos
+
+funciones
+
+relaciones
+
+grafos
+
+** clase 1
+*** conjuntos numericos
+vamos a trabajar con
+
+ℕ naturales, se empiezan desde 0
+
+ℤ
+
+ℝ
+*** disivilidad
+
+n y d != 0
+
+d divisior
+
+n numerador
+
+existe un entero k que n= k*d
+
+si d | n entonces
+
+1) n es divisible por d
+
+2)  n es multiplo de d
+
+3)   d es factor de n
+
+4)   d es divisior de n
+
+la divisibilidad
+
+no se demuestra con un ejemplo
+** Tarea
+
+demuestre transitividad
+
+a|b y b|c => a|c
+
+a|b => a*j =b
+
+b|c => b*i = c
+
+entonces
+
+b= a*j
+
+a*j*ï = c
+
+agrupo i*j=p
+
+a*p=c
+
+a|c=p
+
+
+** recursos
+
+https://bibliotecavirtual8denovpinas.files.wordpress.com/2020/08/matematicas-discretas-con-aplicaciones-epp-4ta-edicion-2.pdf
+
+http://www1.eafit.edu.co/asr/courses/cm0246-estructuras-discretas/diapositivas/introduccion.pdf
