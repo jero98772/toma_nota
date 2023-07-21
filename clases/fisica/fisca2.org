@@ -76,3 +76,15 @@ que satisfacen :
 resumo 1,2,3,4 en una ecuacion
 
 f12=(G*m1*m2)/r2
+** laboratorio
+
+no llegar mas de 15 mins tarde a la clase
+
+no se debe consumir alimentos
+
+no hacerse solo, unirse aun equipo
+*** preguntas
+
+que es voltaje y que es amperios
+
+que es un capacitor
