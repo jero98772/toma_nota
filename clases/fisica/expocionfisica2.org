@@ -1,0 +1,53 @@
+* exposicion fisica 2
+** 1
+
+Overview of NOAA Satellites (5 minutes)
+    
+    Purpose and history of NOAA satellite program.
+    Overview of NOAA 15, NOAA 18, and NOAA 19 satellites, their orbits, sensors, and capabilities.
+    where we know is it? gpredict
+** 2
+Images as Waves (5 minutes)
+
+    Explanation of how satellite images can be represented as waves.
+    Demonstration of how wave properties convey information about the environment. (Assign to a team member)
+    https://www.goes-r.gov/featureStories/transformingEnergy.html
+** 3
+Data Acquisition Process (5 minutes)
+
+    Ground stations and their role in data acquisition.
+    Electromagnetic fields of antennas used for satellite communication.
+    Challenges and solutions for receiving data from the satellites, including buildings' impact on signal reception. (Assign to a team member)
+** 4
+Wave Polarisation, FM Stereo Wave Modulation, Noise, and Signal Loss (5 minutes)
+
+    Explanation of wave polarization and its importance in satellite data reception.
+    Introduction to FM stereo wave modulation and how it affects satellite signal transmission.
+    Discussion on noise in satellite data and its impact on image quality.
+    Explanation of signal loss and its consequences for data decoding. (Assign to a team member)
+** 5
+
+Fast Fourier Transform and Signal Decoding (5 minutes)
+
+    Introduction to Fast Fourier Transform (FFT) and its significance in signal decoding.
+    How FFT is utilized in Software-Defined Radios (SDR) to decode satellite signals. (Assign to a team member)
+    use gqrx
+** 6
+
+Data Decoding and Image Generation (5 minutes)
+    do it as normal person (audacity)
+    Demonstration of how all the acquired data is used for image generation.
+    Explanation of the decoding process using Hilbert Transforms and Fast Fourier Transform.
+    How wave properties influence the final image outcome. (Assign to a team member)
+** 7
+Hilbert Transforms and Image Decoding (5 minutes)
+
+    Introduction to Hilbert Transforms and their role in decoding satellite images.
+    How Hilbert Transforms help extract useful information from raw satellite data. (Assign to a team member)
+** 8
+Image Interpretation and Applications (5 minutes)
+
+    Examples of images obtained from NOAA satellites.
+    Importance of image interpretation in weather forecasting and environmental monitoring.
+** activity for the public
+conect the topics in order

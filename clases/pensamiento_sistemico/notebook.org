@@ -1,5 +1,34 @@
 
 * pensamiento sistemico
+
+** fechas evaluacioones
+parcial1 22 de agosto
+parcial2 17 octubre
+parcial3 21 noviembre
+
+entrega1 26 septiemb
+entrega2 21 noviembre
+
+practiva vensim
+
+juego sistemico
+
+expocion arquetipo 5 septiembre
+
+** ejemplos
+
+internet 
+proposito:
+
+-trasmitir informacion
+
+
+ciudad
+
+comercio, calles ,servicos
+
+mejorar caldiad de vida,
+
 ** tarea
  biodivercity
  web of life

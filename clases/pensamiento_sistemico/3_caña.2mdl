@@ -1,0 +1,151 @@
+{UTF-8}
+Ccapaciad de hectareas para las siembras  = A FUNCTION OF( Hectareas sembradas)
+	~	
+	~		|
+
+Coste produccion de caña  = A FUNCTION OF( )
+	~	
+	~		|
+
+Demanda atendida  = A FUNCTION OF( Produccion de azucar)
+	~	
+	~		|
+
+Demanda azucar  = A FUNCTION OF( Precio azucar)
+	~	
+	~		|
+
+demanda Sustitutos de azucar  = A FUNCTION OF( Demanda atendida)
+	~	
+	~		|
+
+Excedentes de azucar  = A FUNCTION OF( Produccion de azucar)
+	~	
+	~		|
+
+Hectareas sembradas  = A FUNCTION OF( Ccapaciad de hectareas para las siembras,Rentabilidad del sector azucaraero\
+		)
+	~	
+	~		|
+
+Incentivos  = A FUNCTION OF( Coste produccion de caña)
+	~	
+	~		|
+
+Precio azucar  = A FUNCTION OF( precio caña)
+	~	
+	~		|
+
+precio caña  = A FUNCTION OF( Coste produccion de caña)
+	~	
+	~		|
+
+Produccion de azucar  = A FUNCTION OF( Produccion de caña de azucar)
+	~	
+	~		|
+
+Produccion de caña de azucar  = A FUNCTION OF( Hectareas sembradas)
+	~	
+	~		|
+
+Rentabilidad del sector azucaraero  = A FUNCTION OF( Incentivos,Precio azucar,Produccion de azucar\
+		)
+	~	
+	~		|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 100
+	~	Month
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = 0
+	~	Month
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP 
+	~	Month [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 1
+	~	Month [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 1
+$-1--1--1,0,|12||-1--1--1|-1--1--1|-1--1--1|-1--1--1|-1--1--1|96,96,100,0
+10,1,Ccapaciad de hectareas para las siembras,106,-29,58,22,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,2,Hectareas sembradas,334,-24,42,22,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,3,1,2,1,0,45,0,0,192,0,-1--1--1,,1|(224,-66)|
+1,4,2,1,1,0,45,0,0,192,0,-1--1--1,,1|(232,26)|
+10,5,Produccion de caña de azucar,581,-32,69,22,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,6,2,5,0,0,43,0,0,192,0,-1--1--1,,1|(0,0)|
+10,7,Produccion de azucar,744,-33,54,22,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,8,Excedentes de azucar,571,111,54,22,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,9,Rentabilidad del sector azucaraero,685,109,50,22,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,10,Demanda atendida,867,108,42,22,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,11,5,7,0,0,43,0,0,192,0,-1--1--1,,1|(0,0)|
+1,12,7,8,0,0,43,0,0,192,0,-1--1--1,,1|(0,0)|
+1,13,7,9,0,0,0,0,0,192,0,-1--1--1,,1|(0,0)|
+1,14,7,10,0,0,43,0,0,192,0,-1--1--1,,1|(0,0)|
+1,15,9,2,1,0,43,0,0,192,0,-1--1--1,,1|(444,184)|
+10,16,demanda Sustitutos de azucar,928,226,54,22,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,17,Incentivos,639,230,42,22,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,18,Coste produccion de caña,514,310,54,22,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,19,10,16,0,0,45,0,0,192,0,-1--1--1,,1|(0,0)|
+1,20,17,9,0,0,43,0,0,192,0,-1--1--1,,1|(0,0)|
+1,21,18,17,0,0,45,0,0,192,0,-1--1--1,,1|(0,0)|
+10,22,precio caña,456,408,46,22,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,23,Demanda azucar,712,472,58,22,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,24,Precio azucar,606,378,54,22,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,25,18,22,1,0,45,0,0,192,0,-1--1--1,,1|(469,338)|
+1,26,22,24,0,0,43,0,0,192,0,-1--1--1,,1|(0,0)|
+1,27,24,23,0,0,45,0,0,192,0,-1--1--1,,1|(0,0)|
+1,28,24,9,1,0,43,0,0,192,0,-1--1--1,,1|(752,287)|
+12,29,0,221,-22,21,21,4,7,0,0,-1,0,0,0,0,0,0,0,0,0
+B
+12,30,0,494,46,16,16,4,7,0,0,-1,0,0,0,0,0,0,0,0,0
+B
+12,31,0,674,281,31,31,4,7,0,0,-1,0,0,0,0,0,0,0,0,0
+B
+///---\\\
+:L<%^E!@
+5:Incentivos
+19:100,0
+24:0
+25:0
+26:0
+23:0
+15:0,0,0,0,0,0
+27:0,
+34:0,
+42:0
+72:0
+73:0
+95:0
+96:0
+97:0
+77:0
+78:0
+102:1
+93:0
+94:0
+92:0
+91:0
+90:0
+87:0
+75:
+43:
+103:8,8,8,3,8
+105:0,0,0,0,0,0,0,0,0,0
+104:Courier|12||0-0-0|0-0-0|-1--1--1|0-0-255|192-192-192|-1--1--1
