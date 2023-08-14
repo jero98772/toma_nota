@@ -131,6 +131,76 @@ E2 E2=keQ/(L+x)²
 
 Distribuciones continuas de carga
 
+*** flujo campo electrico
+
+consideremos una superficie matematica S la cual se localiza wn una region del espacio en donde existe un campo electrico  E->.algunas lineas de campo electrico pasan a travez de la superficie
+
+definimos de forma diferencial el flujo del campo electrico E-> a travez de la superficie de area dA como:
+
+d(phi) :=E*n*da
+
+**** producto punto
+A*B=||A||B||Cos(x)
+
+**** esfera
+
+V=4/3*πr²
+
+dy/dr=4πr²=Ar
+
+
+*** ley de gaus
+
+consideremos una distribucion de carga electrica con carga total Q si la distrubucion de carga es "contenida"  por una superficie cerrada S (superficie gausaiana)
+
+entonces el flujo de campo electrico neto atravez de la sup cerrada es proporcional a la cantidad de carga que esta siendo encerrada por S
+
+problema 2 particulas cargadas +q y -q se localizan a una distancia R del origen determinar el flujo de campo electrico a travez de la superficie gausiana mistrada
+
+la ley de gaus dise que las lineas que salen - lineas que entran
+
+una particula con carga +q  se localiza a una distancia d con d-> 0 de un plano infinito localizado en y=0 determinar el flujo de campo electrico neto a travez del plano infinito
+
+la superficie tiene que estar cerrada para aplicar la ley de gaus
+
+el flujo del campo magnetico atravez de  un plano es proporcional a q/2*E0 cantidad de lineas
+
+problema una particula de carga +q se localiza a una distancia R de un cuadrado de r2*r2
+
+determinar el flujo de campo electrico a travez del cuadro
+
+en fisica de campos electro magneticos la ley gauss se utiliza para hallar el campo electrico de distribuciones de carga poseen un alto grado de simetria
+
+en fisica de campos electro y magenticos la ley de gauss se utiliza para hallar el campo electrico de distribucion de carga que poseen un alto grado de simetria
+
+**** distribucion, simetria,gaussiana ideal
+
+particula, (cargada,rotacion,tamaño,simetria esferica),sup esferica
+
+esferas, (cargadas,rotacion,simetria esferica),sup esferica
+
+hilos conductores infinitos,(cilindrica),sup cilidra
+
+cilindros infinitos cargados,superficie cilindrica
+
+planos infinitos cargados,planar o cartesiana ,  existrn infinitas superficiers gaussianas
+
+*** problema una esfera de radio R posee una densidad volumetrica de carga constante p determinar
+
+1)la carga neta de la esfera
+
+2) el campo electrico creado por la esfera e un punto p localizado por afuera de la esfera (r>R)
+
+3) el campo electrico creado por la esfera en un punto p localizado en el interior de la esfera (r<R)
+
+
+p= carga/volumen
+
+1) para el elemento diferencial p=dq/dv
+
+2) hallemos E-> en p para r>R y utilizando la ley de gaus
+
+   
 *** preguntas
 
 que es voltaje y que es amperios

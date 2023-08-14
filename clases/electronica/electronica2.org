@@ -1,0 +1,5 @@
+* teoria de la comutacion
+** asembler cositas
+add (adicionar al acumulador A)
+lda cargar al acumulador A
+sub substraer al acumulador

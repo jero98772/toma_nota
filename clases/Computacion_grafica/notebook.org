@@ -60,3 +60,11 @@ solo en java y en unity
 ** Tareas
 
 instalar unity
+
+
+** clase 2
+
+x=x+with/2
+y=-1*+heigth/2
+
+y para java swing
