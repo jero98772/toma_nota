@@ -51,6 +51,28 @@ si d | n entonces
 la divisibilidad
 
 no se demuestra con un ejemplo
+
+no se puede demostrar un ejemplo
+*** para el parcial
+
+no se puede partir de la igualdad para demostrar
+
+(A∩B)U(A∩B ^c)=A
+** relacion entre logica, algebra booleana y teorias de conjuntos
+
+simbolos y su equivalencia
+algerba booleana|teoria de conjuntos|logica propsicional
+-+-+-
++|∪|∨
+-+-+-
+.|∩|∧
+-+-+-
+-|ĉ|¬
+-+-+-
+0|∅|c
+-+-+-
+1|U|t
+
 ** Tarea
 
 demuestre transitividad

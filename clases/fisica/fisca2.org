@@ -19,7 +19,7 @@ actividad lab 1.5%
 problema 1 teorico conceptual
 
 problema 2 teorico ccalculo
-*** qizes
+*** quizes
 
 de 20 mins
 
@@ -200,7 +200,46 @@ p= carga/volumen
 
 2) hallemos E-> en p para r>R y utilizando la ley de gaus
 
-   
+** energia potencial electrica y potencial electrico
+
+consideremos una partucula de carga 'q la cual se mueve alrededor de una partícula de carga q siguiendo el camino trayectoria mostrada
+
+hallemos el trbajo realizado por Fe sobre q mientras q'se mueve desde a hasta b
+
+
+el trabajo no depende de la trayectoria de q' depende de la posicion inincial de ra y la psocion final de rb
+
+del teorema del trabaj y la energia potencial sea Fc una fuerza conservativa
+
+U >0 interacion de repulsion
+
+U<0 interacion de atraccion
+
+U=0 no hay interaccion
+
+**** potencial electrico(vv)
+U= (Keqq´)/r=keq/r*q'
+(vv)=q´
+
+**** ecuaciones importantes
+
+V|B  =- de rA a rB ∫E*dr
+ |A
+
+ ->
+ E =-∇V
+
+**** problema
+un plano muy grande infiniro posee una densidad de carga σ constante
+
+σ=carga/area
+
+el plano cargado se localiza en el plano x,y
+determinar el campo electrico creado por el plano
+cargado en el punto p de cordenadas x,y,z
+
+
+
 *** preguntas
 
 que es voltaje y que es amperios

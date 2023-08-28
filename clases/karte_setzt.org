@@ -1,0 +1,9 @@
+* Meine setzt karten
+** IDS
+rama de conocimiento,contador
+** MD1 ,Funktionen
+sein X und Y  zwei setzt. Ein funktion f von x nach y, repräsentiert f:X->Y ist eine bezihungen von X in y ,erflt zwei eigenschaften:
+
+(i) jede element in X ist beziengen mit etwas von Y
+
+(i)
