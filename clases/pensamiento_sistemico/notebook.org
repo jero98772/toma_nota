@@ -15,6 +15,13 @@ juego sistemico
 
 expocion arquetipo 5 septiembre
 
+** arquetipos
+1 ciclo de balance con retardo
+2.limites
+3. desplazamiento de la carga
+4. desplazamiento de la carga hacia la intervecion
+5. Escalada
+6. Éxito para quien tiene éxito
 ** ejemplos
 
 internet 
