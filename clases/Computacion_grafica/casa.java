@@ -4,6 +4,7 @@ import java.util.Scanner;
 import javax.swing.*;
 import java.awt.*;
 import java.util.*;  
+import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import math.*;
 import transformations.*;
@@ -14,6 +15,8 @@ public class casa extends JPanel {
   static ArrayList<points3> conexiones = new ArrayList<>();
   static int height=600;
   static int width=600;
+  static int centerX=0;
+  static int centerY=0;
   static Integer centrarX(Integer x,Integer w){
     return x+w/2;
   }
@@ -28,22 +31,26 @@ public class casa extends JPanel {
     return newPoint;
   }
   
-  /*@Override
+  @Override
   public void keyPressed(KeyEvent e) {
       int tecla = e.getKeyCode();
       //System.out.println("Key pressed");
       if(tecla == KeyEvent.VK_UP) {
-          ovalo1.y -= 20;
+          centerY-=20;
+          Move.makeMove(centerX, centerY, puntos);
       } else if (tecla == KeyEvent.VK_DOWN) {
-          ovalo1.y += 20;
+          centerY+= 20;
       } else if (tecla == KeyEvent.VK_RIGHT) {
-          ovalo1.x += 20;
+          centerX+= 20;
       } else if(tecla == KeyEvent.VK_LEFT) {
-          ovalo1.x -= 29;
+          centerX-= 20;
       }
       repaint();    
   }
-*/
+  @Override
+  public void keyReleased(KeyEvent e) {}
+  @Override
+  public void keyTyped(KeyEvent e) {}
 /*
 belleza harcodiada , me mueroooooo    
     @Override
