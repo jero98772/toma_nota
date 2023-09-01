@@ -1,4 +1,4 @@
- package math
+package math;
 public class Vector3{
     private int x;
     private int y;

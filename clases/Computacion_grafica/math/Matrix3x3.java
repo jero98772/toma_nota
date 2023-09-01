@@ -1,3 +1,4 @@
+package math;
  
 public class Matrix3x3 {
     private int[][] elements;

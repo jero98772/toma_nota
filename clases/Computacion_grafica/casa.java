@@ -6,7 +6,7 @@ import java.awt.*;
 import java.util.*;  
 import java.awt.event.KeyListener;
 import math.*;
-
+import transformations.*;
 
 
 public class casa extends JPanel {
@@ -87,6 +87,19 @@ belleza harcodiada , me mueroooooo
 
         
     }*/
+    static void paint(Graphics g,int panelWidth,int panelHeight){
+        for (int i=0;i<conexiones.size();i++){
+          points3 con=conexiones.get(i);
+          points3 point1=puntos.get(con.getx());
+          points3 point2=puntos.get(con.gety());
+          int x1=centrarX(point1.getx(),panelWidth);
+          int y1=centrarY(point1.gety(),panelHeight);
+          int x2=centrarX(point2.getx(),panelWidth);
+          int y2=centrarY(point2.gety(),panelHeight);
+          g.drawLine(x1,y1,x2,y2);
+        } 
+
+    }
     @Override
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
@@ -104,19 +117,9 @@ belleza harcodiada , me mueroooooo
         g.drawLine(panelWidth / 2, 0, panelWidth / 2, panelHeight);
 
         g.setColor(Color.BLACK);
-        for (int i=0;i<conexiones.size();i++){
-          //puntos[conexiones[i].getx()].getx(),puntos[conexiones[i].getx()].gety(),puntos[conexiones[i].gety()].getx(),puntos[conexiones[i].gety()].gety()
-          points3 con=conexiones.get(i);
-          points3 point1=puntos.get(con.getx());
-          points3 point2=puntos.get(con.gety());
-          int x1=centrarX(point1.getx(),panelWidth);
-          int y1=centrarY(point1.gety(),panelHeight);
-          int x2=centrarX(point2.getx(),panelWidth);
-          int y2=centrarY(point2.gety(),panelHeight);
-          //System.out.print(x1,y1,x2,y2);
-          g.drawLine(x1,y1,x2,y2);
-          //g.drawLine(puntos[conexiones[i].getx()].getx(),puntos[conexiones[i].getx()].gety(), puntos[conexiones[i].gety()].getx(),puntos[conexiones[i].gety()].gety());
-        }          
+        paint(g,panelWidth, panelHeight);
+        Move.makeMove(100, 50, puntos);
+        paint(g,panelWidth, panelHeight);
     }
     public static void main(String[] args) {
 
@@ -147,8 +150,10 @@ belleza harcodiada , me mueroooooo
           System.out.println("An error occurred.");
           e.printStackTrace();
         }
+
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.add(new casa());
+        //frame.add(new casa());
         frame.setSize(width, height);
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
