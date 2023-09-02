@@ -9,14 +9,14 @@ import java.awt.event.KeyListener;
 import math.*;
 import transformations.*;
 
-
-public class casa extends JPanel {
+public class casa extends JPanel implements KeyListener {
   static ArrayList<points3> puntos = new ArrayList<>();  
   static ArrayList<points3> conexiones = new ArrayList<>();
   static int height=600;
   static int width=600;
   static int centerX=0;
   static int centerY=0;
+  static int moveC=5;
   static Integer centrarX(Integer x,Integer w){
     return x+w/2;
   }
@@ -30,70 +30,62 @@ public class casa extends JPanel {
     points3 newPoint=new points3(newX,newY,1);
     return newPoint;
   }
-  
   @Override
-  public void keyPressed(KeyEvent e) {
-      int tecla = e.getKeyCode();
-      //System.out.println("Key pressed");
-      if(tecla == KeyEvent.VK_UP) {
-          centerY-=20;
-          Move.makeMove(centerX, centerY, puntos);
-      } else if (tecla == KeyEvent.VK_DOWN) {
-          centerY+= 20;
-      } else if (tecla == KeyEvent.VK_RIGHT) {
-          centerX+= 20;
-      } else if(tecla == KeyEvent.VK_LEFT) {
-          centerX-= 20;
-      }
-      repaint();    
-  }
-  @Override
-  public void keyReleased(KeyEvent e) {}
-  @Override
-  public void keyTyped(KeyEvent e) {}
-/*
-belleza harcodiada , me mueroooooo    
-    @Override
-    protected void paintComponent(Graphics g) {
-        super.paintComponent(g);
+public void keyPressed(KeyEvent e) {
+    int keyCode = e.getKeyCode();
+    if (keyCode == KeyEvent.VK_A) {
+        System.out.println("A");
+        // Handle left arrow key
+        Move.makeMove(-1*moveC, 0, puntos);
+        repaint(); // Repaint the panel to reflect the changes
+    } else if (keyCode == KeyEvent.VK_D) {
+        // Handle right arrow key
+        System.out.println("D");
+        Move.makeMove(moveC, 0, puntos);
+        repaint();
+    } else if (keyCode == KeyEvent.VK_W) {
+        System.out.println("W");
+        // Handle up arrow key
+        Move.makeMove(0, moveC, puntos);
+        repaint();
+    } else if (keyCode == KeyEvent.VK_S) {
+        // Handle down arrow key
+        System.out.println("S");
+        Move.makeMove(0, -1*moveC, puntos);
+        repaint();
+    }else if (keyCode == KeyEvent.VK_E){
+      System.out.println("E");
+      Rotate.makeRotation(-1, puntos);
+      repaint();
+    }else if (keyCode == KeyEvent.VK_Q){
+      //rotate
+      System.out.println("Q");
+      Rotate.makeRotation(1, puntos);
+      repaint();
+    }else if (keyCode == KeyEvent.VK_M){
+      //zoom in
+      System.out.println("M");
+      Zoom.makeZoom(1.1, puntos);
+      repaint();
 
-        int panelWidth = getWidth();
-        int panelHeight = getHeight();
+    }else if (keyCode == KeyEvent.VK_N){
+      //zoom out
+      System.out.println("N");
+      Zoom.makeZoom(0.9, puntos);
+      repaint();
+    }
+}
 
-        // Dibuja el eje X en rojo
-        g.setColor(Color.RED);
-        g.drawLine(0, panelHeight / 2, panelWidth, panelHeight / 2);
+@Override
+public void keyReleased(KeyEvent e) {
+    // Handle key release if needed
+}
 
-        // Dibuja el eje Y en verde
-        g.setColor(Color.GREEN);
-        g.drawLine(panelWidth / 2, 0, panelWidth / 2, panelHeight);
+@Override
+public void keyTyped(KeyEvent e) {
+    // Handle key typed if needed
+}
 
-  
-        // Dibuja la casita centrada
-
-        g.setColor(Color.BLACK);
-
-        g.drawLine(panelWidth / 2 - 50, panelHeight / 2- -50, panelWidth / 2 + 50, panelHeight / 2- -50);
-        g.drawLine(panelWidth / 2 - 50, panelHeight / 2 - 50, panelWidth / 2 + 50, panelHeight / 2 - 50);
-        g.drawLine(panelWidth / 2, panelHeight / 2 - 100, panelWidth / 2 + 50, panelHeight / 2 - 50);
-        g.drawLine(panelWidth / 2 - 50, panelHeight / 2 - 50, panelWidth / 2, panelHeight / 2 - 100);
-        g.drawLine(panelWidth / 2 + 50, panelHeight / 2 - 50, panelWidth / 2 + 50, panelHeight / 2 + 50);
-        g.drawLine(panelWidth / 2 - 50, panelHeight / 2 - 50, panelWidth / 2 - 50, panelHeight / 2 + 50);
-
-        // Dibuja la casita trasladada
-
-        g.setColor(Color.BLUE);
-        //mas 100 por que +100 en x
-        g.drawLine(panelWidth / 2 - 50+100, panelHeight / 2- -50-50, panelWidth / 2 + 50+100, panelHeight / 2- -50-50);
-        g.drawLine(panelWidth / 2 - 50+100, panelHeight / 2 - 50-50, panelWidth / 2 + 50+100, panelHeight / 2 - 50-50);
-        g.drawLine(panelWidth / 2 + 50+100, panelHeight / 2 - 50-50, panelWidth / 2 + 50+100, panelHeight / 2 + 50-50);
-        g.drawLine(panelWidth / 2 - 50+100, panelHeight / 2 - 50-50, panelWidth / 2 - 50+100, panelHeight / 2 + 50-50);
-        g.drawLine(panelWidth / 2 - 50+100, panelHeight / 2- -50-50, panelWidth / 2 + 50+100, panelHeight / 2- -50-50);
-        g.drawLine(panelWidth / 2 +100 , panelHeight / 2 - 100-50, panelWidth / 2 + 50+100, panelHeight / 2 - 50-50);//este
-        g.drawLine(panelWidth / 2 - 50+100, panelHeight / 2 - 50-50, panelWidth / 2+100, panelHeight / 2 - 100-50);
-
-        
-    }*/
     static void paint(Graphics g,int panelWidth,int panelHeight){
         for (int i=0;i<conexiones.size();i++){
           points3 con=conexiones.get(i);
@@ -125,8 +117,8 @@ belleza harcodiada , me mueroooooo
 
         g.setColor(Color.BLACK);
         paint(g,panelWidth, panelHeight);
-        Move.makeMove(100, 50, puntos);
-        paint(g,panelWidth, panelHeight);
+        //Move.makeMove(100, 50, puntos);
+        //paint(g,panelWidth, panelHeight);
     }
     public static void main(String[] args) {
 
@@ -159,7 +151,12 @@ belleza harcodiada , me mueroooooo
         }
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.add(new casa());
+        casa casaPanel = new casa();
+        frame.addKeyListener(casaPanel);
+        frame.setFocusable(true); 
+        frame.requestFocus(); 
+        frame.add(casaPanel);
+
         //frame.add(new casa());
         frame.setSize(width, height);
         frame.setLocationRelativeTo(null);

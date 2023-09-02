@@ -10,8 +10,8 @@ public class Move {
 			int y=dot.gety();
 			dot.setx(x + moveX);
             dot.sety(y + moveY);
-	
-
+			System.out.println(x + moveX);
+			System.out.println(y + moveY);
 		}
 		return dots;
 	}
