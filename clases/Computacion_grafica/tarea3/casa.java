@@ -65,13 +65,13 @@ public void keyPressed(KeyEvent e) {
     }else if (keyCode == KeyEvent.VK_M){
       //zoom in
       System.out.println("M");
-      Zoom.makeZoom(1.1, puntos);
+      Zoom.makeZoom(1,0, puntos);
       repaint();
 
     }else if (keyCode == KeyEvent.VK_N){
       //zoom out
       System.out.println("N");
-      Zoom.makeZoom(0.9, puntos);
+      Zoom.makeZoom(0,1, puntos);
       repaint();
     }
 }

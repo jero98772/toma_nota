@@ -238,7 +238,17 @@ el plano cargado se localiza en el plano x,y
 determinar el campo electrico creado por el plano
 cargado en el punto p de cordenadas x,y,z
 
+** campos magentico
 
+una espira (hilo condufctor cerrado se localiza en una region del espacio donde existe un campo  magentico uniforme B
+
+por la espira circula corriente electrica I en el sentido mostrado la fuerza magnetica neta que experimenta la espira
+
+campo uniforme : igual magnitud. igual direccion
+
+la fuerza magnetica sobre el elemento de longitud dL
+
+df=I*dL*B
 
 *** preguntas
 

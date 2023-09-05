@@ -6,7 +6,7 @@ public class Matrix3x3 {
         this.elements = elements;
     }
     public int getw() {
-        return elements;
+        return this.elements;
     }
     public Matrix3x3(int[][] elements) {
         if (elements.length != 3 || elements[0].length != 3) {
@@ -19,8 +19,8 @@ public class Matrix3x3 {
         return elements;
     }
 
-    public  points3 times(Matrix3x3 matrix, points3 point) {
-        int[][] matrixElements = matrix.getElements();
+    public  points3 times( points3 point) {
+        int[][] matrixElements = this.elements;//matrix.getElements();
         int x = matrixElements[0][0] * point.getx() + matrixElements[0][1] * point.gety() + matrixElements[0][2] * point.getz();
         int y = matrixElements[1][0] * point.getx() + matrixElements[1][1] * point.gety() + matrixElements[1][2] * point.getz();
         int z = matrixElements[2][0] * point.getx() + matrixElements[2][1] * point.gety() + matrixElements[2][2] * point.getz();
