@@ -107,6 +107,7 @@ public class Main extends JPanel
         po.resetVertices();
         repaint();
       }
+
     }
   
     @Override
