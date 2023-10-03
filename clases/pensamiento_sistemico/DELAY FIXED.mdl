@@ -1,0 +1,112 @@
+{UTF-8}
+receiving= DELAY FIXED (
+	shipping, shipping time, shipping)
+	~	boxes/Day
+	~		|
+
+shipments in transit= INTEG (
+	shipping-receiving,
+		shipping*shipping time)
+	~	boxes
+	~		|
+
+reference shipping rate=
+	1
+	~	boxes/Day
+	~		|
+
+shipping=
+	STEP(reference shipping rate,10)-STEP(reference shipping rate,20)
+	~	boxes/Day
+	~		|
+
+shipping time=
+	20
+	~	Day
+	~		|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 100
+	~	Day
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = 0
+	~	Day
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP
+	~	Day [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 1
+	~	Day [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 1
+$192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,100,0
+12,1,0,386,121,120,24,8,135,0,18,-1,0,0,0,-1--1--1,0-0-0,|12|B|128-0-0
+DELAY FIXED - pipeline delay with fixed time duration
+10,2,shipments in transit,383,296,46,23,3,131,0,0,0,0,0,0
+12,3,48,186,291,10,8,0,3,0,0,-1,0,0,0
+1,4,6,2,4,0,0,22,0,0,0,-1--1--1,,1|(304,293)|
+1,5,6,3,100,0,0,22,0,0,0,-1--1--1,,1|(227,293)|
+11,6,48,265,293,6,8,34,3,0,0,1,0,0,0
+10,7,shipping,265,313,27,11,40,131,0,0,-1,0,0,0
+1,8,9,2,100,0,0,22,0,0,0,-1--1--1,,1|(467,299)|
+11,9,172,511,299,6,8,34,3,0,0,1,0,0,0
+10,10,receiving,511,318,33,11,40,3,0,16,-1,0,0,0,0-0-0,0-0-0,|0|B|0-0-0
+10,11,shipping time,456,187,41,11,8,131,0,0,0,0,0,0
+1,12,11,9,1,0,0,0,0,64,0,-1--1--1,,1|(494,225)|
+1,13,7,10,1,0,0,0,0,64,0,-1--1--1,,1|(475,330)|
+1,14,11,2,1,0,0,0,0,64,1,-1--1--1,,1|(410,218)|
+10,15,reference shipping rate,192,384,41,19,8,3,0,0,-1,0,0,0
+1,16,15,7,0,0,0,0,0,64,0,-1--1--1,,1|(226,349)|
+12,17,48,625,296,10,8,0,3,0,0,-1,0,0,0
+1,18,9,17,4,0,0,22,0,64,0,-1--1--1,,1|(566,299)|
+12,20,0,850,290,187,148,3,188,0,0,1,0,0,0
+Fixed_Delay
+///---\\\
+:GRAPH Fixed_Delay
+:TITLE Fixed Delay
+:SCALE
+:VAR shipping
+:VAR receiving
+:L<%^E!@
+1:DELAY FIXED.vdf
+9:DELAY FIXED
+22:$,Dollar,Dollars,$s
+22:Hour,Hours
+22:Month,Months
+22:Person,People,Persons
+22:Unit,Units
+22:Week,Weeks
+22:Year,Years
+22:Day,Days
+15:0,0,0,0,0,0
+19:100,0
+27:0,
+34:0,
+4:Time
+5:shipping time
+35:Date
+36:YYYY-MM-DD
+37:2000
+38:1
+39:1
+40:2
+41:0
+24:0
+25:100
+26:100

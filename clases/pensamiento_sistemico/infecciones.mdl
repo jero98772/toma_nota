@@ -1,0 +1,180 @@
+{UTF-8}
+infecciones  = A FUNCTION OF( Poblaciotiblen Suseb,Tiempo infeccion)
+	~	
+	~		|
+
+Infecciones 2  = A FUNCTION OF( Personas sanas 2,Tiempo infeccion)
+	~	
+	~		|
+
+Personas sanas=
+	5+2*sin(Time*Tasas personas sanas)+ RAMP(0.1,0,100)
+	~	
+	~		|
+
+Personas sanas 2  = A FUNCTION OF( Tasas personas sanas,Time)
+	~	
+	~		|
+
+Personas sanas 3  = A FUNCTION OF( Tasas personas sanas,Time)
+	~	
+	~		|
+
+Poblacion Infectada= INTEG (
+	infecciones-Recuperaciones,
+		0)
+	~	
+	~		|
+
+Poblacion recup  = A FUNCTION OF( )
+	~	
+	~		|
+
+Poblacion recuperada= INTEG (
+	Recuperaciones,
+		0)
+	~	
+	~		|
+
+Poblaciotiblen Suseb= INTEG (
+	Personas sanas-infecciones,
+		0)
+	~	
+	~		|
+
+Recuperaciones  = A FUNCTION OF( Poblacion Infectada,Tiempo recuperacion)
+	~	
+	~		|
+
+Recuperaciones 2  = A FUNCTION OF( Infecciones 2,Tiempo recuperacion)
+	~	
+	~		|
+
+Recuperaciones 3  = A FUNCTION OF( Personas sanas 3,Tiempo infeccion y recuperacion)
+	~	
+	~		|
+
+Tasas personas sanas=
+	0.25
+	~	
+	~		|
+
+Tiempo infeccion=
+	4
+	~	
+	~		|
+
+Tiempo infeccion y recuperacion  = A FUNCTION OF( )
+	~	
+	~		|
+
+Tiempo recuperacion=
+	4
+	~	
+	~		|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 100
+	~	Month
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = 0
+	~	Month
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP 
+	~	Month [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 1
+	~	Month [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 1
+$-1--1--1,0,|12||-1--1--1|-1--1--1|-1--1--1|-1--1--1|-1--1--1|96,96,100,0
+10,1,Poblaciotiblen Suseb,275,104,58,22,3,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,2,Poblacion Infectada,506,40,42,22,3,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,3,Poblacion recuperada,687,97,42,22,3,3,0,0,-1,0,0,0,0,0,0,0,0,0
+12,4,48,40,67,10,8,0,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,5,11,4,100,0,0,22,0,192,0,-1--1--1,,1|(40,78)|
+1,6,11,1,4,0,0,22,0,192,0,-1--1--1,,1|(275,78)|
+1,7,13,1,100,0,0,22,0,192,0,-1--1--1,,1|(356,103)|
+1,8,13,2,4,0,0,22,0,192,0,-1--1--1,,1|(386,40)|
+1,9,15,2,100,0,0,22,0,192,0,-1--1--1,,1|(584,40)|
+1,10,15,3,4,0,0,22,0,192,0,-1--1--1,,1|(617,99)|
+11,11,0,133,78,8,6,33,3,0,0,1,0,0,0,0,0,0,0,0,0
+10,12,Personas sanas,133,106,58,22,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
+11,13,0,386,103,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
+10,14,infecciones,386,133,46,22,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
+11,15,0,584,99,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
+10,16,Recuperaciones,584,129,58,22,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,17,Tasas personas sanas,94,331,58,58,11,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,18,17,12,1,0,0,0,0,192,0,-1--1--1,,1|(113,241)|
+10,19,Time,278,301,26,8,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|||128-128-128,0,0,0,0,0,0
+10,20,Tiempo infeccion,414,275,42,42,11,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,21,Tiempo recuperacion,618,284,50,22,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,22,19,12,0,0,0,0,0,192,0,-1--1--1,,1|(0,0)|
+1,23,20,13,0,0,0,0,0,192,0,-1--1--1,,1|(0,0)|
+1,24,1,13,0,0,0,0,0,192,0,-1--1--1,,1|(0,0)|
+1,25,2,15,1,0,0,0,0,192,0,-1--1--1,,1|(506,71)|
+1,26,21,15,1,0,0,0,0,192,0,-1--1--1,,1|(677,206)|
+10,27,Recuperaciones 2,674,421,58,58,2,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,28,Infecciones 2,430,392,54,22,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,29,Personas sanas 2,226,392,58,22,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,30,17,29,0,0,0,0,0,192,0,-1--1--1,,1|(0,0)|
+1,31,19,29,0,0,0,0,0,192,0,-1--1--1,,1|(0,0)|
+1,32,29,28,1,0,0,0,0,192,0,-1--1--1,,1|(363,342)|
+1,33,20,28,0,0,0,0,0,192,0,-1--1--1,,1|(0,0)|
+1,34,21,27,0,0,0,0,0,192,0,-1--1--1,,1|(0,0)|
+1,35,28,27,0,0,0,0,0,192,0,-1--1--1,,1|(0,0)|
+10,36,Personas sanas 3,254,590,58,58,2,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,37,Recuperaciones 3,664,558,58,58,2,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,38,Tiempo infeccion y recuperacion,488,729,58,58,11,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,39,38,37,0,0,0,0,0,192,0,-1--1--1,,1|(0,0)|
+1,40,36,37,0,0,0,0,0,192,0,-1--1--1,,1|(0,0)|
+1,41,17,36,0,0,0,0,0,192,0,-1--1--1,,1|(0,0)|
+10,42,Time,58,563,26,8,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|||128-128-128,0,0,0,0,0,0
+1,43,42,36,0,0,0,0,0,192,0,-1--1--1,,1|(0,0)|
+///---\\\
+:L<%^E!@
+5:Personas sanas
+19:100,0
+24:0
+25:0
+26:0
+23:0
+15:0,0,0,0,0,0
+27:0,
+34:0,
+42:0
+72:0
+73:0
+95:0
+96:0
+97:0
+77:0
+78:0
+102:1
+93:0
+94:0
+92:0
+91:0
+90:0
+87:0
+75:
+43:
+103:8,8,8,3,8
+105:0,0,0,0,0,0,0,0,0,0
+104:Courier|12||0-0-0|0-0-0|-1--1--1|0-0-255|192-192-192|-1--1--1
