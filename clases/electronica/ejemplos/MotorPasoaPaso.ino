@@ -22,7 +22,7 @@ void loop() {
     cont = 0;                             // Se pone cont en cero
     while (cont < 4 && digitalRead(sw) == HIGH) // Mientras que cont sea menor a 4 y sw este encendido
     {
-      PORTA = (horario[cont]);              // Envíe al PORTA la información de la tabla de horario
+       = (horario[cont]);              // Envíe al PORTA la información de la tabla de horario
       delay(10);                             // Retardo de 100 milisegundos
       cont++;                               // Incremente la variable cont
     }
