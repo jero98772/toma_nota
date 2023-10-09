@@ -1,0 +1,98 @@
+{UTF-8}
+cambio=
+	estado del sistema*tasa cambio
+	~	unidades/Year
+	~		|
+
+estado del sistema= INTEG (
+	cambio,
+		1)
+	~	unidades
+	~		|
+
+tasa cambio=
+	0.05
+	~	1/Year
+	~		|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 100
+	~	Month
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = 0
+	~	Month
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP 
+	~	Month [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 1
+	~	Month [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 1
+$-1--1--1,0,|12||-1--1--1|-1--1--1|-1--1--1|-1--1--1|-1--1--1|96,96,110,0
+10,1,tasa cambio,535,293,53,53,11,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,2,estado del sistema,691,146,49,23,3,3,0,0,-1,0,0,0,0,0,0,0,0,0
+12,3,48,308,146,10,8,0,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,4,6,3,100,0,0,22,0,192,0,-1--1--1,,1|(396,146)|
+1,5,6,2,4,0,0,22,0,192,0,-1--1--1,,1|(564,146)|
+11,6,0,480,146,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
+10,7,cambio,480,177,43,23,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,8,1,7,1,0,0,0,0,192,0,-1--1--1,,1|(485,293)|
+1,9,2,7,1,0,0,0,0,192,0,-1--1--1,,1|(589,194)|
+///---\\\
+:L<%^E!@
+1:current.vdfx
+4:Time
+5:estado del sistema
+9:current
+19:110,0
+24:0
+25:100
+26:100
+23:0
+15:0,0,0,0,0,0
+27:0,
+34:0,
+42:1
+72:0
+73:0
+35:Date
+36:YYYY-MM-DD
+37:2000
+38:1
+39:1
+40:2
+41:0
+95:0
+96:0
+97:0
+77:0
+78:0
+102:1
+93:0
+94:0
+92:0
+91:0
+90:0
+87:0
+75:
+43:
+103:8,8,8,3,8
+105:0,0,0,0,0,0,0,0,0,0
+104:Courier|12||0-0-0|0-0-0|-1--1--1|0-0-255|192-192-192|-1--1--1

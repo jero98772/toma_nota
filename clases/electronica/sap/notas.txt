@@ -1,0 +1,16 @@
+Mar no carga los datos
+
+intruccion register pedaso pequeño para la mar, o outputregister para la mar
+
+añadir 3 señales de control independientes para la ALU , suma resta y multiplicacions
+
+
+poner que es el sap
+
+descripcion de cada modulo
+
+describir secuencias de pasos del punto 5
+
+--pomodor pedir maquetas
+
+implementar instruccion decoder y conectarlos con entradas de arduino y dependiendo de lo leido  

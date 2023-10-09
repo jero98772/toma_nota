@@ -1,3 +1,4 @@
+#include<TimerOne.h>
 #define Cp 7
 #define Ep 6
 #define Lm 5
@@ -10,21 +11,22 @@
 #define Eu 15
 #define Lb 16
 #define Lo 17
+
+
 #define LDA 13
 #define ADD 12
 #define SUB 11
+
 #define OUT 10
 #define HLT 9
 #define CLK 18
 #define CLR 19
+/*
+CE ??
+EE ??
+*/
 
-bool clockState = LOW;
-bool running = true;
-byte accumulator = 0;
-byte registerA = 0;
-byte bus = 0;
-byte memory[256]; // Memoria del SAP
-
+int COUNTER=0;
 void setup() {
   // Configurar pines como entrada/salida según corresponda
   pinMode(CLK, OUTPUT);
@@ -61,57 +63,72 @@ void setup() {
   digitalWrite(Eu, LOW);
   digitalWrite(Lb, LOW);
   digitalWrite(Lo, LOW);
-  
-  // Inicializar la memoria del SAP con datos de prueba
-  for (int i = 0; i < 256; i++) {
-    memory[i] = i;
-  }
-  
-  digitalWrite(CLR, HIGH);
-  delay(1);
-  digitalWrite(CLR, LOW);
-  delay(10);
-}
+
 
 void lda() {
-  // Instrucción LDA: Cargar datos en el acumulador desde la memoria
-  bus = memory[registerA];
-  accumulator = bus;
+  digitalWrite(Ei, HIGH);
+  digitalWrite(Lm, HIGH);
+  rSignal();
+  digitalWrite(Lm, LOW);
+  digitalWrite(Ei, LOW);
+  digitalWrite(Ce, HIGH);
+  digitalWrite(Ee, HIGH);
+  digitalWrite(La, HIGH);
+  rSignal();
+  digitalWrite(LA, LOW);
+  digitalWrite(CE, LOW);
+  digitalWrite(, LOW);
+  COUNTER++;
+  Serial.println("LDA Finish");
+
 }
 
 void add() {
-  // Instrucción ADD: Sumar el valor en la memoria al acumulador
-  bus = memory[registerA];
-  accumulator += bus;
+  //Poner en el puerto el numero de la direccion de LDB
+  digitalWrite(EI, HIGH);
+  digitalWrite(LM, HIGH);
+  rSignal();
+  digitalWrite(LM, LOW);
+  digitalWrite(EI, LOW);
+  digitalWrite(CE, HIGH);
+  digitalWrite(, HIGH);
+  digitalWrite(LB, HIGH);
+  rSignal();
+  digitalWrite(LB, LOW);
+  digitalWrite(CE, LOW);
+  digitalWrite(, LOW);
+  digitalWrite(ADD, HIGH);
+  digitalWrite(ADD, LOW);
+  digitalWrite(EU, HIGH);
+  digitalWrite(LA, HIGH);
+  rSignal();
+  digitalWrite(LA, LOW);
+  digitalWrite(EU, LOW);
+  //PC++;
 }
 
 void mul() {
-  // Instrucción MUL: Multiplicar el valor en la memoria por el acumulador
-  bus = memory[registerA];
-  accumulator *= bus;
+  digitalWrite(Ei, HIGH);
+  digitalWrite(LM, HIGH);
+  rSignal();
+  digitalWrite(LM, LOW);
+  digitalWrite(EI, LOW);
+  digitalWrite(LB, HIGH);
+  digitalWrite(CE, HIGH);
+  digitalWrite(EE, HIGH);
+  rSignal();
+  digitalWrite(LB, LOW);
+  digitalWrite(CE, LOW);
+  digitalWrite(EE, LOW);
+  digitalWrite(MUL, HIGH);
+  digitalWrite(MUL, LOW);
+  digitalWrite(EU, HIGH);
+  digitalWrite(LA, HIGH);
+  rSignal();
+  digitalWrite(LA, LOW);
+  digitalWrite(EU, LOW);
+  //PC++;
 }
-
-void call(int address) {
-  // Instrucción CALL (equivalente a GO TO): Cambiar la dirección de ejecución
-  registerA = address;
-}
-
-void sub() {
-  // Instrucción SUB: Restar el valor en la memoria al acumulador
-  bus = memory[registerA];
-  accumulator -= bus;
-}
-
-void out() {
-  // Instrucción OUT: Enviar el valor del acumulador a la salida (por ejemplo, un LED)
-  digitalWrite(OUT, accumulator);
-}
-
-void hlt() {
-  // Instrucción HLT: Detener la ejecución del programa
-  running = false;
-}
-
 
 void loop() {
   // Ciclo principal del SAP
