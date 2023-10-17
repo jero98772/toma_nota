@@ -1,18 +1,19 @@
 #include<TimerOne.h>
-#define Cp 7
-#define Ep 6
-#define Lm 5
-#define Er 4
-#define Li 20
-#define Ei 2
-#define La 8
-#define Ea 21
-#define Su 14
-#define Eu 15
-#define Lb 16
-#define Lo 17
+#define CP 7
+#define EP 6
+#define LM 5
+#define ER 4
+#define LI 20
+#define EI 2
+#define LA 8
+#define EA 21
+#define SU 14
+#define EU 15
+#define LB 16
+#define LO 17
 
 
+#define MULT 22
 #define LDA 13
 #define ADD 12
 #define SUB 11
@@ -25,8 +26,9 @@
 CE ??
 EE ??
 */
-
+bool clkState = false;
 int COUNTER=0;
+bool running=true;
 void setup() {
   // Configurar pines como entrada/salida según corresponda
   pinMode(CLK, OUTPUT);
@@ -36,48 +38,44 @@ void setup() {
   pinMode(SUB, INPUT);
   pinMode(OUT, INPUT);
 
-  pinMode(Cp, OUTPUT);
-  pinMode(Ep, OUTPUT);
-  pinMode(Lm, OUTPUT);
-  pinMode(Er, OUTPUT);
-  pinMode(Li, OUTPUT);
-  pinMode(Ei, OUTPUT);
-  pinMode(La, OUTPUT);
-  pinMode(Ea, OUTPUT);
-  pinMode(Su, OUTPUT);
-  pinMode(Eu, OUTPUT);
-  pinMode(Lb, OUTPUT);
-  pinMode(Lo, OUTPUT);
+  pinMode(CP, OUTPUT);
+  pinMode(EP, OUTPUT);
+  pinMode(LM, OUTPUT);
+  pinMode(ER, OUTPUT);
+  pinMode(LI, OUTPUT);
+  pinMode(EI, OUTPUT);
+  pinMode(LA, OUTPUT);
+  pinMode(EA, OUTPUT);
+  pinMode(SU, OUTPUT);
+  pinMode(EU, OUTPUT);
+  pinMode(LB, OUTPUT);
+  pinMode(LO, OUTPUT);
 
   // Inicializar pines a un estado bajo
   digitalWrite(CLK, LOW);
-  digitalWrite(Cp, LOW);
-  digitalWrite(Ep, LOW);
-  digitalWrite(Lm, LOW);
-  digitalWrite(Er, LOW);
-  digitalWrite(Li, LOW);
-  digitalWrite(Ei, LOW);
-  digitalWrite(La, LOW);
-  digitalWrite(Ea, LOW);
-  digitalWrite(Su, LOW);
-  digitalWrite(Eu, LOW);
-  digitalWrite(Lb, LOW);
-  digitalWrite(Lo, LOW);
-
+  digitalWrite(CP, LOW);
+  digitalWrite(EP, LOW);
+  digitalWrite(LM, LOW);
+  digitalWrite(ER, LOW);
+  digitalWrite(LI, LOW);
+  digitalWrite(EI, LOW);
+  digitalWrite(LA, LOW);
+  digitalWrite(EA, LOW);
+  digitalWrite(SU, LOW);
+  digitalWrite(EU, LOW);
+  digitalWrite(LB, LOW);
+  digitalWrite(LO, LOW);
+}
 
 void lda() {
-  digitalWrite(Ei, HIGH);
-  digitalWrite(Lm, HIGH);
+  digitalWrite(EI, HIGH);
+  digitalWrite(LM, HIGH);
   rSignal();
-  digitalWrite(Lm, LOW);
-  digitalWrite(Ei, LOW);
-  digitalWrite(Ce, HIGH);
-  digitalWrite(Ee, HIGH);
-  digitalWrite(La, HIGH);
+  digitalWrite(LM, LOW);
+  digitalWrite(EI, LOW);
+  digitalWrite(LA, HIGH);
   rSignal();
   digitalWrite(LA, LOW);
-  digitalWrite(CE, LOW);
-  digitalWrite(, LOW);
   COUNTER++;
   Serial.println("LDA Finish");
 
@@ -90,13 +88,9 @@ void add() {
   rSignal();
   digitalWrite(LM, LOW);
   digitalWrite(EI, LOW);
-  digitalWrite(CE, HIGH);
-  digitalWrite(, HIGH);
   digitalWrite(LB, HIGH);
   rSignal();
   digitalWrite(LB, LOW);
-  digitalWrite(CE, LOW);
-  digitalWrite(, LOW);
   digitalWrite(ADD, HIGH);
   digitalWrite(ADD, LOW);
   digitalWrite(EU, HIGH);
@@ -104,54 +98,127 @@ void add() {
   rSignal();
   digitalWrite(LA, LOW);
   digitalWrite(EU, LOW);
-  //PC++;
+  COUNTER++;
 }
 
-void mul() {
-  digitalWrite(Ei, HIGH);
+
+void sub() {
+  digitalWrite(EI, HIGH);
   digitalWrite(LM, HIGH);
   rSignal();
   digitalWrite(LM, LOW);
   digitalWrite(EI, LOW);
   digitalWrite(LB, HIGH);
-  digitalWrite(CE, HIGH);
-  digitalWrite(EE, HIGH);
   rSignal();
   digitalWrite(LB, LOW);
-  digitalWrite(CE, LOW);
-  digitalWrite(EE, LOW);
-  digitalWrite(MUL, HIGH);
-  digitalWrite(MUL, LOW);
+  digitalWrite(SUB, HIGH);
+  digitalWrite(SUB, LOW);
   digitalWrite(EU, HIGH);
   digitalWrite(LA, HIGH);
   rSignal();
   digitalWrite(LA, LOW);
   digitalWrite(EU, LOW);
-  //PC++;
+  COUNTER++;
+
+}
+void mul() {
+  digitalWrite(EI, HIGH);
+  digitalWrite(LM, HIGH);
+  rSignal();
+  digitalWrite(LM, LOW);
+  digitalWrite(EI, LOW);
+  digitalWrite(LB, HIGH);
+  rSignal();
+  digitalWrite(LB, LOW);
+  digitalWrite(MULT, HIGH);
+  digitalWrite(MULT, LOW);
+  digitalWrite(EU, HIGH);
+  digitalWrite(LA, HIGH);
+  rSignal();
+  digitalWrite(LA, LOW);
+  digitalWrite(EU, LOW);
+  COUNTER++;
 }
 
+void call() {  
+  digitalWrite(EI,HIGH);
+  digitalWrite(LA,HIGH);
+  rSignal();
+  digitalWrite(LA, LOW);
+  digitalWrite(EI, LOW);
+  digitalWrite(EA,HIGH);
+  digitalWrite(LI,HIGH);
+  rSignal();
+  digitalWrite(LI,LOW);
+  digitalWrite(EA,LOW);
+  COUNTER++;
+
+}
+
+void out() {
+  digitalWrite(EA, HIGH);
+  digitalWrite(LO, HIGH);
+  rSignal();
+  digitalWrite(LO, LOW);
+  rSignal();
+  digitalWrite(EA, LOW);
+  COUNTER++;
+}
+
+void clockSignal() {
+  clkState = !clkState;
+  digitalWrite(CLK, clkState);
+}
+
+void rSignal() {
+  while (digitalRead(CLK) == LOW) {
+  }
+  while (digitalRead(CLK) == HIGH) {
+  }
+}
+void hlt() {
+  while (true) {}
+}
 void loop() {
-  // Ciclo principal del SAP
-  if (running) {
-    // Ciclo de reloj del SAP
-    digitalWrite(CLK, clockState);
-    delay(100); // Ajusta la velocidad del reloj según sea necesario
-    clockState = !clockState;
-
-    if (clockState == LOW) {
-      // En el flanco descendente del reloj, realiza las operaciones necesarias
-      // Aquí puedes implementar las funciones del SAP como cargar, sumar, restar, mover datos, etc.
-      if (digitalRead(LDA) == HIGH) {
-        // Cargar datos en el acumulador desde la memoria
-        bus = memory[registerA];
-        accumulator = bus;
-      }
-      // Implementa otras funciones aquí
-
-      if (digitalRead(HLT) == HIGH) {
-        // Detener la ejecución si la señal HLT está activada
-        running = false;
-      }
-    }
+  Serial.print("PC: ");
+  Serial.println(COUNTER);
+  COUNTER++;
+  digitalWrite(LM, HIGH);
+  rSignal();
+  digitalWrite(LM, LOW);
+  digitalWrite(LI, HIGH);
+  rSignal();
+  digitalWrite(LI, LOW);
+  Serial.print("PINA: ");
+  Serial.println(COUNTER);
+  switch (COUNTER) {
+    case B00000001:
+      Serial.println("LDA");
+      lda();
+      break;
+    case B00000010:
+      Serial.println("ADD");
+      add();
+      break;
+    case B00000011:
+      Serial.println("SUB");
+      sub();
+      break;
+    case B00000101:
+      Serial.println("MUL");
+      mul();
+      break;
+    case B00000111:
+      Serial.println("OUT");
+      out();
+      break;
+    case B00001000:
+      Serial.println("CALL");
+      call();
+      break;
+    case B00001010:
+      Serial.println("HLT");
+      hlt();
+      break;
   }
 }
