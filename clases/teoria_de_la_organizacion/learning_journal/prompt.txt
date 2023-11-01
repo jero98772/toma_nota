@@ -1,0 +1,29 @@
+en base a este template:"
+ 
+Título:
+Introducción:
+
+Autor/Fuente:
+Proporcione el título, autor, publicación y fecha del material que ha leído para este informe.
+
+Resumen:
+
+    Resumen:
+    Puntos clave: 
+    Aplicaciones: 
+
+Análisis crítico:
+
+    Puntos fuertes: 
+    Limitaciones: 
+
+Relevancia para situaciones prácticas:
+
+Conclusión:
+
+" 
+
+
+has un informe de lectura de este texto:"
+
+"

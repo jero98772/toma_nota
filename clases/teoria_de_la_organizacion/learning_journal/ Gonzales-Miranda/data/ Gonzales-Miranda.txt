@@ -1,0 +1,1090 @@
+CAPÍTULO 3.
+
+PODER EN LAS ORGANIZACIONES. UNA APROXIMACIÓN A SU ESTUDIO.
+
+Diego René Gonzales -Miranda *
+
+Carmen Alejandra Ocampo -Salazar**
+
+INTRODUCCIÓN
+
+El concepto del poder es un constructo teórico y empírico esencial para el análisis
+y comprensión de los fenómenos sociales presentes en las organizaciones. Como
+tal, es un aspecto social que interviene en las estructuras organizacionales y ha
+tenido una larga trayectoria en las ciencias sociales antes de ser introducido en el
+ámbito propiamente organizacional. Así y retomando la introducción que realizan
+Mark Haugaard y Stewart Clegg (2009) en The SAGE Handbook of Power, se
+presenta una breve contextualización de su presencia en las ciencias sociales, para
+
+luego enmarcarlo en el contexto de la organización.
+
+En la antigua Grecia, concretamente en Atenas, tanto el poder legítimo como el
+
+ilegítimo! eran de gran importancia por el alcance que tenían para gobernar. Hablar
+
+* Administrador de Empresas, Universidad de Antioquia, Colombia. Magíster en Administración de
+Negocios (MBA) y Ph.D. en Administración, Universidad EAFIT, Colombia. Ph.D. en Estudios
+Organizacionales, Universidad Autónoma Metropolitana, México. Profesor de tiempo completo,
+Director del Grupo de Investigación Administración y Organizaciones, Coordinador académico del
+área de Organizaciones, Universidad EAFIT. Su actividad gira en torno al interés y preocupación
+académica orientados al estudio de las organizaciones y a los fenómenos que se inscriben en su
+interior. e-mail: dgonzal8Qeafit.edu.co.
+
+** Contadora Pública, Universidad de Antioquia. Magíster en Ciencias de la Administración y Ph.D.
+(C) Administración, Universidad EAFIT. Profesora de cátedra del Departamento de Organización y
+Gerencia de la Escuela de Administración de la Universidad EAFIT. Los temas de interés a nivel
+investigativo y profesional se orientan en el orden del discurso, las relaciones de poder y la
+construcción de subjetividad en y alrededor de las organizaciones, hay un énfasis en el estudio de
+la implementación y el desarrollo del “gobierno empresarial” en el sector público. e-mail:
+cocampo2Qeaáfit.edu.co.
+
+1 Retomando a Hindess (1996), en el pensamiento político moderno, el poder puede ser concebido
+de tres formas: a. como una capacidad que se tiene, o se carece de ella. b. como una institución
+cuya legitimización requiere el consentimiento de aquellos los cuales recae tal ejercicio. e. como un
+aspecto propio de las relaciones sociales. La connotación de lo legítimo e ilegítimo a la cual se hace
+referencia en el texto está en relación con la segunda acepción.
+de un poder legítimo permitía la existencia de un gobierno constitucional; por el
+contrario, uno ilegítimo, propiciaba la tiranía o la oligarquía. Esta diferenciación se
+vislumbra también en la obra de Nicolás Maquiavelo, El Príncipe, en donde lo
+legítimo y lo ilegítimo es relacionado con el discurso dominante del éxito y del
+fracaso. El poder es ejercido sobre los demás, y la sociedad se configura gracias a
+la dominación de aquellos que ostentan el poder y tiene la capacidad de dominar a
+
+los más débiles.
+
+Para Thomas Hobbes, el poder fluye de la sociedad hacia los individuos. El actor
+social, (aquel que ejerce el poder) construye una sociedad al otorgarles a los
+individuos que viven en ella la capacidad de tomar acciones y decisiones propias.
+Este actor cuenta con la violencia, la coerción o la restricción para ejercer su poder
+y lograr subordinar a los más débiles. En su libro, Leviatán, Hobbes explica que la
+sociedad es la sumatoria de los individuos que dirigen y constituyen el poder. Max
+Weber por su lado, relaciona el poder directamente con la autoridad y la coerción,
+en donde el poder puede ser legítimo o puede ser ejercido por medio de amenazas
+
+y violencia.
+
+Las diadas: legitimidad-ilegitimidad, coerción-autoridad, poder colectivo-poder
+individual, poder como autonomía-poder como restricción, muestran los diferentes
+aspectos del poder que han evolucionado en las ciencias sociales. Desde la filosofía
+política, por ejemplo, el poder es comprendido en términos normativos. La ciencia
+política y la sociología política en cambio, estaban más inclinadas a definir el poder
+en términos empíricos, mostrando lo que se ha hecho en vez de quedarse en la
+mera norma (lo que se debe hacer). Se podría afirmar que hay una cierta tendencia
+
+dentro de las ciencias sociales a subrayar el aspecto normativo del poder.
+
+Luego de la Segunda Guerra Mundial (1939-1945), el poder fue visto como la
+capacidad de ejercer dominio (o poder de) promovido por las obras de Hannah
+Arendt, Parsons y Bares. Para estos pensadores, el tema del poder es opuesto al
+tema de la coerción y la violencia, convirtiéndose en un prerrequisito para gobernar.
+
+El punto de vista hobbesiano concibe el poder como la dominación ejercida por los
+
+2
+individuos, aspecto que es reformulado por Robert Dahl (1957, 1961, 2006), Peter
+Bachrach y Morton Baratz (1962, 1963, 1970) y Steven Lukes (1974, 1977, 1986,
+2005). Por su parte, Foucault (1977) adopta las teorías de poder propuestas por
+Maquiavelo y Nietzsche, en donde conciben el poder como un fenómeno sistemático
+
+que es constitutivo de la realidad social.
+
+Esta variedad de concepciones acerca del poder resalta la complejidad del término
+en sí mismo, destacando la gran variedad de definiciones y aproximaciones que se
+tienen de él. Sin embargo, el concepto de poder está fuertemente ligado a la idea
+de coerción, aspecto que se ha venido dejando de lado en la literatura académica
+para optar por aproximaciones más sistémicas e inclusivas. Así, las disímiles
+aproximaciones al concepto de poder expresan diversos aspectos de la vida en
+
+sociedad y por lo mismo del mundo organizacional.
+
+Dentro del ámbito propiamente administrativo y organizacional, el poder fue visto
+(en un primer momento por los teóricos clásicos de comienzos del s. XX) como un
+instrumento mediático en la administración del personal, en donde el manager es el
+que tiene la autoridad para ordenar, mientras que el obrero se especializó en
+obedecer y acatar órdenes (Clegg, 2009). En este sentido, el poder estaba
+relacionado con la estructura organizacional en donde se debía de obedecer una
+gran cantidad de normas técnicas. El puesto de trabajo con mayor jerarquía estaba
+asociado al dominio de las normas y a una mayor capacidad, conocimiento y
+experiencia en los sistemas de producción. El poder se derivaba entonces de la
+propiedad y el control de los medios de producción.
+
+Weber (2008) reconoció que el poder se deriva de la propiedad y el control de los
+medios de producción, pero argumentó que no se reducía exclusivamente a las
+categorías dicotómicas de la propiedad y no propiedad de los medios de producción,
+según lo propuesto por Marx. Desde la perspectiva de Weber, el poder también se
+deriva del conocimiento de las operaciones tanto como de la propiedad. Las
+organizaciones podían ser diferenciadas en términos de la capacidad de las
+
+personas para controlar los métodos de producción, influenciados por las relaciones
+
+3
+técnicas de producción. Esta aproximación permite integrar las diversas identidades
+profesionales de las cuales surgió la vida subjetiva del mundo de la organización.
+Weber hizo hincapié en las formas de identificación y representación de los
+
+miembros de la organización.
+
+Desde el punto de vista del management, el trabajador representa un capital
+humano. Es por ello que la Administración se ha centrado en las capacidades
+potenciales que tienen los individuos para el trabajo. Reducir la brecha existente
+entre la capacidad de trabajo y la realización efectiva es posible gracias al uso del
+poder y el control que se ejerce sobre el individuo. Esta diferencia es la base de
+algunas tradiciones marxistas de análisis, concretamente de la alienación.
+Últimamente se está poniendo mucho énfasis no tanto en el control externo por
+parte de la organización, sino en la propia auto-disciplina y en la regulación de las
+relaciones laborales a través del diseño de la estructura formal, que no es otra cosa
+que el establecimiento de una jerarquía que se circunscribe al poder legítimo (Clegg
+y Hardy, 1996). Es por ello que el poder legítimo ha tenido una amplia aceptación
+
+dentro del ámbito administrativo, y ha sido visto como propio del ejercicio del poder.
+
+El poder ha sido tradicionalmente considerado como la capacidad de conseguir que
+otro haga lo que otro quiere (Weber, 2008); o para que otro haga algo que de otro
+modo no lo haría (Dahl, 1957). Esto ha sido motivo de múltiples discusiones y
+críticas representadas básicamente en dos corrientes: la funcionalista y la crítica.
+La primera centrada en las relaciones entre los individuos, y la segunda, en la
+estructura que incide en su comportamiento. Esto, a su vez, ha propiciado una
+manera de entender a la organización a partir de la concepción del ejercicio del
+
+poder.
+
+El objetivo de este capítulo es presentar al lector un panorama general del ejercicio
+del poder en las organizaciones analizando y discutiendo aspectos como su
+conceptualización, las perspectivas de aproximación a su estudio, sus fuentes y sus
+dimensiones. El público al que se dirige este documento son aquellos estudiantes
+de pregrado y posgrado que inician su formación en el estudio del poder en las
+
+4
+organizaciones, así como académicos que quieran tener una perspectiva general
+de esta temática desde el punto de vista organizacional. Es por ello que se ha
+buscado presentar una primera aproximación a este tema, dejando temas y
+preguntas a ser desarrolladas con una mayor profundidad en otros espacios. Gran
+parte de lo que aquí se presenta es fruto de la discusión en clase con estudiantes y
+colegas, espacios privilegiado en donde el mundo de las ideas cobra vida y propicia
+inquietudes y preguntas, fuentes de todo conocimiento. Asimismo, lo propuesto está
+sujeto al debate y a la discusión como una oportunidad para abrir el diálogo en este
+importante tema para el gobierno de las organizaciones. A su vez, se ha realizado
+una serie de reflexiones y consideraciones prácticas del ejercicio del poder
+buscando con ello dar una mayor claridad al lector sobre sus alcances y
+
+consecuencias.
+
+Por consiguiente, este capítulo se divide de la siguiente manera. En una primera
+sección, se discuten algunas de las definiciones del poder poniendo énfasis en la
+propuesta de R. Dahl. En la segunda sección, se presentan dos perspectivas en el
+estudio del poder. En la tercera sección, se explican las fuentes de poder mientras
+que en la cuarta sección, se exponen las dimensiones del poder. El capítulo finaliza
+con una reflexión sobre las implicaciones éticas y prácticas que conlleva el ejercicio
+
+del poder para quien hace uso de él en un contexto organizacional.
+
+1. CONSIDERACIONES EN TORNO A LA DEFINICIÓN DE PODER
+
+1.1.Definiciones de poder
+
+Definir poder es un asunto complejo. No puede ser observado como tal, sino que se
+determina con el cambio de comportamiento del individuo. En ese sentido, acotar la
+conceptualización del poder no es una tarea sencilla, ni es el objetivo de este
+capítulo cerrar las controversias y discusiones que este ejercicio ha propiciado en
+las ciencias sociales y en las organizaciones. Se presentan una serie de definiciones
+
+de los autores más representativos para mostrar los distintos puntos de vista, y
+subrayar con ello los diversos matices que este término ha tenido en el análisis
+
+organizacional.
+
+Para ello se retoman las conceptualizaciones que sobre este término ha realizado
+
+De la Rosa (2007, p. 13). El autor presenta las siguientes definiciones de poder:
+
+Tabla 1. Conceptos de poder
+
+Autor Definición de poder
+
+“Probabilidad de imponer la propia voluntad, dentro de una relación social, aun contra
+Weber (1992: 43) . . . “
+toda resistencia y cualquiera que sea el fundamento de esa probabilidad”.
+
+“A tiene poder sobre B en la medida que A puede conseguir que B haga algo que no
+Dahl (1997: 158-159)
+haría de otra manera”.
+
+“... en la medida en que una persona o un grupo —consciente o inconscientemente—
+Bachrach y Baratz
+
+crea o refuerza barreras al aireamiento de los conflictos políticos públicos, esa
+(1962: 949)
+
+persona o grupo tiene poder”.
+
+“A ejerce poder sobre B cuando A afecta a B en sentido contrario a los intereses de
+Lukes (1985: 29)
+
+B”.
+Foucault (1989: 25- | “Conjunto de acciones que se inducen y que se responden unas a otras... Un conjunto
+30) de acciones sobre acciones posibles”.
+Poulantzas (1992:
+
+1aa “Capacidad de una clase social para realizar sus intereses objetivos específicos”.
+
+. “El poder de A sobre B corresponde a la capacidad de A para imponer sobre B
+Crozier (1995: 9) . . .
+términos de intercambio que son favorables a A”.
+
+Friedberg (1997: | “Intercambio desequilibrado de posibilidades de acción, es decir, de
+
+123) comportamientos entre un conjunto de actores individuales y/o colectivos”.
+
+Fuente: De la Rosa (2007, p. 13).
+
+En correspondencia con estos conceptos, las relaciones de poder implican un
+procedimiento racional en donde las acciones propician un cambio de
+comportamiento de quien acata las disposiciones, fruto de la existencia de ciertos
+accesos o fuentes de poder que permiten forzar el comportamiento deseado en el
+
+otro. Bien se podría afirmar entonces que el ejercicio del poder responde a una
+racionalidad instrumental?, dado que se ejerce para cumplir los objetivos
+
+particulares, y en ese sentido, hay una adecuación de fines a medios.
+
+No es intención en este capítulo plantear una única definición de poder, sin
+embargo, es pertinente esbozar una propuesta. El poder es una relación
+interpersonal (o intergrupal) en medio de la cual un individuo (o grupo) puede
+provocar que otro individuo (o grupo) lleve a cabo una acción que de otra manera
+no realizaría (López y Gonzales-Miranda, 2010). El poder busca que una persona
+modifique su comportamiento o conducta. En la mayoría de las situaciones se habla
+de una fuerza implícita, no de una fuerza real. Así, el sujeto A tiene poder sobre un
+sujeto B si este cree que el primero puede forzarlo a él a cumplir los deseos de
+
+aquel.
+
+1.2. Consideraciones a la definición de poder de Robert Dahl
+
+Una definición de poder ampliamente utilizada dentro del ámbito de los estudios de
+la organización, es la de Robert Dahl (1957) la cual afirma lo siguiente: “A tiene
+poder sobre B en la medida en que puede conseguir que B haga algo que no haría
+de otra manera” (pp. 202-203). Dicha definición no está exenta de controversias y
+críticas, dada la connotación negativa que se le subyace y la incertidumbre por no
+saber lo que B haría (Ailon, 2006).
+
+Al respecto Clegg y Hardy (1999) comentan:
+
+Esta definición aparentemente simple, que presenta aspectos más negativos que
+
+positivos del poder, ha sido cuestionada, modificada, criticada, difundida y rechazada a
+
+? La construcción de la categoría de razón instrumental se abre camino en el periodo de la llustración.
+Max Horkheimer y Theodor Adorno ubican que es en el momento de exaltación de la razón, cuando
+comienza un proceso que lleva a presentarla con independencia, subjetivación y pragmatismo. El
+concepto razón instrumental parte de la crítica que realiza Horkheimer (2002) a la sociedad
+capitalista, ya que, siguiendo el discurso de Carlos Marx, ve dentro de dicha sociedad el germen del
+individualismo, del poder exacerbado, del interés por lo material y, en general, de un carácter de
+dominio frente a la naturaleza y la humanidad.
+lo largo de los años, pero, sin embargo, sigue siendo el punto de partida de un notable
+
+cuerpo diverso de la literatura. (p. 369).
+
+a.
+
+b.
+
+Ejercicio. El poder es una acción que busca un cambio de conducta en el otro.
+Dada esta característica, el poder se manifiesta porque el otro cambia un
+comportamiento en específico. Así, el poder cobra realidad y en ese sentido
+puede ser estudiado gracias a su ejercicio como tal. Comúnmente se afirma que
+se tiene poder, pero el poder no es un bien que se pueda poseer, sino que se
+ejerce, ya que su posesión implica su ejercicio. Junto con ello, en una relación
+de poder, es recomendable y Dahl lo facilita en su definición, preguntarse quién
+es A y quien es B. Si bien estos roles pueden trastocarse, un criterio válido para
+diferenciarlos será identificar quién tiene la iniciativa de cambiar el
+comportamiento del otro. Esto es importante para poder identificar A y B, y con
+
+ello, realizar el análisis respectivo de las relaciones de poder.
+
+Alteridad. Dado que el poder es un ejercicio que busca una modificación de la
+conducta de otro, se requiere necesariamente la presencia del otro. Así, el poder
+es un ejercicio netamente social, en la medida que la acción y su objeto está por
+fuera del individuo que lo ejerce y lo practica. En ese sentido, la alteridad es una
+
+dimensión propia del ejercicio del poder.
+
+Resistencia. Otra manera de definir poder es la siguiente: el poder del actor A
+sobre el actor B es la cantidad de resistencia por parte de B que puede ser
+potencialmente vencida por A (Clegg, 1989). En otras palabras, la resistencia es
+la acción en contra del acto o ejercicio del poder, que bien podría ser entendida
+como una acción de poder en contrasentido. En el ejercicio del poder lo individual
+tiene una participación activa ya que el sujeto realiza una reflexividad como
+aspecto característico de la resistencia previa a cambiar de conducta o dejarse
+someter por el poder manifiesto, vale decir, la resistencia se opone al ejercicio
+del poder, a la vez que puede entenderse como un ejercicio de poder en sí
+mismo. El poder se manifiesta en la capacidad de vencer la resistencia de B. En
+este sentido, la perspectiva de poder está en estrecha relación con la resistencia,
+en donde cualitativamente no habría diferencia, ya que esta es una parte integral
+del poder (Thomas y Davis, 2005; Fleming y Spicer, 2003). El ejercicio del poder
+busca doblegar la voluntad del otro. A tiene que ejercer una fuerza sobre B capaz
+de quebrar su resistencia. Al momento de lograr que B realice lo que A desea, a
+pesar de no querer hacerlo (expresado en dicha resistencia), se podrá afirmar
+que Atiene poder sobre B. En consecuencia, la resistencia es inherente al poder;
+
+sin ella, el poder no existiría.
+
+d. Conflicto. La resistencia es un elemento propio del ejercicio del poder, vencerla
+es un asunto necesario para el perfeccionamiento de la acción de poder. Esta
+situación puede terminar en conflicto. El conflicto no es más que la percepción
+de que el otro puede atentar contra los propios intereses. De esta manera, el
+otro, al ver amenazados sus propios intereses considera a su otrora contrincante
+como un potencial enemigo. La resistencia se convierte en el espacio previo para
+el surgimiento del conflicto. Al darse esta situación de suspicacia y desconfianza
+por parte de una de las partes, la resistencia logra dar un paso y se convierte en
+conflicto. Así, el conflicto termina por desestabilizar la relación laboral que se
+tenía, quebrándola, lo cual propicia a su vez, que alguna de las partes pueda
+terminar con la relación laboral que se tenía. Si bien vale la pena enfatizar que
+no necesariamente la relación entre A y B terminará por romperse, dicha relación
+
+estará delineada por matices y referentes distintos a los del inicio. Así, y en caso
+
+3 Este concepto expresa, en este contexto, la relación entre el trabajo y el capital dentro del proceso
+productivo. El individuo aporta el trabajo (trabajador) a cambio de una retribución por parte de quien
+tiene aporta el capital o lo representa (empleador). Normalmente esta relación se formaliza gracias
+a un contrato de trabajo en el cual se establecen las funciones, parámetros, sanciones, y en general
+las condiciones, normas y compromisos de cumplimento de ambas partes.
+la relación se sostenga, y por lo mismo el quiebre se vuelva a sellar, no será de
+
+la misma manera que el construido al inicio de la relación laboral.
+
+Bidireccionaldad. Si bien A ejerce poder sobre B al vencer su resistencia, B
+también ejerce un poder sobre A, pero no en la misma magnitud que A. B ejerce
+un poder sobre A por el solo hecho de que A necesita de B. En ese sentido, no
+es una relación unidireccional sino que la influencia de B al ejercer resistencia
+obliga a modificar la conducta de A, a pesar de que este último logre vencerla.
+Existe entonces una pugna tensionante en donde las fuerzas entre ambos se
+ponen a prueba. En ese sentido, el ejercicio del poder no está exento de
+condicionantes que los contendores utilizan para intervenir en la conducta del
+otro*. Al respecto Clegg (2009) afirma que la práctica del poder concierne no
+sólo la imposición directiva de quien ordena, sino también, la conducta de quien
+
+ostenta tal posibilidad.
+
+Límites. El ejercicio del poder tiene límites. El vencimiento de la resistencia por
+parte de B estará sujeta y condicionada a que las acciones que se les pida
+cambiar o hacer no vayan en contra de sus propios intereses. Si ocurre lo
+contrario, B se negará a modificar su conducta, dando pie a que la relación
+
+laboral se quiebre, y B ya no tenga por qué cambiar la conducta que A le exige.
+
+Cálculo político o estratégico. Las anteriores características permiten reflexionar
+sobre las consecuencias del ejercicio de poder de A. B ejerce un poder sobre A
+en distinta medida que A. Sin embargo, A tiene que considerar las
+
+consecuencias de quebrar la resistencia de B. Un mal cálculo o consideración
+
+* Al respecto Haugaard (2009), plantea que el problema fundamental de una visión radical (Lukes,
+2007) era la concepción del poder basado en la hegemonía la cual se expresa en la siguiente
+pregunta: ¿Por qué los agentes subordinados deciden autorizar a aquellos que tiene el poder para
+que lo ejerzan sobre ellos? Se puede decir que esta pregunta se la han estado haciendo durante los
+últimos 30 años los estudiosos del tema. Los teóricos le encuentran una posible respuesta en la que
+concluyen que por lo general los intereses de las personas subordinadas no son claras, en cambio
+aquellos que los subordinan si son capaces de determinar cuáles son el interés de la población.
+
+10
+de sus acciones llevaría a que en un futuro B opte por algún tipo de represalia,
+
+o llevar a que B quiebre la relación laboral que tenga con A.
+
+h. Acción eficiente. El ejercicio del poder al buscar un cambio en el comportamiento
+de B, permite resolver situaciones de disputa al ordenar y disponer de las
+conductas de los contendores. En ese sentido, bien se podría argumentar que
+el ejercicio de poder propicia una gestión eficiente, que no significa que sea
+correcta, al orientar las acciones de los individuos a cumplir los objetivos que A
+considera relevantes y necesarios para los intereses de la organización. Esto
+
+tampoco quiere decir que no estén influenciados por los propios.
+
+Los elementos aquí discutidos a partir de la definición de Dahl, permiten realizar una
+serie de reflexiones en los ámbitos administrativo y organizacional. El primero de
+ellos, no explicitado en los párrafos anteriores es que la presencia de la resistencia
+como dinámica connatural al ejercicio del poder exige por parte de quien la ejerce
+cierta predisposición para afrontar situaciones tensionantes propias del ejercicio de
+poder de A. En ese sentido, se podría sostener que parte de las habilidades
+gerenciales pasan necesariamente por el consentimiento de la resistencia en el
+proceso mismo de gestión.
+
+Un segundo aspecto es que no basta con que A tenga acceso al manejo de los
+recursos para hacer que B haga algo que de otro modo no haría (pacto psicológico),
+sino que dicha posibilidad implica la presencia de una serie de habilidades y
+capacidades que puedan sostenerse en el tiempo para que la relación de
+subordinación pueda mantenerse y no caer en una rebeldía, y por lo mismo, sea
+una gestión que implique un desgaste continuo al tener que estar negociando
+
+constantemente el cambio de conducta de B cuando se le pida.
+
+Un tercer aspecto es que el ejercicio de poder no tiene una categoría moral que se
+le permita calificar como bueno o malo per se, es decir, el ejercicio y uso del poder
+para el gobierno de las organizaciones es algo necesario que es neutro en cuanto
+
+la existencia de esta capacidad y posibilidad para cambiar la conducta del otro. Las
+
+11
+consecuencias de dichas acciones, dependiendo de los resultados y sus
+implicancias para la vida de las personas y de la organización, podrán ser juzgadas
+a posteriori bajo estos parámetros, más no el hecho de optar por el poder como
+instrumento de gestión. Esto invita a dejar de lado cierta connotación negativa y
+
+maligna en relación al uso del poder.
+
+Al tener en cuenta estas consideraciones, el poder deja de tener una connotación
+fundamentada sólo en una jerarquía y permite un análisis por fuera de la estructura
+netamente formal y legítima. En ese sentido, el análisis a partir del ejercicio del
+poder, y con ello de las fuentes de poder (aspecto que se presenta a continuación)
+y de la resistencia posibilita una comprensión de los aspectos informales de la
+organización, y de las estructuras jerárquicas ocultas fruto de las dinámicas sociales
+
+presentes en toda organización.
+
+2. PERSPECTIVAS DE ESTUDIO DEL PODER
+
+En el ámbito organizacional el poder se ha estudiado básicamente desde dos
+enfoques. Por un lado, aquellos que entienden el poder como el resultado de una
+acción e interacción entre los individuos de una organización (acción); y por otro
+lado, aquellos que promulgan la existencia de una dominación estructural que limita
+y coacciona la acción de los individuos (estructura). Esta discusión, iniciada en la
+década de los sesenta permite comprender la consolidación de dos perspectivas
+para el estudio del poder, la funcionalista o la mirada relacional de este concepto, y
+la crítica, que concibe el poder a partir de la existencia de una dominación
+
+estructural. A continuación se explican cada una de ellas:
+
+2.1.Perspectiva funcionalista del estudio poder
+
+La perspectiva funcionalista se ampara en la tradición weberiana del poder, en
+donde se hace hincapié en el aspecto propiamente relacional: el poder es un modelo
+de interacción e intercambio entre los individuos o grupos. El individuo (o grupo) no
+se encuentra sometido por el sistema, pero está determinado por las relaciones que
+
+12
+tiene con otros individuos (0 grupos) por lo que el poder sólo podrá ser estudiado
+
+en su ejercicio.
+
+Para Ruiz (2004)> esta perspectiva, predominante en Estados Unidos, tenía una
+connotación integral y no conflictiva de la organización, con un énfasis puesto en
+los conceptos de equilibrio y estabilidad, considerando los desequilibrios como
+disfunciones temporales. Lo que se buscaba era un principio de equifinalidad y
+equilibrio, por lo que el conflicto no podía ser considerado un asunto recurrente sino
+una contingencia ya que la organización era concebida como un conjunto
+coordinado y homogéneo de acciones. Para este autor, esta aproximación a la
+organización impidió el surgimiento de la noción de poder como un tema de interés
+
+para los teóricos de la organización norteamericanos”.
+
+Esto propició la enseñanza de técnicas que buscaban alcanzar objetivos específicos
+de eficiencia y obtención de beneficios. Derivado de lo anterior, la racionalidad y los
+modelos para la toma de decisiones eran importantes ya que impulsaban la no
+existencia de ganadores o perdedores en una lucha de poder, sino la consecución
+de objetivos comunes para el provecho en conjunto de la organización. “En el fondo,
+entre líneas se esconde el deseo de mantener el statu quo frente a las
+reivindicaciones de los trabajadores o de los accionistas o, simplemente, para
+enfrentar las disputas internas de la organización” (Ruiz, 2004, p. 27).
+
+La perspectiva funcionalista está representada básicamente por Max Weber y
+Talcott Parsons. Las ideas de Weber sirvieron para explicar la noción de autoridad
+en la organización ya que para él, esta expresaba un tipo de burocracia ideal y
+racional cuyo objetivo era aumentar la productividad gracias a la eficiencia y a la
+
+racionalización de los procesos productivos, amparada en la jerarquía y en la
+
+5 Gran parte de las ideas de las perspectivas en el estudio del poder en este apartado son tomadas
+del trabajo de este autor.
+
+S Al respecto se puede revisar Pfeffer (1982) quien explica el abandono del concepto de poder en las
+teorías de la organización en Estados Unidos. Ruiz (2004) propone a su vez tres razones: a. La
+concepción integral y no conflictiva de la organización. b. Un sesgo ideológico seguido por un
+conjunto de valores y c. La ausencia de un análisis del poder en la bibliografía sobre las teorías de
+la organización en Estados Unidos.
+
+13
+división del trabajo. Para Parsons, en cambio, la organización es concebida como
+un sistema social compuesto por subsistemas, por lo que la realidad es un complejo
+modelo de sistemas interdependientes. El funcionalismo tomó de Parsons el estudio
+de la redistribución y el intercambio de recursos como razón primigenia para la
+existencia de las relaciones de poder. En resumen, los funcionalistas retomaron de
+Weber la idea de una organización que funcionaba de manera racional según las
+reglas, una estructura jerárquica y una autoridad que la hacía eficaz; de Parsons,
+retomaron la idea de un poder determinado por la movilización de recursos para
+
+cumplir con los objetivos organizacionales.
+
+Ruiz (2004) identifica las siguientes tres etapas en este proceso de movilización de
+
+recursos:
+
+2.1.1. Primera etapa (1963-1969). El nacimiento de la noción de actor estratégico.
+
+La noción de poder en las teorías de la organización inició con el concepto de actor
+estratégico, creada por Michel Crozier en su libro El fenómeno burocrático. Para
+Crozier, la noción de análisis estratégico se basaba en dos componentes: la
+autonomía relativa de los miembros de una organización, y el juego político propio
+de los juegos organizados. Así, el individuo se considera un actor estratégico que
+negocia y se alía con otros para cumplir con sus objetivos personales. Esto sugiere
+que la organización puede tener resultados disfuncionales en tanto los miembros no
+consiguen cumplir sus objetivos, permitiéndoles negociar sus acciones con otros
+
+individuos dado el margen de libertad que poseen.
+
+Así, el poder es el resultado del margen de libertad de aceptar o rechazar lo que
+cada individuo de la organización pretende, movilizando los recursos que posee de
+acuerdo a los fines que pretende alcanzar. El poder emana del hecho de disponer
+y controlar los recursos que son catalogados como necesarios. Los estudios de
+Crozier constataron la existencia inequitativa de estos recursos y la atomización del
+poder en la organización. Es por ello que se puede afirmar que no existe una sola
+
+racionalidad de la organización, ni tampoco una sola cabeza que dirija, ya que
+
+14
+aparecen distintos actores con diversas cuotas de poder, a la vez que diversos y
+divergentes intereses y objetivos de los individuos son negociados y ajustados
+
+constantemente.
+
+2.1.2. La segunda etapa (1970-1979). Las organizaciones analizadas como arenas
+
+políticas.
+
+Desde finales de los sesenta y principios de los ochenta, los nuevos estudios sobre
+el poder concibieron a la organización como una arena en donde diferentes actores
+se resisten, conspiran, conjuran, coaligan, negocian y dominan, abandonando la
+idea de la organización en función de la coordinación y la eficacia. Para Ruiz (2004)
+fue en Gran Bretaña en donde se da inicio a los debates acerca de los modelos
+pluralistas y unitarios. En el primero, la organización es una arena de conflictos y
+negociaciones; en el segundo modelo, las organizaciones son homogéneas y son
+concebidas como sistemas unitarios. López y Gonzales-Miranda (2010) definen los
+modelos como visiones y los llaman unitaria y radical, a pesar que coinciden en su
+
+significado.
+
+Desde la visión unitaria:
+
+Predica una concepción de la organización como un espacio en el cual los esfuerzos y
+las intenciones se unen en pos de unos propósitos comunes; dicha tradición ostenta la
+idea de una visión compartida que, a la manera de un “faro en el horizonte”, guía las
+acciones de grupos que, de forma mancomunada y articulada, trabajan para la
+consecución de “objetivos comunes”, bajo la orientación de unos valores aceptados y
+
+acogidos por los miembros de la organización (p. 210).
+
+Desde la visión radical:
+
+La organización es concebida como una arena política, conformada por oponentes que
+juegan por fines mutuamente excluyentes, que se enfrentan entre sí haciendo uso de
+los recursos de poder de los cuales disponen en un determinado momento, para
+
+satisfacer apetencias particulares o de individuos aliados entre sí en coaliciones de
+
+15
+intereses comunes, que distan en mayor o menor medida de los propósitos
+
+organizacionales declarados formalmente (p. 211).
+
+Así, se puede afirmar que la organización es vista como un conjunto de divisiones
+que compiten entre sí. Estas forman coaliciones no estables alrededor de intereses
+disímiles que cambian y fluctúan de acuerdo a los intereses particulares. La
+organización es una formación social conformada por relaciones de poder que
+
+oscilan en su interior y en su exterior.
+
+2.1.3. Tercera etapa (1979-1998). Consolidación de la teoría del actor estratégico.
+
+En el libro El actor y el sistema, Crozier y Friedberg (1990) desarrollaron la noción
+de actor estratégico. Este posee un margen de libertad que le permite buscar
+alianzas para conseguir sus objetivos. En ese sentido, los individuos no están
+totalmente sometidos a la obediencia o se encuentran determinados por ella. “El
+actor estratégico es, ante todo, un miembro de la organización que puede
+
+interactuar con el otro y así llega a cumplir sus intereses” (Ruiz, 2004, p. 39).
+
+Esta apreciación propicia el surgimiento de otro concepto íntimamente relacionado
+con el del poder, que es el del conflicto. Este es propio a esta interacción entre los
+actores estratégicos ya que cada actor no puede monopolizar todos los recursos
+existentes en la organización, ni tampoco tener la total capacidad para imponerse
+sobre los demás. Así, el poder en la organización se encuentra atomizado y dividido.
+No existirá siempre un único ganador luego de un enfrentamiento, ya que existen
+diversas posibilidades de éxito de acuerdo a las alianzas y coaliciones que se hayan
+
+formado.
+
+2.2. Perspectiva crítica del estudio del poder
+
+Esta perspectiva afirma que los agentes (individuos) operan dentro de límites
+establecidos y determinados, por lo que se encuentran dentro de una estructura de
+
+dominación, poniendo especial énfasis en los efectos que esto conduce. En ese
+
+16
+sentido, la mirada crítica concibe la existencia de un poder subterráneo o latente
+que subyace a toda relación, por lo que no necesariamente tiene que ser ejercido
+para ser estudiado, ya que oculto, propicia la dominación necesaria para restringir
+el comportamiento.
+
+Para fortalecer su posición frente a los funcionalistas, esta corriente introdujo
+diversas dimensiones de poder: la ideología”, las prácticas disciplinarias, y la noción
+de dominación. Junto con ello, esta corriente subraya la importancia de estudiar el
+conflicto, la explotación y la desintegración de la organización, rechazando la
+posibilidad de concebir a la organización como un ente estable. En este sentido, la
+perspectiva crítica interroga el consenso admitiendo la confluencia de preferencias,
+creencias y valores. Llama la atención sobre los fenómenos políticos dejando de
+lado los conceptos de eficiencia y rentabilidad. Pero el punto más importante es el
+tema de la dominación. Para esta corriente, en las organizaciones existe un orden
+que influencia a cada uno de los individuos que se encuentran en ella. Así, el poder
+fija y normaliza a los individuos y a los conjuntos colectivos, dando pie a que la
+dominación se ejerza de manera directa en diferentes dimensiones, proponiendo —
+a diferencia de la corriente funcionalista— un poder más impersonal y latente que se
+encuentra por encima de las acciones de los actores sociales.
+
+Para Ruiz (2004) la dominación se ha desarrollado en dos formas diferentes. Por un
+lado y desde la tradición foucaultiana, la dominación se caracteriza por una
+vigilancia y un conjunto de acciones disciplinarias ejercidas en diferentes ámbitos
+organizacionales. Si bien los individuos poseen cierto poder, se debe de observar
+su grado de discreción, en el entendido de que los individuos no tienen una total
+
+libertad para discernir sus acciones ya que la vigilancia sobre ellos es constante y
+
+7 Para López y Gonzales-Miranda (2010) una ideología “consiste en un sistema de ideas que aspira
+a explicar el mundo y cambiarlo de manera radical. Las ideologías son corrientes de aspiraciones
+que tienden a la absolutización, y que también están dotadas de una poderosa fuerza de conquista
+y un fervor redentor. Esto les confiere una “mística” especial, y la capacidad de penetrar los diversos
+ambientes, muchas veces de modo irresistible. Sus consignas, sus expresiones típicas, sus criterios,
+llegan a impregnar con facilidad incluso a quienes distan de adherirse voluntariamente a sus
+principios doctrinales” (pp. 208-209). Esta aproximación permite cuestionar los postulados
+funcionalistas explicados en el acápite anterior.
+
+17
+directa. Esta vigilancia no consiste solamente en controles específicos, sino también
+en prácticas culturales y discursivas de adhesión, persuasión moral o destrezas
+
+tecnológicas.
+
+Porotro lado, dentro de la tradición marxista, la dominación es el resultado del modo
+de producción capitalista. Así, la estructura de clases es el producto de las
+relaciones sociales de producción. La dominación está en la base del control que
+ejercen los dueños del capital sobre el proceso productivo, buscando con ello
+incrementar las ganancias y los beneficios*. Desde esta perspectiva, el poder es
+entendido como una capacidad. Las relaciones sociales son la base de la
+conformación del poder, por lo que los conflictos estructurales tienen una
+connotación ideológica fruto de la división del trabajo y de la misma estructura
+organizacional. En ese sentido, este tipo de acciones no sólo se estudian como
+medidas racionales para perseverar la operación eficiente, sino como medio para
+
+dividir y subordinar a la clase obrera.
+
+La corriente crítica quiere ir más allá de la concepción clásica de Parsons sobre la
+movilización de recursos. Busca conocer por qué y cómo se instaura la dominación
+en las organizaciones. El poder no sólo posee un carácter jerárquico en donde
+confluyen diversos intereses sino que se puede ejercer a partir de una base
+ideológica que tiene injerencia en las preferencias de los individuos. En ese sentido,
+el sistema no es neutro ya que da prevalencia a que los individuos no cuestionen el
+ejercicio del poder de la organización, por lo que el conflicto no se presentará en
+forma manifiesta, que no significa necesariamente la no presencia del poder.
+
+3. FUENTES DE PODER
+
+8 Un texto representativo de esta corriente es la obra de Stewart Clegg (1979), The Theory of Power
+and Organizations. En ella el autor propone un modelo de tres factores propios del poder: poder,
+regla y dominación. Con el primero el poder se traduce en intercambios entre los individuos; con el
+segundo, las reglas como mediación, procuran un marco racional para organizar a los individuos; y
+el tercero, la estructura, el más importante de todo el modelo, el cual propicia la unificación de las
+acciones de los individuos.
+
+18
+Como tal, requiere de una serie de fuentes, o más precisamente, acceso a una serie
+de espacios organizacionales o competencias que permitan tal ejercicio. Así, un
+
+individuo ejerce el poder porque se apoya en o en varias fuentes que le posibilita su
+ejercicio.
+
+Al respecto, la tradición académica en relación al estudio del poder, concretamente
+en relación a las fuentes, retoma a Max Weber en su clásico texto Economía y
+Sociedad, para relacionar las fuentes con lo que este autor denomina tipos de
+dominación. Vale la pena aclarar este aspecto y la relación que tiene con las fuentes
+de poder. Para Weber (2008) el poder “significa la probabilidad de imponer la propia
+voluntad, dentro de una relación social, aún contra toda resistencia y cualquiera que
+sea el fundamento de esa probabilidad” (p. 43). Asimismo, el sociólogo alemán
+define dominación como “la probabilidad de encontrar obediencia a un mandato de
+determinado contenido entre personas dadas” (p. 43). Esta dominación busca
+fomentar las creencias en la legitimidad que la acompaña, la cual las divide en tres:
+dominación racional, dominación tradicional y dominación carismática. Estas se
+definen en el siguiente cuadro:
+
+Tabla 2. Tipos de dominación.
+
+Tipo de e ,
+E. Definición Comentarios
+dominación
+“... descansa en la creencia en la | Este tipo de dominación tiene estrecha
+legalidad de ordenaciones | relación con la formalidad que le otorga el
+o estatuidas y de los derechos de | cargo que ostenta el individuo en la
+Dominación o .
+ional mando de los llamados por esas | organización. En ese sentido, es una
+raciona
+ordenaciones ¿a ejercer la | autoridad que se legitima por las funciones
+autoridad (autoridad + legal)”. | que puede realizar el individuo a partir del
+(Weber, 2008, p. 172). cargo que ocupa.
+Dominación |* descansa en la creencia | La trasmisión de costumbres, creencias y
+tradicional cotidiana en la santidad de las | comportamientos propician una forma de
+
+tradiciones que rigieron desde
+lejanos tiempos y en la legitimidad
+de los señalados por esa tradición
+para autoridad
+(autoridad tradicional). (Weber,
+
+2008, p. 172).
+
+ejercer la
+
+comportarse, una tradición que <*e
+fundamenta en el tiempo. En ese sentido, la
+obediencia a las disposiciones está basada
+en el hecho de que estos comportamientos
+poseen una trayectoria y una historia. En esto
+
+reside su legitimidad y la posibilidad de ser
+
+Dominación
+
+carismática
+
+obedecidos.
+- descansa en la entrega | Este tipo de dominación reside en la
+extraordinaria a la santidad, | capacidad que tiene el individuo en influir en
+
+heroísmo o ejemplaridad de una
+persona y a las ordenaciones por
+reveladas
+
+ellas creadas o
+
+(autoridad carismática)”. (Weber,
+
+la conducta del otro por las capacidades que
+posee de modificar su conducta. A diferencia
+de las anteriores que tienden a ser más
+
+estructurales, esta es más personal.
+
+2008, p. 172).
+
+Fuente: Weber (2008)
+
+Un elemento importante por anotar es el tema de la autoridad, la cual está en
+estrecha relación con la formalidad que le da la posición o el cargo específico que
+tiene el individuo dentro de la estructura jerárquica de la organización. Así, el hecho
+de ejercer el poder, desde el punto de vista weberiano, estará en la posibilidad o no
+de dominar al otro gracias a la autoridad que ostenta. En relación con lo dicho, y
+también a manera de aclaración, la dominación para Weber es la capacidad de que
+el otro haga caso (obedezca) gracias a la autoridad que se tiene. En este sentido,
+los tipos de dominación son expresión del tipo de autoridad que el individuo tiene y
+por lo tanto, le permite que otro le obedezca. Es por ello, que los tipos de dominación
+bien se podrían considerar como fuentes de poder, ya que permiten que el otro haga
+algo que de otro modo no haría.
+
+Por otro lado, y desde un punto de vista más organizacional, para López y Gonzales-
+Miranda (20103, existen diversas fuentes de poder que se pueden clasificar en dos
+grandes grupos: personales y estructurales. Las primeras están referidas a la
+posibilidad que tiene un individuo de ejercer el poder gracias a una serie de fuentes
+a las cuales tiene acceso de manera personal o individual referidas básicamente al
+
+20
+cargo que ocupa en la organización. Las segundas, son aquellos espacios
+organizacionales en donde el individuo tiene la posibilidad de participar, ya que al
+hacerlo, puede vencer la resistencia del otro y lograr que el otro cambie de
+comportamiento. A continuación se presenta la Tabla 3 en donde se sintetiza la
+
+propuesta de estos autores.
+
+Tabla 3. Fuentes de poder.
+
+Fuentes Definición
+
+Legítima o formal: Posibilidad de ejercer el poder por el cargo formal que tiene
+A dentro de la estructura jerárquica de la organización.
+
+Recompensa: Posibilidad de ejercer el poder que tiene A por la capacidad que
+tiene de ofrecer una dádiva a B por el cambio de comportamiento que se le pide.
+Coercitiva: Posibilidad de ejercer el poder que tiene A por la capacidad que tiene
+Personales
+de ofrecer una dádiva a B por el cambio de comportamiento que se le pide.
+Experto: Posibilidad de ejercer el poder que tiene A por poseer el conocimiento
+y/o las habilidades que tiene para ejercer una función o tarea específica.
+Referencial o carismática: Posibilidad de ejercer el poder que tiene A por la
+
+capacidad que tiene de influenciar a B en su comportamiento.
+
+Recursos: Posibilidad de ejercer el poder que tiene A al participar de espacios
+organizacionales en donde se distribuyen ciertos recursos a las distintas áreas
+de la organización.
+
+Decisión: Posibilidad de ejercer el poder que tiene A de participar de ciertos
+Estructurales . — . a. . .
+espacios en donde se toman decisiones que tiene implicancias en el gobierno de
+la organización.
+
+Información: Posibilidad de ejercer el poder que tiene A por el acceso a la
+
+información que tiene al participar de ciertos espacios organizacionales.
+
+Fuente: Elaboración propia con base en López y Gonzales-Miranda (2010)
+
+4. DIMENSIONES DE PODER
+
+Con la publicación del libro “El poder. Un enfoque radical” de Steven Lukes en el
+año de 1974, el debate en relación al poder se agudiza y la discusión se centra en
+el modelo de tres dimensiones propuesto por este autor (Clegg, 19893. Al no existir
+una única aproximación al poder, Lukes (1974) introduce el concepto de tres
+
+dimensiones o capas para acercarse a estudiar el poder. La primera es la pluralista
+
+21
+en donde retoma a Dahl; la segunda es la denominada elitista tomando como
+referente el trabajo de Bachrach y Baratz, y la tercera, que es el aporte de Lukes
+denominada radical. Hardy y Leiba-O Sullivan (1998) retoman la propuesta de
+Lukes y agregan una cuarta dimensión basándose en Foucault para explicar el
+poder disciplinario. A continuación se explican brevemente las cuatro dimensiones
+del poder.
+
+4.1.Primera dimensión: poder multilateral
+
+El objetivo primordial en esta dimensión es determinar quién influencia las
+decisiones que son clave. A ejerce poder sobre B al lograr que sus decisiones
+prevalezcan sobre las de B. Se presume que tanto A y B son conscientes de su
+participación en la arena de decisiones y tienen claridad en el uso de la influencia
+para la toma de decisiones. El poder se puede estudiar gracias al comportamiento
+de B el cual es observable, directo y claro. Junto con ello, el conflicto es abierto y
+es una condición necesaria para el ejercicio del poder. A busca cambiar la conducta
+de B de forma intencional, deliberada, venciendo su resistencia y logrando hacer
+cosas que de otro modo no haría. Todos los actores (A y B) tienen la oportunidad
+de acceder a la arena de decisiones, con la capacidad de plantear sus temas por
+medio de sus diferentes racionalidades. De ahí que a esta dimensión también se le
+conozca como la concepción pluralista del poder en donde se descarta la visión
+
+elitista que propende que un solo grupo tiene acceso a la toma de decisiones.
+
+4.2.Segunda dimensión: poder unilateral
+
+La segunda dimensión de poder cuestiona la visión pluralista, concretamente la idea
+de que la arena de decisiones está abierta y todos pueden participar en ella. El
+objetivo en esta dimensión está puesto en las no-decisiones, ya que existe la
+posibilidad de que B no pueda participar del proceso decisorio porque existe una
+élite que obstaculiza su participación. En otras palabras, A tiene la posibilidad de
+obstaculizar la participación de B en la arena de decisiones, por lo que el conflicto
+
+fruto de tal situación, es abierto y oculto. B es consciente de que no puede participar
+
+22
+de las decisiones por lo que no pondrá resistencia, pero a la vez, el conflicto estará
+escondido hasta que B pueda participar. En esta dimensión se refleja un enfoque
+unidimensional presente también en la primera dimensión, en donde se sigue
+asumiendo que el conflicto es necesario para el ejercicio del poder. Bachrach y
+Baratz (1963) ponen énfasis en la capacidad que tiene A de controlar el acceso a
+las fuentes que permiten el ejercicio de poder para bloquear la participación de B
+como parte de una estrategia deliberada para lograr los objetivos previsto por parte
+de A.
+
+4.3. Tercera dimensión: poder subrepticio
+
+El objetivo en esta tercera dimensión es buscar la hegemonía por parte de A al
+lograr que B haga lo que A quiere pensando que es un bien para B. En otras
+palabras, A busca crearle una falsa conciencia a B. Lukes (2007) retoma el concepto
+de interés para definir el poder cuando A ejerce poder sobre B al afectar de manera
+contraria los intereses de B. Para este autor, alguien puede actuar en forma
+contraria a sus intereses sin saberlo, por lo que el conflicto puede ser considerado
+como latente u oculto hasta que B tome consciencia de ello. Esta tercera dimensión
+se le llama también radical apoyándose en el concepto de intereses. Lukes (1974,
+p. 34) afirma: “En general, hablar de intereses provee una licencia para la realización
+de juicios normativos de un carácter político y moral. Así, que no es sorprendente
+que diferentes concepciones de lo que los intereses son, están asociados con
+diferentes posiciones morales y políticas”. En consecuencia, existe una visión
+pluralista en donde se concibe a los hombres por lo que son y por su accionar. Existe
+otra visión que no les da la posibilidad de participar (visión elitista). Y finalmente,
+una visión radical que sostiene que “lo que los hombres quieren puede ser en sí
+mismo un producto de un sistema que trabaja contra sus intereses” (Lukes, 1974,
+p. 34).
+
+4.4. Cuarta dimensión: poder disciplinario
+
+23
+Hardy y Leiba-O “Sullivan (1998) proponen una cuarta dimensión. En esta retoman
+a Foucault para plantear su propuesta de poder disciplinario. Este autor trabaja el
+término de poder soberano, conceptualizándolo como una red de relaciones y
+discursos que contienen ventajas y desventajas. Los actores deben tener
+intenciones respecto alos resultados de sus acciones al buscar utilizar sus recursos
+en la generación de nuevos significados. De acuerdo con esto, el poder no es más
+que un recurso manipulable, conveniente y determinante del control sobre la
+autonomía y la soberanía de los actores. Todos los actores son sometidos a un
+“poder disciplinario” mediante prácticas disciplinarias o micro-técnicas que ejercen
+poder no sólo sobre los individuos sino sobre las colectividades con el objetivo de
+normar y controlar. El poder se convierte así, en la herramienta de los actores
+dominantes la cual elimina la resistencia y propicia un conflicto que se encuentra
+constante y presente en todo sistema para aquellos que logren tomar consciencia
+de su injerencia. El poder disciplinario tiene como base la norma. Es un poder
+normalizador que permite actuar sobre otros mediante la vigilancia, el examen y la
+sanción, su dispositivo principal es el panóptico (Castro-Gómez, 2010), instrumento
+de control individual que permite la observación directa de las personas para
+modificar su comportamiento y encausar su conducta. Por lo tanto, se indica que la
+
+disciplina es un poder que se ejerce directamente sobre los participantes del juego.
+
+4.5. Algunas consideraciones en relación con las dimensiones del poder
+
+Las reflexiones realizadas a partir de la definición de Dahl en la sección 1.1 se
+relacionan con la gestión administrativa en lo referente al uso del poder para el
+gobierno de las organizaciones, a partir de allí es propicio reflexionar sobre lo
+
+siguiente:
+
+Si se analiza el cálculo estratégico para A en las dimensiones uno, dos y tres, en
+cuanto las posibles acciones de B a futuro, ¿qué es más riesgoso o requiere de un
+mayor cuidado y análisis por parte de A: el hecho de que B sea consciente de la
+imposibilidad de ingresar a la arena de decisiones gracias a las barreras de
+
+participación impuestas por A (segunda dimensión), o el hecho de que B tome
+
+24
+reconozca la falsa conciencia creada en él haciéndole pensar que el cambio de
+conducta solicitado por A no era en el fondo un bien para B, sino para A (tercera
+dimensión)? Ciertamente la respuesta nos introduce en el ámbito de lo especulativo,
+sin querer decir con ello que la pregunta propuesta impida realizar una reflexión al
+
+respecto.
+
+En relación al tema del conflicto, en la segunda dimensión está encubierto dado que
+B no es capaz de participar en la arena de decisiones. Sin embargo, una vez B lo
+pueda hacer, es posible que B tome represalias contra A. En ese sentido, A tendrá
+que gestionar los recursos necesarios y perpetrar o prolongar la no participación de
+B en la arena de decisiones. Esto implica no sólo una mayor capacidad de A para
+manipular los recursos a su disposición, sino una mayor experticia para ejercer
+poder. Junto con ello, en caso B pueda participar, A tendrá que blindarse
+políticamente al momento de que B participe, es decir, tendrá que generar alianzas
+y ejercer cierto dominio sobre B para impedir que este tome represalias contra él.
+Por otro lado, y en caso A quiera volver a construir barreras de entrada a la
+participación de B, se verá obligado a utilizar estrategias más eficaces para ello, ya
+
+que B estará prevenido, por lo que será más difícil impedir su participación.
+
+En la tercera dimensión el conflicto es aparente, dado que B no es consciente que
+aquello que le pide A no es un bien para él, sino para A. En ese sentido, el término
+de conflicto latente es más preciso para explicar esta situación. A diferencia de la
+dimensión dos, en la tercera no se puede determinar cuándo B tomará consciencia
+de la mentira en que se encuentra. Es un conflicto que se encuentra dormido y que
+A no tiene control sobre él. Así, el ejercicio del poder y dominación por parte de A
+se puede ver interrumpido intempestivamente por B sin que A tenga muchas
+posibilidades de reaccionar. Junto con ello, la reacción de B al sentirse engañado
+tiene una connotación más personal que en la segunda dimensión. B al saberse
+utilizado por A, puede volcar las represarías con una connotación más personal. En
+ese sentido, la resistencia se puede convertir rápidamente en un conflicto abierto.
+De esta manera, A tendrá menos posibilidades de volver a generarle una falsa
+consciencia a B. Junto con ello, hacerle pensar a B que las cosas las hará por él
+
+25
+mismo implica una serie de habilidades y capacidades por parte de A que no son
+fáciles de tener, como son el control de la información, la producción de mitos, y el
+
+acceso a ciertas fuentes de poder.
+
+En la cuarta dimensión es conveniente manifestar que el poder del sistema no se
+puede definir de forma trans-histórica o universalista solo como dispositivo de poder
+disciplinario o tecnología de poder. Desde la década de 1970 se observan
+transformaciones del capitalismo industrial en Occidente, que dan paso a un
+capitalismo mundializado y financiero (Boltanski y Chiapello, 2002). En este período
+se hizo más evidente el tránsito de las sociedades disciplinarias a las sociedades
+de control (Deleuze, 1999), donde la forma-empresa desplaza la forma-fábrica,
+convirtiéndose en la forma hegemónica de las relaciones sociales (Castro-Gómez,
+2010), allí adquiere sentido la ideología de la sociedad del management (Legendre,
+2008; Aubert y De Gaulejac, 1993) y las tecnologías de gobierno que “son como
+una especie de manija que puede orientarse de dos formas: bien para intentar
+conducir la conducta de otros conforme a metas no fijadas (aunque consentidas)
+por los gobernados, o bien para conducir la propia conducta conforme a metas
+fijadas por uno mismo” (Castro-Gómez, 2010, p.39). En esta tecnología no se actúa
+sobre los participantes del juego como en el poder disciplinario, sino sobre las reglas
+del juego, sobre su ambiente, se pasa de una conducción de la conducta directa a
+una indirecta, lo que permite mostrar que este tipo de poder no busca intervenir
+sobre los cuerpos de los individuos, sino que busca fortalecer la autorregulación, el
+
+autocontrol mediante un gobierno a distancia (Rose, O'Malley y Valverde, 2012).
+
+5. REFLEXIONES FINALES
+
+El estudio del poder en las organizaciones desde el aporte de las ciencias sociales
+permite comprender este fenómeno de una manera más integral, entender el juego
+de relaciones entre individuos (incluye mínimo dos actores) y la intervención que se
+puede tener en el entorno para el gobierno de los otros y el gobierno de sí. No se
+estudia el poder en la relación que se establece con objetos no humanos, ni como
+
+una capacidad de las personas, sino las diversas formas en que se lleva a cabo el
+
+26
+ejercicio del poder, ya que el poder no se posee sino que se ejerce (De la Rosa,
+2008) mediante unas fuentes que pueden ser propias (legitima, conocimiento,
+
+carisma, etc.) o estructurales (recurso, decisión e información).
+
+El poder se entiende como una de las corrientes de los estudios de la organización
+que posibilita analizar las relaciones de poder que se ejercen entre sus diferentes
+miembros, ya que las finalidades entre ellos pueden ser diversas y contradictorias,
+por lo tanto “los resultados que las organizaciones producen implican, para su
+consecución, un mínimo de acción organizada (De la Rosa, 2008), el poder
+entonces es concebido por algunos autores como el fundamento de dicha acción
+para que los individuos cooperen cuando no lo hacen por convicción propia (Crozier
+y Friedberg, 1990).
+
+Dentro del estudio del poder en las organizaciones se reconocen diversas
+dimensiones. La visión unidimensional del poder de Dahl se centró en la toma de
+decisiones dentro del proceso político, el análisis del poder implica allí el
+reconocimiento de un conflicto visible entre los actores sociales por sus diferencias
+e intereses. En la perspectiva bidimensional de Bachrach y Baratz se aceptó este
+énfasis en el conflicto y en las decisiones, pero se agregó la posibilidad de controlar
+la entrada en la arena política, los conflictos e intereses podían estar a la vista pero
+también ocultos, se criticó la dimensión anterior por ignorar los temas latentes o
+contextuales de todo conflicto incluyendo la importancia de no tomar decisiones. En
+la mirada tridimensional del poder de Lukes, sin excluir el conflicto y la toma de
+decisiones se incluyeron los comportamientos sociales y culturales que se
+estructuran en los grupos y en las prácticas institucionales, el poder no es solo
+individual sino que también es colectivo y se expresa además en casos de
+manipulación e imposición de la autoridad, los consensos podían ser artificiales
+porque los intereses reales podían sobrepasar lo visible (Gunn, 2011, p.106).
+Finalmente, la cuarta dimensión reconoció el efecto Foucault en el pensamiento
+acerca del poder, tomó como concepto central el poder disciplinario para mostrar el
+poder que se desarrolla en el sistema y que se ejerce en los participantes del juego
+mediante mecanismos directos, dispositivos que posibilitan que en las
+
+27
+organizaciones el ejercicio del poder funcione, lo que posibilita que un tipo de
+racionalidad se lleve a la práctica, esto quiere decir que “los dispositivos se inscriben
+en relaciones de poder y juegan allí como operadores prácticos orientados a la
+readecuación de ciertas relaciones de fuerza con el fin de «rellenar espacios
+
+vacíos»” (Castro-Gómez, 2010, p.65).
+
+Sin embargo, en este capítulo no solo se reconoce el dispositivo disciplinario como
+tecnología de poder, sino que en la discusión de las dimensiones de poder se
+enuncian las tecnologías de gobierno, para reconocer el paso de las sociedades
+disciplinarias hacia las sociedades de control (Deleuze, 1999), el poder del
+management en la organización y del neoliberalismo como racionalidad imperante
+que establece un nuevo orden en el sistema social. Desde allí se comprende que
+no solo es la vigilancia directa sobre los cuerpos, el examen y la sanción, sino que
+interesa el alma de las personas, la manera como se ejerce un control indirecto
+sobre las poblaciones desde un gobierno a distancia que modifica el ambiente para
+incidir en el pensamiento, la moral y la ética de los individuos, propiciando en ellos
+y en las organizaciones el discurso del auto-control que posibilita otro ejercicio del
+poder porque utiliza la libertad como discurso central, ahora el poder se introduce
+en la constitución del ser.
+
+Finalmente, se indica que este texto constituye un primer acercamiento al tema del
+poder en las organizaciones. Dado el objetivo del capítulo, se optó por presentar de
+forma sintética las definiciones, las perspectivas, las fuentes y las dimensiones del
+poder, aspectos que se convierten en pilares para ahondar y profundizar en un tema
+que es clave y vigente en el estudio de las organizaciones. Lo aquí descrito y
+discutido posibilita las reflexiones futuras, partiendo de la claridad conceptual,
+conocimiento del contexto y surgimiento, y clasificación de los aspectos que rodean
+
+el tema del poder en y alrededor de las organizaciones.
+

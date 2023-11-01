@@ -1,0 +1,1686 @@
+La estructura organizacional: Expresión de ‘lo organizado’
+Olga Lucía Garcés-Uribe, PhD(c)1
+Introducción
+Las organizaciones pueden definirse como órdenes sociales creados 2 para
+atender a intereses y propósitos establecidos previamente, mediante el acopio de
+recursos materiales y trabajo humano, dispuestos -es decir, arreglados u
+ordenados- bajo criterios específicos al servicio de dichos propósitos (Hayek,
+2006); Dávila Ladrón de Guevara (2001)). Esta definición sugiere la existencia de
+relacionamientos entre los individuos que se agrupan en forma organizada y de
+ellos con los recursos materiales que son utilizados funcionalmente para la
+realización de las tareas propuestas en la organización. Tales relacionamientos,
+que pueden ser de naturaleza formal o informal, definen arreglos estructurales en
+la organización, los cuales adoptan características particulares de acuerdo con los
+elementos –de naturaleza funcional y/o social- que se agrupen en ellas y los
+propósitos a los cuales les sirvan. A dichos arreglos se les denomina estructuras.
+
+* Este documento, aun inédito, forma parte del libro titulado: Organizaciones. Aproximaciones
+teóricas para un estudio comprensivo, que ha sido compilado por el profesor Diego René
+Gonzales-Miranda y que, actualmente, cursa el proceso de edición final en Fondo Editorial de la
+Universidad Eafit. Dada su naturaleza inédita, se prohíbe toda reproducción total y/o parcial del
+contenido de este documento y su distribución masiva a través de medios impresos y/o
+electrónicos, con excepción de su distribución y utilización temporal para fines estrictamente
+académicos en los cursos de la asignatura Organizaciones, del pregrado en Administración de
+Negocios de la Escuela de Administración de la Universidad Eafit. Quien incumpla esta restricción
+incurrirá en faltas a la normatividad que ampara la propiedad intelectual, contenida en el
+Reglamento de Propiedad Intelectual de la misma Institución. (Nota de la autora. Enero 19 de
+2017)
+1
+Administradora de Negocios y Magíster en Ciencias de la Administración de la Universidad Eafit.
+Candidata a doctora en Administración de la misma institución. Profesora vinculada a la Escuela de
+Administración. olgu@eafit.edu.co
+2
+De acuerdo con F. Hayek, el concepto orden se refiere a, “una situación en la que una
+multiplicidad de elementos de diverso género se hallan en tal relación unos con otros, que del
+conocimiento de alguna parte temporal o espacial del conjunto, podemos aprender a formarnos
+expectativas sobre otras partes del mismo conjunto, o por lo menos, expectativas con una buena
+probabilidad de resultar acertadas”. (Hayek, 2006, p.58). Según el mismo autor, la noción de orden
+puede entenderse de manera similar a la noción de sistema. Ahora bien, al hablar de orden social,
+el concepto alude a que dicho orden está integrado privilegiadamente por seres humanos que se
+relacionan de algún modo o con algún criterio que determina dicho relacionamiento. Por último, el
+calificativo creado que se asigna a dicho orden social se refiere, según Hayek, a la existencia de
+una intencionalidad específica de alguien, ajeno al orden (o al sistema) que determina el propósito
+y el criterio mediante el cual se disponen los elementos que lo integran. Los órdenes sociales
+creados se corresponden, según el autor, con las organizaciones. (Hayek, 2006, 59).
+
+1
+
+Las estructuras organizacionales -formales e informales- constituyen plataformas
+esenciales que dan soporte a las dinámicas sociales y productivas en las
+organizaciones y les proporcionan un ordenamiento específico –además,
+relativamente duradero- a los elementos que las constituyen. Así, las estructuras
+que reflejan el ordenamiento formal, dan cuenta, por ejemplo, de la posición
+específica de cada individuo en la organización, de su rol en dicho contexto;
+permiten identificar relaciones de autoridad, e incluso, de poder, e identificar las
+áreas de responsabilidad de cada uno de los integrantes de la organización.
+Mediante el estudio de las estructuras de una organización es posible inferir el
+propósito para el cual fue creada dicha entidad, los modos en los cuales desarrolla
+su objeto social, su tamaño y la manera en la que se encuentran distribuidos sus
+integrantes y sus recursos. Comprender la estructura de una organización permite
+entonces reconocer y comprender aspectos generales de esta última y de la forma
+como está organizada. De ahí la relevancia de su estudio en los campos de los
+Estudios de la Organización y la Administración.
+La importancia del tema ha llevado a diversos autores a investigar sobre este
+tópico en particular desde distintas perspectivas que han enriquecido la
+comprensión de distintas dinámicas organizacionales. Las estructuras constituyen
+un asunto central en el estudio de las organizaciones (Hinings, 2003), que puede
+vincularse con diversos fenómenos que tiene lugar en dichos contextos; por
+ejemplo, intervienen en el diseño y desarrollo de las operaciones productivas y las
+tareas administrativas (Csaszar, 2012); su consideración es fundamental para la
+implementación de la estrategia (Chandler (1990); Mintzberg (1997); Marengo &
+Pasquali (2012)) y de procesos de generación de conocimiento e innovación
+(Moch (1976); Van de Ven (1986); Huang, Rode & Schroeder (2011)); indica
+relaciones de autoridad (Etkin, 2000), influye en las relaciones de poder
+(Krackhardt,1990), incide en las formas de relacionamiento que cada organización
+adopta con sus respectivos grupos de interés y constituye una representación del
+gobierno de la organización (Gulati, Puranam & Tushman (2012); Weighelt & Miller
+(2013)); sugiere estilos administrativos, caracteriza a la organización en un
+determinado campo organizacional, industria o sector y da cierta cuenta de su
+grado de institucionalización (Meyer y Rowan, (1999); Scott (1999); Friedland y
+Alford (1999)). Así pues, el abanico de posibilidades para el estudio de la
+estructura es tan amplio, como diversos son los fenómenos y elementos
+organizacionales con los que puede asociarse.
+No es objeto de este capítulo dar cuenta de tal multiplicidad temática. Tampoco lo
+es el recuento exhaustivo de los estudios sobre distintos tipos de estructuras
+organizacionales o de las técnicas prescritas para su diseño. El propósito de este
+escrito es reflexionar acerca de un tipo específico de estructura: la estructura
+formal, como una característica esencial de las organizaciones que devela
+características particulares de éstas en cuanto a su tamaño, a la actividad que
+desarrollan, a la forma en la que dividen y coordinan el trabajo, la manera en la
+
+2
+
+que distribuyen la autoridad y los relacionamientos formales que permiten el
+mantenimiento de la acción organizada, en el tiempo3.
+El escrito se desarrolla en cuatro secciones, la primera de las cuales aborda el
+concepto de estructura organizacional en su acepción general, a partir de
+definiciones ofrecidas por distintos autores en el desarrollo de la Teoría
+Organizacional (TO)4. Así mismo, en esta sección se acotan los conceptos
+configuración y forma organizacional, que frecuentemente se asocian con el
+estudio de las estructuras organizacionales. En la segunda sección se presenta
+una descripción de características organizacionales que determinan a las
+estructuras formales. En las secciones tres y cuatro, se plantean consideraciones
+críticas alrededor del acercamiento teórico al tema de la estructura organizacional
+y algunas implicaciones de la intervención administrativa sobre ésta última,
+respectivamente. Una breve reflexión final, a modo de conclusión, cierra el
+capítulo.
+
+1 Delimitaciones conceptuales: estructura, configuraciones y formas
+organizacionales
+El término estructura proviene del vocablo latino structura (‘structus’ que significa
+construido, junto, acomodado, amontonado y ‘ura’, sufijo que significa resultado,
+actividad). Su significado general se refiere a la “distribución y orden de las partes
+que componen una entidad, bien sea ésta física o el resultado de un proceso del
+ingenio, como el arte y la historia, por ejemplo. (DRAE, 1992). Esta definición
+general puede adjudicarse a las estructuras organizacionales, no obstante, no
+3
+
+Entiéndase el concepto acción organizada en el sentido que lo trabajan M. Crozier y E. Friedberg
+en su texto, El actor y el sistema (1990) como, “la acción colectiva” (p.13) de los seres humanos.
+Es decir, la acción conjunta de un grupo de individuos, creada o instituida por ellos mismos, para
+resolver el asunto fundamental de su cooperación, en procura de atender a objetivos comunes,
+pese a que la orientación de cada uno sea divergente con relación a las orientaciones de los
+demás (Crozier y Friedberg, 1990). Dada su naturaleza, la acción organizada plantea restricciones
+a la acción individual en tanto la prescribe, la formaliza y la canaliza a través de la estructura formal
+de la organización. (Friedberg, 1993).
+4
+Se entenderá por Teoría Organizacional el campo académico que, con preeminencia de
+contribuciones desde la tradición anglosajona, se ha configurado desde comienzos del siglo XX. Su
+objeto de estudio es la organización en sus distintos aspectos. De acuerdo con Ibarra Colado
+(2000) en los inicios de la Teoría Organizacional pueden ubicarse las teorías de F. Taylor
+(Administración Científica /Organización Racional del Trabajo) y H. Fayol (Administración Industrial
+y General); posteriormente, los teóricos de las Relaciones Humanas y el Comportamiento
+Organizacional contribuyeron al estudio de las organizaciones. Hacia los años 60’s del siglo XX, el
+llamado Movimiento de la Contingencia abrió paso a la institucionalización de la Teoría
+Organizacional propiamente dicha y demarcó con mayor claridad sus fronteras con relación a la
+Teoría Administrativa, en tanto ésta se ocupa del ejercicio administrativo en los contextos
+organizados mientras que la Teoría Organizacional se concentra en explicar las dinámicas sociales
+y productivas de dichos contextos.
+
+3
+
+resulta suficiente para dar cuenta de sus particularidades. Es por eso que a
+continuación se presentan diferentes aproximaciones al concepto estructura que
+dan cuenta de la evolución de dicho concepto en el desarrollo de la TO. También
+se acotan en esta sección los conceptos configuración y forma, que, aunque
+recurrentes en la literatura sobre estructura, guardan diferencias conceptuales que
+conviene precisar.
+1.1
+
+La noción de estructura organizacional
+
+El concepto estructura organizacional ha cambiado conforme se han incorporado,
+progresivamente, distintos elementos conceptuales que han ampliado su alcance.
+Cuatro enfoques pueden identificarse en la evolución del concepto: un enfoque
+clásico, que corresponde a las primeras formulaciones de la TO, en el primer
+cuarto del siglo XX. Algunos años más tarde, los trabajos de los investigadores
+agrupados en la llamada Escuela de las Relaciones Humanas, permitieron hacer
+distinciones conceptuales que enriquecieron la noción clásica de estructura
+organizacional. Por último, los enfoques de la Contingencia y Configuracional,
+desarrollados en la segunda mitad del siglo XX, profundizaron y robustecieron el
+estudio de las estructuras en atención a su relevancia para el desempeño y
+mantenimiento de las organizaciones.
+1.1.1 La estructura organizacional desde el enfoque clásico
+La noción inicial de estructura fue sugerida en el discurso administrativo por Henri
+Fayol, en su escrito sobre Administración Industrial y General, publicado
+originalmente en 1916. A través de la enunciación de los principios
+administrativos, división del trabajo, unidad de mando, unidad de dirección,
+jerarquía, centralización y orden social, el autor remitió al concepto de estructura
+como la disposición formal de los recursos materiales y de la gente para el
+cumplimiento de los propósitos trazados por la dirección (Fayol, 1997).
+Así, en la concepción fayoliana, la estructura formal constituía el objeto mismo de
+la función administrativa de organizar. Representada gráficamente mediante
+cuadros sinópticos que ilustraban “las formas del cuerpo social” (Fayol, 1997,
+p.198)5, denotaba un ordenamiento rígido de elementos de la organización, que
+definía relaciones formales entre tales elementos y se ajustaba conforme a los
+objetivos prescritos. Dicho ordenamiento era entendido como si fuese un
+engranaje mecánico, o una estructura vegetal compuesta por un tallo central y
+ramificaciones definidas de las cuales se desprenden sus hojas; también, como un
+5
+
+Dicha representación gráfica equivale a lo que posteriormente se ha conocido como el cuadro
+organizacional o el organigrama, que consiste en un esquema que suele ser jerarquizado bajo
+algún criterio, en el cual se especifica el ordenamiento de las distintas áreas o estamentos que
+conforman a la organización, desde los niveles directivos, seguidos por los ejecutivos de nivel
+medio y en su base, las áreas dedicadas a la operación.
+
+4
+
+organismo animal compuesto de órganos y éstos a su vez, integrados por células
+como unidades funcionales. (Fayol, 1997, pp.201-202).
+Las primeras
+formulaciones sobre la estructura de las organizaciones la identificaron entonces
+como un elemento plenamente objetivado, racionalmente dispuesto, discreto y
+funcional, determinante para el desarrollo de los propósitos de la organización, la
+formalización y el control de los recursos y del trabajo.
+1.1.2 Aportes posteriores al concepto de estructura en el enfoque de la Escuela de
+las Relaciones Humanas
+La Escuela de las Relaciones Humanas, hito en la Teoría Administrativa, se
+caracterizó por romper con el supuesto clásico del hombre económico, según el
+cual, el principal móvil del ser humano era la maximización de su beneficio a
+través de la satisfacción de sus necesidades materiales; dicho supuesto fundaba
+la creencia de los autores clásicos, en especial, aquellos de las corrientes
+taylorista y fordista, que señalaba al salario como la motivación central del hombre
+en el trabajo. En contraste, apoyados en la Psicología y la Sociología, los autores
+de la Escuela de las Relaciones Humanas mostraron que el trabajo humano era
+resultante de la cooperación espontánea, en la que intervenían factores de índole
+social y emocional, además de los incentivos monetarios (Mayo, 1945/1977). De
+ahí su interés por estudiar fenómenos como la motivación, el liderazgo, el trabajo
+en grupo y la comunicación (Aktouf, 2009).
+Como derivado de sus investigaciones, los teóricos de las Relaciones Humanas
+contribuyeron a la ampliación del concepto de organización al considerar la
+coexistencia de aspectos formales e informales al interior de las entidades
+organizacionales, los cuales, a su vez, daban lugar a estructuras formales (es
+decir, funcionales, administrativas, previstas y objetivas, mediante las cuales se
+manifiesta la división del trabajo, las líneas de autoridad y de comunicación
+formal)6 y a estructuras informales que no son otra cosa que ordenamientos
+sociales que le dan soporte a la llamada organización informal7.
+6
+
+Resultantes de la articulación de los elementos funcionales al servicio de los propósitos definidos
+por la organización, entre los que se cuentan: la estrategia, los procesos, los cargos, las áreas
+funcionales, los sistemas de compensación del trabajo, los sistemas de control, la jerarquía que
+define las líneas de autoridad los conductos regulares de comunicación, los grupos formales de
+trabajo interdisciplinario y todos aquellos elementos funcionales que se asocian con los
+mencionados.
+7
+Los compañeros de trabajo que comparten la afición por un deporte, aquellos que se reúnen
+frecuentemente para almorzar juntos en las instalaciones de la organización o fuera de ella,
+quienes se reúnen voluntariamente para organizar las celebraciones de cumpleaños en las
+distintas áreas o departamentos, aquellos que conspiran secretamente en contra de un jefe o de
+una nueva política dictada por la Dirección de la organización, entre otros, son ejemplos de
+estructuras informales que forman parte de las organizaciones. Es importante advertir que su
+carácter informal no implica que su naturaleza sea anárquica o que carezcan de ordenamiento. De
+hecho, cada una de las actividades que se han mencionado requieren de una cierta disposición o
+arreglo de individuos y recursos. Sin embargo, estas estructuras no se crean específicamente para
+
+5
+
+Las estructuras informales creadas a partir de las interacciones naturales -no
+planeadas- entre los individuos que integran una organización, se concretan en
+grupos que surgen espontánea y coyunturalmente. Son dinámicas, no
+necesariamente funcionales y se soportan en la convergencia de intereses
+específicos individuales o grupales, que no siempre están alineados con los
+propósitos declarados por la organización; incluso, pueden no estar relacionados
+en modo alguno con tales propósitos8.
+1.1.3 Enfoque contingencial o situacional
+Hacia finales de los años cincuenta y la década de los sesenta del siglo pasado, el
+surgimiento del llamado Enfoque Contingencial o Situacional9 marcó una ruptura
+trascendental en los postulados clásicos de la teoría administrativa desarrollada
+hasta entonces. La consigna tradicional taylorista, que indicaba la existencia de
+una ‘mejor forma’ de administrar y organizar los recursos -the best way- fue
+paulatinamente desplazada por los resultados de investigaciones que mostraban
+la dependencia funcional entre la organización y el ambiente. Así entonces, la
+disposición y la administración de los recursos de la organización estaría en
+función de las demandas impuestas por su entorno. A partir del Enfoque
+Contingencial, la consigna que orientó la praxis administrativa y el estudio de las
+organizaciones fue, ‘todo depende’ (all depends)10.
+Bajo este nuevo supuesto, la estructura organizacional fue concebida como
+elemento fundamental de la organización para ofrecer respuestas adecuadas a las
+demandas de su entorno. Es decir, mediante el diseño adecuado de su estructura,
+la organización podría alcanzar resultados eficientes y efectivos ante los desafíos
+cumplir el propósito de la organización y es por eso que no comparten el carácter formal de esta
+última y su existencia no supedita la existencia de la organización.
+8
+Al respecto pueden revisarse los trabajos de Chester Barnard (1938/1966), Roethlisberger &
+Dickson (1939/1961), Mayo (1945/1977). Sobre la complejidad estructural de las estructuras
+informales y su interacción con las estructuras formales de la organización pueden revisarse los
+trabajos de Simon (1947/1972); Crozier y Friedberg (1990) y Krackhardt (1994)
+9
+Referido también como, Movimiento de la Contingencia para aludir al grupo de académicos
+interesados en cuestionamientos similares acerca de la incidencia de diversos factores vinculados
+al entorno sobre el desempeño de la organización) y, en un sentido más formalizado, como, Teoría
+de la Contingencia, para referir los postulados teóricos de dicho enfoque en el estudio de las
+organizaciones.
+10
+Sobre el Enfoque Contingencial o Situacional cabe mencionar además que en él confluyeron
+aportes de diversas teorías y enfoques de la Administración entre los cuales se destacaron la
+Teoría del Comportamiento Organizacional, la Teoría Neoclásica, la Teoría Matemática, la
+Cibernética y el Enfoque de Sistemas en la Administración. Esta especie convergencia
+multidisciplinaria dio paso a la consideración de distintos aspectos y variables en el estudio de la
+Administración y de las organizaciones, entre los que se cuentan, 1) La tecnología. 2) La
+estrategia. 3) La estructura. 4) Distintas tipologías para caracterizar los ambientes o entornos
+organizacionales. 5) Tipologías organizacionales. 6) Las relaciones organización-ambiente.
+
+6
+
+impuestos por variables del entorno. (Burns & Stalker (1961/1994), Lawrence &
+Lorsch (1973), Lorsch, 1977). No habría entonces un diseño estructural único sino
+que éste dependería de las características de cada organización en cuanto a su
+tamaño, edad, sistema técnico, requerimientos de control y el tipo de entorno en el
+cual se desenvolviera. La investigación sobre las estructuras organizacionales se
+ubicó desde entonces en el centro de los estudios de la organización desde el
+paradigma positivista en el que se ha fundado el enfoque contingencial, basado en
+el determinismo, la generalización, el funcionalismo y el cartesianismo (Hinings
+(2003); Donaldson & Luo (2014)). Reconocidos académicos de la época (Derek
+Pugh, D.J.Hickson y C.R. Hinings, entre otros), miembros del Aston Group, en
+Inglaterra, promovieron la investigación sobre las estructuras organizacionales en
+tanto elemento fundamental para
+comprender el desempeño de las
+organizaciones y profundizaron en su caracterización como un sistema que debía
+tender al mantenimiento de su equilibrio dinámico y al ajuste de sus componentes.
+Conforme avanzaba la investigación sobre la estructura formal en la Teoría de la
+Contingencia, los resultados ampliaron el espectro temático y paulatinamente
+incorporaron nuevas temáticas su estudio. Por ejemplo, la idea de la
+determinación del entorno sobre las organizaciones dio paso a la consideración de
+su interacción y su mutua afectación, como también a la estrecha relación entre
+las estructuras formales e informales. Así mismo, la dinámica de cambio de las
+estructuras formales, sus relaciones con los procesos organizacionales y distintos
+subsistemas de la organización (Losrch, 1977; Galbraith, 1977), además de la
+incidencia del comportamiento humano en la efectividad del diseño estructural
+organizacional y en el comportamiento de la organización, fueron temas
+abordados desde el Enfoque Contingencial. De ahí el marcado creciente interés
+de los académicos de los años 60’s y 70’s del siglo XX por ahondar en el tema de
+las estructuras de la organización y ampliar el alcance de sus implicaciones hacia
+otros fenómenos administrativos y organizacionales.
+
+1.1.4 El enfoque configuracional
+En el marco de los estudios sobre las estructura desde la perspectiva
+contingencial, algunos investigadores, entre los que se cuentan Milles & Snow
+(1978); Mintzberg (1979/2005); Drazin & Van de Ven (1985); Baker & Cullen
+(1993) y Meyer, Tsui & Hinings (1993), comenzaron a proponer análisis
+estructurales fundados en un paradigma distinto, de corte no positivista, con los
+que buscaban comprender distintos aspectos de la organización y,
+específicamente, de su estructura, que la perspectiva contingencial había dejado
+de lado. Así entonces, un nuevo enfoque denominado perspectiva configuracional
+comenzó a abrirse paso en la investigación y la teorización sobre las estructuras
+organizacionales, entendidas éstas, no como un agregado de componentes y
+variables, débilmente ajustados que tienden al equilibrio dinámico, propuesto por
+
+7
+
+la perspectiva contingencial,
+sino como la interacción de componentes
+fuertemente vinculados, cambiantes, que pueden ser tipificados teóricamente en
+tipologías, de modo tal que, dichas tipologías, permitan comprender y explicar
+diversas realidades organizacionales. En este sentido, la perspectiva
+configuracional se basó en la noción weberiana de tipo ideal, como patrón teórico
+de comparación para el estudio de la realidad social.
+Hacia finales de la década de los 70’s, Henry Mintzberg escribió acerca de
+profusión de investigaciones relacionadas con la estructura formal de las
+organizaciones y la precaria síntesis de sus conclusiones (Mintzberg, 2005/1979).
+En un intento por enriquecer la teoría y ampliar el alcance del concepto en
+cuestión, el autor sugirió el estudio de la organización como un sistema de flujos
+de información, decisiones, autoridad y material de trabajo, lo cual, permitió
+identificar estructuras adicionales a las formales, descritas por las trayectorias de
+dichos flujos e incorporar nuevos conceptos al análisis estructural de las
+organizaciones. El autor introdujo las nociones mecanismo de coordinación y
+configuración organizacional11, que robustecieron la idea del carácter dinámico de
+la estructura formal y la necesidad de su ajuste con la estrategia de la
+organización en aras de su funcionalidad. En su trabajo La estructuración de las
+organizaciones, publicado por primera vez en 1979, el autor definió la estructura
+como “el conjunto de todas las formas en que se divide el trabajo en tareas
+distintas consiguiendo luego la coordinación de las mismas” (Mintzberg,
+1979/2005, p.26). Para entonces, la noción de estructura estaba revestida de una
+complejidad mucho mayor a la que se podía intuir en la noción fayoliana e incluso,
+la noción contingencial.
+La influencia del pensamiento de sistemas en sus distintas perspectivas, sobre la
+TO, ha cimentado la comprensión de la estructura como un conjunto de relaciones
+entre diversos elementos de la organización, es decir, permitió considerarla desde
+el punto de vista sistémico, con lo cual, no sólo se ha reconocido su carácter
+dinámico sino que, además, ha expandido el alcance de su estudio hacia la
+identificación de la influencia estructural en diferentes ámbitos de la organización;
+por ejemplo, en los ámbitos de la política, el gobierno y la gerencia, como lo
+menciona Etkin (2000), en las distintas áreas funcionales como, Mercadeo,
+Producción, Gestión Humana, Finanzas y en procesos transversales como
+aquellos de generación de conocimiento organizacional.
+Autores contemporáneos como R.G. McGrath, R. Whittington, J. Etkin, y L.
+Schvarstein, quienes se fundamentan en el pensamiento sistémico para abordar el
+fenómeno organizacional, acentúan su reflexión en las relaciones que definen a
+las estructuras organizativas, sin dejar de lado las consideraciones acerca de su
+funcionalidad. Etkin, por ejemplo, menciona que la estructura, “se refiere a las
+formas y modos de relación entre las partes que componen la organización para
+11
+
+Sobre ambos conceptos se tratará en la sección 2 de este capítulo.
+
+8
+
+un lugar y tiempo determinados. El objeto de las estructuras […] es definir las
+tareas, la autoridad, las funciones, la responsabilidades y los nexos de
+comunicación entre sectores que componen a la organización”. (Etkin, 2000,
+p.126). Por su parte, Schvarstein reconoce en las estructuras formales la función
+de legitimar “los modos de relación prescritos y estables entre individuos, grupos,
+departamentos y organizaciones (relaciones interorganizacionales)” (Schvarstein,
+2004, p.97).
+Como se ha visto, el concepto estructura ha cambiado a lo largo del tiempo, desde
+sus primeras alusiones en la TO como artefacto o arreglo de recursos, hasta sus
+acepciones contemporáneas como trama formal de relaciones que define a la
+organización, designa roles a cada individuo y convoca la construcción de
+significados alrededor de dichos roles (Ranson, Hinings & Greenwood (1980);
+Schvarstein (1991); McGrath (2006)). Esta transformación del concepto le ha
+otorgado mayor relevancia a la estructura organizacional como un elemento
+vinculante, determinante e instituyente dentro de la organización que amerita su
+estudio y su comprensión, más allá de los aspectos puramente funcionales a los
+que, en principio, convoca. La figura 1 ilustra la evolución del concepto de
+estructura en la TO.
+Figura 1. Principales hitos en el desarrollo del concepto de estructura
+en Teoría Organizacional
+
+Fuente: Construcción propia
+
+9
+
+En síntesis y con base en las anteriores consideraciones, la estructura formal de la
+organización puede conceptuarse como expresión de la acción organizada que
+concreta la existencia al orden creado -es decir, a la organización- y atiende al
+propósito que subyace a dicho orden, en un contexto y tiempo específicos. Su
+arquitectura define las posiciones de los distintos elementos que la configuran y
+los criterios que determinan su interacción en diferentes momentos del tiempo, las
+responsabilidades de cada quien, la forma en la que se divide el trabajo, las líneas
+de autoridad jerárquica y el nivel de centralización de dicha autoridad 12.
+La estructura está supeditada a los propósitos previstos para la organización. Las
+investigaciones de los teóricos del Movimiento de la Contingencia mostraron
+claramente que no hay una única forma de estructurar una organización y que son
+varios los aspectos que deben tenerse en cuenta a la hora de idear una estructura
+adecuada para una organización en particular. Así las cosas, la estructura requiere
+de intervención administrativa para su creación, y de sucesivas revisiones y
+ajustes en el tiempo para garantizar su coherencia con los objetivos y la estrategia
+planteados. Es por esto que, al invocar el tema de la estructura formal en las
+organizaciones suele recurrirse también al diseño organizacional como aquel
+proceso en el cual se interviene la estructura y se articula con otros elementos de
+la organización.
+1.2. Configuraciones y Formas. Conceptos que rondan el análisis estructural
+de las organizaciones
+Además del concepto de estructura, en la literatura sobre análisis y diseño de
+organizaciones es común encontrar referencias a nociones que, si bien se asocian
+con la estructura formal, no denotan lo mismo. En algunos casos, las diferencias
+parecen sutiles, no obstante, conviene tenerlas en cuenta para diferenciarlas en
+los distintos contextos de su utilización. A continuación se referirán brevemente las
+nociones configuración y forma organizacional. Esta última, si bien, es reconocida
+por su polisemia, se presentará desde su acepción general, señalando algunos
+elementos importantes para distinguirla de la configuración, dado que su
+utilización indiscriminada es frecuente en la literatura sobre diseño de
+organizaciones.
+
+12
+
+El organigrama o carta organizacional es la representación gráfica del ordenamiento o de la
+disposición formal de los elementos que componen la estructura de la organización. Entiéndase
+entonces que el organigrama no es, en sí mismo la estructura, sino tan solo una imagen que ilustra
+sus elementos constitutivos (bien sea las áreas funcionales, los cargos, o los procesos) y los
+vínculos prescritos entre dichos elementos (v.gr. las líneas de autoridad y de comunicación formal)
+conforme a las características específicas de cada organización. Así entonces, el organigrama
+cumple una función meramente informativa, mientras que la estructura formal constituye el criterio
+básico de ordenamiento prescrito para los distintos elementos que conforman a la organización
+formal.
+
+10
+
+1.2.1 La noción de configuración organizacional
+En su trabajo de 1979, The Structuring of Organizations, Mintzberg distinguió
+varios conceptos asociados con las organizaciones y sus estructuras formales. El
+autor identificó, en primera instancia, las partes constitutivas de una organización.
+Señaló entonces el ápice estratégico como la agrupación de directivos de nivel
+superior; la línea media, como el conjunto de ejecutivos de nivel medio, quienes
+vinculados mediante autoridad formal, gestionan la conexión entre la dirección y el
+nivel de operación; la tecnoestructura, entendida como el conjunto de analistas
+que normalizan el trabajo en la organización y, el núcleo de operación,
+conformado por quienes realizan las actividades misionales, es decir, que atienden
+concretamente al objeto social de la organización, por ejemplo, la producción y/o
+la prestación de servicios. Un segmento adicional también fue identificado por
+Mintzberg y es el staff de apoyo, conformado por áreas que apoyan de manera
+indirecta el desarrollo de las actividades en la organización (por ejemplo, servicio
+de restaurante, transporte para los empleados, aseo y mantenimiento de las
+instalaciones físicas, entre otros). (Véase Figura 2).
+Figura 2. Las partes de la organización. Esquema configuracional genérico
+
+Tomado de Mintzberg (2005/1979, p.45)
+
+Obsérvese que, en la descripción de Mintzberg acerca de las partes que
+constituyen la organización no se hace referencia específica a elementos de la
+estructura, como líneas de autoridad, funciones o cargos; tan solo se identifican
+cinco grupos, clasificados bajo el criterio de afinidad en su quehacer. Algunos
+
+11
+
+encargados de prever, controlar y normalizar las actividades y otros encargados
+de llevarlas a cabo.
+El autor también describió los modos en los cuales es posible coordinar el trabajo
+en las organizaciones, para atender adecuadamente a su propósito central. Dichos
+modos fueron tipificados conforme al grado de supervisión y normalización que es
+característico de cada uno de ellos. Se identificaron entonces, 1) la adaptación
+mutua como el mecanismo de coordinación que menos supervisión y
+normalización implica, 2) la supervisión directa del trabajo, 3) la normalización de
+procesos, 4) la normalización de resultados y 5) la normalización de habilidades.
+Por último, dado que cada organización posee características particulares
+asociadas con su quehacer, sus requerimientos específicos, su entorno, su
+historia y su trayectoria, Mintzberg identificó factores que son relevantes para el
+diseño de la estructura organizacional y los clasificó en dos grupos: de un lado, los
+parámetros estructurales del diseño organizacional, que expresan características
+internas de la organización (especialización de cargos, formalización del
+comportamiento, necesidad de adoctrinamiento, división del trabajo en unidades,
+tamaño de las unidades de trabajo, sistemas de planificación y control,
+mecanismos de enlace y descentralización vertical y horizontal). De otro lado
+están los parámetros situacionales o contingenciales, que se relacionan con la
+situación de la organización en relación con su entorno (edad y tamaño,
+tecnología, dinámica del entorno, poder y control externo).
+Vistos en conjunto, los mecanismos de coordinación del trabajo, los parámetros
+estructurales del diseño y los factores situacionales o contingenciales, le otorgan a
+la organización características particulares en un momento específico del tiempo y
+en el contexto en el cual desarrolla su actividad. Las características derivadas de
+la interacción de estos elementos son susceptibles de ser tipificadas bajo el
+concepto de configuración (Mintzberg, 2005/1979). Una configuración
+organizacional es, entonces, un constructo teórico que denota un conjunto ideal de
+características organizacionales resultantes de la interacción de los parámetros
+estructurales, los factores situacionales y los mecanismos de coordinación del
+trabajo en una organización particular.
+En esencia, las configuraciones son conjuntos de elementos organizacionales de
+índole formal y semi-formal, que agrupados de cierta manera, le dan una
+apariencia particular al orden creado –o lo que es lo mismo, al sistema
+organizacional- y le permiten su funcionamiento (Mintzberg, 1997, 1979/2005).
+Además de ser útiles como patrones ideales de comparación para realidades
+organizacionales concretas, la particularidad de las configuraciones es su énfasis
+en los flujos de información que atraviesan la organización y articulan las distintas
+
+12
+
+partes de la organización13. Mintzberg señala, que las configuraciones pueden
+comprenderse como conjunto de fuerzas que orientan a las organizaciones en
+diferentes direcciones estructurales o como tipología de formas ideales 14 y a
+través de ellas, se pueden comprender las transiciones estructurales y la adopción
+de estructuras híbridas15 (Mintzberg, 1979/2005).
+De lo anterior puede inferirse entonces que la noción de configuración es más
+compleja que la de estructura en tanto abarca a esta última y permite conocer
+aspectos adicionales a las líneas de autoridad formal, la división del trabajo y las
+responsabilidades de los distintos cargos. Este concepto se inscribe en la
+perspectiva configuracional que se describía anteriormente y por lo tanto,
+considera los aspectos estructurales con mayor amplitud que la perspectiva
+contingencial o situacional; una configuración no es sólo la estructura y no se
+representa gráficamente como la estructura, es decir, no se representa como un
+organigrama (que sí es utilizado para representar la estructura en la perspectiva
+contingencial). En su lugar, la configuración se representa gráficamente como un
+acople de las distintas partes de la organización (véase Figura 2); sin embargo, al
+estudiar una configuración, pueden identificarse los aspectos estructurales que
+caracterizan a una organización (división del trabajo, líneas de autoridad, áreas
+funcionales, además de los mecanismos de coordinación existentes en la
+organización, por ejemplo).
+1.2.1 El concepto ‘forma organizacional’
+En su acepción general, una forma organizacional se define como “aquellas
+características de una organización que la identifican como una entidad distinta y
+al mismo tiempo, la clasifican como miembro de un grupo de organizaciones
+similares” (Romanelli, 1991, pp.81-82). Esta definición se fundamenta en una
+consideración ecologista de las organizaciones que no está presente en la noción
+de configuración. La perspectiva ecologista se apuntala en la metáfora de los
+ecosistemas en la naturaleza, según la cual, al igual que los seres vivos, las
+organizaciones comparten características estructurales y funcionales con otras
+similares a ellas y con base en dichas afinidades, se agrupan y establecen sus
+13
+
+En consonancia con Mintzberg, Miller (1996) reconoce el carácter dinámico de las
+configuraciones y las designa como resultantes de la interrelación entre la estrategia, la estructura
+y el ambiente (el entorno o el contexto de la organización).
+14
+Con base en esta noción, Henry Mintzberg construyó la taxonomía de las configuraciones
+organizacionales; quizá la más difundida internacionalmente en los ámbitos académico y
+empresarial. En dicha clasificación, el autor identifica cinco configuraciones básicas, a saber:
+Estructura simple u organización empresarial, burocracia mecánica, burocracia profesional, forma
+divisional y forma matricial o adhocracia. (Véase Mintzberg (2005)).
+15
+Es decir, estructuras en las que se mezclan características de distintas tipologías estructurales.
+Considérese por ejemplo una empresa multinegocio en la cual, las características propias de cada
+uno de los negocios que la integran exijan diseño estructural diferente; mayor centralización de la
+autoridad en algunos, mayor flexibilidad en los procesos productivos en otros, menor división de las
+tareas en otros, etc.
+
+13
+
+relaciones con las demás organizaciones del ecosistema organizacional para
+mantener el equilibrio general. Esta distinción entre los enfoques de cada
+concepto -flujos de información vs metáfora ecologista de las organizacionesestablece una diferencia entre los conceptos configuración y forma,
+respectivamente.
+Tanto las formas organizacionales como las configuraciones suelen describirse en
+términos de elementos estructurales que las conforman. Heydebrand (1989), por
+ejemplo, describe las formas organizacionales a partir de un conjunto de
+elementos estructurales, que según el autor, son: 1) el tamaño de la fuerza de
+trabajo, 2) el objeto de trabajo, 3) los medios utilizados para el desarrollo del
+trabajo, 4) división del trabajo, expresada en la estructura 5) el control sobre los
+procesos de trabajo y 6) el nivel de poder y control externo sobre la organización.
+Por otro lado, Miles & Snow (1978), conciben la forma a partir del ajuste entre
+estructura, estrategia y procesos. En ambas caracterizaciones las formas
+organizacionales se entrevé que dicho concepto es útil para denotar una cierta
+apariencia de la organización, derivada del ajuste de sus elementos.
+Nótese que, así como el concepto de configuración, la forma organizacional
+enriquece la noción básica de estructura formal porque no solo considera la
+disposición de elementos organizados bajo un criterio funcional específico, sino
+también, da cuenta de otras características adicionales. Mientras la configuración
+contempla los flujos de información que circulan en la organización y en el tipo de
+entorno en el cual ésta se desenvuelve, la forma permite caracterizar a la entidad
+organizacional en términos de sus elementos constitutivos y posibilita agruparla
+con otras organizaciones con las cuales se asemeja; en este sentido, el estudio de
+las formas organizacionales y las configuraciones permite entonces ampliar las
+fronteras del análisis estructural de la organización, incluso, hacia el análisis del
+campo organizacional16.
+Un símil entre las organizaciones y las piezas arquitectónicas en espacios físicos,
+quizá pueda serle útil al lector para esclarecer las diferencias entre las nociones
+de estructura, configuración y forma organizacional. Se elegirá una casa como
+pieza arquitectónica comparable con una organización. En la arquitectura de la
+casa pueden identificarse los elementos de su estructura: las columnas, los muros,
+las vigas, son algunos de ellos. Estos elementos están dispuestos de una manera
+particular, articulados para cumplir el propósito de dar soporte a la construcción. Al
+
+16
+
+Entiéndase campo organizacional a la manera de DiMaggio y Powell (1999) como una unidad de
+análisis constituida por un conjunto de organizaciones que se dedican a actividades similares y
+poseen, como conjunto, cierta representatividad y legitimidad, es decir, cierta institucionalidad, en
+el conjunto total de organizaciones. Por ejemplo, conforman campos organizacionales las
+organizaciones gubernamentales, los proveedores de ciertos bienes y/o servicios, los
+comercializadores de ciertos bienes y/o servicios, las agencias acreditadoras de calidad, entre
+otras, las instituciones de educación superior, entre otros.
+
+14
+
+observarlos en el plano arquitectónico17, la estructura de la vivienda muestra la
+división de los espacios físicos, el tamaño de cada uno de ellos, el tamaño total de
+la casa, los niveles en los que se construirá, e incluso, puede intuirse cuál será la
+destinación de cada espacio de la casa, es decir, cuáles serán dormitorios, cuáles
+serán los espacios sociales, la cocina, los garajes, etc. De modo similar, en la
+organización, la estructura, representada gráficamente en el organigrama, permite
+visualizar aquellas características que soportan la actividad cotidiana de la
+organización como son la división del trabajo, el número de unidades funcionales
+(áreas, departamentos, divisiones, direcciones, gerencias, etc.), la destinación
+funcional de cada una de ellas, su posición jerárquica y su tamaño.
+Ahora bien, los elementos estructurales de la casa suelen ser complementados
+con otros que no son propiamente de la estructura pero que contribuyen a darle
+una apariencia a la casa; por ejemplo, los pasillos de circulación, los muros de
+mampostería, las puertas, ventanas y terrazas que comunican los espacios al
+interior y hacia el exterior de la vivienda. Éstos, junto a los elementos puramente
+estructurales, determinan una configuración particular de la casa y dicha
+configuración está en relación directa con el tipo de ambiente en el cual esté la
+construcción y con la funcionalidad de la misma, es decir, no es lo mismo una
+casa diseñada para la habitación de una familia pequeña en la zona costera, que
+para una familia extendida y ubicada en la montaña. De modo similar, en la
+organización, la configuración está dada por el conjunto de elementos
+estructurales18 y situacionales (o contingenciales)19 que caracterizan a la
+organización, además de los flujos de información que se establecen entre las
+distintas áreas funcionales y entre la organización y su entorno.
+Para terminar la comparación vale decir que la configuración de la casa y los
+elementos decorativos y funcionales que se ubican en su interior y exterior, le
+otorgan las características que la clasifican en una forma particular de diseño
+arquitectónico y la definen como vivienda, a la vez que la diferencian de otros
+diseños destinados a oficinas, bodegas, locales comerciales, etc. Del mismo
+modo, la configuración organizacional le otorga características particulares a la
+organización que permiten identificar su forma y señalarla como más o menos
+horizontal, más o menos piramidal, con mayor o menor autonomía para el
+desarrollo del trabajo, con mayor o menor complejidad, etc. De esta manera, la
+organización puede diferenciarse de otras entidades organizacionales y agruparse
+en la misma categoría con otras similares a ella.
+
+17
+
+En este caso, el plano es análogo al organigrama, como representación gráfica de la estructura.
+Recuérdense los elementos estructurales mencionados anteriormente: especialización de
+cargos, formalización del comportamiento, necesidad de adoctrinamiento, división del trabajo en
+unidades, tamaño de las unidades de trabajo, sistemas de planificación y control, mecanismos de
+enlace y descentralización vertical y horizontal (Mintzberg, 1979/2005).
+19
+Edad y tamaño de la organización, sistema técnico, dinámica del entorno y grado de poder y
+control externo. (Mintzberg, 1979/2005).
+18
+
+15
+
+En síntesis, para efectos prácticos, quien se desempeñe como analista
+organizacional y esté interesado en conocer la distribución de tareas y
+responsabilidades, los canales formales de autoridad y de comunicación de una
+organización, deberá emprender un estudio de la estructura. Si además de lo
+anterior, desea conocer los flujos de información, los mecanismos utilizados para
+coordinar el trabajo y los factores ambientales que condicionan a la organización,
+tendrá que ampliar su análisis hacia la configuración de dicha organización. Y si
+por acaso, dicho analista se interesara también en comparar dicha organización
+con otras similares para establecer sus rasgos comunes, sus diferencias y/o
+categorizarlas de acuerdo con algún criterio específico, el estudio de la forma
+organizacional le será más útil para el logro de sus propósitos. El cuadro 1
+muestra diferencias entre los tres conceptos en cuestión.
+
+16
+
+Cuadro 1.
+Estructura, configuración y forma organizacional.
+Elementos para su comparación.
+Aspecto
+
+Estructura
+
+Configuración
+
+Forma
+
+Enfoque
+Analogía
+organizacional de
+base
+
+Contingencial
+
+Configuracional
+La organización como
+sistema de flujos de
+información
+Descripción del ajuste
+de la estructura en
+relación con el
+funcionamiento de la
+organización y el tipo
+de entorno
+
+Ecologista
+La organización como
+entidad perteneciente
+a un ecosistema
+
+Propósito
+
+La organización como
+sistema funcional
+
+Ajuste funcional de
+los elementos de la
+organización
+
+Representación
+gráfica
+
+Organigrama
+
+Parámetros o
+variables
+determinantes
+
+Especialización,
+Centralización,
+Formalización,
+(además,
+estandarización y
+distribución de roles,
+según Pugh, Hickson,
+Hinnings &
+Turner(1968))
+
+Esquemas
+configuracionales
+propuestos por Henry
+Mintzberg (‘tipos
+ideales’, en el sentido
+weberiano del
+concepto)
+
+Caracterización de la
+organización para su
+diferenciación de
+otras similares
+Diversas
+representaciones:
+Organigramas,
+esquemas
+configuracionales,
+diagramas de red,
+esquemas
+piramidales, entre
+otros.
+Diversos:
+Parámetros
+estructurales
+(Mintzberg, 1979)
+
+Parámetros
+estructurales y
+factores situacionales
+(Mintzberg, 1979)
+
+Elementos
+estructurales
+(Heydebrand, 1989)
+Estructura, estrategia
+y procesos (Miles&
+Snow, 1978)
+
+Fuente: Elaboración propia
+
+Estructuras, configuraciones y formas son el resultado del avance en la
+investigación sobre los aspectos estructurales de las organizaciones que, como se
+ha visto, cada vez amplía su alcance y permite una comprensión más integral de
+las dinámicas intraorganizacionales y de los vínculos entre éstas últimas y el
+entorno. Sin embargo, como se anunció al comienzo, este capítulo se enfoca en el
+estudio de las estructuras formales y para comprenderlas no basta con definirlas;
+es necesario reconocer sus elementos constitutivos, las características que las
+definen y permiten clasificarlas en distintas tipologías y comprender su articulación
+con otros elementos formales de la organización. Estos aspectos serán revisados
+en la siguiente sección.
+17
+
+2
+
+Caracterización de las estructuras
+conceptual desde sus variables20
+
+formales.
+
+Una
+
+aproximación
+
+En tanto puede comprenderse como orden social creado para propósitos
+previamente definidos, la organización contempla entre sus elementos
+estructurales, al menos los siguientes: un ordenamiento de las tareas a realizar
+para el alcance de dichos propósitos; una disposición y agrupamiento específico
+de tareas que define las formas de relación entre los individuos, y de éstos con
+distintos elementos de la organización, lo cual sugiere un nivel de especialización
+de cada una de las áreas o unidades funcionales; la distribución del mando y el
+control en la jerarquía organizacional, que sugiere la noción de centralización de la
+autoridad; y, una disposición de normas que prescriban los comportamientos
+individuales adecuados para el desarrollo de las tareas, que indica el grado de
+formalización requerido en la organización. Estos aspectos son determinantes en
+la definición de la estructura organizacional y por eso se consideran variables
+fundamentales (Etkin, 2000).
+No obstante, es preciso mencionar que no son éstas las únicas características de
+la estructura consideradas en la literatura organizacional. Las investigaciones
+clásicas de Pugh, Hickson, Hinings et al. (1963) y Pugh, Hickson, Hinings & Turner
+(1968) propusieron cinco aspectos centrales para el análisis de la estructura
+organizacional formal, a los cuales llamaron dimensiones. Los autores se
+refirieron, específicamente, a la estandarización, la configuración (entendida como
+la forma que representa la distribución de roles en la organización), la
+formalización, la especialización y la centralización.
+Al revisar las definiciones de estas llamadas dimensiones de la estructura en los
+trabajos mencionados, puede notarse que, la estandarización se refiere a la
+prescripción explícita y legitimación de los modos de hacer el trabajo en la
+organización; es decir, la estandarización es, en últimas, la definición y
+regularización de procedimientos en la organización. Por otro lado, la
+formalización, es definida por los autores como el grado de prescripción
+documentada por escrito, “de las reglas, procedimientos, instrucciones y
+comunicaciones” (Pugh, Hickson, Hinings & Turner, 1968, p.75) que orientan los
+comportamientos de los individuos y que. Así entonces, pese a sus delimitaciones
+conceptuales, la estandarización y formalización son dimensiones estrechamente
+
+20
+
+Se entenderá el término variable, en el mismo sentido que lo define Jorge Etkin al tratar el tema
+de la estructura organizacional. Según el autor, las variables de la estructura son los rasgos o
+características que permiten distinguirla de otras estructuras similares. La especialización, la
+centralización y la formalización se asumen como variables ya que están presentes en la estructura
+formal de toda organización pero en diferente grado de intensidad en cada caso. (Etkin, 2000,
+p.139)
+
+18
+
+vinculadas, de tal modo que, la estandarización podría expresarse en términos del
+grado de formalización de procedimientos.
+De igual modo, la configuración, entendida en este contexto específico como
+dimensión de la estructura organizacional que expresa la distribución de roles,
+representados gráficamente en el organigrama 21, es afín a la dimensión de la
+especialización, en tanto, esta última expresa la división del trabajo y la
+distribución de responsabilidades entre las distintas posiciones de la jerarquía
+organizacional. De ahí que, la dimensión configuración, pueda entenderse como
+un refinamiento del análisis de la dimensión especialización, en este caso.
+Dadas las anteriores consideraciones, la caracterización de las estructuras
+organizacionales bien puede conducirse a partir del análisis de la especialización,
+la centralización y la formalización, como variables fundamentales de la estructura,
+siguiendo la propuesta de Etkin (2000), sin que ello implique el desconocimiento
+de las consideraciones de los trabajos de los autores seminales citados. A
+continuación se describen dichas variables.
+
+2.1
+
+Especialización
+
+Esta variable se refiere a la forma en la cual se dividen el trabajo y los recursos en
+una organización, de acuerdo con la especificidad de la actividad que desarrolla.
+El nivel de especialización determina a su vez el grado de diferenciación
+horizontal22 que caracteriza a la organización, es decir, cuando el trabajo de la
+organización se divide en muchas unidades o áreas se habla de una organización
+con alta diferenciación horizontal o altamente especializada. (Mintzberg (2005);
+Bateman & Snell (2003); Etkin (2000)).
+Las empresas manufactureras de los sectores, textil, confección, alimentos y
+bebidas, desarrollo de tecnología dura (hardware), entre otros, suelen tener
+estructuras altamente diferenciadas horizontalmente, es decir, altamente
+especializadas. Ocurre lo mismo con la estructura de las organizaciones
+gubernamentales, las universidades, los bancos y de aquellas organizaciones
+21
+
+Se advierte al lector que, en este sentido, la noción de configuración como dimensión de la
+estructura no equivale a la definición de configuración organizacional discutida en el apartado
+anterior.
+22
+Desde la concepción sistémica de la organización, Hall (1996) refiere la diferenciación como una
+característica de la estructura organizacional que refleja la complejidad de la organización. El autor
+distingue entre la diferenciación horizontal (relacionada con la especialización de las unidades
+funcionales) y la diferenciación vertical (relacionada con la distribución de la autoridad y el control
+del trabajo que suele reflejarse en el número de niveles jerárquicos de la estructura). La primera de
+éstas se puede asimilar a la variable especialización y la segunda suele asociarse con la variable
+centralización, aunque en este último caso, se requiere de algunas distinciones entre ambos
+conceptos.
+
+19
+
+cuyo objeto, tamaño y/o trayectoria, las han llevado a dividir el trabajo en distintas
+unidades, para que cada una ellas se encargue de realizar una pequeña parte de
+este y por lo tanto, su organigrama muestra una estructura con numerosas áreas
+de trabajo (bien sean llamadas direcciones, gerencias, departamentos, áreas, etc).
+Gráficamente, la estructura de una organización especializada puede verse como
+se muestra en la Figura 3.
+Figura 3. Organigrama de una estructura con alta especialización
+
+Fuente: Elaboración propia
+
+2.2
+
+Centralización
+
+Se ha dicho que la estructura formal evidencia la distribución de la autoridad en la
+organización, es decir, el nivel de concentración del poder decisorio. La
+centralización es la variable que expresa dicha concentración. Una estructura
+centralizada indica que, las decisiones son tomadas por un grupo reducido de
+individuos que suelen ocupar los cargos más altos de la jerarquía organizacional
+o, también, que las políticas que orientan las decisiones en la organización son
+definidas por dicho grupo de individuos. En contraste, la menor centralización
+refiere mayores niveles de delegación de la autoridad para la toma de decisiones
+o, lo que es lo mismo, mayores niveles de autonomía decisoria en los niveles
+
+20
+
+medios e inferiores de la jerarquía, lo cual se refleja en estructuras
+organizacionales más planas. (Etkin, 2000)
+La variable centralización suele asociarse con el nivel de diferenciación vertical de
+la estructura organizacional, es decir, con el número de niveles jerárquicos que
+determinan la separación entre la ejecución del trabajo y su control (Etkin (2000);
+Mintzberg (2005)). Con frecuencia se piensa que, a mayor diferenciación vertical,
+mayor centralización, tal como se muestra en la Figura 4.A. Sin embargo, aunque
+es una asociación que puede ser válida, no es generalizable y en algunos casos
+es preciso hacer distinciones. Por ejemplo, en organizaciones estructuradas de
+manera piramidal profunda, con 7 o más niveles jerárquicos, puede ser que la
+mayoría de los procesos de toma de decisiones estén distribuidos en cada una de
+las áreas funcionales o incluso en la base operativa (cuando dicha base está
+integrada por profesionales, como es el caso de las universidades y los
+hospitales). En ese caso, la estructura se caracterizaría por una alta diferenciación
+vertical y una baja centralización. (Véase Figura 4.B)
+Pero, ocurre también que, organizaciones medianas y pequeñas con poca
+jerarquía, como pueden serlo una mediana empresa familiar o una pequeña
+organización no gubernamental (ONG) dedicada a la asistencia social, suelen
+operar con alta centralización en sus decisiones porque ésta últimas competen al
+nivel superior de la dirección de ambas organizaciones. En estos casos, la baja
+diferenciación vertical característica de sus estructuras simples con pocos niveles
+jerárquicos, se acompaña de niveles altos de centralización. (Véase Figura 4.C).
+
+21
+
+Figura 4. Centralización vs Diferenciación vertical de la estructura organizacional
+
+A.
+
+B.
+
+22
+
+C.
+
+Fuente: Elaboración propia
+
+2.3
+
+Formalización
+
+La acción organizada exige cierto nivel de homogeneidad (normalización) en los
+comportamientos funcionales de los individuos y de los procesos organizacionales.
+La formalización se refiere, justamente, al nivel de prescripción y especificación
+documentada por escrito, del comportamiento requerido y del desarrollo de las
+tareas en las distintas unidades que componen la organización (Pugh, Hickson,
+Hinings et al, 1963). La formalización de los comportamientos se concreta en la
+definición de los roles de las distintas posiciones en la estructura organizacional.
+La definición de procesos y procedimientos, reglas, planes y políticas, e incluso la
+realimentación de procesos y resultados, materializan también el grado de
+formalización que condiciona la dinámica de una organización en particular.
+Mintzberg (1979/2005) y Etkin (2000).
+La variable formalización es un punto central en los desarrollos de Max Weber
+acerca del tipo ideal burocrático, el cual se caracteriza, justamente, por la
+especificación exhaustiva de cada uno de los elementos que componen a la
+organización (Pugh, Hickson, Hinings et al., 1963). Es por eso que puede
+afirmarse que a mayores niveles de formalización, mayores son los niveles de
+burocratización en las estructuras organizativas y de estandarización en los
+procesos, que limitan la flexibilidad, la agilidad en la dinámica organizativa y la
+
+23
+
+capacidad de respuesta de las organizaciones ante situaciones emergentes. Un
+alto nivel de formalización indica que en la organización todo debe hacerse
+conforme está previsto y descrito, sin dar lugar a la especulación o la
+improvisación.
+Las organizaciones gubernamentales y, en general, aquellas organizaciones que
+estén sometidas a control y vigilancia de agentes externos, suelen caracterizarse
+por la alta formalización. Del mismo modo, aquellas organizaciones que en su
+quehacer cotidiano enfrentan significativos niveles de riesgo para sus integrantes,
+o aquellas que están fuertemente influenciadas por ideologías particulares y que
+requieren del mantenimiento de la disciplina que garantice la ejecución de rutinas
+cotidianas suelen ser altamente formalizadas. Las organizaciones que componen
+a las fuerzas armadas de un país o las organizaciones eclesiales, son ejemplos de
+ellas.
+La alta formalización de comportamientos, procedimientos y tareas en las
+organizaciones, implica la existencia de mayores niveles de supervisión y control
+del trabajo, es decir, requiere del soporte de estructuras robustas y complejas en
+las que puedan albergarse más cargos dedicados a las tareas de control y
+vigilancia. No en vano, el organigrama que representa la estructura de alguna de
+estas organizaciones suele parecerse a una pirámide profunda. Así entonces,
+mayores niveles de formalización suelen ir acompañados de mayores niveles de
+especialización y de mayor diferenciación vertical, a menos que, las tareas de
+control se desarrollen mediante tecnología especializada que sustituya la
+supervisión y el control personal.
+
+2.4 Una caracterización ampliada en la perspectiva configuracional de H.
+Mintzberg: Parámetros estructurales y situacionales
+Las anteriores variables de la estructura permiten cierto nivel de comprensión de
+aspectos formales que caracterizan a la organización. Además de estas, desde el
+enfoque configuracional, Henry Mintzberg señaló otras variables que caracterizan
+a la estructura con mayor nivel de especificidad. En su trabajo sobre la
+Estructuración de las Organizaciones llamó parámetros estructurales a una serie
+de variables, entre las que se desagregan las ya mencionadas y se adicionan
+otras que describen aspectos semi-formales de la organización (Mintzberg,
+1979/2005).
+Estos se dividen en cuatro grupos: El primero de ellos, denominado por el autor
+como diseño de puestos, describe las necesidades de la organización en cuanto a
+la especialización de los cargos, la formalización del comportamiento y la
+normalización de las habilidades requeridas en los empleados para el desarrollo
+de su trabajo. El segundo grupo, denominado diseño de la súper-estructura,
+
+24
+
+comprende dos parámetros referidos a los requerimientos de la organización en
+cuanto a la agrupación en unidades de trabajo y al tamaño requerido para cada
+una de esas unidades. El tercer grupo contiene los parámetros que permiten el
+enlace entre las distintas unidades de trabajo, y apoyan la continuidad de los flujos
+de información. Son estos, el diseño de los sistemas de planificación y el diseño
+de mecanismos de enlace entre las distintas áreas que favorezcan la agilidad en la
+toma de decisiones y la comunicación informal. Estos mecanismos suelen
+concretarse comités o grupos de trabajo ad hoc. Por último, Mintzberg (1979/2005)
+define el grupo de parámetros relacionados con el diseño de los sistemas formales
+de toma de decisiones, en el que se cuentan
+las necesidades de
+descentralización vertical y horizontal en la organización.
+Además de los parámetros estructurales, el autor identificó ciertos aspectos
+relevantes para la definición de la estructura de la organización. A este segundo
+grupo lo llamó parámetros situacionales o contingenciales entre los que se
+cuentan: la edad y tamaño de la organización, las necesidades de tecnología, la
+velocidad de cambio en el entorno y la incidencia del poder en la organización entendida como la presencia y acción del control externo- las manifestaciones de
+las necesidades e intereses particulares de sus miembros y la influencia de
+factores culturales o de las normas sociales que presionan la dinámica de la
+organización. (Mintzberg, 1979/2005, 255-339)
+Vistos en conjunto, ambos tipos de parámetros -o variables en este casodeterminan no solo la estructura sino la configuración que adopte cada
+organización. Diversas combinación de rasgos organizacionales y del entorno,
+inspiraron en Mintzberg la proposición una taxonomía de las configuraciones
+organizacionales, en la que el autor definió, inicialmente, cinco tipos posibles y
+señaló sus características para cada caso: 1) estructura simple, 2) burocracia
+mecánica, 3) burocracia profesional, 4) forma divisional y, 5) adhocracia o
+estructura matricial. En desarrollos posteriores, el autor reconoció la existencia de
+dos tipologías adicionales para representar a aquellas organizaciones fundadas
+en una ideología particular –la organización misionera- y aquellas que se
+fundamentan en la defensa de intereses particulares a través del ejercicio de la
+política –la organización política- (Mintzberg, 1989). Esta tipología se resume en
+los cuadros 1 y 2, en función de los parámetros estructurales y contingenciales.
+
+25
+
+Cuadro 2. Configuraciones organizacionales y parámetros estructurales
+Parámetros estructurales
+Configuración
+estructural
+
+Estructura
+simple
+Burocracia
+mecánica
+Burocracia
+profesional
+Forma
+divisional
+
+Adhocracia/
+Estructura
+matricial
+
+Organización
+misionera
+(basada en
+ideología)
+
+Organización
+política
+(basada en la
+acción
+política)
+
+Especialización
+
+Necesidades de
+capacitación y
+adoctrinamiento
+
+Formalización
+de conducta
+
+Agrupación en
+unidades
+
+Poca
+
+Baja
+
+Baja
+
+De acuerdo con
+las funciones
+(funcional)
+
+Alta especialización
+vertical y horizontal
+
+Baja
+
+Alta
+
+Funcional
+
+Alta especialización
+horizontal
+
+Alta
+
+Baja
+
+Funcional y de
+acuerdo con el
+mercado
+
+Alta (dentro de
+las unidades,
+divisiones y/o
+sedes)
+
+De acuerdo con
+el mercado
+
+Alguna
+especialización
+horizontal y vertical
+(entre unidades de
+negocio y/o sedes)
+
+Moderada (especialmente
+para los gerentes de
+unidad, división o sede)
+
+Alta especialización
+horizontal
+
+Mucha capacitación
+
+Poca
+formalización
+
+Baja
+especialización
+
+Bajas necesidades
+de capacitación pero
+altos requerimientos
+de adoctrinamiento
+en la ideología que
+sustenta a la
+organización.
+
+Baja
+formalización
+
+A conveniencia de
+los intereses
+políticos en los que
+se sustente la
+organización.
+
+Adoctrinamiento en
+la ideología política
+que sustente a la
+organización
+
+Muy baja y en
+función de los
+intereses
+políticos
+
+Tamaño de
+las
+unidades
+
+Amplio
+Amplio en la
+base, estrecho
+en el resto de la
+estructura
+Amplio en la
+base, estrecho
+en el resto de la
+estructura
+
+Mecanismos de enlace
+(comités y grupos de
+trabajo)
+
+Pocos
+
+Pocos
+
+Planificación de la
+acción
+
+Pocos
+
+Pocos
+
+Mecanismos de enlace en
+la administración
+
+Amplia en el
+ápice
+estratégico
+
+Alto control
+del
+rendimiento
+
+Pocos
+
+Funcional y de
+mercado
+
+Estrecho en
+todos los
+niveles
+
+Poca
+planificación de
+la acción, en
+especial en la
+adhocracia
+administrativa
+
+Muchos
+
+Funcional
+
+Pequeñas
+unidades
+
+Poca
+planificación
+
+Pocos mecanismos de
+enlace dado que la
+cohesión se basa en la
+ideología compartida.
+
+De acuerdo con
+los intereses
+políticos
+
+A conveniencia
+de los intereses
+políticos en los
+que se sustente
+la organización
+
+Pocos sistemas
+de planificación
+y control
+legítimos. Prima
+el poder
+informal
+
+De acuerdo con los
+intereses políticos
+
+Adaptado de: Mintzberg (1979/2005) y Mintzberg (1989)
+
+26
+
+Sistemas de
+planificación y
+control
+
+Cuadro 3. Factores de contingencia y configuraciones organizacionales
+Configuración estructural
+
+Estructura simple
+Burocracia mecánica
+
+Burocracia profesional
+Forma divisional
+
+Adhocracia/Estructura
+matricial
+
+Organización misionera
+(basada en ideología)
+Organización política
+(basada en la acción
+política)
+
+Sistema técnico
+(tecnología)
+Simple,
+no
+Joven y pequeña
+regulador de los
+procesos
+Regulador de los
+Longeva y grande
+procesos pero no
+automatizado
+No regulador y no
+Varía
+complejo
+Divisible entre las
+Longeva
+y/o
+muy unidades,
+grande
+divisiones
+y/o
+sedes
+Complejo
+y
+automatizado en la
+adhocracia
+Joven en la adhocracia administrativa y no
+operativa
+regulador
+o
+complejo en la
+adhocracia
+operativa
+Edad y tamaño
+
+Ambiente
+
+Poder (control externo)
+
+Simple y dinámico,
+a veces hostil
+
+El director general controla, a menudo
+es el mismo dueño
+
+Simple y estable
+
+Control tecnocrático externo
+
+Complejo
+y
+estable
+Relativamente
+simple y estable,
+mercado
+diversificado
+
+Complejo
+dinámico
+
+y
+
+Determinado por
+la ideología
+A conveniencia de Dominado por la
+los
+intereses institucionalidad
+Puede ser joven o
+políticos en los en contra de la
+puede ser longeva
+que se sustente la cual
+va
+la
+organización
+organización.
+Fuente: Adaptado de Mintzberg (1997).
+Joven y pequeña
+
+Simple
+
+27
+
+Un operador profesional controla
+El control es ejecutado
+media
+
+Los expertos
+proyecto
+
+controlan
+
+por la línea
+
+en
+
+cada
+
+Control ideológico externo
+El poder ejercido por la institucionalidad
+que configura el ambiente y en contra
+de la cual está la organización.
+
+3
+
+Discusión en torno al acercamiento teórico a la estructura
+organizacional
+
+El estudio de la estructura permite conocer a la organización en varios de sus
+aspectos: su tamaño, su objeto, la forma en la que está dividido el trabajo, las
+líneas de autoridad y los conductos a través de los cuales fluye la comunicación
+formal. No en vano Hinings (2003) se refería al carácter fundamental de la
+estructura como elemento central para la comprensión de las organizaciones.
+Sin embargo, pese a su capacidad descriptiva, la estructura per se no permite un
+acercamiento integral a la comprensión de la organización en cuanto tal. Mediante
+su estudio pueden intuirse aspectos relacionados con la estrategia de la
+organización, pero eso no significa que la estructura revele claramente la
+estrategia. Tampoco dice mucho acerca de los procesos que se llevan a cabo en
+la organización, a menos que la estructura esté diseñada bajo el criterio de los
+procesos23. La estructura funcional no revela tampoco los sistemas utilizados para
+la gestión y compensación del trabajo ni permite acercarse a la comprensión del
+entramado político de la organización, es decir, pese a que en la estructura se
+construye, entre otras variables, con base en la división de la autoridad, su
+carácter funcional no permite acercarse a la distribución del poder informal que
+influye en la dinámica cotidiana de la organización –y que, a veces, es mucho más
+significativo que la misma autoridadSi bien, los enfoques contingencial y configuracional en los cuales ha transcurrido
+la mayor parte de la investigación en torno a la estructura organizacional, han
+avanzado en el estudio de su interacción con distintos aspectos del
+comportamiento de la organización y el ambiente en el cual ésta se desenvuelve,
+no contemplan enfoques alternativos, quizá de orientación constructivista, para la
+investigación sobre la estructura. No obstante, debe mencionarse que el enfoque
+configuracional, con el apoyo de la psicología y la sociología, logra acercarse
+bastante a los aspectos subjetivos que se involucran con la estructura mediante la
+distinción entre los niveles individual, grupal y organizacional en el análisis
+organizacional. (Meyer, Tsui & Hinings, 1993).
+
+23
+
+Los procesos organizacionales constituyen un criterio alternativo para el diseño de estructuras
+en las que se privilegian los procesos de la organización en lugar de las áreas funcionales, como
+tradicionalmente se hace en el diseño clásico de estructuras. Las variables especialización,
+centralización y formalización se redefinen en función de la complejidad y la naturaleza de los
+procesos mediante los cuales se desarrolla la actividad central de la organización. La
+centralización, por ejemplo, no se entiende como el nivel de autoridad concentrado en áreas
+funcionales sino como el nivel de concentración de decisiones en los responsables de procesos
+específicos de la organización. Del mismo modo, la especialización y la formalización se refieren a
+la distribución de procesos, procedimientos, actividades y tareas en la organización y a las
+necesidades de normalización del comportamiento de quienes participan en cada uno de estos.
+(Pérez Fernández de Velasco, 2010).
+
+28
+
+Sin duda, las configuraciones estructurales descritas por Henry Mintzberg han
+constituido uno de los mayores referentes en el estudio de las estructuras
+organizacionales. Además, la descripción de la entidad organizacional en sus
+partes constitutivas, la identificación de los parámetros estructurales y
+situacionales que determinan su configuración y los mecanismos de coordinación
+del trabajo permiten comprender a la organización, efectivamente, como un
+sistema de flujos. Sin embargo, lo anterior no permite, per se, trascender en el
+análisis de la naturaleza de dichos flujos de información y por tanto, no posibilita
+la consideración de fenómenos políticos, culturales, institucionales y
+comunicativos que tienen lugar en la organización y que necesariamente, tienen
+incidencia en su estructura, pero no responden a los criterios dictados por el
+orden creado porque justamente, pertenecen al orden espontáneo determina a la
+organización informal.
+Estas consideraciones dejan ver entonces que la estructura es, por su naturaleza
+misma la expresión de lo organizado y en consecuencia, su estudio permite
+comprender varios de aquellos aspectos organizacionales que estén vinculados
+con dicho orden. No a la organización en su totalidad. Sin embargo, la parcialidad
+del análisis estructural excluye la necesidad de considerar la existencia de
+aquellos aspectos informales para la comprensión de la organización y la
+contextualización de la intervención administrativa, sobre la cual recae la
+responsabilidad del mantenimiento de su viabilidad.
+En este sentido, un desafío a la teorización sobre la estructura organizacional ha
+sido el fortalecimiento de su potencial comprensivo e interpretativo frente a las
+particularidades de las diversas realidades organizacionales, más allá de las
+tipificaciones y generalizaciones sobre las cuales se ha construido la teoría. Al
+respecto, el campo de los Estudios Organizacionales (EO) ofrece un amplio
+espectro teórico que ha permitido avanzar en la comprensión de los aspectos
+estructurales desde perspectivas alternativas. Diversos autores apoyados en las
+ciencias sociales y algunos de ellos, en las premisas del pensamiento complejo,
+han conceptuado la estructura como una característica emergente que define al
+sistema organizacional (Cooper (1986); Munro (2003); Etkin (2005)).
+La
+estructura se crea en la creación misma de la organización, a partir de la
+definición de sus dinámicas –incluso, de aquellas de carácter formal-. No resulta
+entonces de una prescripción exógena o ajena al sistema organizacional mismo y
+en este sentido, la estructura puede entenderse como ‘desorganización’ (Munro,
+2003), que subyace al ordenamiento funcional del que habla la noción clásica de
+estructura. En la misma línea de reflexión, McGrath (2006) cuestiona los
+supuestos centrales de la contingencia y señala sus limitaciones para el análisis
+de los aspectos estructurales de las organizaciones contemporáneas.
+
+29
+
+4
+
+Consideraciones acerca de la intervención administrativa en la
+estructura organizacional
+
+Sus características y atribuciones hacen que la estructura formal y su gestión
+sean asuntos prioritarios para quien se desempeña en la administración de las
+organizaciones y es por eso que el estudio de estas últimas en el campo de la
+formación en Administración y su ejercicio, sugiere inquietudes acerca de la
+intervención administrativa sobre las estructuras para lograr el deseado ajuste de
+los distintos elementos de la organización en aras de su viabilidad.
+Preguntas como, ¿qué se hacer para modificar una estructura organizacional?
+¿Cómo mantenerla? ¿Cómo hacerla más efectiva y eficiente para los propósitos
+de la organización?, ¿Cómo lograr que resulte más ágil para facilitar la interacción
+con el entorno? ¿Cómo hacerla más coherente con el objeto de la organización? y
+otras inquietudes similares a estas, pueden responderse mediante procesos de
+diseño organizacional en los cuales se concreta la intervención administrativa
+sobre las estructuras formales.
+En su definición, el diseño aparece como un proceso de decisiones racionales en
+el sentido que los directivos o quienes estén encargados de llevarlo a cabo,
+comparan alternativas para elegir aquellas formas que mejor ajusten las acciones
+individuales de los integrantes de la organización, en relación el propósito definido
+para ésta última (Galbraith, 1977). Pero esa racionalidad es tan solo un deseo,
+porque en realidad, intervienen factores que afectan las formas de la organización
+contra lo planeado lo establecido por la dirección (Etkin, 2000, p.128).La
+estructura formal está imbricada con las estructuras sociales de carácter informal,
+que le imprimen la dinámica cotidiana a los contextos organizativos (Phesey,
+Payne & Pugh, 1971) y con los flujos de información que atraviesan a la
+organización y actúan como amalgama que une sus distintos elementos
+constitutivos (Mintzberg, 1979/2005).
+El diseño organizacional es considerado por algunos, como una actividad
+gerencial que conlleva a la modificación de la estructura funcional e incide en el
+funcionamiento de la organización (Burton, DeSanctis & Obel (2006); Mintzberg
+(1979/2005)). Este concepto apela a una concepción mecanicista de la
+organización en tanto se basa en la premisa instrumental del ajuste de medios a
+fines y reconoce en la estructura una variable causal del comportamiento de la
+organización. De esta manera, se presume que una alteración en la estructura
+debería reflejarse directamente en el desempeño de la organización.
+Tal presunción le ha valido fuertes cuestionamientos al tema del diseño por parte
+de académicos que lo han señalado como un tema funcionalista, orientado
+básicamente por el ánimo puramente pragmático tras el alcance de los objetivos
+de rentabilidad y eficiencia que comúnmente inspiran a las organizaciones
+
+30
+
+empresariales; resaltan también su reduccionismo y argumentan en torno a la
+incapacidad del concepto clásico de la estructura y del diseño de organizaciones,
+para dar cuenta de las dinámicas sociales y de la complejidad que caracteriza a
+los órdenes creados. (Weick (1979); Munro (2003); Schvarstein (2004); Aktouf
+(2009))
+Las prevenciones fundamentales frente a la intervención administrativa en las
+estructuras de la organización, se fundamentan en que dicha intervención ofrece
+soluciones a problemas puntuales de manera prescriptiva y acrítica, sin consultar
+con la realidad particular de la organización. Por ello consideran al diseño como
+una herramienta de la gestión, de carácter netamente instrumental con la que los
+directivos, amparados en el conocimiento y recomendaciones de asesores y
+consultores ajenos a la organización, suelen justificar despidos masivos,
+ampliación de los horarios laborales, sustitución de mano de obra por
+herramientas tecnológicas de mayor alcance y rendimiento, prácticas de
+competencia desleal, fusiones, alianzas y toda suerte de relaciones interorganizacionales en las que, no siempre se benefician la totalidad de las partes
+que en ellas participan, sino que buscan atender a los intereses de aquellas con
+mayor poder económico.
+Múltiples experiencias en el rediseño de organizaciones les han concedido
+ampliamente la razón a los críticos. En efecto, la generalidad de las propuestas
+teóricas en torno al diseño, plantean modelos supuestamente válidos para el
+común de las organizaciones y se han construido con base en experiencias
+concretas de diseño en organizaciones particulares. De otro lado, las más de las
+propuestas en diseño, se han desarrollado bajo el ideal de éxito, tan falaz como
+inspirador de la gestión contemporánea (Aktouf, 2009). El éxito se define en
+términos del alcance de bajos costos, altas ganancias para los accionistas y
+amplias conquistas en las porciones del mercado en las cuales la organización se
+desarrolla; sin embargo, poco dice acerca de la viabilidad y legitimidad de las
+organizaciones en su contexto, es decir, de su capacidad para generar resultados
+acordes con su entorno y de imbricarse con las dinámicas sociales
+permanentemente. (Etkin, 2005)
+Una situación adicional ha contribuido al menosprecio del diseño y es que éste
+suele entenderse, entre directivos y empleados de todos los niveles, como la
+exclusiva modificación del organigrama o de la carta organizacional, sin integrar
+otros elementos que intervienen en la configuración de la organización. Esta falsa
+creencia genera, con sobreentendida razón- un enorme temor entre las personas
+que trabajan en la organización pues sospechan que toda intervención para el
+rediseño pondrá a su puesto –y en consecuencia, a su empleo, a su estabilidad
+económica, a su supervivencia y la de las personas que están a su cargo- en la
+cuerda floja.
+
+31
+
+Leonardo Schvarstein (1998) y Jorge Etkin (2005) plantean una concepción
+alternativa del diseño y lo señalan como un proceso de permanente resolución de
+contradicciones al interior de la organización, que transgrede los límites de las
+relaciones formales
+y abarca tanto aspectos organizacionales como
+institucionales e identitarios de la organización; sus propósitos, sus estrategias, su
+relación con los clientes, con los inversionistas, con sus creadores e incluso,
+aspectos simbólicos que inciden en las relaciones que se establecen entre la
+organización y sus empleados24. Desde este punto de vista, la intervención sobre
+las estructuras requiere de la atención sobre los aspectos funcionales de la
+organización puestos en relación con los propósitos de la misma y el sistema de
+relaciones formales e informales que la configuran (Schvarstein, 2004).
+Al respecto menciona Etkin (2005, p.29), “…llegado el momento de la renovación,
+deberá también renovarse el consenso o acuerdo básico que sostiene a la
+organización”. Esto significa que la intervención sobre las estructuras formales
+lleva implícita la revisión de la dimensión institucional de la organización, que
+vincula a ésta última con su entorno en tanto su estructura formal está
+condicionada, en parte, por ambiente institucional en el que se encuentre la
+organización (Meyer y Rowan, 1999) y además, dispone el sistema normativo y
+regulativo interno que conduce el comportamiento de los individuos que la
+integran y los espacios en los que ellos significan socialmente su existencia. Por
+lo tanto mover la estructura formal es a la vez, remover el orden creado y sus su
+órdenes sociales espontáneos o emergentes, es decir, la organización en su
+totalidad. Esta implicación supera, en mucho, el solo ajuste funcional de las partes
+de la organización y por eso la intervención de las estructuras conlleva
+responsabilidades de mayor alcance que las que tradicionalmente se han
+reconocido en los ámbitos organizacionales.
+
+24
+
+Al respecto de estas últimas relaciones, cabe advertir que se definen de manera implícita en el
+contrato psicológico (Schvarstein, 1991) que cada miembro de la organización establece con ésta
+y que determina una especie de vinculación o filiación particular entre empleados y organización.
+Al contrato psicológico, subyacen las razones por las cuales, el empleado se adhiere a la
+organización y decide mantenerse vinculado a ella. Dicho contrato, es implícito y se define a partir
+de una cierta de imagen o representación de la organización que cada uno de sus empleados
+construye para sí. Como se ha dicho, el diseño, en tanto proceso de toma de decisiones, interfiere
+o incide en el contrato psicológico, porque explicita los parámetros generales que sostienen al
+sistema social de la organización – como los valores organizacionales, por ejemplo- pero no lo
+determina de manera absoluta. Es decir, no puede pretenderse, de manera ingenua -o
+maquiavélica, tal vez-, que solo con definir administrativamente los valores en un proceso de
+diseño organizacional, los miembros de la organización decidan vincularse o adherirse a la misma,
+a partir de dichas declaraciones, como si compartieran y asumieran plenamente tales valores,
+cuanto quizá, les resultan ajenos o contrarios a los suyos. En este caso, el diseño interfiere sin
+duda en el contrato psicológico, pero no puede determinar con precisión cuáles serán los
+comportamientos y actitudes, derivados de dicha interferencia.
+
+32
+
+Tal como lo indicó Herbert Simon, el diseño define el núcleo del saber de las
+profesiones. (Herbert Simon (1969). Citado por Mintzberg, 1979/2005, 95) Esta
+afirmación es particularmente cierta en el caso de la Administración de Negocios.
+Bien sea asumido como actividad o como proceso, el diseño organizacional
+implica un acto creativo para quien(es) lo proponen y/o lo desarrollan. Implica
+además el conocimiento de muchos elementos y variables constitutivos de la
+organización y en especial, requiere del conocimiento de sus interrelaciones.
+Quien interviene sobre la estructura debería comprender las lógicas del trabajo
+propias de la organización y las lógicas de las relaciones de ésta con su entorno.
+Además, debería también intuir y rastrear la existencia de ciertas lógicas
+subyacentes que emergen de la interacción social en el espacio de significación,
+que es la organización, y que se desarrollan en el plano de la organización
+informal, a las cuales es imposible renunciar en el análisis organizacional.
+5
+
+A modo de conclusión
+
+El estudio de la estructura organizacional permite acercarse a la comprensión de
+la organización en aquellos aspectos formales que configuran ‘lo organizado’. Si
+bien, por su naturaleza misma, el estudio de la estructura se ha soportado
+mayormente en una perspectiva objetivista y mecanicista de la organización, tal
+condición no impide el acercamiento comprensivo a la estructura pues, al igual
+que sucede en la arquitectura de los espacios físicos, los elementos estructurales
+forman parte del complejo entramado organizacional en el que se conjugan
+aspectos materiales y humanos. La estructura brinda soporte a la entidad
+organizacional y concreta su existencia material, pero al mismo tiempo, define
+espacios de interacción humana en los que tienen lugar fenómenos de orden
+psicosocial como, el conflicto, las relaciones de poder, la comunicación, e incluso,
+las representaciones mentales, los sentidos y de significados compartidos en los
+que se basan los elementos identitarios y culturales en la organización. De ahí
+entonces que, analizar la estructura de una organización en particular, implique
+mucho más esfuerzo analítico y comprensivo que el que conlleva el solo ajuste
+funcional de elementos organizacionales.
+No hay posibilidad de intervenir adecuada y responsablemente sobre un objeto de
+conocimiento sin previo conocimiento del objeto mismo, menos aún, cuando dicho
+objeto reviste la inconmensurable complejidad de una organización. No hay
+intervención administrativa sostenible, sin el reconocimiento previo de las
+condiciones objetivas y realidades sociales y humanas que entretejen la
+complejidad del orden organizado, cuya existencia y operación se concretan a
+través de estructuras formales e informales. He ahí la razón que justifica su
+estudio.
+
+33
+
+Nota: La autora agradece de manera especial a los profesores que, amablemente,
+aceptaron la evaluación formal de este capítulo por sus atinados comentarios y
+sugerencias. También, a los profesores Carmen Alejandra Ocampo, Diego René
+Gonzales, Mariano Gentilin, John Macías y Juliana Tabares quienes con sus
+comentarios contribuyeron valiosamente a la depuración de las ideas aquí
+consignadas. Así mismo, asume la responsabilidad por eventuales ambigüedades
+o imprecisiones en el tratamiento de los distintos temas abordados.
+
