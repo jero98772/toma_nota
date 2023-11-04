@@ -1,0 +1,59 @@
+3 minutos para responder
+
+¿Cuál ha sido la mejor y la peor carrera de F1?
+
+¿Por qué esas dos carreras fueron tan distintas?
+
+de forma analitica
+
+en el software de visualisacion de oracle, por que segun los datos
+
+van a evaluar :
+
+Cratividad e inovacion en visualisaciones
+
+calidad de los resultados
+
+presentacion y comunicacion
+
+trabajo en equipo
+* ¿Cuál ha sido la mejor y la peor carrera de F1?
+
+vamos a la columna score por que es la valoracion dada
+
+hay que tener en cuenta el piloto y la pista,variacion en los primeros puestos
+
+descartamos los valores null
+
+la mejor es "2012 brazilian grand pix con 9.45" id 879, gano  button
+la peor es "2020 abu dhabi grand prix con 3.20", id 1047
+
+
+* ¿Por qué esas dos carreras fueron tan distintas?
+
+caracteristicas de
+
+vemos que la cantidad de veces que se adelantan son proporcionales al score, mientras mas veces son sobrepasados mas score va a tener, y mas  si los conductores son famosos.
+
+
+valores importantes
+
+adelantamientos
+
+tiempos por vuelta mientras menor tiempo de la vuelta mas score
+
+conductor, dependiendo del conductor tiene mas score o menos , se ve que hay mayor score co
+
+paradas en los pixs,
+
+y la vueltas, las ultimas vueltas son determinantes ,
+
+no tiene nada que ver el analitics
+
+
+factores que dan puntos
+
+nuestra creatividad e inovacion observar que pilotos tenian las mayores victorias y observar si estos pilotos importantes suben el score, el primero era hamilton, vettel , rosberg, mas_verstappen
+
+
+
