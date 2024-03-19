@@ -1,0 +1,46 @@
+ https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9042276
+
+import tensorflow as tf
+
+# Define the model architecture
+class HR_Prediction_Model(tf.keras.Model):
+    def __init__(self):
+        super(HR_Prediction_Model, self).__init__()
+        
+        # 2D convolutional layer
+        self.conv2d = tf.keras.layers.Conv2D(filters=64, kernel_size=(3, 3), activation='relu', padding='same')
+        
+        # 1D convolutional layer
+        self.conv1d = tf.keras.layers.Conv1D(filters=64, kernel_size=3, activation='relu', padding='same')
+        
+        # Fully connected layer
+        self.fc1 = tf.keras.layers.Dense(128, activation='relu')
+        
+        # LSTM layers
+        self.lstm1 = tf.keras.layers.LSTM(64, return_sequences=True)
+        self.lstm2 = tf.keras.layers.LSTM(64)
+        
+        # Final fully connected layer
+        self.fc2 = tf.keras.layers.Dense(64, activation='relu')
+        
+        # Output layer
+        self.output_layer = tf.keras.layers.Dense(222, activation='softmax')
+    
+    def call(self, inputs):
+        x = self.conv2d(inputs)
+        x = tf.keras.layers.Reshape((-1, x.shape[1] * x.shape[2]))(x)
+        x = self.conv1d(x)
+        x = tf.keras.layers.Flatten()(x)
+        x = self.fc1(x)
+        x = tf.keras.layers.Reshape((-1, x.shape[1]))(x)
+        x = self.lstm1(x)
+        x = self.lstm2(x)
+        x = self.fc2(x)
+        return self.output_layer(x)
+
+# Create an instance of the model
+model = HR_Prediction_Model()
+
+# Display model summary
+model.build(input_shape=(None, input_height, input_width, input_channels))  # Define input shape
+model.summary()

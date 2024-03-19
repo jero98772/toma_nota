@@ -96,3 +96,7 @@ llevar carnet de estudiantes
 
 equipaje de mano solo
 
+** clump
+
+es un grupo de secuencias que se repiten frecuentemente en un  pedazo del genoma , y las repeticiones estan cerca 
+
