@@ -11,7 +11,8 @@ public class Main {
         // Initialize ROM and RAM
         
         ROM rom = new ROM(16, 120);
-        RAM ram = new RAM(16);
+        short sizeram = 64;
+        RAM ram = new RAM(sizeram );
 
 
         rom.loadRomFromFile("rom.txt");
@@ -32,6 +33,7 @@ class CPU {
     private RAM ram;
     private short registerD;
     private short registerA;
+    ALU alu = new ALU();
 
     public CPU(ROM rom, RAM ram) {
         this.rom = rom;
@@ -40,32 +42,65 @@ class CPU {
 
     // Method to execute a single instruction from ROM
     public void executeInstructions() {
-        for (int instructionAddress = 0; instructionAddress < 16; instructionAddress++) {
+        for (short instructionAddress = 0; instructionAddress < rom.getNumRows(); instructionAddress++) {
     
         
-            int[] instruction = rom.getValuesAt(instructionAddress);
+            Vector<Integer> instruction = rom.getValuesAt(instructionAddress);
+            //Vector<Integer> instruction = rom.convertShortToBitVector(rom.getValuesAt(instructionAddress));
 
             
-            int typeInstruccion = instruction[0];
+            short typeInstruccion = instruction.get(0).shortValue(); 
             if (typeInstruccion==1){// is C intricion
-                int d1 =instruction[10];
-                int d2 =instruction[11];
-                int d3 =instruction[12];
-            	int j1 =instruction[13];
-                int j2 =instruction[14];
-                int j3 =instruction[15];
+                short a = instruction.get(3).shortValue();   // a
+                short zx = instruction.get(4).shortValue();  // c1
+                short nx = instruction.get(5).shortValue();  // c2
+                short zy = instruction.get(6).shortValue();  // c3
+                short ny = instruction.get(7).shortValue();  // c4
+                short f = instruction.get(8).shortValue();   // c5
+                short no = instruction.get(9).shortValue();  // c6
+                short d1 = instruction.get(10).shortValue();
+                short d2 = instruction.get(11).shortValue();
+                short d3 = instruction.get(12).shortValue();
+                short j1 = instruction.get(13).shortValue();
+                short j2 = instruction.get(14).shortValue();
+                short j3 = instruction.get(15).shortValue();
+
+                if(a==1){//register A
+                    this.alu.setInputs(registerD,registerA);
+                }else{// memory
+                    this.alu.setInputs(registerD,this.ram.getValueAt(registerA));
+                }
+                this.alu.setControlBits(zx, nx, zy, ny, f, no);
+                this.alu.compute();
+                this.handleRegisters(d1, d2, d3, this.alu.getOut());
+                instructionAddress=this.jump(j1, j2, j3, this.alu.getOut() ,instructionAddress);
             
             }else{
     		//else is a instruccion
-                short mask = 0x7FFF; //mask to take 15 frist values beacause is a instruccion
-                registerA = (short) (value & mask);
+                short result = 0;
+                int shiftAmount = 0;
+        
+                // Iterate over each Integer in the vector
+                for (int i = 0; i < instruction.size(); i++) {
+                    // Extract the current integer value
+                    int intValue = instruction.get(i);
+
+                    // Use bitwise OR to combine the bits of intValue into result
+                    result |= (intValue & 0x7FFF) << shiftAmount;
+
+                    // Update the shift amount for the next integer
+                    shiftAmount += 16;
+                }
+        
+                //short mask = 0x7FFF; //mask to take 15 frist values beacause is a instruccion
+                registerA = result;
 
             }
         }
         
     }
 
-    public int jump(int j1, int j2, int j3, int out ,int romPosition) {
+    public short jump(short j1, short j2, short j3, short out ,short romPosition) {
         if (j1 == 1 && j2 == 0 && j3 == 0 && out > 0) { // JGT
             romPosition = registerA;
         } else if (j1 == 1 && j2 == 0 && j3 == 1 && out == 0) { // JEQ
@@ -81,23 +116,24 @@ class CPU {
         } else if (j1 == 1 && j2 == 1 && j3 == 1) { // JMP
             romPosition = registerA;
         } else {
-            romPosition++;
+            
         }
         return romPosition;
     }
 
-    public void handleRegisters(int d1, int d2, int d3, short value) {
+    public void handleRegisters(short d1, short d2, short d3, short value) {
         if (d1 == 1) {
-            registerA = value; // Store in A register
+            this.registerA = value; // Store in A register
         }
         if (d2 == 1) {
-            registerD = value; // Store in D register
+            this.registerD = value; // Store in D register
         }
         if (d3 == 1) {
-            ram.setValueAt(value,registerA); // Store in RAM at address A
+            this.ram.setValueAt(value,this.registerA); // Store in RAM at address A
         }
     }
 }
+
 
 
 public class ALU {
@@ -118,8 +154,34 @@ public class ALU {
     short zr;
     short ng;
 
+    public void setInputs(short x, short y) {
+        this.x = x;
+        this.y = y;
+    }
 
-    public ALU(short x, short y, short zx, short nx, short zy, short ny, short f, short no) {
+    public void setControlBits(short zx, short nx, short zy, short ny, short f, short no) {
+        this.zx = zx;
+        this.nx = nx;
+        this.zy = zy;
+        this.ny = ny;
+        this.f = f;
+        this.no = no;
+    }
+    public ALU() {
+        /*
+          x=outDReg,
+          y=outAorM,
+          zx=instruction[11],   // c1
+          nx=instruction[10],   // c2
+          zy=instruction[9],    // c3
+          ny=instruction[8],    // c4
+          f =instruction[7],    // c5
+          no=instruction[6],    // c6
+          out=outALU,
+          out=outM,
+          zr=isZeroOut,
+          ng=isNegOut
+        */
         this.x = x;
         this.y = y;
         this.zx = zx;
@@ -193,8 +255,16 @@ public class ROM {
             throw new IndexOutOfBoundsException("Invalid ROM position: " + position);
         }
     }
-
-    // Method to get the number of rows
+    public static List<Short> convertShortToBitVector(short value) {
+        List<Short> bitVector = new ArrayList<>(16);
+        
+        for (int i = 0; i < 16; i++) {
+            // Shift right and mask with 1 to get the bit at position i
+            bitVector.add(0, (short)((value >> i) & 1));
+        }
+        
+        return bitVector;
+    }    // Method to get the number of rows
     public int getNumRows() {
         return rom.size();
     }
@@ -203,14 +273,14 @@ public class ROM {
 }
 
 class RAM {
-    private int[] ram;
+    private short[] ram;
 
-    public RAM(int size) {
-        ram = new int[size];
+    public RAM(short size) {
+        ram = new short[size];
     }
 
     // Method to set a value at a specific position
-    public void setValueAt(int value, int position) {
+    public void setValueAt(short value, short position) {
         if (position >= 0 && position < ram.length) {
             ram[position] = value;
         } else {
@@ -219,7 +289,7 @@ class RAM {
     }
 
     // Method to get a value at a specific position
-    public int getValueAt(int position) {
+    public short getValueAt(short position) {
         if (position >= 0 && position < ram.length) {
             return ram[position];
         } else {
