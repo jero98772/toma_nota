@@ -1,0 +1,16 @@
+* Modelo-Vista-Controlador (MVC)
+Modelo: En este código, no hay una clase o módulo de modelo distintos. Sin embargo, el manejo y la manipulación de datos podrían considerarse parte del modelo. Por ejemplo, la variable randnum generada en la función launchapp podría representar datos recuperados de un modelo en una aplicación más compleja.
+Vista: La vista está representada por las plantillas HTML que son renderizadas por la aplicación Flask. Cada ruta en el código corresponde a una vista o página diferente en la aplicación (índice, ofertas, blog, launchapp, contacto, obtener_premium).
+Controlador: La parte del controlador está representada por las funciones definidas para cada ruta. Estas funciones manejan las solicitudes entrantes, interactúan con el modelo (si corresponde) y renderizan las plantillas de vista apropiadas. Controlan el flujo de la aplicación.
+
+* Vista de Plantilla
+
+Flask fomenta el uso de plantillas para generar respuestas HTML. Las plantillas permiten la separación de la lógica de presentación de la lógica de aplicación, promoviendo la mantenibilidad y reutilización. En el código proporcionado, se utilizan ampliamente las plantillas HTML (llamadas a la función render_template), adhiriéndose al patrón de Vista de Plantilla.
+
+* Controlador Frontal
+
+La instancia de la aplicación actúa como un controlador frontal. Es responsable de enrutar las solicitudes entrantes a los manejadores apropiados (funciones de vista) basados en las rutas URL definidas en la aplicación. Esta centralización del manejo de solicitudes simplifica la estructura de la aplicación y promueve la consistencia.
+
+* Decoradores
+
+Los decoradores están presentes en el código proporcionado, principalmente en forma de los decoradores @app.route(). Los decoradores en Python son una forma de azúcar sintáctica que permite que las funciones sean modificadas o extendidas dinámicamente por otras funciones (decoradores). En el caso de Flask, estos decoradores se utilizan para asociar rutas URL con funciones de vista específicas.

@@ -38,7 +38,17 @@ def classify_path(start, end, route, distance, elevation_gain):
     
     return points 
 
-print(classify_path("Main building", "Walchenbrücke", "Weinbergstrasse – Leonhardstrasse – Rämistrasse", 840, 47))
+def get_max_path(arr):
+	max_i=-9
+	max_value=-9
+	for i in range(len(arr)):
+		if arr[i]<i:
+			max_i=i
+			max_value=arr[i]
+	return 	max_i-1		
+paths=classify_path("Main building", "Walchenbrücke", "Weinbergstrasse – Leonhardstrasse – Rämistrasse", 840, 47)	 
+print(paths)
+print(get_max_path(paths))
 """
 paths = [
     {"start": "Central", "end": "Main building, center in front on Rämistrasse side", "route": "Weinbergstrasse – Leonhardstrasse – Rämistrasse", "distance": 830, "elevation_gain": 44, "special_notes": "Do not take the shortcut to cut the corner from Weinbergstrasse to Leonhardstrasse."},
