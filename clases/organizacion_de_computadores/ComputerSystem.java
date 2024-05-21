@@ -10,8 +10,8 @@ public class Main {
     public static void main(String[] args) {
         // Initialize ROM and RAM
         
-        ROM rom = new ROM(16, 120);
-        short sizeram = 64;
+        ROM rom = new ROM(16, 16);
+        short sizeram = 32767;
         RAM ram = new RAM(sizeram );
 
 
@@ -22,6 +22,7 @@ public class Main {
 
         // Execute instructions
         cpu.executeInstructions();
+        System.out.print("finish");
     }
 }
 
@@ -42,6 +43,7 @@ class CPU {
 
     // Method to execute a single instruction from ROM
     public void executeInstructions() {
+        System.out.println(rom.getNumRows());
         for (short instructionAddress = 0; instructionAddress < rom.getNumRows(); instructionAddress++) {
     
         
@@ -65,13 +67,17 @@ class CPU {
                 short j2 = instruction.get(14).shortValue();
                 short j3 = instruction.get(15).shortValue();
 
-                if(a==1){//register A
-                    this.alu.setInputs(registerD,registerA);
+                if(a==0){//register A
+                    System.out.println("go register A");
+                    this.alu.setInputs(this.registerD,this.registerA);
                 }else{// memory
-                    this.alu.setInputs(registerD,this.ram.getValueAt(registerA));
+                    System.out.println("go memory");
+                    this.alu.setInputs(this.registerD,this.ram.getValueAt(this.registerA));
                 }
                 this.alu.setControlBits(zx, nx, zy, ny, f, no);
                 this.alu.compute();
+                System.out.println("ALU");
+                System.out.println(this.alu.getOut());
                 this.handleRegisters(d1, d2, d3, this.alu.getOut());
                 instructionAddress=this.jump(j1, j2, j3, this.alu.getOut() ,instructionAddress);
             
@@ -79,23 +85,19 @@ class CPU {
     		//else is a instruccion
                 short result = 0;
                 int shiftAmount = 0;
-        
-                // Iterate over each Integer in the vector
-                for (int i = 0; i < instruction.size(); i++) {
-                    // Extract the current integer value
-                    int intValue = instruction.get(i);
+                int intValue = binaryVectorToInt(instruction);
 
-                    // Use bitwise OR to combine the bits of intValue into result
-                    result |= (intValue & 0x7FFF) << shiftAmount;
-
-                    // Update the shift amount for the next integer
-                    shiftAmount += 16;
-                }
-        
-                //short mask = 0x7FFF; //mask to take 15 frist values beacause is a instruccion
-                registerA = result;
+                 this.registerA = (short) intValue;
 
             }
+        System.out.println("registerA:");
+        System.out.println( this.registerA);
+        System.out.println("registerD");
+        System.out.println( this.registerD);
+        System.out.println("");
+
+        System.out.println("");
+
         }
         
     }
@@ -122,15 +124,30 @@ class CPU {
     }
 
     public void handleRegisters(short d1, short d2, short d3, short value) {
+
         if (d1 == 1) {
+        System.out.println("registerA");
+        System.out.println( value);
             this.registerA = value; // Store in A register
         }
         if (d2 == 1) {
+            System.out.println("registerD");
+            System.out.println( value);
             this.registerD = value; // Store in D register
         }
         if (d3 == 1) {
+            System.out.println("ram");
+            System.out.println( value);
             this.ram.setValueAt(value,this.registerA); // Store in RAM at address A
         }
+    }
+    private static int binaryVectorToInt(Vector<Integer> binaryVector) {
+        int result = 0;
+        int size = binaryVector.size();
+        for (int i = 0; i < size; i++) {
+            result |= (binaryVector.get(i) << (size - 1 - i));
+        }
+        return result;
     }
 }
 
@@ -150,10 +167,14 @@ public class ALU {
     short no;
 
     // Outputs
+    short out1;
     short out;
     short zr;
     short ng;
-
+    short x1;
+    short x2;
+    short y1;
+    short y2;
     public void setInputs(short x, short y) {
         this.x = x;
         this.y = y;
@@ -190,29 +211,40 @@ public class ALU {
         this.ny = ny;
         this.f = f;
         this.no = no;
+        this.out1 = out1;
+        this.out =out;
+        this.zr = zr;
+        this.ng = ng;
+        this.x1=x1;
+        this.x2=x2;
+        this.y1=y1;
+        this.y2=y2;
     }
     public void compute() {
-        short x1 = (short) (zx == 1 ? 0 : x);           // Zero the x input
-        short x2 = (short) (nx == 1 ? ~x1 : x1);        // Negate the x input
-        short y1 = (short) (zy == 1 ? 0 : y);           // Zero the y input
-        short y2 = (short) (ny == 1 ? ~y1 : y1);        // Negate the y input
 
-        short out1 = (short) (f == 1 ? x2 + y2 : x2 & y2);  // Perform the operation
-        out = (short) (no == 1 ? ~out1 : out1);             // Negate the output
+    this.x1 = (short) (this.zx == 1 ? 0 : this.x);           // Zero the x input
+    this.x2 = (short) (this.nx == 1 ? ~this.x1 : this.x1);        // Negate the x input
+    this.y1 = (short) (this.zy == 1 ? 0 : this.y);           // Zero the y input
+    this.y2 = (short) (this.ny == 1 ? ~this.y1 : this.y1);        // Negate the y input
 
-        zr = (short) (out == 0 ? 1 : 0);                        // Set the zero flag
-        ng = (short) ((short) ((out >> 15) & 1) == 1 ? 1 : 0);     // Set the negative flag
+    this.out1 = (short) (this.f == 1 ? this.x2 + this.y2 : this.x2 & this.y2);  // Perform the operation
+    this.out = (short) (this.no == 1 ? ~this.out1 : this.out1);             // Negate the output
+
+    this.zr = (short) (this.out == 0 ? 1 : 0);                        // Set the zero flag
+    this.ng = (short) ((short) ((this.out >> 15) & 1) == 1 ? 1 : 0);     // Set the negative flag
+        System.out.println(this.y);
+
     }
     public short getOut() {
-        return out;
+        return this.out;
     }
 
     public short getZr() {
-        return zr;
+        return this.zr;
     }
 
     public short getNg() {
-        return ng;
+        return this.ng;
     }
 }
 // convert romvector of shorts  
@@ -236,9 +268,15 @@ public class ROM {
             int rowIndex = 0;
 
             while ((line = br.readLine()) != null && rowIndex < rom.size()) {
-                String[] parts = line.split("\\s+");
-                for (int colIndex = 0; colIndex < parts.length && colIndex < rom.get(rowIndex).size(); colIndex++) {
-                    rom.get(rowIndex).set(colIndex, Integer.parseInt(parts[colIndex]));
+                // Ensure the line is not longer than the number of columns in rom
+                if (line.length() > rom.get(rowIndex).size()) {
+                    line = line.substring(0, rom.get(rowIndex).size());
+                }
+
+                for (int colIndex = 0; colIndex < line.length() && colIndex < rom.get(rowIndex).size(); colIndex++) {
+                    // Convert each character to an integer
+                    int value = Character.getNumericValue(line.charAt(colIndex));
+                    rom.get(rowIndex).set(colIndex, value);
                 }
                 rowIndex++;
             }
