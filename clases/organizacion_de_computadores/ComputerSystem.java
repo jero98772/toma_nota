@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) {
         // Initialize ROM and RAM
         
-        ROM rom = new ROM(16, 16);
+        ROM rom = new ROM(8, 16);
         short sizeram = 32767;
         RAM ram = new RAM(sizeram );
 
@@ -99,7 +99,7 @@ class CPU {
         System.out.println("");
 
         }
-        
+        this.ram.printFirstElements(4);
     }
 
     public short jump(short j1, short j2, short j3, short out ,short romPosition) {
@@ -332,6 +332,12 @@ class RAM {
             return ram[position];
         } else {
             throw new IndexOutOfBoundsException("Invalid RAM position: " + position);
+        }
+    }
+    public void printFirstElements(int elementsToPrint) {
+
+        for (int i = 0; i < elementsToPrint && i < ram.length; i++) {
+            System.out.println(ram[i]);
         }
     }
 }
