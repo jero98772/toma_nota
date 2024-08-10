@@ -228,7 +228,7 @@ void printRow(const std::vector<std::string>& columns, const std::vector<int>& w
 // Función principal
 int main() {
     ProcessMonitor monitor; // Crear una instancia de ProcessMonitor
-    std::cout << "Listando procesos actuales:" << std::endl;
+    //std::cout << "Listando procesos actuales:" << std::endl;
 
     // Obtener y listar los procesos actuales
     auto processes = monitor.getProcesses();

@@ -1,7 +1,8 @@
 from automata.fa.dfa import DFA
 import time
-from visual_automata.fa.dfa import VisualDFA
-#pip install visual-automata
+from visual_automata.fa.dfa import VisualDFA #pip install visual-automata
+import itertools
+
 setinteger2setstrings = lambda int_set: {str(i) for i in int_set}
 dict2strdict = lambda input_dict: {str(k): {str(sub_k): str(sub_v) for sub_k, sub_v in v.items()} for k, v in input_dict.items()}
 
@@ -43,7 +44,15 @@ class DFA:
         vdfa.show_diagram(view=True)
         time.sleep(1)
 
+def generate_combinations(elements, combination_length):
+    return list(itertools.combinations(elements, combination_length))
+
+
+
 def convert_transitions(input_dict):
+    """
+    function for format data
+    """
     transitions = {}
     for (state, symbol), next_state in input_dict.items():
         state_str = str(state)
@@ -138,6 +147,12 @@ def minimize_dfa(dfa,gui=False):
                     break
             if not found:
                 equivalence_classes.append({p, q})
+    for i in equivalence_classes:
+        if len(i)>2:
+            equivalence_classes.remove(i)
+            for ii in generate_combinations(i,2):
+                equivalence_classes.append(ii)
+
     if gui:
         print(f"{GREEN}Step 4: Determine equivalent states{RESET}")
         for i in equivalence_classes:
@@ -180,5 +195,5 @@ def solve(gui=True):
     if gui:print()
 
 for _ in range(int(input())):
-    print(_)
-    solve(gui=True)
+    print("test #",_)
+    solve(gui=False)
