@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CYK Algorithm Animation</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .table-container {
+            text-align: center;
+        }
+        .table {
+            display: inline-block;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        .cell {
+            width: 100px;
+            height: 60px;
+            border: 1px solid #ccc;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 60px;
+            transition: background-color 0.3s;
+            background-color: #fff;
+        }
+        .cell.active {
+            background-color: #e0e0e0;
+        }
+        .cell.highlight {
+            background-color: #ffeb3b;
+        }
+        .header {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="table-container">
+        <div class="header">CYK Algorithm Animation</div>
+        <table id="cyk-table" class="table"></table>
+        <button onclick="startAnimation()">Start Animation</button>
+    </div>
+    <script>
+        // CYK Algorithm
+        const terminals = ["book", "orange", "man", "tall", "heavy", "very", "muscular"];
+        const non_terminals = ["NP", "Nom", "Det", "AP", "Adv", "A"];
+        const R = {
+            "NP": [["Det", "Nom"]],
+            "Nom": [["AP", "Nom"], ["book"], ["orange"], ["man"]],
+            "AP": [["Adv", "A"], ["heavy"], ["orange"], ["tall"]],
+            "Det": [["a"]],
+            "Adv": [["very"], ["extremely"]],
+            "A": [["heavy"], ["orange"], ["tall"], ["muscular"]]
+        };
+
+        function cykParse(w) {
+            let n = w.length;
+
+            // Initialize the table
+            let T = [];
+            for (let i = 0; i < n; i++) {
+                T[i] = [];
+                for (let j = 0; j < n; j++) {
+                    T[i][j] = new Set();
+                }
+            }
+
+            // Filling in the table
+            for (let j = 0; j < n; j++) {
+                // Iterate over the rules
+                for (let lhs in R) {
+                    let rule = R[lhs];
+                    for (let rhs of rule) {
+                        // If a terminal is found
+                        if (rhs.length == 1 && rhs[0] == w[j]) {
+                            T[j][j].add(lhs);
+                        }
+                    }
+                }
+                for (let i = j; i >= 0; i--) {
+                    // Iterate over the range from i to j
+                    for (let k = i; k <= j; k++) {
+                        // Iterate over the rules
+                        for (let lhs in R) {
+                            let rule = R[lhs];
+                            for (let rhs of rule) {
+                                // If a terminal is found
+                                if (rhs.length == 2 && T[i][k].has(rhs[0]) && T[k + 1][j].has(rhs[1])) {
+                                    T[i][j].add(lhs);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            return T;
+        }
+
+        const input = ["a", "very", "heavy", "orange", "book"];
+        const T = cykParse(input);
+
+        const buildTable = () => {
+            const table = document.getElementById('cyk-table');
+            table.innerHTML = '';
+            let html = '';
+            for (let i = 0; i < input.length; i++) {
+                html += '<tr>';
+                for (let j = 0; j < input.length; j++) {
+                    html += `<td class="cell" id="cell-${i}-${j}"></td>`;
+                }
+                html += '</tr>';
+            }
+            table.innerHTML = html;
+        };
+
+        const fillTable = () => {
+            const table = document.getElementById('cyk-table');
+            const cells = table.getElementsByClassName('cell');
+            let step = 0;
+            const maxSteps = input.length * input.length;
+            
+            const interval = setInterval(() => {
+                if (step >= maxSteps) {
+                    clearInterval(interval);
+                    return;
+                }
+
+                const row = Math.floor(step / input.length);
+                const col = step % input.length;
+
+                const cell = document.getElementById(`cell-${row}-${col}`);
+                cell.textContent = Array.from(T[row][col]).join(', ');
+
+                cell.classList.add('active');
+                step++;
+            }, 1000);
+        };
+
+        const startAnimation = () => {
+            buildTable();
+            fillTable();
+        };
+    </script>
+</body>
+</html>
+
