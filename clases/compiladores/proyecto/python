@@ -1,4 +1,14 @@
-from typing import Dict, Set, List, Tuple
+3
+2
+S AS A
+A a
+3
+S AB
+A aA a
+B bBc bc
+2
+S A
+A A bfrom typing import Dict, Set, List, Tuple
 import sys
 
 
@@ -19,7 +29,7 @@ class Grammar:
                 self.terminals.add(symbol)
 
     def compute_first_sets(self) -> Dict[str, Set[str]]:
-        first= {nt: set() for nt in self.non_terminals}
+        first: Dict[str, Set[str]] = {nt: set() for nt in self.non_terminals}
         first.update({t: {t} for t in self.terminals})
         first['e'] = {'e'}
 
