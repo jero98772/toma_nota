@@ -93,99 +93,99 @@ class Grammar:
 
         return first
 
-def compute_follow_sets(self, first: Dict[str, Set[str]]) -> Dict[str, Set[str]]:
-    """
-    Computes the FOLLOW sets for a given context-free grammar.
+    def compute_follow_sets(self, first: Dict[str, Set[str]]) -> Dict[str, Set[str]]:
+        """
+        Computes the FOLLOW sets for a given context-free grammar.
 
-    The FOLLOW set of a non-terminal is the set of terminals that can appear immediately to the right 
-    of that non-terminal in some sentential form. It also includes the end-of-input marker '$' 
-    for the start symbol.
+        The FOLLOW set of a non-terminal is the set of terminals that can appear immediately to the right 
+        of that non-terminal in some sentential form. It also includes the end-of-input marker '$' 
+        for the start symbol.
 
-    Args:
-        first (Dict[str, Set[str]]): A dictionary where keys are non-terminals and terminals, 
-        and values are sets containing their corresponding FIRST sets.
+        Args:
+            first (Dict[str, Set[str]]): A dictionary where keys are non-terminals and terminals, 
+            and values are sets containing their corresponding FIRST sets.
 
-    Returns:
-        Dict[str, Set[str]]: A dictionary where keys are non-terminals and values are sets 
-        containing the corresponding FOLLOW sets.
-    """
+        Returns:
+            Dict[str, Set[str]]: A dictionary where keys are non-terminals and values are sets 
+            containing the corresponding FOLLOW sets.
+        """
 
-    # Initialize the FOLLOW sets for each non-terminal to be empty
-    follow: Dict[str, Set[str]] = {nt: set() for nt in self.non_terminals}
-    # Add the end-of-input marker '$' to the FOLLOW set of the start symbol
-    follow[self.start_symbol].add('$')
+        # Initialize the FOLLOW sets for each non-terminal to be empty
+        follow: Dict[str, Set[str]] = {nt: set() for nt in self.non_terminals}
+        # Add the end-of-input marker '$' to the FOLLOW set of the start symbol
+        follow[self.start_symbol].add('$')
 
-    while True:  # Loop until no more updates are made to FOLLOW sets
-        updated = False  # Flag to track if any FOLLOW set has been updated
+        while True:  # Loop until no more updates are made to FOLLOW sets
+            updated = False  # Flag to track if any FOLLOW set has been updated
 
-        # Iterate through each non-terminal
-        for nt in self.non_terminals:
-            # Iterate through each production of the current non-terminal
-            for production in self.productions[nt]:
-                # Iterate through each symbol in the production
-                for i, symbol in enumerate(production):
-                    # Check if the symbol is a non-terminal
-                    if symbol in self.non_terminals:
-                        # If the symbol is the last one in the production
-                        if i == len(production) - 1:
-                            # Update the FOLLOW set of the non-terminal if it does not already contain FOLLOW(nt)
-                            if not follow[symbol].issuperset(follow[nt]):
-                                follow[symbol].update(follow[nt])
-                                updated = True  # Mark that an update occurred
-                        else:
-                            # Get the rest of the production after the current symbol
-                            rest = production[i + 1:]
-                            # Compute the FIRST set of the rest of the production
-                            first_of_rest = self.compute_first_of_string(rest, first)
-                            
-                            # Update FOLLOW set with FIRST of the rest (excluding ε)
-                            if not follow[symbol].issuperset(first_of_rest - {'e'}):
-                                follow[symbol].update(first_of_rest - {'e'})
-                                updated = True  # Mark that an update occurred
-                            
-                            # If the FIRST of the rest contains ε (epsilon)
-                            if 'e' in first_of_rest:
-                                # Update the FOLLOW set with FOLLOW(nt)
+            # Iterate through each non-terminal
+            for nt in self.non_terminals:
+                # Iterate through each production of the current non-terminal
+                for production in self.productions[nt]:
+                    # Iterate through each symbol in the production
+                    for i, symbol in enumerate(production):
+                        # Check if the symbol is a non-terminal
+                        if symbol in self.non_terminals:
+                            # If the symbol is the last one in the production
+                            if i == len(production) - 1:
+                                # Update the FOLLOW set of the non-terminal if it does not already contain FOLLOW(nt)
                                 if not follow[symbol].issuperset(follow[nt]):
                                     follow[symbol].update(follow[nt])
                                     updated = True  # Mark that an update occurred
+                            else:
+                                # Get the rest of the production after the current symbol
+                                rest = production[i + 1:]
+                                # Compute the FIRST set of the rest of the production
+                                first_of_rest = self.compute_first_of_string(rest, first)
+                                
+                                # Update FOLLOW set with FIRST of the rest (excluding ε)
+                                if not follow[symbol].issuperset(first_of_rest - {'e'}):
+                                    follow[symbol].update(first_of_rest - {'e'})
+                                    updated = True  # Mark that an update occurred
+                                
+                                # If the FIRST of the rest contains ε (epsilon)
+                                if 'e' in first_of_rest:
+                                    # Update the FOLLOW set with FOLLOW(nt)
+                                    if not follow[symbol].issuperset(follow[nt]):
+                                        follow[symbol].update(follow[nt])
+                                        updated = True  # Mark that an update occurred
+            
+            # If no updates were made in this iteration, break the loop
+            if not updated:
+                break
+
+        # Return the computed FOLLOW sets
+        return follow
+    def compute_first_of_string(self, string: str, first: Dict[str, Set[str]]) -> Set[str]:
+        """
+        Computes the FIRST set for a given string (sequence of symbols) in a context-free grammar.
+
+        The FIRST set of a string is the set of terminals that can appear as the first symbol 
+        in any string derived from that string. If the string can derive ε (the empty string), 
+        it is also included in the FIRST set.
+
+        Args:
+            string (str): A sequence of symbols (non-terminals and terminals) for which to compute the FIRST set.
+            first (Dict[str, Set[str]]): A dictionary where keys are non-terminals and terminals, 
+            and values are sets containing their corresponding FIRST sets.
+
+        Returns:
+            Set[str]: A set containing the terminals that can appear as the first symbol of the input string, 
+            including 'e' if the string can derive the empty string.
+        """
+
+        if not string:  # If the string is empty, return the set containing ε
+            return {'e'}
         
-        # If no updates were made in this iteration, break the loop
-        if not updated:
-            break
-
-    # Return the computed FOLLOW sets
-    return follow
-def compute_first_of_string(self, string: str, first: Dict[str, Set[str]]) -> Set[str]:
-    """
-    Computes the FIRST set for a given string (sequence of symbols) in a context-free grammar.
-
-    The FIRST set of a string is the set of terminals that can appear as the first symbol 
-    in any string derived from that string. If the string can derive ε (the empty string), 
-    it is also included in the FIRST set.
-
-    Args:
-        string (str): A sequence of symbols (non-terminals and terminals) for which to compute the FIRST set.
-        first (Dict[str, Set[str]]): A dictionary where keys are non-terminals and terminals, 
-        and values are sets containing their corresponding FIRST sets.
-
-    Returns:
-        Set[str]: A set containing the terminals that can appear as the first symbol of the input string, 
-        including 'e' if the string can derive the empty string.
-    """
-
-    if not string:  # If the string is empty, return the set containing ε
-        return {'e'}
-    
-    result = set()  # Initialize the result set for the FIRST set
-    for symbol in string:  # Iterate through each symbol in the string
-        symbol_first = first[symbol]  # Get the FIRST set of the current symbol
-        result.update(symbol_first - {'e'})  # Add all terminals except ε to the result set
-        if 'e' not in symbol_first:  # If ε is not in the FIRST set of the symbol, stop here
-            return result
-    
-    result.add('e')  # If all symbols can derive ε, add ε to the result set
-    return result  # Return the computed FIRST set for the string
+        result = set()  # Initialize the result set for the FIRST set
+        for symbol in string:  # Iterate through each symbol in the string
+            symbol_first = first[symbol]  # Get the FIRST set of the current symbol
+            result.update(symbol_first - {'e'})  # Add all terminals except ε to the result set
+            if 'e' not in symbol_first:  # If ε is not in the FIRST set of the symbol, stop here
+                return result
+        
+        result.add('e')  # If all symbols can derive ε, add ε to the result set
+        return result  # Return the computed FIRST set for the string
 
 
 def parse_input() -> List[Grammar]:
