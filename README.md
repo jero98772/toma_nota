@@ -1,1 +1,1 @@
-vida hp por que soy tan buena persona
+i take notes of my univercity here, not important i prefere to not make a readme 
