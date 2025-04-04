@@ -1,0 +1,3 @@
+La diferencia es que el primero tiene created_at y updated_at, y el segundo no. Las marcas de tiempo ayudan a rastrear cambios y auditar, pero aumentan el tamaño de los datos. Si no se necesitan, el segundo es mas ligero y eficiente.
+
+https://github.com/jero98772/laravelcourse20251
